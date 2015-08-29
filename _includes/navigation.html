@@ -1,0 +1,65 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+				{% if page.section-type == "index" %}
+                <a class="navbar-brand" href="/#page-top">
+				{% else %}
+				<a class="navbar-brand" href="/">
+				{% endif %}
+                    <i class="fa fa-pencil"></i>  <span class="light">Peter Y.</span> Chuang - Novelist
+                </a>
+            </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav" id="navmenu">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li data-menuanchor="{{ link.url }}" class="hidden"><a href="#page-top"></a></li>
+                {% if page.section-type == "index" %}
+                  <!-- Scroll to section for each page in index -->
+                  {% for link in site.data.navigation %}
+					{% if link.dropdown == nil %}
+						<li data-menuanchor="{{ link.url }}"><a class="page-scroll" href="#{{ link.url }}"> {{ link.title }} </a></li>
+					{% else %}
+						<li data-menuanchor="{{ link.url }}" class="dropdown"><a class="page-scroll dropdown-toggle" href="#{{ link.url }}"> {{ link.title }} </a>
+							<ul class="dropdown-menu">
+							{% for dropdown_link in link.dropdown %}
+								<li><a href="{{ dropdown_link.url }}"> {{ dropdown_link.title | escape }} </a></li>
+                    		{% endfor %}
+							</ul>
+						</li>
+					{% endif %}
+                  {% endfor %}
+
+                {% else %}
+                  <!-- Blog, Post, Tag pages-->
+                  {% for link in site.data.navigation %}
+                    {% if page.section-type == "blog" and p[0] == "Blog" %}
+                      <!-- Blog button in blog.html doesn't refresh the page -->
+                      <li><a class="page-scroll" href="/#blog"> {{ link.title }} </a></li>
+                    {% elsif link.title == "Blog" %}
+                      <li><a class="page-scroll" href="/blog/"> {{ link.title }} </a></li>
+                    {% else %}
+					{% if link.dropdown == nil %}
+						<li><a class="page-scroll" href="/#{{ link.url }}"> {{ link.title }} </a></li>
+					{% else %}
+						<li class="dropdown"><a class="page-scroll dropdown-toggle" href="/#{{ link.url }}"> {{ link.title }} </a>
+							<ul class="dropdown-menu">
+							{% for dropdown_link in link.dropdown %}
+								<li><a href="{{ dropdown_link.url }}"> {{ dropdown_link.title | escape }} </a></li>
+                    		{% endfor %}
+							</ul>
+						</li>
+					{% endif %}
+                    {% endif %}
+                  {% endfor %}
+
+                {% endif %}
+
+            </ul>
+        </div>
+    </div>
+</nav>

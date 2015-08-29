@@ -1,0 +1,37 @@
+---
+layout: compress
+format: blog-index
+---
+{% include head.html %}
+{% include navigation.html %}
+{% include header_inner.html %}
+<section id="{{ page.title }}" class="content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				{{ page.content | markdownify }}
+				{% for post in paginator.posts %}
+				<small>{% if post.categories %}{% for category in site.data.categories %}{% if post.category == category.slug %}{{ category.name }}{% endif %}{% endfor %}{% endif %}. {{ post.date | date_to_string }}.</small><br />
+				<h3 class="blog-index"><strong><a href="{{ post.url }}">{{ post.title }} </a></strong></h3>
+				<p>{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}</p>
+				{% endfor %}
+				<!-- Pagination links -->
+				<div class="pagination">
+					{% if paginator.previous_page == 1 %}
+						<h4><a href="/blog/" class="previous">Newer Posts</a></h4>
+					{% elsif paginator.previous_page and paginator.next_page%}
+					  <h4>
+						  <a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a>  <a href="{{ paginator.next_page_path }}" class="next">Older Posts</a>
+					  </h4>
+					{% elsif paginator.previous_page %}
+					  <h4><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a></h4>
+					{% elsif paginator.next_page %}
+					  <h4><a href="{{ paginator.next_page_path }}" class="next">Older Posts</a></h4>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% include footer.html %}
+{% include js.html %}

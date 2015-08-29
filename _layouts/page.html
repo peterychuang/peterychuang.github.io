@@ -1,0 +1,20 @@
+---
+layout: compress
+format: page
+---
+{% include head.html %}
+{% include navigation.html %}
+{% include header_inner.html %}
+<section id="{{ page.title }}" class="content-section inner-page-content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				{{ page.content | markdownify }}
+				{% include share.html %}
+				{% include comments.html %}
+			</div>
+		</div>
+	</div>
+</section>
+{% include footer.html %}
+{% include js.html %}

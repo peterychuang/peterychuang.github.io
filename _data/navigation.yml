@@ -1,0 +1,16 @@
+- title: About
+  url: "about"
+
+- title: "Novels"
+  url: "novels"
+  dropdown:
+  - title: "Twenty Forty-Seven"
+    url: "/novels/2047/"
+  - title: "Only You Know What It Means"
+    url: "/novels/only-you-know-what-it-means/"
+
+- title: "Blog"
+  url: "blog"
+
+- title: "Contact"
+  url: "contact"

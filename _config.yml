@@ -1,0 +1,56 @@
+# Site settings
+
+url: "https://novelist.xyz"
+urlimg: "/images/"
+title: "Peter Y. Chuang - Novelist"
+description: "Novelist, Writer, Dreamer. Hong Kong, London, Berlin."
+favicon: "/assets/img/favicon-32x32.png"
+authors: 
+  peterychuang:
+    name: Peter Y. Chuang
+    web: https://novlist.xyz/
+    twitter: peterychuang
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  News: 'news'
+  Contact: 'contact'
+
+# Blog variables
+paginate: 5
+
+paginate_path: "blog/page:num"
+
+markdown: kramdown
+highlight: pygments
+excerpt_separator: "<!--more-->"
+permalink: /:categories/:title/
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "twitter"
+    url: "https://twitter.com/peterychuang"
+  - title: "google-plus"
+    url: "https://plus.google.com/+PeterYuChuang/"
+  - title: "facebook"
+    url: "https://www.facebook.com/PeterYChuangWrite"
+  - title: "instagram"
+    url: "https://instagram.com/peterychuang/"
+  - title: "medium"
+    url: "https://medium.com/@peterychuang"
+
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor", "less"]
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: 
+  profile: false
+  ignore:
+    envs:
+
+gems:
+  - jekyll-redirect-from
