@@ -8164,6 +8164,9 @@ footer {
   background-size: cover;
   -o-background-size: cover;
 }
+h3.blog-index {
+  margin: 0;
+}
 /* Table of Contents (Index)
 ------------------------------------------------------------------- */
 #toc ul,
