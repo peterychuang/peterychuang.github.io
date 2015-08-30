@@ -10,10 +10,12 @@ format: blog-index
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				{{ page.content | markdownify }}
+				<p><br /></p>
 				{% for post in paginator.posts %}
 				<small>{% if post.categories %}{% for category in site.data.categories %}{% if post.category == category.slug %}{{ category.name }}{% endif %}{% endfor %}{% endif %}. {{ post.date | date_to_string }}.</small><br />
 				<h3 class="blog-index"><strong><a href="{{ post.url }}">{{ post.title }} </a></strong></h3>
 				<p>{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}</p>
+				<p><br /></p>
 				{% endfor %}
 				<!-- Pagination links -->
 				<div class="pagination">
