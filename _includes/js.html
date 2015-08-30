@@ -1,18 +1,14 @@
 </div>
 		<script src="/assets/js/jquery.min.js"></script>
 		<script src="/assets/js/bootstrap.min.js"></script>
-		{% if page.url == "/index.html" %}
-			<script src="/assets/js/jquery.fullPage.min.js"></script>
-			<script type="text/javascript">
-			$(document).ready(function() {
-				$('#fullpage').fullpage({
-					anchors: ['page-top', 'about', 'novels', 'blog', 'contact'],
-					scrollBar : true,
-					menu : '#navmenu'
-				});	
-			});
-			</script>
-		{% endif %}
-		<script src="/assets/js/grayscale.js"></script>
+	{% if page.url == "/index.html" %}
+		<script src="/assets/js/jquery.fullPage.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$("#fullpage").fullpage({anchors:["page-top","about","novels","blog","contact"],scrollBar:!0,menu:"#navmenu"})});
+		</script>
+	{% endif %}
+		<script type="text/javascript">
+			$(window).scroll(function(){$(".navbar").offset().top>50?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse")}),$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+		</script>
 	</body>
 </html>
