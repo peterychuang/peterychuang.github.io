@@ -1,7 +1,6 @@
 ---
 layout: compress
 ---
-
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -8205,6 +8204,7 @@ footer {
   color: #f176a0;
 }
 h3.blog-index {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 /* Table of Contents (Index)
