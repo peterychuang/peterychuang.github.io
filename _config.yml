@@ -42,7 +42,7 @@ social:
 
 
 # Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor", "less"]
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor", "less", "node_modules"]
 
 compress_html:
   clippings: all
