@@ -8315,14 +8315,6 @@ h3.blog-index {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background: #000;
   }
-  .about-section,
-  .novels-section,
-  .blog-section,
-  .contact-section,
-  .content-section,
-  .footer-section {
-    font-size: 16px;
-  }
 }
 /**
  * fullPage 2.6.6

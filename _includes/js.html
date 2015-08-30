@@ -5,19 +5,13 @@
 		{% if page.url == "/index.html" %}
 			<script src="/assets/js/jquery.fullPage.min.js"></script>
 			<script type="text/javascript">
-			if(screen.width > 767) { 
-				$(document).ready(function() {
-					$('#fullpage').fullpage({
-						fitToSection: true,
-						fitToSectionDelay: 0,
-						anchors: ['page-top', 'about', 'novels', 'blog', 'contact'],
-						scrollBar : true,
-						menu : '#navmenu'
-					});	
-				});
-			} else { 
-				// do nothing
-			}
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					anchors: ['page-top', 'about', 'novels', 'blog', 'contact'],
+					scrollBar : true,
+					menu : '#navmenu'
+				});	
+			});
 			</script>
 		{% endif %}
 		<script src="/assets/js/grayscale.js"></script>
