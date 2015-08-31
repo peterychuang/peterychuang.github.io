@@ -1,5 +1,9 @@
 <!-- Navigation -->
+{% if page.url == "/index.html" %}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+{% else %}
+<nav class="navbar navbar-default navbar-inner navbar-fixed-top" role="navigation">
+{% endif %}
     <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
