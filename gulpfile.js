@@ -25,4 +25,4 @@ gulp.task('minify-css', ['concat'], function() {
 		.pipe(gulp.dest('assets/css/'));
 });
 
-gulp.task('default', ['uncss', 'concat', 'minify-css', 'critical']);
+gulp.task('default', ['uncss', 'concat', 'minify-css']);
