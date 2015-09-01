@@ -8,7 +8,7 @@ gulp.task('uncss', function () {
     return gulp.src('less/style.css')
         	.pipe(uncss({
 				html: ['_site/**/*.html'],
-				ignore: [/fp/, /pulse/, /collapse/, /active/, /hover/, '@keyframes', /keyframes/, /pulse/, /moz/, /webkit/],
+				ignore: [/fp/, /pulse/, /collapse/, /active/, /hover/, '@keyframes', /keyframes/, /pulse/, /moz/, /webkit/, /collapsing/],
 				timeout: 1000
 			}))
         	.pipe(gulp.dest('less/'));
