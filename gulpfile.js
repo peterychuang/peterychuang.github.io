@@ -37,4 +37,15 @@ gulp.task('critical', ['minify-css'], function() {
 	});
 });
 
-gulp.task('default', ['uncss', 'concat', 'minify-css', 'critical']);
+gulp.task('critical1', ['critical'], function() {
+	critical.generate({
+		base: '_site/',
+		src: 'blog/index.html',
+		css: ['assets/css/style.css'],
+		dest: './_includes/critical_inner.css',
+		minify: true,
+		ignore: ['font-face']
+	});
+});
+
+gulp.task('default', ['uncss', 'concat', 'minify-css', 'critical', 'critical1']);
