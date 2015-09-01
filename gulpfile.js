@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var uncss = require('gulp-uncss');
 var concatCss = require('gulp-concat-css');
 var minifyCss = require('gulp-minify-css');
+var critical = require('critical');
 
 gulp.task('uncss', function () {
     return gulp.src('less/style.css')
@@ -25,4 +26,15 @@ gulp.task('minify-css', ['concat'], function() {
 		.pipe(gulp.dest('assets/css/'));
 });
 
-gulp.task('default', ['uncss', 'concat', 'minify-css']);
+gulp.task('critical', ['minify-css'], function() {
+	critical.generate({
+		base: '_site/',
+		src: 'index.html',
+		css: ['assets/css/style.css'],
+		dest: './_includes/critical.css',
+		minify: true,
+		ignore: ['font-face']
+	});
+});
+
+gulp.task('default', ['uncss', 'concat', 'minify-css', 'critical']);
