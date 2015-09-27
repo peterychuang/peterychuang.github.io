@@ -6,7 +6,7 @@ teaser: "A re-post of a reflection on the Umbrella Revolution on its first anniv
 author: peterychuang
 header:
     image_fullwidth: "lennon.jpg"
-category: other
+category: others
 show_meta: true
 ---
 ##I. Memory and cognition
