@@ -2,7 +2,7 @@
 layout: post
 subheadline: "A reflection on the Umbrella Revolution, 2014"
 title: "Under the umbrella"
-teaser: "When he submerged himself into the sea for the first time, he discovered something unusual..."
+teaser: "A re-post of a reflection on the Umbrella Revolution on its first anniversary"
 author: peterychuang
 header:
     image_fullwidth: "lwnnon.jpg"
