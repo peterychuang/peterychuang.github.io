@@ -11,7 +11,7 @@ show_meta: true
 ---
 ##I. Memory and cognition
 
-“The struggle of man against power is the struggle of memory against forgetting”—Milan Kundera
+>“The struggle of man against power is the struggle of memory against forgetting”—Milan Kundera
 
 I will always admit that I have a memory far better than I like, in a sense that I remember things so well that sometimes it hurts. But no matter how well someone or something was once etched onto the slate, time made those markings fade, either because something new was etched on it, or the markings became swallower after years and years of exposed in the elements, and eventually no longer visible. In the end, you will forget the face of someone that you have not seen for years, even though you once tried very hard to forget that face.
 
