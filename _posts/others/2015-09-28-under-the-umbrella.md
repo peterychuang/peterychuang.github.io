@@ -5,7 +5,7 @@ title: "Under the umbrella"
 teaser: "A re-post of a reflection on the Umbrella Revolution on its first anniversary"
 author: peterychuang
 header:
-    image_fullwidth: "lwnnon.jpg"
+    image_fullwidth: "lennon.jpg"
 category: other
 show_meta: true
 ---
