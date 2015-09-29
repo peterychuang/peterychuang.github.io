@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-Include file 'sitemap_collection.xml links=site.pages name="Pages" priority=0.3 changefreq='monthly'' contains invalid characters or sequences
-Include file 'sitemap_collection.xml links=site.posts name="Posts" priority=0.5 changefreq='monthly'' contains invalid characters or sequences
-</urlset>
