@@ -9,8 +9,10 @@ format: post
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<time class="fa fa-calendar-o" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
-				{% if page.categories %}<span class="fa fa-archive"> {% for category in site.data.categories %}{% if page.category == category.slug %}{{ category.name }}{% endif %}{% endfor %}{% endif %}</span><p/>
+				{% if page.show_meta == true %}
+					<time class="fa fa-calendar-o" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
+					{% if page.categories %}<span class="fa fa-archive"> {% for category in site.data.categories %}{% if page.category == category.slug %}{{ category.name }}{% endif %}{% endfor %}{% endif %}</span><p/>
+				{% endif %}
 				{{ page.content | markdownify }}
 				{% include share.html %}
 				{% include comments.html %}
