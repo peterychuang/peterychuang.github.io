@@ -7,7 +7,7 @@ author: peterychuang
 header:
     image_fullwidth: "lennon.jpg"
 category: others
-show_meta: true
+show_meta: false
 ---
 ##I. Memory and cognition
 

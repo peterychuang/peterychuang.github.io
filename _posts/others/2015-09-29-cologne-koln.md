@@ -7,7 +7,7 @@ author: peterychuang
 header:
     image_fullwidth: "kolnerdom.jpg"
 category: others
-show_meta: true
+show_meta: false
 ---
 When I visited Cologne, I couldn’t help but think of what Marcel Proust wrote about Combray in The Way by Swann’s:
 

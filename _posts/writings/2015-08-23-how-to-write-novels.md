@@ -9,6 +9,7 @@ category: on-writing
 published: true
 image: 
   thumb: writing-thumb.jpg
+show_meta: false
 ---
 At some point, every writer searches for guides and rules for writing, and there are hundreds, if not thousands, of those rules already written by various [novelists][1]. While some of them are definitely good advice, one will, at some point, find rules that are contradictory, and there are rules vehemently believed by one author while loathed by another.
 

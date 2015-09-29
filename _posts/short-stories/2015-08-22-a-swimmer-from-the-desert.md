@@ -10,7 +10,7 @@ header:
     caption: Rub’ al Khali (Photo by Nepenthes)
     caption_url: http://commons.wikimedia.org/wiki/User:Nepenthes
 category: short-stories
-show_meta: true
+show_meta: false
 ---
 For the sake of simplicity, we have always called him A, for we do not know what his actual name is (Akxhhhgg-something-something-something-something).
 

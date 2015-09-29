@@ -7,6 +7,7 @@ author: peterychuang
 header:
     image_fullwidth: "delete-memory.png"
 category: short-stories
+show_meta: false
 ---
 It was the year twenty-two hundred.
 
