@@ -5,7 +5,7 @@ title: "The Forgotten Music"
 teaser: "Do you have a song or a piece of music that reminds you of the past that you have forgotten?"
 author: peterychuang
 header:
-    image_fullwidth: "delete-memory.png"
+    image_fullwidth: "forgotten-music.jpg"
 category: short-stories
 show_meta: false
 ---
