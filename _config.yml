@@ -1,7 +1,7 @@
 # Site settings
 
 url: "https://novelist.xyz"
-urlimg: "/images/"
+urlimg: "/img/"
 title: "Peter Y. Chuang - Novelist"
 description: "Novelist, Writer, Dreamer. Hong Kong, London, Berlin."
 favicon: "/assets/img/favicon-32x32.png"
