@@ -1,7 +1,6 @@
 # Site settings
 
 url: "https://novelist.xyz"
-baseurl:
 urlimg: "/images/"
 title: "Peter Y. Chuang - Novelist"
 description: "Novelist, Writer, Dreamer. Hong Kong, London, Berlin."
