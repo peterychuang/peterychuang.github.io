@@ -9,7 +9,7 @@ header:
 category: others
 show_meta: false
 ---
-##I. Memory and cognition
+## I. Memory and cognition
 
 >“The struggle of man against power is the struggle of memory against forgetting”—Milan Kundera
 
@@ -20,7 +20,7 @@ All authoritarian regimes are alike in that Orwellian way: doctoring photos, fal
 Perhaps we have already forgotten the face of the stranger who sat next to us on the concrete road divider, but the memory of the struggle and the struggle itself has only just begun.
 
 
-##II. Magic mirror and insincere neutrality
+## II. Magic mirror and insincere neutrality
 
 The struggle has, unwittingly, become a magic mirror. But this magic mirror does not reveal whether you are pretty.
 
@@ -29,7 +29,7 @@ This struggle has gone beyond taking side in simple political terms: it is not a
 Because of the nature of the struggle, neutrality, it appears, is no longer an available option. In fact, neutrality has become an excuse of the unsuspecting minds to feel content about their contrived intellectualism while slipping unwittingly to the side of the devils, and telling others to put oneself into others' shoes has become a laughable attempt to claim the moral high ground while descending unknowingly into an amoral wasteland.
 
 
-##III. History and reality
+## III. History and reality
 
 History usually makes judgements long after those being judged have gone into their coffins, with very few exceptions; even a man as unequivocally evil as Hitler is still subject to scholarly examinations and evaluations. For most people whose reputations are less decidedly good or evil, they will only be given their places in history by historians of future generations, and they will never know where they were placed.
 
