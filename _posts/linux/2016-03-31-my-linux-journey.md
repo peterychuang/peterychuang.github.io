@@ -2,7 +2,7 @@
 layout: post
 subheadline: ""
 title: "How I became a full-time Linux user"
-teaser: ""
+teaser: "How I switch from a Windows user to a full-time Linux user with no regret"
 author: peterychuang
 header:
     image_fullwidth: "linux-header.jpg"
