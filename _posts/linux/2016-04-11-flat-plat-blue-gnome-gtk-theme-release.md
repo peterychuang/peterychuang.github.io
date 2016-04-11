@@ -16,7 +16,7 @@ Flat-Plat-Blue Theme is a Gnome Shell/GTK Theme forked from [Flat-Plat Theme][3]
 * All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience;
 * The top bar is now transparent;
 * Open Sans is now the default font of the theme; and
-* other minor changes and fixes
+* Other minor changes and fixes.
 
 *(Scroll down for screenshots)*
 
