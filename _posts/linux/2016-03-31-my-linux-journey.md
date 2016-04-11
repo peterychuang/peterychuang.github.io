@@ -6,8 +6,6 @@ teaser: "How I switch from a Windows user to a full-time Linux user with no regr
 author: peterychuang
 header:
     image_fullwidth: "linux-header.jpg"
-image:
-    homepage: Berlin.jpg
 category: linux
 show_meta: true
 ---
@@ -22,7 +20,7 @@ The switch from being a Windows user to being a Linux-only user wasn’t well-pl
 
 <em>[Read the rest of the story on Medium][1]</em>
 
-[1]: medium.com/@peterychuang/from-windows-to-linux-how-i-became-a-full-time-linux-user-f14f5bc28726
+[1]: //medium.com/@peterychuang/from-windows-to-linux-how-i-became-a-full-time-linux-user-f14f5bc28726
 
 
 

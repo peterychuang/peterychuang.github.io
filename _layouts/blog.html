@@ -19,16 +19,14 @@ format: blog-index
 				{% endfor %}
 				<!-- Pagination links -->
 				<div class="pagination">
-					{% if paginator.previous_page == 1 %}
-						<h4><a href="/blog/" class="previous">Newer Posts</a></h4>
-					{% elsif paginator.previous_page and paginator.next_page%}
-					  <h4>
-						  <a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a>  <a href="{{ paginator.next_page_path }}" class="next">Older Posts</a>
-					  </h4>
+					{% if paginator.previous_page == null %}
+						<h4><a href="{{ paginator.next_page_path }}" class="next">Older Posts</a></h4>
 					{% elsif paginator.previous_page %}
-					  <h4><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a></h4>
-					{% elsif paginator.next_page %}
-					  <h4><a href="{{ paginator.next_page_path }}" class="next">Older Posts</a></h4>
+						{% if paginator.next_page %}
+						  <h4><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a>  <a href="{{ paginator.next_page_path }}" class="next">Older Posts</a> </h4>
+						{% elsif paginator.next_page == null %}
+						  <h4><a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a></h4>
+						{% endif %}
 					{% endif %}
 				</div>
 			</div>
@@ -37,3 +35,5 @@ format: blog-index
 </section>
 {% include footer.html %}
 {% include js.html %}
+
+and 
