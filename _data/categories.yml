@@ -1,5 +1,7 @@
 - name: Short Stories
   slug: short-stories
+- name: Poetry
+  slug: poetry
 - name: On Writing
   slug: on-writing
 - name: Others
