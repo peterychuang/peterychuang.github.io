@@ -8,7 +8,7 @@ subheadline: ""
 teaser: "Learn more about Linux and my Linux experience."
 permalink: "/linux/"
 ---
-Sometime in 2011 or 2012, I began to use Linux exclusively as my primary operating system.  
+Sometime in 2011 or 2012, I began to [use Linux exclusively as my primary operating system](/linux/my-linux-journey/).  
 
 
 ### My Linux Machine
