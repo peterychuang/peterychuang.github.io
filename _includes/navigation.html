@@ -26,7 +26,8 @@
                   <!-- Scroll to section for each page in index -->
                   {% for link in site.data.navigation %}
 					{% if link.dropdown == nil %}
-						<li data-menuanchor="{{ link.url }}"><a class="page-scroll" href="#{{ link.url }}"> {{ link.title }} </a></li>
+						{% if link.url == "/linux" %}<li data-menuanchor="{{ link.url }}"><a class="page-scroll" href="{{ link.url }}"> {{ link.title }} </a></li>
+						{% else %}<li data-menuanchor="{{ link.url }}"><a class="page-scroll" href="#{{ link.url }}"> {{ link.title }} </a></li>{% endif%}
 					{% else %}
 						<li data-menuanchor="{{ link.url }}" class="dropdown"><a class="page-scroll dropdown-toggle" href="#{{ link.url }}"> {{ link.title }} </a>
 							<ul class="dropdown-menu">
@@ -46,6 +47,8 @@
                       <li><a class="page-scroll" href="/#blog"> {{ link.title }} </a></li>
                     {% elsif link.title == "Blog" %}
                       <li><a class="page-scroll" href="/blog/"> {{ link.title }} </a></li>
+                    {% elsif link.title == "Linux" %}
+                      <li><a class="page-scroll" href="/linux/"> {{ link.title }} </a></li>
                     {% else %}
 					{% if link.dropdown == nil %}
 						<li><a class="page-scroll" href="/#{{ link.url }}"> {{ link.title }} </a></li>
