@@ -12,8 +12,8 @@
 - title: "Blog"
   url: "blog"
 
-- title: "Linux"
-  url: "/linux"
-
 - title: "Contact"
   url: "contact"
+
+- title: "Linux"
+  url: "/linux"
