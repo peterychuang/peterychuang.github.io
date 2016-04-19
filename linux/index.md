@@ -42,3 +42,12 @@ I use the pre-compiled kernel provided by Arch repository on all my machines exc
 
 I use Gnome Desktop with [Flat-Plat-Blue theme](/linux/flat-plat-blue-gnome-gtk-theme-release), which I forked from Flat-Plat. The source code for the theme is available on my [Github](//github.com/peterychuang/Flat-Plat-Blue).  
 
+
+### Applications I use to write
+
+Mostly Libreoffice Writer. But now that I get increasingly comfortable writing in markdown, I think I may one day write novels on gedit in markdown before converting them to proper document formats.
+
+
+### This website
+
+This website is powerd by [Jekyll](//jekyllrb.com/), a static site generator, and it's hosted on Github.
