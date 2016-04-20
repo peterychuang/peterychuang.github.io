@@ -14,7 +14,7 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         darken(#428bca, 6.5%); // #337ab7
+@brand-primary:         darken(#2196F3, 6.5%); // #337ab7
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -33,7 +33,7 @@
 //** Global textual link color.
 @link-color:            @brand-primary;
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 15%);
+@link-hover-color:      lighten(@link-color, 15%);
 //** Link hover decoration.
 @link-hover-decoration: underline;
 
@@ -42,13 +42,13 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       "Domine", Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-@font-family-base:        @font-family-sans-serif;
+@font-family-monospace:   "Ubuntu Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-serif;
 
-@font-size-base:          14px;
+@font-size-base:          16px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -60,12 +60,12 @@
 @font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
-@line-height-base:        1.428571429; // 20/14
+@line-height-base:        1.666666667; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    inherit;
+@headings-font-family:    @font-family-serif;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
@@ -76,11 +76,11 @@
 //## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
 //** Load fonts from this directory.
-@icon-font-path:          "../fonts/";
+//@icon-font-path:          "/assets/fonts/";
 //** File name for all font files.
-@icon-font-name:          "glyphicons-halflings-regular";
+//@icon-font-name:          "fontawesome-webfont";
 //** Element ID within SVG icon file.
-@icon-font-svg-id:        "glyphicons_halflingsregular";
+//@icon-font-svg-id:        "v=4.4.0";
 
 
 //== Components
@@ -364,16 +364,16 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             #777;
-@navbar-default-bg:                #f8f8f8;
-@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-color:             #fff;
+@navbar-default-bg:                transparent;
+@navbar-default-border:            transparent;
 
 // Navbar links
-@navbar-default-link-color:                #777;
-@navbar-default-link-hover-color:          #333;
+@navbar-default-link-color:                #fff;
+@navbar-default-link-hover-color:          darken(@navbar-default-color, 6.5%);
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         #555;
-@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-active-color:         darken(@navbar-default-color, 6.5%);
+@navbar-default-link-active-bg:            rgba(255,255,255,.3);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
@@ -867,3 +867,37 @@
 @dl-horizontal-breakpoint:    @grid-float-breakpoint;
 //** Horizontal line color.
 @hr-border:                   @gray-lighter;
+
+
+//== Front Page Sections Customisation
+
+@header-section-color:                    #fff; 
+@header-section-bg:                       linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/intro-bg.jpg) center center no-repeat;
+@header-section-link-color:               #90CAF9; 
+@header-section-link-hover-color:         lighten(@header-section-link-color, 10%); 
+@about-section-color:                     #c5cae9; 
+@about-section-bg:                        #1A237E;
+@about-section-link-color:                #fff; 
+@about-section-link-hover-color:          darken(@about-section-link-color, 10%); 
+@novels-section-color:                    #d1c4e9; 
+@novels-section-bg:                       #673ab7;
+@novels-section-link-color:               #fff; 
+@novels-section-link-hover-color:         darken(@novels-section-link-color, 10%); 
+@blog-section-color:                      #E8F5E9; 
+@blog-section-bg:                         #388E3C;
+@blog-section-link-color:                 #fff; 
+@blog-section-link-hover-color:           darken(@blog-section-link-color, 10%); 
+@contact-section-color:                   #FCE4EC; 
+@contact-section-bg:                      #e91e63;
+@contact-section-link-color:              #fff; 
+@contact-section-link-hover-color:        darken(@contact-section-link-color, 10%); 
+
+
+//== Fonter Section Customisation
+
+@footer-section-padding:      200px 0 50px 0;
+
+
+
+
+

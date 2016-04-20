@@ -51,12 +51,23 @@ h4, .h4 { font-size: @font-size-h4; }
 h5, .h5 { font-size: @font-size-h5; }
 h6, .h6 { font-size: @font-size-h6; }
 
+.brand-heading {
+  font-size: (@font-size-h1 * 1.2)
+}
+
+.brand-primary {
+  font-size: (@font-size-h1 * 1.6)
+}
+
+.brand-tag {
+  font-size: @font-size-h3
+}
 
 // Body text
 // -------------------------
 
 p {
-  margin: 0 0 (@line-height-computed / 2);
+  margin: 0 0 (@line-height-computed);
 }
 
 .lead {

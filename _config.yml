@@ -55,3 +55,4 @@ compress_html:
 gems:
   - jekyll-redirect-from
   - jekyll-paginate
+  - jekyll-picture-tag

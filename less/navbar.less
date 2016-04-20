@@ -11,7 +11,7 @@
 .navbar {
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
-  margin-bottom: @navbar-margin-bottom;
+  padding: @navbar-padding-vertical 0;
   border: 1px solid transparent;
 
   // Prevent floats from breaking the navbar
@@ -20,6 +20,8 @@
   @media (min-width: @grid-float-breakpoint) {
     border-radius: @navbar-border-radius;
   }
+
+
 }
 
 
@@ -99,6 +101,20 @@
 }
 
 
+//
+// Navbar shrink on scroll
+
+.navbar-shrink {
+  padding:0;
+  border-bottom:none;
+  background:0 0
+}
+
+.navbar-inner.navbar-shrink {
+  background:#000
+}
+
+
 // Both navbar header and collapse
 //
 // When a container is present, change the behavior of the header and collapse.
@@ -150,6 +166,8 @@
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  font-size: @font-size-small;
+  font-family: @font-family-sans-serif;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -164,7 +182,10 @@
   float: left;
   padding: @navbar-padding-vertical @navbar-padding-horizontal;
   font-size: @font-size-large;
+  font-family: @font-family-serif;
+  font-weight: 800;
   line-height: @line-height-computed;
+  letter-spacing: 1px;
   height: @navbar-height;
 
   &:hover,
@@ -395,6 +416,9 @@
 .navbar-default {
   background-color: @navbar-default-bg;
   border-color: @navbar-default-border;
+  -webkit-transition:background .5s ease-in-out;
+  -moz-transition:background .5s ease-in-out;
+  transition:background .5s ease-in-out;
 
   .navbar-brand {
     color: @navbar-default-brand-color;
