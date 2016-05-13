@@ -1,0 +1,43 @@
+# Site settings
+url: "https://novelist.xyz"
+urlimg: "/assets/img/"
+title: "Peter Y. Chuang - Novelist, Short Story Writer"
+description: "Novelist, Writer, Dreamer. Short Stories, Essays, Blog. Hong Kong, London, Berlin."
+favicon: "/assets/img/favicon-32x32.png"
+destination: ../../novelistxyz
+
+timezone: America/New_York
+
+# Blog variables
+paginate: 5
+paginate_path: "/blog/page:num"
+
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+permalink: /:categories/:title/
+
+# Exclusion list from the generated _site
+exclude: ["LICENSE", "readme.md", "_less", "node_modules", "npm-debug.log", "package.json", "gulpfile.js", "assets/img-pre-optimised","assets/css/big","assets/css/combed","assets/css/uncss", "posts.sh", "site.sh"]
+
+# Keep Files
+keep_files: ['.git', '.nojekyll', 'readme.md']
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  startings: [head, body]
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate

@@ -1,0 +1,28 @@
+<div class="col-lg-8 col-lg-offset-2">
+	<ol vocab="http://schema.org/" typeof="BreadcrumbList" class="breadcrumb">
+		<li property="itemListElement" typeof="ListItem">
+			<a property="item" typeof="WebPage" href="{{ site.url }}">
+				<span property="name">Home</span>
+			</a>
+			<meta property="position" content="1">
+		</li>
+		{% assign crumbs = page.url | split: '/' %}
+		{% for crumb in crumbs offset: 1 %}
+			{% if forloop.last %}
+				<li property="itemListElement" typeof="ListItem">
+		 			<a property="item" typeof="WebPage" href="{{ site.url }}{{ page.url }}">
+						<span property="name">{{ page.title }}</span>
+					</a>
+					<meta property="position" content="{{ forloop.index | plus: 1 }}">
+				</li>
+			{% else %}
+				<li property="itemListElement" typeof="ListItem">
+					<a property="item" typeof="WebPage" href="{{ site.url }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+						<span property="name">{{ crumb | replace:'-',' ' | capitalize_all }}</span>
+					</a>
+					<meta property="position" content="{{ forloop.index | plus: 1 }}">
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ol>
+</div>

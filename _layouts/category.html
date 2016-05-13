@@ -1,0 +1,29 @@
+{% include common/head_top.html %}
+{% include critical-css/critical_index.css %}
+{% include common/head_bottom.html %}
+{% include common/navigation.html %}
+{% include common/header_index.html %}
+<section id="{{ page.title }}" class="content-section blog-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				{% for post in site.categories.[page.category] %}
+					<h2>
+						<strong>
+							<a href="{{ post.url }}">{{ post.title }}</a>
+						</strong>
+					</h2>
+					<p>{{ post.description }}</p>
+					<p class="meta">
+            <a href="/{{ post.category }}/"><span class="fa fa-archive"></span> {% if post.category == "misc" %}Miscellaneous{% else %}{{ post.category | replace:"-"," " | capitalize_all }}{% endif %}</a>
+						&nbsp;&nbsp;
+						<time class="fa fa-calendar-o" datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished"></time>
+						{{ post.date | date: "%Y-%m-%d" }}
+					</p>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+{% include common/footer.html %}
+{% include common/js.html %}

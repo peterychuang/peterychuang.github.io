@@ -1,0 +1,29 @@
+{
+  "name": "peterychuang.github.io",
+  "version": "1.0.0",
+  "description": "This is the source of the website [Peter Y. Chuang - Novelist](https://novelist.xyz).",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "imagemin": "^4.0.0",
+    "imagemin-jpegtran": "^5.0.0",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-imagemin": "^2.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterychuang/peterychuang.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterychuang/peterychuang.github.io/issues"
+  },
+  "homepage": "https://github.com/peterychuang/peterychuang.github.io#readme"
+}

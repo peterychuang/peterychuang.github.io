@@ -1,0 +1,17 @@
+<section data-anchor="blog" class="section blog-section text-center">
+	<div class="cell">
+		<div class="container">
+	  	  <div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1 class="section-heading">Blog</h1>
+					<p>Here you can find the latest <a href="/short-stories/">short stories</a>, <a href="/poetry/">poems</a>, <a href="/essays/">essays</a>, and everything else.</p>
+					{% for post in site.posts limit:5 %}
+						<h5><strong> <a href="{{ post.url }}">{{ post.title }}</a></strong></h5>
+					{% endfor %}
+					<p><a href="/blog/">View more posts <i class="fa fa-angle-double-right"></i></a></p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

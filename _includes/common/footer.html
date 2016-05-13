@@ -1,0 +1,15 @@
+<!-- Footer -->
+<footer data-anchor="footer" class="section footer-section text-center">
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p> Share: 
+					<a href="https://twitter.com/share?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&text={% if page.title %}{{ page.title }} %7C {% endif %}{{ site.title }}&via=peterychuang" title="Share on Twitter" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x twitter-bg"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a>
+					<a href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="Share on Google+" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x google-plus-bg"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a>
+					<a href="http://reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="Share on Reddit" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x reddit-bg"></i><i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i></span></a>
+					<a href="http://www.facebook.com/sharer.php?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="Share on Facebook" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x facebook-bg"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+                </p>
+			</div>
+		</div>
+	</div>
+</footer>

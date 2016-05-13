@@ -1,0 +1,40 @@
+{% include common/head_top.html %}
+{% include critical-css/critical_pages.css %}
+{% include common/head_bottom.html %}
+{% include common/navigation.html %}
+{% include common/header_pages.html %}
+<section id="{{ page.title }}" class="content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+        <p class="word-count">
+          {% capture words %}
+            {{ page.content | number_of_words | minus: 250 }}
+          {% endcapture %}
+          {% unless words contains "-" %}
+            {{ words | plus: 250 }} words ·
+            {{ words | plus: 250 | divided_by: 180 }} min read
+          {% endunless %}
+        </p>
+				{{ page.content | markdownify }}
+				<p class="post-meta">
+              <a href="/{{ page.category }}/"><span class="fa fa-archive"></span> {% if page.category == "misc" %}Miscellaneous{% else %}{{ page.category | replace:"-"," " | capitalize_all }}{% endif %}</a>
+				&nbsp;&nbsp;
+				<time class="fa fa-calendar-o" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"></time> {{ page.date | date: "%Y-%m-%d" }}
+				<br />
+				{% for tag in page.tags %}
+					<a href="/tag/{{ tag }}/"><span class="fa fa-tag"></span> {{ tag | replace:"-"," " | capitalize_all }}</a>&nbsp;&nbsp;
+				{% endfor %}
+				<br />
+				Copyright &copy; Peter Y. Chuang {{ site.time | date: "%Y" }}
+				</p>
+			</div>
+			{% include common/author-box.html %}
+			{% include common/jekyll_related_posts.html %}
+      {% include common/comments.html %}
+      {% include common/breadcrumb.html %}
+		</div>
+	</div>
+</section>
+{% include common/footer.html %}
+{% include common/js.html %}

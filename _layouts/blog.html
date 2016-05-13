@@ -1,0 +1,58 @@
+{% include common/head_top.html %}
+{% include critical-css/critical_index.css %}
+{% include common/head_bottom.html %}
+{% include common/navigation.html %}
+{% include common/header_index.html %}
+<section id="{{ page.title }}" class="content-section blog-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				{% for post in paginator.posts %}
+					<h2>
+						<strong>
+							<a href="{{ post.url }}">{{ post.title }}</a>
+						</strong>
+					</h2>
+					<p>{{ post.description }}</p>
+					<p class="meta">
+            <a href="/{{ post.category }}/"><span class="fa fa-archive"></span> {% if post.category == "misc" %}Miscellaneous{% else %}{{ post.category | replace:"-"," " | capitalize_all }}{% endif %}</a>
+						&nbsp;&nbsp;
+						<time class="fa fa-calendar-o" datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished"></time>
+						{{ post.date | date: "%Y-%m-%d" }}
+					</p>
+				{% endfor %}
+
+				<div class="pager">
+					{% if paginator.previous_page == null %}
+						<li class="next">
+							<span>
+								<a href="{{ paginator.next_page_path }}">Older Posts</a>
+							</span>
+						</li>
+					{% elsif paginator.previous_page %}
+						{% if paginator.next_page %}
+							<li class="previous">
+								<span>
+									<a href="{{ paginator.previous_page_path }}">Newer Posts</a>
+								</span>
+							</li>
+							<li class="next">
+								<span>
+									<a href="{{ paginator.next_page_path }}">Older Posts</a>
+								</span>
+							</li>
+						{% elsif paginator.next_page == null %}
+							<li class="previous">
+								<span>
+									<a href="{{ paginator.previous_page_path }}">Newer Posts</a>
+								</span>
+							</li>
+						{% endif %}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% include common/footer.html %}
+{% include common/js.html %}

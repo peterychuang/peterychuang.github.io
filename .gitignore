@@ -1,0 +1,5 @@
+_site
+node_modules
+posts.sh
+site.sh
+.jekyll-metadata

@@ -1,0 +1,24 @@
+<header class="inner-header-section text-center" style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url({{ site.urlimg }}{{ page.header.image_fullwidth }}) center center no-repeat; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover;">
+    <div class="container fp-tableCell">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="brand-heading">{{ page.title }}</h1>
+                {% if page.description %}
+                    <hr class="small">
+                    <span class="subheading">{{ page.description | strip_html | escape }}</span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</header>
+<figure>
+	{% if page.header.caption_url && page.header.caption %}
+		<figcaption class="text-right">
+			<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+		</figcaption>
+	{% elsif page.header.caption %}
+		<figcaption class="text-right">
+			{{ page.header.caption }}
+		</figcaption>
+	{% endif %}
+</figure>

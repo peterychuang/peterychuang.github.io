@@ -1,0 +1,19 @@
+{% include common/head_top.html %}
+{% include critical-css/critical_pages.css %}
+{% include common/head_bottom.html %}
+{% include common/navigation.html %}
+{% include common/header_pages.html %}
+<section id="{{ page.title }}" class="content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				{{ page.content | markdownify }}
+				<p class="post-meta">Copyright &copy; Peter Y. Chuang {{ site.time | date: "%Y" }}</p>
+			</div>
+			{% include common/author-box.html %}
+      {% include common/breadcrumb.html %}
+		</div>
+	</div>
+</section>
+{% include common/footer.html %}
+{% include common/js.html %}

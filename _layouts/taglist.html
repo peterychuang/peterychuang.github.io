@@ -1,0 +1,22 @@
+{% include common/head_top.html %}
+{% include critical-css/critical_index.css %}
+{% include common/head_bottom.html %}
+{% include common/navigation.html %}
+{% include common/header_index.html %}
+<section id="{{ page.title }}" class="content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p class=tag-list>
+					{% for tag in site.tags %}
+						{% assign t = tag | first %}
+						{% assign posts = tag | last %}
+						<a href="/tag/{{t}}/"><span class="fa fa-tag"></span> {{ t | replace:"-"," " | capitalize_all }}</a> &#40;{{ posts | size }}&#41;
+					{% endfor %}
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% include common/footer.html %}
+{% include common/js.html %}
