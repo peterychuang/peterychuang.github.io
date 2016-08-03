@@ -67,11 +67,17 @@ To use Numix circle icon theme, install ```numix-circle-icon-theme-git``` and ``
 
 There are hundreds of themes available online and on AUR for you to choose from, including [the one I created](/tech/flat-plat-blue-gnome-gtk-theme-release/) for Gnome.
 
-#### Install Lighttable
+#### ~~Install Lighttable~~
 
-[Lighttable](http://lighttable.com/) is a new, open-source code editor. I've been using it to code this website and blog on this website in markdown, and I find Lighttable adequate.
+~~[Lighttable](http://lighttable.com/) is a new, open-source code editor. I've been using it to code this website and blog on this website in markdown, and I find Lighttable adequate.~~
 
-To use Lighttable, install ```lighttable``` from AUR.
+~~To use Lighttable, install `lighttable` from AUR.~~
+
+#### Install Atom
+
+[Atom](https://atom.io/) is an editor developed by Github with Git integration built-in. An additional package `git-plus` adds additional Git capabilities to the editor, such as pushing to a remote repository without ever opening the terminal.
+
+To use Atom, install `atom-editor-bin` from AUR.
 
 #### Web browsers, Office, Video, and so on...
 
