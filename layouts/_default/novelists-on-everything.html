@@ -1,0 +1,45 @@
+{{ partial "common/head.html" . }}
+{{ partial "common/nav.html" . }}
+{{ partial "common/header.html" . }}
+  <section id="{{ lower .Title | urlize }}" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          {{ .Content }}
+          <h4 id="toc">Table of Contents</h4>
+          <nav class="toc">
+            <ul>
+            {{ range .Site.Data.novelists.everything }}
+              <li><a href="#{{ .name | urlize | lower }}">{{ .name | markdownify }}</a></li>
+              <ul>
+                {{ range $book, $i := .sources }}
+                <li><a href="#{{ $book | urlize | lower }}">{{ $book | markdownify }}</a></li>
+                {{ end }}
+              </ul>
+            {{ end }}
+            </ul>
+          </nav>
+          {{ range .Site.Data.novelists.everything }}
+            <hr />
+            <h3 id="{{ .name | urlize | lower }}">{{ .name | markdownify }}</h3>
+            <p>{{ .bio | markdownify }}</p>
+            {{ range $book, $i := .sources }}
+              <h4 class="book-name" id="{{ $book | urlize | lower }}">{{ $book | markdownify }}</h4>
+              {{ range $q, $j := .quotes }}
+                <blockquote>
+                  <p>{{ $q | markdownify }}</p>
+                  {{ if .credits }}<p><small><em>{{ .credits | markdownify }}</em></small></p>{{ end }}
+                </blockquote>
+                <p>{{ if .comment }}{{ .comment | markdownify }}{{ end }}</p>
+              {{ end }}
+          {{ end }}
+          <p><a href="#toc"><sup>[table of contents]</sup></a></p>
+          <p><br /></p>
+          {{ end }}
+          <p class="post-meta"></p>
+        </div>
+	{{ partial "common/author.html" . }}
+      </div>
+    </div>
+  </section>
+{{ partial "common/footer.html" . }}

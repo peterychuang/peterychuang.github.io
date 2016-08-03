@@ -1,0 +1,24 @@
+---
+baseurl: "https://novelist.xyz/"
+disablePathToLower: true
+languageCode: en-gb
+title: "Peter Y. Chuang - Novelist, Short Story Writer"
+publishdir: ../_output/hugo-stage-1/
+pluralizelisttitles: "false"
+footnoteReturnLinkContents: "^"
+
+params:
+  description: "Novelist, Writer, Dreamer. Short Stories, Essays, Blog. Hong Kong, London, Berlin."
+  author: Peter Y. Chuang
+  Urlimg: "assets/img/"
+taxonomies:
+  tag: "tag"
+  category: "categories"
+
+MetaDataFormat: "yaml"
+pygmentsuseclasses: true
+
+blackfriday:
+  plainIDAnchors: true
+  extensions:
+  - hardLineBreak

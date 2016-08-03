@@ -1,0 +1,91 @@
+{{ if .IsHome }}
+  <nav class="navbar navbar-default navbar-index navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="/#page-top"><i class="fa fa-pencil">&nbsp;</i> Peter Y. Chuang - Novelist</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav" id="navmenu">
+          {{ partial "common/nav-social.html" . }}
+          <li data-menuanchor="about"><a href="#about"> About </a></li>
+          <li data-menuanchor="novels" class="dropdown">
+            <a href="/#novels" class="dropdown-toggle" data-toggle="dropdown" role="button"> Novels <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/novels/2047/"> Twenty Forty-Seven </a></li>
+              <li><a href="/novels/only-you-know-what-it-means/"> Only You Know What It Means </a></li>
+            </ul>
+          </li>
+          <li data-menuanchor="blog" class="dropdown"><a href="#blog" class="dropdown-toggle" data-toggle="dropdown" role="button"> Blog <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/short-stories/"> Short Stories </a></li>
+              <li><a href="/essays/"> Essays </a></li>
+              <li><a href="/poetry/"> Poetry </a></li>
+              <li><a href="/tech/"> Tech </a></li>
+              <li><a href="/misc/"> Misc. </a></li>
+            </ul>
+          </li>
+          <li data-menuanchor="bookshelf"><a href="#bookshelf"> Bookshelf </a></li>
+          <li data-menuanchor="contact"><a href="#contact"> Contact </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+{{ else }}
+  {{ if eq .Title "Bookshelf" }}
+  <nav class="navbar navbar-default navbar-fixed-top">
+  {{ else if .IsPage }}
+    {{ if or ( eq .Layout "bookshelf" ) ( eq .Layout "music" ) }}
+      <nav class="navbar navbar-default navbar-fixed-top">
+    {{ else }}
+      <nav class="navbar navbar-inverse navbar-inner navbar-fixed-top">
+    {{ end }}
+  {{ else }}
+    <nav class="navbar navbar-inverse navbar-inner navbar-fixed-top">
+  {{ end }}
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
+          {{ if eq .Title "Bookshelf" }}
+            <i class="fa fa-bars"></i>
+          {{ else if .IsPage }}
+            {{ if eq .Layout "bookshelf" }}
+              <i class="fa fa-bars"></i>
+            {{ else }}
+              <i class="fa fa-bars fa-inverse"></i>
+            {{ end }}
+          {{ else }}
+            <i class="fa fa-bars fa-inverse"></i>
+          {{ end }}
+        </button>
+        <a class="navbar-brand" href="/"><i class="fa fa-pencil">&nbsp;</i> Peter Y. Chuang - Novelist</a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav" id="navmenu">
+          {{ partial "common/nav-social.html" . }}
+          <li><a href="/#about"> About </a></li>
+          <li class="dropdown">
+            <a href="/#novels" class="dropdown-toggle" data-toggle="dropdown" role="button"> Novels <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/novels/2047/"> Twenty Forty-Seven </a></li>
+              <li><a href="/novels/only-you-know-what-it-means/"> Only You Know What It Means </a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="/blog/" class="dropdown-toggle" data-toggle="dropdown" role="button"> Blog <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/short-stories/"> Short Stories </a></li>
+              <li><a href="/essays/"> Essays </a></li>
+              <li><a href="/poetry/"> Poetry </a></li>
+              <li><a href="/tech/"> Tech </a></li>
+              <li><a href="/misc/"> Misc. </a></li>
+            </ul>
+          </li>
+          <li><a href="/bookshelf"> Bookshelf </a></li>
+          <li><a href="/#contact"> Contact </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+{{ end }}

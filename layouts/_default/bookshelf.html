@@ -1,0 +1,92 @@
+{{ partial "common/head.html" . }}
+{{ partial "common/nav.html" . }}
+    <header class="bookshelf">
+      <div class="container">
+        <div class="row" itemscope itemtype="http://schema.org/Book">
+          <div class="col-sm-3 col-lg-offset-2">
+            <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank">
+              <img itemprop="image" class="bookshelf" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
+            </a>
+          </div>
+          <div class="col-sm-5">
+            <h1 class="bookshelf" itemprop="name">
+              {{ .Title }}
+            </h1>
+            <p class="bookshelf">
+              by
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="{{ .Params.writer }}" />
+                {{ .Params.writer | markdownify }}
+              </span>
+              {{ if .Params.translator }}
+              <br />
+              Translated by {{ .Params.translator | markdownify }}
+              {{ end }}
+              <br />
+              <br />
+              {{ if .Params.publisher | markdownify }}
+                <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                  <span itemprop="name">
+                    {{ .Params.publisher | markdownify }}
+                  </span>
+                </span>
+              <br />
+              {{ end }}
+              {{ if .Params.isbn }}
+                ISBN: <span itemprop="isbn">{{ .Params.isbn }}</span>
+              {{ end }}
+              {{ if .Params.stars }}
+                <br />
+                <br />
+                {{ range $star, seq .Params.stars }}
+                  <i style="color:gold;" class="fa fa-star"></i>
+                {{ end }}
+                {{ $greystar := sub 5 .Params.stars }}
+                {{ range $star, seq $greystar }}
+                  <i style="color:grey;" class="fa fa-star"></i>
+                {{ end }}
+              {{ end }}
+              <span itemprop="review" itemscope itemtype="http://schema.org/Review">
+                <span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                  <meta itemprop="worstRating" content = "0"/>
+                  <meta itemprop="ratingValue" content="{{ .Params.stars }}" />
+                  <meta itemprop="bestRating" content="5" />
+                </span>
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                  <meta itemprop="name" content="{{ .Params.author }}" />
+                </span>
+              </span>
+            </p>
+            <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank" class="btn btn-default"><span class="buy-button">BUY</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+  <section id="{{ lower .Title | urlize }}" class="content-section">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+          {{ .Content }}
+          <p>
+            {{ if gt .WordCount 2 }}
+              <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank" class="btn btn-default"><span class="buy-button">BUY</span></a>
+            {{ end }}
+          </p>
+          <p class="post-meta">
+            <a href="/bookshelf/"><i class="fa fa-archive">&nbsp;</i>Bookshelf</a>
+            <br />
+            {{ range .Params.tag }}
+              <a href="/tag/{{ lower . | urlize }}/"><i class="fa fa-tag">&nbsp;</i>{{ . }}</a>&nbsp;&nbsp;
+            {{ end }}
+            <br />
+            Copyright &copy; Peter Y. Chuang {{ .Site.LastChange.Year }}
+          </p>
+        </div>
+        {{ partial "common/author.html" . }}
+        {{ partial "common/related.html" . }}
+        {{ partial "common/disqus.html" . }}
+        {{ partial "common/breadcrumbs.html" . }}
+      </div>
+    </div>
+  </section>
+{{ partial "common/footer.html" . }}

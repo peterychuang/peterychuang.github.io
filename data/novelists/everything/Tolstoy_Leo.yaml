@@ -1,0 +1,19 @@
+name: Leo Tolstoy
+bio: "Russian novelist, best known for his novels *War and Peace*, *Anna Karenina* and various essays."
+
+sources:
+  "Anna Karenina":
+    quotes:
+      "All happy families are alike; each unhappy family is unhappy in its own way":
+        comment: "This is the opening line of the novel; one of the most iconic opening lines in all of Literature."
+      "... he no longer knew where she ended and he began.":
+        comment: "Levin's marriage with Kitty has produced a blissful happiness inside him that he could no longer know what seperated him and Kitty. This is a beautiful quote about love."
+
+  "Patriotism and Government":
+    quotes:
+      "I have already several times expressed the thought that in our day the feeling of patriotism is an unnatural, irrational, and harmful feeling, and a cause of a great part of the ills from which mankind is suffering, and that, consequently, this feeling---should not be cultivated, as is now being done, but should, on the contrary, be suppressed and eradicated by all means available to rational men. Yet, strange to say---though it is undeniable that the universal armaments and destructive wars which are ruining the peoples result from that one feeling---all my arguments showing the backwardness, anachronism, and harmfulness of patriotism have been met, and are still met, either by silence, by intentional misinterpretation, or by a strange unvarying reply to the effect that only bad patriotism (Jingoism or Chauvinism) is evil, but that real good patriotism is a very elevated moral feeling, to condemn which is not only irrational but wicked.":
+        comment: "
+        In this essay, Tolstoy reasoned against patriotism, which hasn't gone away more than a hundred years after he wrote the essay, and which continues to do harm to the world in ways Tolstoy observed from his own days.
+
+
+        Indeed, the rise of right-wing conservativism around the world now suggests that we shouldn't ignore Tolstoy's warning at all."

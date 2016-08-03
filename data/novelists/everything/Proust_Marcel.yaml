@@ -1,0 +1,23 @@
+name: Marcel Proust
+bio: French Novelist best known for his 7-volume novel *In Search of Lost Time*.
+
+sources:
+  "In Search of Lost Time (Volume I): The Way by Swann's":
+    quotes:
+      "What I fault the newspapers for is that day after day they draw our attention to insignificant things whereas only three or four times in our lives do we read a book in which there is something really essential":
+        comment: "An astute observation of the fault of news media, which still holds incredible relevance a century later. In fact, it has become even more relevant today, as discussed [here](/essays/random-thoughts-on-marcel-proust-1/)."
+        credits: "p. 29 (Translation: Lydia Davis. Penguin Modern Classics)"
+  "In Search of Lost Time (Volume III): The Guermantes Way":
+    quotes:
+      "... the Princess [Parma]'s state of culture lagged enormously behind the times. Mme de Guermantes was herself a great deal less advanced than the Princess supposed. But it only needed her to be the tiniest bit more advanced than Mme de Parme to astound the latter...":
+        comment:
+        credits: "p. 467 (Translation: Mark Treharne. Penguin Modern Classics)"
+      "In love, it often happens that gratitude, the desires to give pleasure, causes us to be generous beyond the limits of what hope and self-interest had envisaged.":
+        comment:
+        credits: "p. 478 (Translation: Mark Treharne. Penguin Modern Classics)"
+
+  "In Search of Lost Time (Volume IV): Sodom and Gomorrah":
+    quotes:
+      "[L]ike all the people who are not in love, he imagined that we choose the person we love after endless deliberation and after taking account of various qualitiies and kinds of suitability":
+        comment:
+        credits: "p. 99 (Translation: John Sturrock. Penguin Modern Classics)"

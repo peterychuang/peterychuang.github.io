@@ -1,0 +1,40 @@
+{{ partial "common/head.html" . }}
+{{ partial "common/nav.html" . }}
+{{ partial "common/header.html" . }}
+  <section id="{{ lower .Title | urlize }}" class="content-section blog-index">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          {{ range (.Paginator 5).Pages }}
+            <h2>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+            <p>{{ .Description }}</p>
+            <p class="meta">
+              <a href="/tech/"><i class="fa fa-archive">&nbsp;</i>Tech</a>
+              &nbsp;&nbsp;
+              <i class="fa fa-calendar-o">&nbsp;</i>{{ .Date.Format "2006-01-02" }}
+            </p>
+          {{ end }}
+
+          <ul class="pager">
+            {{ if .Paginator.HasNext }}
+            <li class="next">
+              <span>
+                <a href="{{ replace .Paginator.Next.URL "/categories" "" }}">Older Posts</a>
+              </span>
+            </li>
+            {{ end }}
+            {{ if .Paginator.HasPrev }}
+            <li class="previous">
+              <span>
+                <a href="{{ replace .Paginator.Prev.URL "/categories" "" }}">Newer Posts</a>
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ partial "common/footer.html" . }}

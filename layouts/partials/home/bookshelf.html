@@ -1,0 +1,15 @@
+<section data-anchor="bookshelf" class="section bookshelf-section text-center">
+  <div class="cell">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h1 class="section-heading">Bookshelf</h1>
+          <p>Books I’ve read and loved (or not)</p>
+          {{ range first 10 (where .Site.Pages "Section" "bookshelf")}}<a href="{{ .RelPermalink }}" class="slide"><img class="book-list" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" /></a>{{ end }}
+          <p></p>
+          <p><a href="/bookshelf/" class="box">View all</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+{{ if .IsHome }}
+{{ else }}
+<footer data-anchor="footer" class="section footer-section text-center">
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p>
+          <a><span class="fa-stack"><i class="fa fa-share-alt"></i></span></a>
+					<a href="https://twitter.com/share?url={{ replace .Permalink "/categories" "" }}&text={{ .Title }}&via=peterychuang" title="Share on Twitter" target="_blank"><span class="fa-stack"><i class="fa fa-twitter"></i></span></a>
+					<a href="https://plus.google.com/share?url={{ replace .Permalink "/categories" "" }}" title="Share on Google+" target="_blank"><span class="fa-stack"><i class="fa fa-google-plus"></i></span></a>
+					<a href="http://reddit.com/submit?url={{ replace .Permalink "/categories" "" }}" title="Share on Reddit" target="_blank"><span class="fa-stack"><i class="fa fa-reddit-alien"></i></span></a>
+					<a href="http://www.facebook.com/sharer.php?url={{ replace .Permalink "/categories" "" }}" title="Share on Facebook" target="_blank"><span class="fa-stack"><i class="fa fa-facebook"></i></span></a>
+                </p>
+			</div>
+		</div>
+	</div>
+</footer>
+{{ end }}
+{{ partial "common/js.html" . }}
+	</body>
+</html>

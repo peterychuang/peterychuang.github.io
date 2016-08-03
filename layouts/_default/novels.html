@@ -1,0 +1,18 @@
+{{ partial "common/head.html" . }}
+{{ partial "common/nav.html" . }}
+{{ partial "common/header.html" . }}
+  <section id="{{ lower .Title | urlize }}" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          {{ .Content }}
+          <p class="post-meta">
+          Copyright &copy; Peter Y. Chuang {{ .Site.LastChange.Year }}
+          </p>
+        </div>
+        {{ partial "common/author.html" . }}
+        {{ partial "common/breadcrumbs.html" . }}
+      </div>
+    </div>
+  </section>
+{{ partial "common/footer.html" . }}

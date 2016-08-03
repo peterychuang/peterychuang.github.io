@@ -1,0 +1,36 @@
+<!-- Meta Description -->
+  {{ if .IsHome }}
+    <meta name="description" content="{{ .Site.Params.description | markdownify }}" />
+  {{ else if eq .URL "404.html" }}
+    <meta name="description" content="{{ .Title | markdownify}}" />
+  {{ else if eq .Title "Blog" }}
+    <meta name="description" content="Latest short stories, poems, essays, and more" />
+  {{ else if eq .Title "Bookshelf" }}
+    <meta name="description" content="Books reviews and recommendations" />
+  {{ else if eq .Title "Tech" }}
+    <meta name="description" content="{{ "Linux stuff and other musings about tech and web design" | markdownify }}" />
+  {{ else if eq .Data.Singular "tag" }}
+    <meta name="description" content="All posts tagged “{{ .Title | markdownify}}”" />
+  {{ else if eq .Data.Singular "category" }}
+    {{ $cat_name := .Title }}
+    {{ range .Site.Data.cat }}
+      {{ if eq $cat_name .name }}
+        <meta name="description" content="{{ .seo_description | markdownify }}" />
+      {{ end }}
+    {{ end }}
+  {{ else if .IsPage }}
+    {{ if eq .Layout "tag-list" }}
+      <meta name="description" content="A list of all tags" />
+    {{ else }}
+      {{ if .Params.seo_description }}
+        <meta name="description" content="{{ .Params.seo_description | markdownify }}" />
+      {{ else }}
+        <meta name="description" content="{{ .Description | markdownify }}" />
+      {{ end }}
+
+<!-- Meta keywords -->
+      {{ if .Params.tag }}
+        <meta name="keywords" content="{{ range .Params.tag }}{{ . }},{{ end }}" />
+      {{ end }}
+    {{ end }}
+  {{ end }}

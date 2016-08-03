@@ -1,0 +1,83 @@
+{{ if .Params.header.image }}
+    <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}">
+      <div class="full-image">
+        <div class="container fp-tableCell layer">
+  {{ else if eq .Title "Bookshelf" }}
+    <header class=" inner-header-section bookshelf-header-section text-center">
+      <div class="container fp-tableCell">
+  {{ else if eq .Title "Tech" }}
+    <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}code.jpg">
+      <div class="full-image">
+      <div class="container fp-tableCell layer">
+  {{ else if eq .Data.Singular "category" }}
+    {{ $cat_name := .Title }}
+    {{ $baseurl := .Site.BaseURL }}
+    {{ $assets := .Site.Params.Urlimg }}
+    {{ range .Site.Data.cat }}
+      {{ if eq $cat_name .name }}
+        <header class="inner-header-section text-center blur-image" data-src="/{{ $assets }}{{ .image }}" >
+          <div class="full-image">
+          <div class="container fp-tableCell layer">
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}short-stories.jpg">
+      <div class="full-image">
+      <div class="container fp-tableCell layer">
+  {{ end }}
+        <div class="col-md-8 col-md-offset-2">
+          {{ if eq .URL "404.html" }}
+          <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
+          {{ else if eq .Title "Blog" }}
+          <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
+          {{ else if eq .Data.Singular "tag" }}
+          <h1 class="brand-heading">All posts tagged “{{ .Title | markdownify }}”</h1>
+          {{ else if eq .Data.Singular "category" }}
+            {{ $cat_name := .Title }}
+            {{ range .Site.Data.cat }}
+              {{ if eq $cat_name .name }}
+                <h1 class="brand-heading">{{ .long_title | markdownify }}</h1>
+              {{ end }}
+            {{ end }}
+          {{ else }}
+          <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
+          {{ end }}
+          {{ if .Description }}
+            <hr class="small">
+            <p><span class="subheading">{{ .Description | markdownify }}</span></p>
+          {{ else if eq .Title "Blog" }}
+            <hr class="small">
+            <p><span class="subheading">{{ "Latest short stories, poems, essays, and more" | markdownify }}</span></p>
+          {{ else if eq .Title "Bookshelf" }}
+            <hr class="small">
+            <p><span class="subheading">{{ "Books I've read and loved (or not)" | markdownify }}</span></p>
+          {{ else if eq .Data.Singular "category" }}
+            {{ $cat_name := .Title }}
+            {{ range .Site.Data.cat }}
+              {{ if eq $cat_name .name }}
+                <hr class="small">
+                <p><span class="subheading">{{ .description }}</span></p>
+              {{ end }}
+            {{ end }}
+          {{ else if eq .Title "Tech" }}
+            <hr class="small">
+            <p><span class="subheading">{{ "Linux stuff and other musings about tech and web design" | markdownify }}</span></p>
+          {{ else }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </header>
+  {{ if .Params.header.caption_url }}
+  <figure>
+    <figcaption class="text-right">
+      <a href="{{ .Params.header.caption_url }}">{{ .Params.header.caption | markdownify }}</a>
+    </figcaption>
+  </figure>
+  {{ else if .Params.header.caption }}
+  <figure>
+    <figcaption class="text-right">
+      {{ .Params.header.caption | markdownify }}
+    </figcaption>
+  </figure>
+  {{ end }}

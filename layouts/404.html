@@ -1,0 +1,24 @@
+{{ partial "common/head.html" . }}
+  {{ partial "common/nav.html" . }}
+  <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}short-stories.jpg">
+    <div class="full-image">
+      <div class="container fp-tableCell layer">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="brand-heading">Oops! Nothing here...</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="{{ lower .Title | urlize }}" class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h3>Maybe the webpage was moved or deleted; or did you maybe mistype the link?</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ partial "common/footer.html" . }}

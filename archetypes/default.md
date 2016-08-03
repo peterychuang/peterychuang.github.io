@@ -1,0 +1,19 @@
+---
+categories:
+-
+date:
+description:
+seo_description:
+header:
+    caption:
+    caption_url:
+    image:
+tag:
+-
+title:
+url:
+draft: true
+layout:
+aliases:
+youtube_id:
+---

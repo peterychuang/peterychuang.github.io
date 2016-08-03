@@ -1,0 +1,34 @@
+        <div class="col-lg-8 col-lg-offset-2">
+          <ol vocab="http://schema.org/" typeof="BreadcrumbList" class="breadcrumb">
+            <li property="itemListElement" typeof="ListItem">
+              <a property="item" typeof="WebPage" href="/">
+                <span property="name">Home</span>
+              </a>
+              <meta property="position" content="1">
+            </li>
+            <li property="itemListElement" typeof="ListItem">
+              {{ if .Params.categories }}
+                {{ range .Params.categories }}
+                  <a property="item" typeof="WebPage" href="/{{ lower . | urlize }}/">
+                    <span property="name">{{ . | markdownify }}</span>
+                  </a>
+                {{ end }}
+              {{ else if eq .Layout "novels"}}
+                <a property="item" typeof="WebPage" href="/novels/">
+                    <span property="name">Novels</span>
+                </a>
+              {{ else if eq .Layout "bookshelf"}}
+                <a property="item" typeof="WebPage" href="/bookshelf/">
+                    <span property="name">Bookshelf</span>
+                </a>
+              {{ end }}
+              <meta property="position" content="2">
+            </li>
+            <li property="itemListElement" typeof="ListItem">
+              <a property="item" typeof="WebPage" href="{{ .RelPermalink }}">
+                <span property="name">{{ .Title | markdownify }}</span>
+              </a>
+              <meta property="position" content="3">
+            </li>
+          </ol>
+        </div>

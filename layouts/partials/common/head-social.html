@@ -1,0 +1,96 @@
+<!-- Open Graph Type -->
+  {{ if .IsHome }}
+    <meta name="og:type" content="website" />
+  {{ else if eq .URL "404.html" }}
+    <meta name="og:type" content="article" />
+  {{ else if .IsNode }}
+    <meta name="og:type" content="website" />
+  {{ else if .IsPage }}
+    {{ if eq .Layout "tag-list" }}
+      <meta name="og:type" content="website" />
+    {{ else if eq .Layout "novels" }}
+      <meta name="og:type" content="books.book" />
+    {{ else if eq .Layout "bookshelf" }}
+      <meta name="og:type" content="books.book" />
+      <meta property="books:isbn" content="{{ .Params.isbn }}" />
+      <meta property="books:rating:value" content="{{ .Params.stars }}" />
+      <meta property="books:rating:scale" content="5" />
+      <meta property="books:author" content="{{ .Params.writer }}" />
+    {{ else }}
+      <meta name="og:type" content="article" />
+    {{ end }}
+  {{ end }}
+
+<!-- Open Graph Title -->
+  {{ if eq .Data.Singular "category" }}
+    {{ $cat_name := .Title }}
+    {{ $site_name := .Site.Title }}
+    {{ range .Site.Data.cat }}
+      {{ if eq $cat_name .name }}
+        <meta name="og:title" content="{{ .long_title | markdownify }} | {{ $site_name | markdownify }}" />
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <meta name="og:title" content="{{ .Title | markdownify}} | {{ .Site.Title | markdownify }}" />
+  {{ end }}
+
+<!-- Open Graph URL -->
+  {{ if eq .URL "404.html" }}
+    <!-- Do Nothing -->
+  {{ else }}
+    <meta name="og:url" content="{{ replace .Permalink "/categories" "" }}" />
+  {{ end }}
+
+<!-- Open Graph Image -->
+  {{ if .IsHome }}
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}screenshot.png" />
+  {{ else if eq .Title "Tech" }}
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}code.jpg" />
+  {{ else if .Params.header.image_fullwidth }}
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.header.image_fullwidth }}" />
+  {{ else if .Params.cover }}
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" />
+  {{ else if eq .Data.Singular "category" }}
+    {{ $cat_name := .Title }}
+    {{ $assets := .Site.Params.Urlimg }}
+    {{ range .Site.Data.cat }}
+      {{ if eq $cat_name .name }}
+        <meta name="og:image" content="/{{ $assets }}{{ .image }}" />
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}short-stories.jpg" />
+  {{ end }}
+
+<!-- Open Graph Description -->
+  {{ if .IsHome }}
+    <meta name="og:description" content="{{ .Site.Params.description | markdownify }}" />
+  {{ else if eq .URL "404.html" }}
+    <meta name="og:description" content="{{ .Title | markdownify }}" />
+  {{ else if eq .Title "Blog" }}
+    <meta name="og:description" content="Latest short stories, poems, essays, and more" />
+  {{ else if eq .Title "Bookshelf" }}
+    <meta name="og:description" content="Books reviews and recommendations" />
+  {{ else if eq .Data.Singular "tag" }}
+    <meta name="og:description" content="All posts tagged “{{ .Title | markdownify }}”" />
+  {{ else if eq .Data.Singular "category" }}
+    {{ $cat_name := .Title }}
+    {{ range .Site.Data.cat }}
+      {{ if eq $cat_name .name }}
+        <meta name="og:description" content="{{ .seo_description | markdownify }}" />
+      {{ end }}
+    {{ end }}
+  {{ else if .IsPage }}
+    {{ if eq .Layout "tag-list" }}
+      <meta name="og:description" content="A list of all tags" />
+    {{ else }}
+      <meta name="og:description" content="{{ .Description | markdownify }}" />
+    {{ end }}
+  {{ end }}
+
+<!-- Open Graph Site Name -->
+  <meta name="og:site_name" content="{{ .Site.Title | markdownify }}" />
+
+<!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@peterychuang" />
