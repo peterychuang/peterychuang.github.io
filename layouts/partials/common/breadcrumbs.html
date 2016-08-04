@@ -21,6 +21,10 @@
                 <a property="item" typeof="WebPage" href="/bookshelf/">
                     <span property="name">Bookshelf</span>
                 </a>
+              {{ else if eq .Section "tech"}}
+                  <a property="item" typeof="WebPage" href="/tech/">
+                      <span property="name">Tech</span>
+                  </a>
               {{ end }}
               <meta property="position" content="2">
             </li>
