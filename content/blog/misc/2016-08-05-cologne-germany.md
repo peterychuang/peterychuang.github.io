@@ -1,7 +1,7 @@
 ---
 categories:
 - Misc
-date: 2016-07-21T16:01:51-04:00
+date: 2016-08-05T17:11:51-04:00
 description: "My belated attempt at writing a travelogue of sorts"
 header:
   caption: ""
