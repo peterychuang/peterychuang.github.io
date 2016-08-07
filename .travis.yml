@@ -1,0 +1,37 @@
+language: go
+
+env:
+  global:
+  - SSH_KEY="publish-key"
+  - ENCRYPTION_LABEL="fb3a77764d15"
+  - GIT_NAME="Peter Y. Chuang"
+  - GIT_EMAIL="peteryuchuang@gmail.com"
+  - SOURCE_DIR="public"
+  - DEPLOY_BRANCH="source"
+
+sudo: required
+
+install: go get -v github.com/spf13/hugo
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_fb3a77764d15_key -iv $encrypted_fb3a77764d15_iv -in publish-key.enc -out publish-key -d
+- sudo apt-get -qq update
+- sudo apt-get install python-pygments
+
+before_script:
+- npm install -g gulp
+- npm install gulp
+- npm install gulp-htmlmin
+- npm install gulp-base64
+
+script:
+- hugo
+- gulp deploy
+- echo novelist.xyz > ./public/CNAME
+- touch ./public/.nojekyll
+- sh ./deploy.sh
+
+# safelist
+branches:
+  only:
+  - source

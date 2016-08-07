@@ -3,7 +3,7 @@ baseurl: "https://novelist.xyz/"
 disablePathToLower: true
 languageCode: en-gb
 title: "Peter Y. Chuang - Novelist, Short Story Writer"
-publishdir: ../_output/hugo-stage-1/
+publishdir: ./_output/hugo-stage-1/
 pluralizelisttitles: "false"
 footnoteReturnLinkContents: "^"
 
