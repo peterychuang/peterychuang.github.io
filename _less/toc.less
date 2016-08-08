@@ -1,0 +1,24 @@
+.toc {
+  padding: (@line-height-computed / 2) @line-height-computed;
+  margin: 0 0 @line-height-computed;
+  border-left: 5px solid @blockquote-border-color;
+
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  ul ul {
+    padding-left: 2em;
+    font-style: italic;
+    font-weight: 700;
+
+    @media (max-width: @grid-float-breakpoint-max) {
+    }
+  }
+}
+
+h4.book-name {
+  font-style: italic;
+}
