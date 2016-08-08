@@ -15,6 +15,12 @@ taxonomies:
   tag: "tag"
   category: "categories"
 
+ignoreFiles:
+  - /_output
+  - /_public
+  - /_img
+  - /_less
+
 MetaDataFormat: "yaml"
 pygmentsuseclasses: true
 
