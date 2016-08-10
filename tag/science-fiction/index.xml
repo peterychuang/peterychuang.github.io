@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science Fiction on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/science-fiction/</link>
+    <description>Recent content in Science Fiction on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 12 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://novelist.xyz/tag/science-fiction/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to blow up the world</title>
+      <link>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</guid>
+      <description>Two disgruntled human beings took revenge on the world</description>
+    </item>
+    
+    <item>
+      <title>The Last Living Soul</title>
+      <link>https://novelist.xyz/short-stories/the-last-living-soul/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-last-living-soul/</guid>
+      <description>You are the last hope for humanity</description>
+    </item>
+    
+  </channel>
+</rss>

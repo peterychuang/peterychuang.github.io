@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experience on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/experience/</link>
+    <description>Recent content in Experience on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 31 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://novelist.xyz/tag/experience/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I became a full-time Linux user</title>
+      <link>https://novelist.xyz/tech/my-linux-journey/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
+      <description>How I switch from a Windows user to a full-time Linux user with no regret</description>
+    </item>
+    
+  </channel>
+</rss>

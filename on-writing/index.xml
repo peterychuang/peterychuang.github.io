@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>On Writing on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/on-writing/</link>
+    <description>Recent content in On Writing on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 23 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://novelist.xyz/categories/on-writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to write novels</title>
+      <link>https://novelist.xyz/on-writing/how-to-write-novels/</link>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/on-writing/how-to-write-novels/</guid>
+      <description>There is no single way to write a long narrative work. This is how I go about writing them.</description>
+    </item>
+    
+  </channel>
+</rss>
