@@ -3,22 +3,49 @@ language: go
 env:
   global:
   - SSH_KEY="publish-key"
-  - ENCRYPTION_LABEL="fb3a77764d15"
+  - ENCRYPTION_LABEL="6419d2ebf1a7"
   - GIT_NAME="Peter Y. Chuang"
   - GIT_EMAIL="peteryuchuang@gmail.com"
   - SOURCE_DIR="public"
   - DEPLOY_BRANCH="source"
 
-sudo: required
+branches:
+  only:
+  - source
 
+cache:
+  directories:
+  - "$HOME/gopath/src/github.com/bep"
+  - "$HOME/gopath/src/github.com/BurntSushi"
+  - "$HOME/gopath/src/github.com/cpuguy83"
+  - "$HOME/gopath/src/github.com/dchest"
+  - "$HOME/gopath/src/github.com/eknkc"
+  - "$HOME/gopath/src/github.com/fsnotify"
+  - "$HOME/gopath/src/github.com/gorilla"
+  - "$HOME/gopath/src/github.com/hashicorp"
+  - "$HOME/gopath/src/github.com/kardianos"
+  - "$HOME/gopath/src/github.com/kr"
+  - "$HOME/gopath/src/github.com/kyokomi"
+  - "$HOME/gopath/src/github.com/magiconair"
+  - "$HOME/gopath/src/github.com/miekg"
+  - "$HOME/gopath/src/github.com/mitchellh"
+  - "$HOME/gopath/src/github.com/pkg"
+  - "$HOME/gopath/src/github.com/PuerkitoBio"
+  - "$HOME/gopath/src/github.com/russross"
+  - "$HOME/gopath/src/github.com/shurcooL"
+  - "$HOME/gopath/src/github.com/spf13"
+  - "$HOME/gopath/src/github.com/yosssi"
+  - "$HOME/gopath/src/golang.org"
+  - "$HOME/gopath/src/gopkg.in"
+  - "$HOME/gopath/pkg/"
+  - "$HOME/gopath/bin/"
 install: go get -v github.com/spf13/hugo
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_fb3a77764d15_key -iv $encrypted_fb3a77764d15_iv -in publish-key.enc -out publish-key -d
-- sudo apt-get -qq update
-- sudo apt-get install python-pygments
-
+- openssl aes-256-cbc -K $encrypted_6419d2ebf1a7_key -iv $encrypted_6419d2ebf1a7_iv
+  -in publish-key.enc -out publish-key -d
 before_script:
+- pip install --user pygments
 - npm install -g gulp
 - npm install gulp
 - npm install gulp-htmlmin
@@ -29,9 +56,11 @@ script:
 - gulp deploy
 - echo novelist.xyz > ./public/CNAME
 - touch ./public/.nojekyll
+- echo -e "general:\n  branches:\n    ignore:\n      - master" > ./public/circle.yml
 - sh ./deploy.sh
 
-# safelist
-branches:
-  only:
-  - source
+notifications:
+  slack:
+    secure: flHMkCq6/MQMInsXnjsLEnGCRNHNfldPnVwBNcQE68dzD1cgdOGCFQfsSgfa0fk3GozP2y0zdbDvKUsKhkswynpBErDuozjs/nOFRzzikF0Feyh40edfbeuR+teKRT6+dWNRm0fT8EVUE/x/N+20S7I0WjjleN6rhFsxtF3V3AXZ73CqUXfgpyxZyhwJhxCXne1r5G6hdjDN+excHzMfgafBJnYCA/II1n/Uus0TjqxATM4z8yzh596YJLAtP8tRGd+dl8pmfHR9Qag4e998rgau6HHf/f2IihrrL8U7/KGMr0HMlksKzc+ZBZoJUMQE3L5YGEfiSdt90Bker8ZX0Od7aIc5EID1NsIX/oBj038E5w53pDQzv0Ht8yR20TRMr8AK7eBvFZhutGgcIRr/2sZyYaJlI+0PAPSxZo5TaR23r5j5t+heiFvFF2JzWX2bGBISGN42iY31WNjZBQzDlEjCk/0/q+ehSjtkruf7aHf3xZIfUpEpVjhwK/c6fymvf5zO1OBlKbjgeVv6eAS/nxqTFqhE1hpU7UAzmTNFYZgLubn6jY8e7KxSF2g/4yMZEzGnFqGyDp45eH9CzJA9qNleHFTADLHAsGjIkhqghehDfp7BXuY7wvg/jgkCabvFzKnXWtfjO/6tcbb8zcWgTpLAGIH/2TbhojHIfQTwcGg=
+  on_success: always
+  on_failure: always
