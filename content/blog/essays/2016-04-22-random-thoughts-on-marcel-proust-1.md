@@ -10,7 +10,7 @@ aliases: null
 tag:
 - Marcel Proust
 - Fiction
-- Facebook
+- Social Media
 - Journalism
 title: 'On reading Marcel Proust: Part 1'
 type: post

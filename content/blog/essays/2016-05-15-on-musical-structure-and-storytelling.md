@@ -11,8 +11,6 @@ tag:
 - Music
 - Art
 - Fiction
-- Chopin
-- Symphony
 title: On musical structure and storytelling
 type: post
 url: /essays/on-musical-structure-and-storytelling/

@@ -6,7 +6,6 @@ description: In the memory of the neighbour I barely knew
 header:
   image: cemetary.jpg
 tag:
-- Life
 - Death
 - Hong Kong
 - City

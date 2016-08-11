@@ -7,8 +7,7 @@ header:
   image: "code.jpg"
 tag:
 - Hugo
-- Web
-- Web Design
+- Web Development
 - Static Site
 title: How to customise categories and tags URLs in Hugo
 type: post

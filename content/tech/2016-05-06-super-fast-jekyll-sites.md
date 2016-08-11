@@ -7,8 +7,7 @@ header:
 tag:
 - Jekyll
 - Github
-- Web
-- Web Design
+- Web Development
 - Static Site
 title: How to create a super-fast Jekyll site
 type: post
@@ -167,4 +166,3 @@ This is the result on [webpagetest.org](http://www.webpagetest.org)
 <img src="/assets/img/webpagetest.jpg" style="width:100%">
 
 If you want to view the source code for my website, please visit my [Github repository](https://github.com/peterychuang/peterychuang.github.io/tree/source)
-

@@ -10,7 +10,6 @@ layout: null
 seo_description: null
 tag:
 - Github
-- Firebase
 - Hugo
 - Static Site
 title: From Github Pages to Firebase, then to a VPS

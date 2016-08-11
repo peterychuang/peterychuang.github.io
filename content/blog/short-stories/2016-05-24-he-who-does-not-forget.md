@@ -11,7 +11,6 @@ header:
   image: clock.jpg
 tag:
 - Fiction
-- Life
 - Death
 - Loss
 - Memory

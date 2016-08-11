@@ -10,8 +10,7 @@ header:
 tag:
 - Hugo
 - Static Site
-- Web
-- Web Design
+- Web Development
 title: "How to use Data Files in Hugo: an example"
 type: post
 url: /tech/hugo-data-files/

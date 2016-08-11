@@ -11,7 +11,6 @@ header:
 tag:
 - Psychology
 - Personality
-- Life
 title: On being yourself
 type: post
 url: /essays/on-being-yourself/

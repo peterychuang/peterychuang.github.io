@@ -10,7 +10,6 @@ tag:
 - Fiction
 - Science Fiction
 - Crime
-- Life
 - Short Stories
 title: How to blow up the world
 type: post

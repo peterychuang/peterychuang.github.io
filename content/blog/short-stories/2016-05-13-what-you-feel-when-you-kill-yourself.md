@@ -10,7 +10,6 @@ header:
 tag:
 - Fiction
 - Love
-- Life
 - Death
 - Adultery
 - Short Stories

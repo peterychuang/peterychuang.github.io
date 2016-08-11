@@ -9,8 +9,7 @@ tag:
 - Jekyll
 - Hugo
 - Static Site
-- Web
-- Web Design
+- Web Development
 title: 'Hugo vs. Jekyll: a showdown of static site generator'
 type: post
 seo_title: "Hugo vs. Jekyll: which static site generator should you choose?"

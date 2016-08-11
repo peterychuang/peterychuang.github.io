@@ -10,8 +10,7 @@ layout: null
 seo_description: Improve user experience in loading large image by first serving a blurred image before loading of the full-sized picture is complete
 seo_title: Progressive image loading, starting with a blurred one
 tag:
-- Web
-- Web Design
+- Web Development
 - Static Site
 title: "Progressive and blurry image loading"
 url: /tech/progressive-background-image-loading/

@@ -5,8 +5,6 @@ header:
   image: linux-header.jpg
 tag:
 - Linux
-- Computing
-- Experience
 - Arch Linux
 title: How I became a full-time Linux user
 type: post
@@ -25,6 +23,3 @@ The switch from being a Windows user to being a Linux-only user wasn’t well-pl
 <em>[Read the rest of the story on Medium][1]</em>
 
 [1]: //medium.com/@peterychuang/from-windows-to-linux-how-i-became-a-full-time-linux-user-f14f5bc28726
-
-
-

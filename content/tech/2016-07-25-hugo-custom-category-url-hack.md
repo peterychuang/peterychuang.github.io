@@ -10,8 +10,7 @@ layout: null
 seo_description: How to customise the URLs of taxonomies pages on Hugo with an advanced hack and some automation
 tag:
 - Hugo
-- Web
-- Web Design
+- Web Development
 - Static Site
 title: Customising categories URLs in Hugo revisited
 url: /tech/advanced-custom-urls-for-category-pages-in-hugo/

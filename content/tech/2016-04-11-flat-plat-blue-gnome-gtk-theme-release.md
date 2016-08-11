@@ -6,8 +6,6 @@ header:
 tag:
 - Linux
 - Gnome-shell
-- Gtk
-- Theme
 title: 'Flat-Plat-Blue: A Gnome/GTK Theme'
 type: post
 url: /tech/flat-plat-blue-gnome-gtk-theme-release/
@@ -56,5 +54,3 @@ sudo cp -r path/to/Flat-Plat-Blue /usr/share/themes
 [2]: //github.com/peterychuang/Flat-Plat-Blue/releases/download/20160411/Flat-Plat-Blue-20160411.tar.gz
 [3]: //github.com/nana-4/Flat-Plat
 [4]: //github.com/nana-4/Flat-Plat/issues/19
-
-

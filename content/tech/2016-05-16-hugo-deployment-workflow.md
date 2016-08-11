@@ -11,8 +11,7 @@ header:
 tag:
 - Hugo
 - Static Site
-- Web
-- Web Design
+- Web Development
 - Github
 title: How I deploy my Hugo site to my webserver
 type: post

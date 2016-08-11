@@ -8,8 +8,7 @@ header:
 tag:
 - Jekyll
 - Github
-- Web
-- Web Design
+- Web Development
 - Static Site
 title: 'Jekyll: a static site generator'
 type: post

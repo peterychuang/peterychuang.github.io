@@ -11,7 +11,6 @@ tag:
 - Fiction
 - Science Fiction
 - Dystopia
-- Humanity
 - Short Stories
 title: The Last Living Soul
 type: post

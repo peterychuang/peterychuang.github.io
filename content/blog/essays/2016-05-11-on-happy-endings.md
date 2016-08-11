@@ -10,8 +10,6 @@ header:
   image: shape.jpg
 tag:
 - Fiction
-- Writing
-- Monomyth
 - Drama
 - Screenwriting
 - Music

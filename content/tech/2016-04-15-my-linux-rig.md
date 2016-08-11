@@ -5,7 +5,6 @@ header:
   image: linux-header.jpg
 tag:
 - Linux
-- Computing
 - Arch Linux
 title: My Linux Rig
 type: post

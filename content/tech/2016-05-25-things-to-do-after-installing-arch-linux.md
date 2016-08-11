@@ -9,7 +9,6 @@ header:
 seo_description: Default Arch Linux installation is minimal. Here are a few recommendations on how to make your Arch Linux installation a joy to use.
 tag:
 - Linux
-- Computing
 - Arch Linux
 title: Ten things you need to do after installing Arch Linux
 type: post
