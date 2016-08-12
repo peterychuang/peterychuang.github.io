@@ -14,7 +14,6 @@ tag:
 - Dystopia
 - Short Stories
 title: The Gang Leader
-type: post
 url: /short-stories/the-gang-leader/
 ---
 

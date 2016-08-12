@@ -16,7 +16,6 @@ tag:
 - Germany
 - City
 title: "My memories of Munich, Germany"
-type: post
 url: /misc/munich-germany/
 youtube_id: null
 ---

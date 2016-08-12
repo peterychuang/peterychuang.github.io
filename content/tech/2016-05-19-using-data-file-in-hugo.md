@@ -12,7 +12,6 @@ tag:
 - Static Site
 - Web Development
 title: "How to use Data Files in Hugo: an example"
-type: post
 url: /tech/hugo-data-files/
 ---
 

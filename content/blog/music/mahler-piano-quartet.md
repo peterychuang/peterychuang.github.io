@@ -13,7 +13,6 @@ tag:
 - Music
 - Gustav Mahler
 title: "Gustav Mahler: Piano Quartet"
-type: post
 url: /music/mahler-piano-quartet/
 youtube_id: hzO2fPBxQTc
 ---

@@ -12,7 +12,6 @@ tag:
 - Music
 - Short Stories
 title: The Forgotten Music
-type: post
 url: /short-stories/forgotten-music/
 ---
 

@@ -14,7 +14,6 @@ tag:
 - Music
 - Art
 title: On happy endings
-type: post
 url: /essays/on-happy-endings/
 ---
 

@@ -9,7 +9,6 @@ tag:
 - Love
 - Loss
 title: You are the antidote to my pain
-type: post
 url: /poetry/you-antidote-pain-love/
 ---
 

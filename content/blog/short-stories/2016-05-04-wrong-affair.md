@@ -11,7 +11,6 @@ tag:
 - Hong Kong
 - Short Stories
 title: A Wrong Affair
-type: post
 url: /short-stories/wrong-affair/
 ---
 

@@ -10,7 +10,6 @@ tag:
 - Politics
 - Democracy
 title: Under the umbrella
-type: post
 url: /essays/under-the-umbrella/
 ---
 

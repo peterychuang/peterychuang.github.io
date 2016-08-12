@@ -12,7 +12,6 @@ tag:
 - Social Media
 - Journalism
 title: 'On reading Marcel Proust: Part 1'
-type: post
 url: /essays/random-thoughts-on-marcel-proust-1/
 ---
 

@@ -11,7 +11,6 @@ tag:
 - Love
 - Loss
 title: I waited for your call
-type: post
 url: /poetry/i-waited-for-your-call/
 ---
 

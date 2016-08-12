@@ -12,7 +12,6 @@ tag:
 - Dystopia
 - Short Stories
 title: The Last Living Soul
-type: post
 url: /short-stories/the-last-living-soul/
 ---
 

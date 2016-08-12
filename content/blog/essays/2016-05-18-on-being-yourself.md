@@ -11,7 +11,6 @@ tag:
 - Psychology
 - Personality
 title: On being yourself
-type: post
 url: /essays/on-being-yourself/
 ---
 > And yet in our world everybody thinks of changing humanity, and nobody thinks of changing himself.

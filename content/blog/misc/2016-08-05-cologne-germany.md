@@ -14,7 +14,6 @@ tag:
 - City
 seo_description: "Köln, a city where the river Rhine runs through, is defined by its enormous cathedral"
 title: "My memories of Cologne, Germany"
-type: post
 url: /misc/cologne-germany/
 ---
 Cologne, or Köln, always makes me think of what Marcel Proust wrote about Combray in The Way by Swann’s:

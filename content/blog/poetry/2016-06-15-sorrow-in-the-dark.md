@@ -14,7 +14,6 @@ tag:
 - Love
 - Loss
 title: Sorrow in the Dark
-type: post
 url: /poetry/sorrow-in-the-dark/
 ---
 

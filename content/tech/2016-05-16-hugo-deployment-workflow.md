@@ -14,7 +14,6 @@ tag:
 - Web Development
 - Github
 title: How I deploy my Hugo site to my webserver
-type: post
 url: /tech/hugo-site-deployment-workflow/
 ---
 

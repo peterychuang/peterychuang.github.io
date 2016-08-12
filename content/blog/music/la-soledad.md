@@ -12,7 +12,6 @@ seo_description: null
 tag:
 - Music
 title: La Soledad
-type: post
 url: /music/la-soledad/
 youtube_id: BainzXorkEM
 ---

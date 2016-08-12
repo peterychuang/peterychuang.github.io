@@ -15,7 +15,6 @@ tag:
 - Memory
 - Short Stories
 title: He who does not forget
-type: post
 url: /short-stories/he-who-does-not-forget/
 ---
 

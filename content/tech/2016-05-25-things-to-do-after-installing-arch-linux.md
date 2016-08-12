@@ -11,7 +11,6 @@ tag:
 - Linux
 - Arch Linux
 title: Ten things you need to do after installing Arch Linux
-type: post
 url: /tech/things-to-do-after-installing-arch-linux/
 ---
 

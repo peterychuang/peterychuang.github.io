@@ -12,7 +12,6 @@ tag:
 - Loss
 - Poem
 title: My life did not go on
-type: post
 url: /poetry/my-life-did-not-go-on/
 ---
 After you left me,

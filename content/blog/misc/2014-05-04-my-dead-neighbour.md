@@ -9,7 +9,6 @@ tag:
 - Hong Kong
 - City
 title: My Dead Neighbour
-type: post
 url: /misc/my-dead-neighbour/
 ---
 

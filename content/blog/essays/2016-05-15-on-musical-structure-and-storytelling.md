@@ -11,7 +11,6 @@ tag:
 - Art
 - Fiction
 title: On musical structure and storytelling
-type: post
 url: /essays/on-musical-structure-and-storytelling/
 ---
 I've spent much of my early life trying to be a classical musician---a pianist, or a conductor, perhaps---before spending a lot of time thinking of becoming a writer and actually doing something about it. So it may sound strange to you, but I often think of fiction in musical terms. A novel is a symphony, while a short story is a short piano piece by Chopin.

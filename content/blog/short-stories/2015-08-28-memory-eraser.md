@@ -12,7 +12,6 @@ tag:
 - Memory
 - Short Stories
 title: Memory Eraser
-type: post
 url: /short-stories/memory-eraser/
 ---
 

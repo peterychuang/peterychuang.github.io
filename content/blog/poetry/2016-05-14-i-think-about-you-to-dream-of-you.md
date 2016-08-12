@@ -11,7 +11,6 @@ tag:
 - Love
 - Loss
 title: I think about you to dream of you
-type: post
 url: /poetry/i-think-about-you-to-dream-of-you/
 ---
 

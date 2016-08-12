@@ -13,7 +13,6 @@ tag:
 - Adultery
 - Short Stories
 title: What you feel when you kill yourself
-type: post
 url: /short-stories/what-you-feel-when-you-kill-yourself/
 ---
 I always wonder what you felt when you were in the process of killing yourself.

@@ -7,7 +7,6 @@ tag:
 - Linux
 - Arch Linux
 title: How I became a full-time Linux user
-type: post
 url: /tech/my-linux-journey/
 ---
 

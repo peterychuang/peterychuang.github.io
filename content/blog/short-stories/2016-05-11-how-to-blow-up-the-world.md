@@ -11,7 +11,6 @@ tag:
 - Crime
 - Short Stories
 title: How to blow up the world
-type: post
 url: /short-stories/how-to-take-revenge-on-the-world/
 ---
 

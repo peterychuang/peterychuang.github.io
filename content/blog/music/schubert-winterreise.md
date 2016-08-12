@@ -14,7 +14,6 @@ tag:
 - Franz Schubert
 - Winterreise
 title: "Franz Schubert: Winterreise"
-type: post
 url: /music/schubert-winterreise/
 youtube_id: tnuvs2w7ges
 ---

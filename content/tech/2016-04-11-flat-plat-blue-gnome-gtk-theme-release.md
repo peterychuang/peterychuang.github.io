@@ -7,7 +7,6 @@ tag:
 - Linux
 - Gnome-shell
 title: 'Flat-Plat-Blue: A Gnome/GTK Theme'
-type: post
 url: /tech/flat-plat-blue-gnome-gtk-theme-release/
 ---
 

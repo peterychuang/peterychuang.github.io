@@ -12,7 +12,6 @@ tag:
 - Fantasy
 - Short Stories
 title: A Swimmer From The Desert
-type: post
 url: /short-stories/a-swimmer-from-the-desert/
 ---
 

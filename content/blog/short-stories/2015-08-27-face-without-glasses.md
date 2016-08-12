@@ -12,7 +12,6 @@ tag:
 - Memory
 - Short Stories
 title: Face, Without Glasses
-type: post
 url: /short-stories/face-without-glasses/
 ---
 

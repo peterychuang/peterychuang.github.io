@@ -8,7 +8,6 @@ header:
 tag:
 - Writing
 title: How to write novels
-type: post
 url: /on-writing/how-to-write-novels/
 ---
 

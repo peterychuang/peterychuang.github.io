@@ -10,7 +10,6 @@ tag:
 - Love
 - Loss
 title: I was the lone passenger, until…
-type: post
 url: /poetry/lone-passenger/
 ---
 

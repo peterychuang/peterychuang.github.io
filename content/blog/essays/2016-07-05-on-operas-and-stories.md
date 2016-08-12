@@ -13,7 +13,6 @@ tag:
 - Fiction
 - Opera
 title: Operas and Their Absurd Stories
-type: post
 url: /essays/on-operas-and-storytelling/
 ---
 

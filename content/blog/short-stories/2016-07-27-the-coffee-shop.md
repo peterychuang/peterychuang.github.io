@@ -15,7 +15,6 @@ tag:
 - Love
 - Loss
 title: The Coffee Shop
-type: post
 url: /short-stories/the-coffee-shop/
 youtube_id: null
 ---

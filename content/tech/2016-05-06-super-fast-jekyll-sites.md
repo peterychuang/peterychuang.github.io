@@ -10,7 +10,6 @@ tag:
 - Web Development
 - Static Site
 title: How to create a super-fast Jekyll site
-type: post
 url: /tech/performant-jekyll-site-with-gulp-cloudflare/
 ---
 (***Update: this site now runs on [Hugo](/tech/hugo-vs-jekyll-static-site-generator/)***)

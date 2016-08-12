@@ -11,7 +11,6 @@ tag:
 - Static Site
 - Web Development
 title: 'Hugo vs. Jekyll: a showdown of static site generator'
-type: post
 seo_title: "Hugo vs. Jekyll: which static site generator should you choose?"
 url: /tech/hugo-vs-jekyll-static-site-generator/
 ---
@@ -24,11 +23,9 @@ url: /tech/hugo-vs-jekyll-static-site-generator/
 
 ### Jekyll is way too slow
 
-Jekyll is a good alternative to things like Wordpress, but it isn't without its own problem: [the loading speed of the compiled pages may be very fast](/tech/performant-jekyll-site-with-gulp-cloudflare/), but those pages take a long time to be built. At present, this website has just about 20 posts and pages, yet the entire website take about 3 seconds on my [XPS 13](/tech/my-linux-rig/) to build, and 2 seconds on my more powerful desktop, which is pretty bad. Worse still, the build time will grow exponentially with the size of the site: after some experimenting with dummy posts, I found that at about a thousand posts, the build time for my current setup would be counted not in seconds, but in minutes, **many minutes**; in fact, I lost patience and couldn't see it to the end.
+Jekyll is a good alternative to things like Wordpress, but it isn't without its own problem: [the loading speed of the compiled static pages may be very fast](/tech/performant-jekyll-site-with-gulp-cloudflare/) because they are static, but those pages take a long time to build. At present, this website has just about 20 posts and pages, yet the entire website take about 3 seconds on my [XPS 13](/tech/my-linux-rig/) to build, and 2 seconds on my more powerful desktop, which is pretty bad. Worse still, the build time seems to grow exponentially with the size of the site: after experimenting with dummy posts, I found that at about a thousand posts, the build time for my current setup would be counted not in seconds, but in minutes, **many minutes**; in fact, I lost patience and couldn't see it to the end.
 
-This particular problem with Jekyll is well reported, but there are limited things I can do to improve it. Jekyll is written in Ruby, which is not known for being fast, and the use of plugins worsens the situation. The slowness is acceptable in the short-run, but as I intend to grow this website, Jekyll isn't good for the long-term unless it gets a lot faster in the future. Imagine you are fixing one typo in a thousand-page Jekyll website, and you are going to wait for minutes to see the change goes live.
-
-In other words, for large site, the slow build time of Jekyll is a bottleneck in your workflow.
+This particular problem with Jekyll is quite well known, but there are limited things one can do about it. The slowness is acceptable in the short-run, but as I intend to grow this website, Jekyll isn't good enough for the long-term unless it gets a lot faster in the future.
 
 (Note: I don't find incremental build feature a useful solution as some pages that are supposed to be re-built aren't re-built consistently)
 
@@ -104,22 +101,22 @@ Another very useful feature of Hugo is the built-in livereload, which automatica
 
 #### Issues with Hugo
 
-~~But there are a few minor issues that prevent me from migrating at this moment~~.
+(*Updated on 12 August 2016*)
 
-For me, the biggest issue is that there is no straightforward way to change the URLs of category pages. My [short stories](/short-stories/), for instance, would be filed under ```/categories/short-stories/``` on Hugo instead of [```/short-stories/```](/short-stories/). It should be possible to change the ```/categories/``` bit into another word, but it is [not possible to remove it altogether](https://github.com/spf13/hugo/issues/1208). ~~Since I want to keep the URLs unchanged after switching, until I can find a clean way of doing this, switching to Hugo isn't feasible.~~ I've managed to find a dirty and clumsy way to [create category pages on any URLS of my choosing](/tech/custom-urls-for-category-pages-in-hugo/)), but this solution may not be ideal for everyone.
+After using Hugo for quite some time now, many of the problems I initially encountered have either been solved with some workarounds or some functions I didn't realise exist.
 
-There also seems to be [no straight-forward way to implement for loop in Hugo](https://halfelf.org/2015/looping-hugo/). As someone who's primarily a writer of words, not writer of codes, I confess that this has been a problem for me when I tried to limit the number of related posts to be displayed (there are some [dirty way of doing this](http://justindunham.net/blog-bells-and-whistles-in-hugo/), but I thought this should have been much simpler).
+One of the biggest problem I had is the lack of flexibility in setting URLs for taxonomies, such as categories and tags. For instance, there are no way to change ```/categories/short-stories/``` to [```/short-stories/```](/short-stories/), although it is possible to change from ```/categories/short-stories/``` to [```/something-else/short-stories/```](/short-stories/). Since then, I've written about two different ways to tackle this problem, the first of which produces [one single index page for each category](/tech/custom-urls-for-category-pages-in-hugo/), while the new one emulates the [default behaviour of Hugo](/tech/advanced-custom-urls-for-category-pages-in-hugo/) with the help of Gulp.
+
+Another missing feature is the ability to [show a fixed number of related posts](/tech/related-posts-in-hugo/) with ease, though I've discovered [a way to achieve](/tech/related-posts-in-hugo/) this without [resorting to using CSS to hide unwanted items](http://justindunham.net/blog-bells-and-whistles-in-hugo/). While not yet perfect, it serves my need well enough now.
+
+With the [incorporation of Travis CI into my workflow](/tech/hugo-site-deployment-workflow/), Hugo is now the perfect program for my need in this website.
 
 ### Hugo or Jekyll, which should you choose?
 
 The short answer to this question is, of course: it depends.
 
-Both would be great for small websites, such as one-pager sites or personal blogs with small number of pages and simple hierarchy. In that case, the slow build time of Jekyll isn't going to be a bottleneck in your workflow.
+Both would be great for small websites, such as one-pager sites or personal blogs with small number of pages and simple hierarchy. In that case, the slow build time of Jekyll isn't going to be too much of a problem or annoyance.
 
-Jekyll, while a lot slower than Hugo, is much more extensible by large number of plugins. As one of the oldest static site generator with active development, you can depend on its sizeable community for support. Note that using large number of plugins will put slow down build time even more.
+Jekyll, while a lot slower than Hugo, is much easily more extensible by plugins (note that, however, using large number of plugins can slow build time). As one of the oldest static site generator with active development, you can depend on its community for support.
 
-Hugo is a lot faster, making it suitable for people who already have large sites or expect their sites to grow large. The way Hugo works, however, limit the extensibilty, so you will have to rely on the developers to incorporate features inside Hugo. Despite its relative young age, Hugo has a lot of features already built-in, but if the features it lacks happen to be the ones you need most, you may want to wait, or contribute.
-
-~~For now, I am staying on Jekyll. But my problems may not be problems for you, and you should definitely check it out yourself.~~
-
-If you happen to have some good solutions for the problems I have with Hugo, I'd be grateful if you could drop me a comment below and point me to the right place.
+Hugo is a lot faster, making it suitable for people who already have large sites or expect their sites to grow large. While limited in extensibility by way of plugins, Hugo has a lot of built-in features that are likely more than enough for your need. However, if there are features that you need that Hugo doesn't have yet, then you may want to look elsewhere.

@@ -13,7 +13,6 @@ tag:
 - Web Development
 - Static Site
 title: "Progressive and blurry image loading"
-type: post
 url: /tech/progressive-background-image-loading/
 youtube_id: null
 ---

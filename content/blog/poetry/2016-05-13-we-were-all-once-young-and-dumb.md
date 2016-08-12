@@ -11,7 +11,6 @@ tag:
 - Love
 - Loss
 title: We were all once young and dumb
-type: post
 url: /poetry/we-were-all-once-young-and-dumb/
 ---
 I sat and thought about the distant past
