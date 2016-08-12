@@ -11,9 +11,8 @@
       <div class="container fp-tableCell layer">
   {{ else if eq .Data.Singular "category" }}
     {{ $cat_name := .Title }}
-    {{ $baseurl := .Site.BaseURL }}
     {{ $assets := .Site.Params.Urlimg }}
-    {{ range .Site.Data.cat }}
+    {{ range $.Site.Data.cat }}
       {{ if eq $cat_name .name }}
         <header class="inner-header-section text-center blur-image" data-src="/{{ $assets }}{{ .image }}" >
           <div class="full-image">
@@ -34,7 +33,7 @@
           <h1 class="brand-heading">All posts tagged “{{ .Title | markdownify }}”</h1>
           {{ else if eq .Data.Singular "category" }}
             {{ $cat_name := .Title }}
-            {{ range .Site.Data.cat }}
+            {{ range $.Site.Data.cat }}
               {{ if eq $cat_name .name }}
                 <h1 class="brand-heading">{{ .long_title | markdownify }}</h1>
               {{ end }}
@@ -53,7 +52,7 @@
             <p><span class="subheading">{{ "Books I've read and loved (or not)" | markdownify }}</span></p>
           {{ else if eq .Data.Singular "category" }}
             {{ $cat_name := .Title }}
-            {{ range .Site.Data.cat }}
+            {{ range $.Site.Data.cat }}
               {{ if eq $cat_name .name }}
                 <hr class="small">
                 <p><span class="subheading">{{ .description }}</span></p>

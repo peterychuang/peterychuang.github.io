@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Music
+categories: Music
 date: 2016-06-05T17:34:02-04:00
 description: The only chamber work by Gustav Mahler
 header:
@@ -14,6 +13,7 @@ tag:
 - Music
 - Gustav Mahler
 title: "Gustav Mahler: Piano Quartet"
+type: post
 url: /music/mahler-piano-quartet/
 youtube_id: hzO2fPBxQTc
 ---

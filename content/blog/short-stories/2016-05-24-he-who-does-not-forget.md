@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Short Stories
+categories: Short Stories
 date: 2016-05-24T13:00:43-04:00
 description: In his quest to forget the past, he gets more burden into his mind
 seo_description: "Andrew remembers everything and forgets nothing, which tortures him for his entire life, right up to his last second."

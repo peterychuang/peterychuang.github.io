@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2016-05-04T09:44:07Z
 description: Falling in love with the wrong person in the wrong city and at the wrong time
 header:

@@ -1,6 +1,5 @@
 ---
-categories:
-- Misc
+categories: Misc
 date: 2016-08-05T17:11:51-04:00
 description: "My belated attempt at writing a travelogue of sorts"
 header:
@@ -15,6 +14,7 @@ tag:
 - City
 seo_description: "Köln, a city where the river Rhine runs through, is defined by its enormous cathedral"
 title: "My memories of Cologne, Germany"
+type: post
 url: /misc/cologne-germany/
 ---
 Cologne, or Köln, always makes me think of what Marcel Proust wrote about Combray in The Way by Swann’s:

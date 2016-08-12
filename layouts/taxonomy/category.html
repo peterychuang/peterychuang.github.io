@@ -11,9 +11,7 @@
             </h2>
             <p>{{ .Description }}</p>
             <p class="meta">
-              {{ range .Params.categories }}
-                <a href="/{{ lower . | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ . }}</a>
-              {{ end }}
+              <a href="/{{ lower .Params.categories | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Params.categories }}</a>
               &nbsp;&nbsp;
               <i class="fa fa-calendar-o">&nbsp;</i>{{ .Date.Format "2006-01-02" }}
             </p>

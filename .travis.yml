@@ -46,7 +46,7 @@ before_install:
   -in publish-key.enc -out publish-key -d
 before_script:
 - pip install --user pygments
-- npm install -g gulp
+- npm install -g gulp-cli
 - npm install gulp
 - npm install gulp-htmlmin
 - npm install gulp-base64

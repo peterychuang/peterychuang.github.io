@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Poetry
+categories: Poetry
 date: 2016-06-15T05:48:23-04:00
 description: A sonnet
 header:
@@ -15,6 +14,7 @@ tag:
 - Love
 - Loss
 title: Sorrow in the Dark
+type: post
 url: /poetry/sorrow-in-the-dark/
 ---
 

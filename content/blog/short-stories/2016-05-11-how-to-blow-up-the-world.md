@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: "2016-05-12T00:00:00"
 description: "Two disgruntled human beings took revenge on the world"
 header:

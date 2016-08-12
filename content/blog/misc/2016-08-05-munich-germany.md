@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Misc
+categories: Misc
 date: 2016-08-05T17:10:31-04:00
 description: Remembering Munich, the capital of Bavaria
 header:
@@ -17,6 +16,7 @@ tag:
 - Germany
 - City
 title: "My memories of Munich, Germany"
+type: post
 url: /misc/munich-germany/
 youtube_id: null
 ---

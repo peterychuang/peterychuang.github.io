@@ -20,6 +20,7 @@ ignoreFiles:
   - /_public
   - /_img
   - /_less
+  - /.git
 
 MetaDataFormat: "yaml"
 pygmentsuseclasses: true

@@ -51,7 +51,7 @@
           {{ if eq .Title "Bookshelf" }}
             <i class="fa fa-bars"></i>
           {{ else if .IsPage }}
-            {{ if eq .Layout "bookshelf" }}
+            {{ if or ( eq .Layout "bookshelf" ) ( eq .Layout "music" ) }}
               <i class="fa fa-bars"></i>
             {{ else }}
               <i class="fa fa-bars fa-inverse"></i>

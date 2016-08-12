@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Short Stories
+categories: Short Stories
 date: 2016-07-27T17:34:49-04:00
 description: In a place where people come and go, he isn't sure if he wants to bump into her
 header:
@@ -16,6 +15,7 @@ tag:
 - Love
 - Loss
 title: The Coffee Shop
+type: post
 url: /short-stories/the-coffee-shop/
 youtube_id: null
 ---

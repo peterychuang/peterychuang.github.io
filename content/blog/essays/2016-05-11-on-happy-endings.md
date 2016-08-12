@@ -1,7 +1,6 @@
 ---
 author: peterychuang
-categories:
-- Essays
+categories: Essays
 comments: true
 date: 2016-05-11T03:28:59Z
 description: Real lives are boring and ambiguous

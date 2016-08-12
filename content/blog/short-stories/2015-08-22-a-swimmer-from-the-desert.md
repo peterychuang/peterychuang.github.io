@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2015-08-22T00:00:00Z
 description: "Can he swim?"
 header:

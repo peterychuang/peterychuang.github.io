@@ -1,16 +1,16 @@
 <div class="col-lg-8 col-lg-offset-2">
   <h4 class="relatedPost">You may also like...</h4>
   <ul class="relatedPost">
-    {{ $i := 0 }}
     {{ $page_link := .Permalink }}
-    {{ $tag := .Params.tag }}
-    {{ range where .Site.Pages.ByDate.Reverse "Type" "post" }}
+    {{ $tags := .Params.tag }}
+    {{ range .Site.Pages.ByDate.Reverse }}
       {{ $page := . }}
-      {{ $has_common_tag := intersect $tag .Params.tag | len | lt 0 }}
-      {{ if and $has_common_tag (ne $page_link $page.Permalink) ( lt $i 3) }}
+      {{ $has_common_tags := intersect $tags .Params.tag | len | lt 1 }}
+      {{ if and $has_common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$i") 3)}}
+        {{ $.Scratch.Add "$i" 1 }}
         <li class="relatedPost">
-          <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a><br />
-          {{ .Description }}
+          <a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a><br />
+          {{ .Description | markdownify }}
         </li>
       {{ end }}
     {{ end }}

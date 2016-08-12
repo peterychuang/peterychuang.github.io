@@ -12,9 +12,7 @@
             <p>{{ .Description }}</p>
             <p class="meta">
               {{ if .Params.categories }}
-                {{ range .Params.categories }}
-                  <a href="/{{ lower . | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ . }}</a>
-                {{ end }}
+                <a href="/{{ lower .Params.categories | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Params.categories }}</a>
               {{ else }}
                 <a href="/bookshelf/"><i class="fa fa-archive">&nbsp;</i>Bookshelf</a>
               {{ end }}

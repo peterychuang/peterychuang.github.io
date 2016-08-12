@@ -1,6 +1,5 @@
 ---
-categories:
-- Essays
+categories: Essays
 date: 2016-05-16T11:30:02-04:00
 description: If a novel is like a symphony, a well-crafted short story is like a piano piece by Chopin
 header:

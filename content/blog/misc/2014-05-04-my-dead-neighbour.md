@@ -1,6 +1,5 @@
 ---
-categories:
-- Misc
+categories: Misc
 date: 2016-05-04T16:17:07Z
 description: In the memory of the neighbour I barely knew
 header:

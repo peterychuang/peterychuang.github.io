@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Music
+categories: Music
 date: 2016-06-29T17:40:19-04:00
 description: String Sextet in D minor
 header:
@@ -14,6 +13,7 @@ tag:
 - Music
 - Tchaikovsky
 title: "Peter I. Tchaikovsky: Souvenir de Florence"
+type: post
 url: /music/tchaikovsky-souvenir-de-florence/
 youtube_id: vulKECq4r60
 ---

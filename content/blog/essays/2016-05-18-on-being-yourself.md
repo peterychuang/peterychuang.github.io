@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Essays
+categories: Essays
 date: 2016-05-18T17:50:28-04:00
 description: We may all want to change part of ourselves, but there are something untouchable within all of us
 header:

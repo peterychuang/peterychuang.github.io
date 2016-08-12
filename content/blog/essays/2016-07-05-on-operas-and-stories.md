@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Essays
+categories: Essays
 date: 2016-07-05T06:46:39-04:00
 description: As a form of storytelling, operas have some of the most ridiculous stories ever told
 header:
@@ -69,4 +68,3 @@ There is no denying, however logic-defying the plot is, that watching a Wagner o
 ***
 
 Wagner became the father of modern film music before cinema existed. The techniques he uses to develop and transform *Leitmotifs* in *Der Ring des Nibelungen* have long since become the bread-and-butter of film music, something we can hear in the soundtrack of blockbusters such as The Star Wars. In a sense, films have become the new *Gesamtkunstwerk*, while operas, even the best and most moving of them, remain an artform that tells strange stories.
-

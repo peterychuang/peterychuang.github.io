@@ -1,6 +1,5 @@
 ---
-categories:
-- On Writing
+categories: On Writing
 date: 2015-08-23T00:00:00Z
 description: There is no single way to write a long narrative work. This is how I
   go about writing them.

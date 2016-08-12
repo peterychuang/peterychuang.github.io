@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2016-03-25T00:00:00Z
 description: You are the last hope for humanity
 header:

@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Music
+categories: Music
 date: 2015-12-16T17:18:07-04:00
 description: A moving song-cycle about unrequited love
 header:
@@ -15,7 +14,7 @@ tag:
 - Franz Schubert
 - Winterreise
 title: "Franz Schubert: Winterreise"
+type: post
 url: /music/schubert-winterreise/
 youtube_id: tnuvs2w7ges
 ---
-

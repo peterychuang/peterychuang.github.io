@@ -4,7 +4,7 @@ var base64 = require('gulp-base64');
 
 // MAIN DEPLOYMENT TASK RUNNER //
 
-gulp.task('minify1' , function() {
+gulp.task('minify1', function() {
   return gulp.src([
     './_output/hugo-stage-1/**/*.html',
     '!./_output/hugo-stage-1/categories/**/*.html',
@@ -22,7 +22,7 @@ gulp.task('minify1' , function() {
   .pipe(gulp.dest('./_output/hugo-stage-2/'))
 });
 
-gulp.task('minify2', ['minify1'], function() {
+gulp.task('minify2', function() {
   return gulp.src([
     './_output/hugo-stage-1/categories/**/*.html',
     '!./_output/hugo-stage-1/page/**/*.html'
@@ -39,7 +39,7 @@ gulp.task('minify2', ['minify1'], function() {
   .pipe(gulp.dest('./_output/hugo-stage-2/'))
 });
 
-gulp.task('copy1', ['minify2'], function() {
+gulp.task('copy1', function() {
   return gulp.src([
     './_output/hugo-stage-1/assets/**/*',
     '!./_output/hugo-stage-1/assets/img/t/**/*',
@@ -47,45 +47,24 @@ gulp.task('copy1', ['minify2'], function() {
   .pipe(gulp.dest('./public/assets'))
 });
 
-gulp.task('copy2', ['copy1'], function() {
+gulp.task('copy2', function() {
   return gulp.src([
-    './_output/hugo-stage-1/index.xml',
-    './_output/hugo-stage-1/robots.txt',
-    './_output/hugo-stage-1/sitemap.xml'
+    './_output/hugo-stage-1/**/*.xml',
+    './_output/hugo-stage-1/**/*.txt',
+    './_output/hugo-stage-1/readme.md',
+    '!./_output/hugo-stage-1/categories/**/*.xml'
   ])
   .pipe(gulp.dest('./public/'))
 });
 
-gulp.task('copy3', ['copy2'], function() {
+gulp.task('copy3', function() {
   return gulp.src([
-    './_output/hugo-stage-1/categories/*/index.xml'
+    './_output/hugo-stage-1/categories/**/*.xml'
   ])
   .pipe(gulp.dest('./public/'))
 });
 
-gulp.task('copy4', ['copy3'], function() {
-  return gulp.src([
-    './_output/hugo-stage-1/tag/*/index.xml'
-  ])
-  .pipe(gulp.dest('./public/tag/'))
-});
-
-gulp.task('copy5', ['copy4'], function() {
-  return gulp.src([
-    './_output/hugo-stage-1/*/index.xml',
-    '!./master-preprocessed/categories/index.xml'
-  ])
-  .pipe(gulp.dest('./public/'))
-});
-
-gulp.task('copy6', ['copy5'], function() {
-  return gulp.src([
-    './_output/hugo-stage-1/readme.md'
-  ])
-  .pipe(gulp.dest('./public/'))
-});
-
-gulp.task('base64', ['copy5'], function () {
+gulp.task('base64', ['minify1', 'minify2'], function () {
   return gulp.src([
     './_output/hugo-stage-2/**/*.html'
   ])
@@ -97,4 +76,4 @@ gulp.task('base64', ['copy5'], function () {
   .pipe(gulp.dest('./public/'));
 });
 
-gulp.task('deploy', ['minify1', 'minify2', 'copy1', 'copy2', 'copy3', 'copy4', 'copy5', 'copy6', 'base64']);
+gulp.task('deploy', ['minify1', 'minify2', 'copy1', 'copy2', 'copy3', 'base64']);

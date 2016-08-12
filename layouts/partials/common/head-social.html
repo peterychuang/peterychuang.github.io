@@ -22,10 +22,12 @@
   {{ end }}
 
 <!-- Open Graph Title -->
-  {{ if eq .Data.Singular "category" }}
+  {{ if .IsHome }}
+    <meta name="og:title" content="{{ .Site.Title | markdownify }}" />
+  {{ else if eq .Data.Singular "category" }}
     {{ $cat_name := .Title }}
     {{ $site_name := .Site.Title }}
-    {{ range .Site.Data.cat }}
+    {{ range $.Site.Data.cat }}
       {{ if eq $cat_name .name }}
         <meta name="og:title" content="{{ .long_title | markdownify }} | {{ $site_name | markdownify }}" />
       {{ end }}
@@ -36,24 +38,23 @@
 
 <!-- Open Graph URL -->
   {{ if eq .URL "404.html" }}
-    <!-- Do Nothing -->
   {{ else }}
     <meta name="og:url" content="{{ replace .Permalink "/categories" "" }}" />
   {{ end }}
 
 <!-- Open Graph Image -->
   {{ if .IsHome }}
-    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}screenshot.png" />
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}screenshot.jpg" />
   {{ else if eq .Title "Tech" }}
     <meta name="og:image" content="/{{ .Site.Params.Urlimg }}code.jpg" />
-  {{ else if .Params.header.image_fullwidth }}
-    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.header.image_fullwidth }}" />
+  {{ else if .Params.header.image }}
+    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}" />
   {{ else if .Params.cover }}
     <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" />
   {{ else if eq .Data.Singular "category" }}
     {{ $cat_name := .Title }}
     {{ $assets := .Site.Params.Urlimg }}
-    {{ range .Site.Data.cat }}
+    {{ range $.Site.Data.cat }}
       {{ if eq $cat_name .name }}
         <meta name="og:image" content="/{{ $assets }}{{ .image }}" />
       {{ end }}
@@ -65,17 +66,17 @@
 <!-- Open Graph Description -->
   {{ if .IsHome }}
     <meta name="og:description" content="{{ .Site.Params.description | markdownify }}" />
-  {{ else if eq .URL "404.html" }}
-    <meta name="og:description" content="{{ .Title | markdownify }}" />
   {{ else if eq .Title "Blog" }}
     <meta name="og:description" content="Latest short stories, poems, essays, and more" />
   {{ else if eq .Title "Bookshelf" }}
     <meta name="og:description" content="Books reviews and recommendations" />
+  {{ else if eq .Title "Tech" }}
+    <meta name="og:description" content="{{ "Linux stuff and other musings about tech and web development" | markdownify }}" />
   {{ else if eq .Data.Singular "tag" }}
     <meta name="og:description" content="All posts tagged “{{ .Title | markdownify }}”" />
   {{ else if eq .Data.Singular "category" }}
     {{ $cat_name := .Title }}
-    {{ range .Site.Data.cat }}
+    {{ range $.Site.Data.cat }}
       {{ if eq $cat_name .name }}
         <meta name="og:description" content="{{ .seo_description | markdownify }}" />
       {{ end }}

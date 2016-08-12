@@ -13,6 +13,7 @@ tag:
 - Hugo
 - Static Site
 title: From Github Pages to Firebase, then to a VPS
+type: post
 url: /tech/switching-from-github-pages-to-firebase/
 youtube_id: null
 ---

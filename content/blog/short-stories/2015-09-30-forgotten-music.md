@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2015-09-30T00:00:00Z
 description: "An tune that signifies the past"
 header:

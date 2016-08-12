@@ -7,7 +7,7 @@ dependencies:
   pre:
     - sudo pip install pygments
     - go get -v github.com/spf13/hugo
-    - npm install -g gulp
+    - npm install -g gulp-cli
     - npm install gulp
     - npm install gulp-htmlmin
     - npm install gulp-base64
@@ -16,8 +16,6 @@ test:
   override:
     - hugo
     - gulp deploy
-    - echo novelist.xyz > ./public/CNAME
-    - touch ./public/.nojekyll
 
 deployment:
   circleci:

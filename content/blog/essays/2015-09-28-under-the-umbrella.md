@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Essays
+categories: Essays
 date: 2015-09-28T00:00:00Z
 description: A reflection on the Umbrella Revolution (2014) on its first anniversary
 header:

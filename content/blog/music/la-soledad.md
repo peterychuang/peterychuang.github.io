@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Music
+categories: Music
 date: 2016-07-02T17:49:58-04:00
 description: A beautifully nostalgic Spanish-language song
 header:
@@ -13,6 +12,7 @@ seo_description: null
 tag:
 - Music
 title: La Soledad
+type: post
 url: /music/la-soledad/
 youtube_id: BainzXorkEM
 ---

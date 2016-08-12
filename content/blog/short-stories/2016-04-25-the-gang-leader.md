@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2016-04-25T17:14:35Z
 description: "Also: the richest man"
 seo_description: After becoming the gang leader by accident, he transformed his gang into a respectable business enterprise before politics gets in the way.

@@ -1,6 +1,5 @@
 ---
 categories:
--
 date:
 description:
 seo_description:
@@ -11,6 +10,7 @@ header:
 tag:
 -
 title:
+type: post
 url:
 draft: true
 layout:

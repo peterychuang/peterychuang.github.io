@@ -1,7 +1,6 @@
 ---
 aliases: null
-categories:
-- Poetry
+categories: Poetry
 date: 2016-05-19T19:25:37-04:00
 description: “My life without you isn't my life any more”
 header:
@@ -13,6 +12,7 @@ tag:
 - Loss
 - Poem
 title: My life did not go on
+type: post
 url: /poetry/my-life-did-not-go-on/
 ---
 After you left me,

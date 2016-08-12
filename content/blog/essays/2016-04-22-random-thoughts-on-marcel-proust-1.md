@@ -1,6 +1,5 @@
 ---
-categories:
-- Essays
+categories: Essays
 date: 2016-04-22T00:00:00Z
 description: Why you should read 'In Search of Lost Time' and stop using Facebook
 header:

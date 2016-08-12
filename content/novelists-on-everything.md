@@ -1,6 +1,5 @@
 ---
 layout: novelists-on-everything
-aliases: /novelist/
 description: A collection of great quotes from great novelists and writers
 header:
   caption: null

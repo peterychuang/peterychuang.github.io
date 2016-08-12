@@ -1,6 +1,5 @@
 ---
-categories:
-- Poetry
+categories: Poetry
 date: 2016-05-19T16:05:24-04:00
 description: A sonnet
 header:

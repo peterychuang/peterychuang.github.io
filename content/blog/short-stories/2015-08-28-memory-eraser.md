@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2015-08-28T00:00:00Z
 description: "Do you want to erase your memory?"
 header:

@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: "2016-05-13T03:36:20-04:00"
 description: “I wish you were thinking of me during your death”
 seo_description: I wonder what you were thinking in that split second before you became unconscious. I wish you were thinking of me.

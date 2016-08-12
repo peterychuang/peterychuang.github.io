@@ -8,11 +8,9 @@
             </li>
             <li property="itemListElement" typeof="ListItem">
               {{ if .Params.categories }}
-                {{ range .Params.categories }}
-                  <a property="item" typeof="WebPage" href="/{{ lower . | urlize }}/">
-                    <span property="name">{{ . | markdownify }}</span>
-                  </a>
-                {{ end }}
+                <a property="item" typeof="WebPage" href="/{{ lower .Params.categories | urlize }}/">
+                  <span property="name">{{ .Params.categories | markdownify }}</span>
+                </a>
               {{ else if eq .Layout "novels"}}
                 <a property="item" typeof="WebPage" href="/novels/">
                     <span property="name">Novels</span>

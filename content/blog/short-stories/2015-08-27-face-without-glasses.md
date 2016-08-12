@@ -1,6 +1,5 @@
 ---
-categories:
-- Short Stories
+categories: Short Stories
 date: 2015-08-27T00:00:00Z
 description: "Glasses as a body part"
 header:
