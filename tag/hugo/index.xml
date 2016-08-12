@@ -6,8 +6,17 @@
     <description>Recent content in Hugo on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 25 Jul 2016 13:06:07 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 12 Aug 2016 15:29:12 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to show related posts in Hugo</title>
+      <link>https://novelist.xyz/tech/related-posts-in-hugo/</link>
+      <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
+      <description>This is how to show a fixed number of related posts in Hugo</description>
+    </item>
     
     <item>
       <title>Customising categories URLs in Hugo revisited</title>
