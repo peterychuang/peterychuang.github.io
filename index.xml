@@ -6,8 +6,17 @@
     <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 12 Aug 2016 15:29:12 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 Aug 2016 16:50:38 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Berlin</title>
+      <link>https://novelist.xyz/misc/berlin-germany/</link>
+      <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/berlin-germany/</guid>
+      <description>A place where I find all I want</description>
+    </item>
     
     <item>
       <title>How to show related posts in Hugo</title>
@@ -19,21 +28,21 @@
     </item>
     
     <item>
-      <title>My memories of Cologne, Germany</title>
+      <title>Cologne</title>
       <link>https://novelist.xyz/misc/cologne-germany/</link>
       <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/cologne-germany/</guid>
-      <description>My belated attempt at writing a travelogue of sorts</description>
+      <description>A city defined by its Cathedral</description>
     </item>
     
     <item>
-      <title>My memories of Munich, Germany</title>
+      <title>Munich</title>
       <link>https://novelist.xyz/misc/munich-germany/</link>
       <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/munich-germany/</guid>
-      <description>Remembering Munich, the capital of Bavaria</description>
+      <description>A journey that wasn&#39;t meant to be</description>
     </item>
     
     <item>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/bookshelf/la-dame-aus-camelias-alexandre-dumas-fils/</guid>
       <description>One of the greatest love stories of all time, and the basis for one of the best known operas</description>
-    </item>
-    
-    <item>
-      <title>Sorrow in the Dark</title>
-      <link>https://novelist.xyz/poetry/sorrow-in-the-dark/</link>
-      <pubDate>Wed, 15 Jun 2016 05:48:23 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/poetry/sorrow-in-the-dark/</guid>
-      <description>A sonnet</description>
     </item>
     
   </channel>

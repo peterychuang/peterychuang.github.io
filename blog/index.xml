@@ -6,25 +6,34 @@
     <description>Recent content in Blog on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Aug 2016 17:11:51 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 Aug 2016 16:50:38 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My memories of Cologne, Germany</title>
+      <title>Berlin</title>
+      <link>https://novelist.xyz/misc/berlin-germany/</link>
+      <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/berlin-germany/</guid>
+      <description>A place where I find all I want</description>
+    </item>
+    
+    <item>
+      <title>Cologne</title>
       <link>https://novelist.xyz/misc/cologne-germany/</link>
       <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/cologne-germany/</guid>
-      <description>My belated attempt at writing a travelogue of sorts</description>
+      <description>A city defined by its Cathedral</description>
     </item>
     
     <item>
-      <title>My memories of Munich, Germany</title>
+      <title>Munich</title>
       <link>https://novelist.xyz/misc/munich-germany/</link>
       <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/munich-germany/</guid>
-      <description>Remembering Munich, the capital of Bavaria</description>
+      <description>A journey that wasn&#39;t meant to be</description>
     </item>
     
     <item>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/essays/on-musical-structure-and-storytelling/</guid>
       <description>If a novel is like a symphony, a well-crafted short story is like a piano piece by Chopin</description>
-    </item>
-    
-    <item>
-      <title>I think about you to dream of you</title>
-      <link>https://novelist.xyz/poetry/i-think-about-you-to-dream-of-you/</link>
-      <pubDate>Fri, 13 May 2016 18:44:33 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/poetry/i-think-about-you-to-dream-of-you/</guid>
-      <description>A sonnet</description>
     </item>
     
   </channel>
