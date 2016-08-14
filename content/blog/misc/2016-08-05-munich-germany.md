@@ -2,7 +2,8 @@
 aliases: null
 categories: Misc
 date: 2016-08-05T17:10:31-04:00
-description: Remembering Munich, the capital of Bavaria
+description: A journey that wasn't meant to be
+seo_description: "A journey to Munich wasn't meant to be an escape, though it ended up being one"
 header:
   caption: null
   caption_url: null
@@ -15,7 +16,7 @@ tag:
 - Munich
 - Germany
 - City
-title: "My memories of Munich, Germany"
+title: Munich
 url: /misc/munich-germany/
 youtube_id: null
 ---
