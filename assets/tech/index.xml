@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tech/</link>
+    <description>Recent content in Tech on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 12 Aug 2016 15:29:12 -0400</lastBuildDate>
+    <atom:link href="https://novelist.xyz/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to show related posts in Hugo</title>
+      <link>https://novelist.xyz/tech/related-posts-in-hugo/</link>
+      <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
+      <description>This is how to show a fixed number of related posts in Hugo</description>
+    </item>
+    
+    <item>
+      <title>Progressive and blurry image loading</title>
+      <link>https://novelist.xyz/tech/progressive-background-image-loading/</link>
+      <pubDate>Tue, 26 Jul 2016 14:33:53 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/progressive-background-image-loading/</guid>
+      <description>Starting with a blurry image, which then gets clearer and clearer when loading finishes</description>
+    </item>
+    
+    <item>
+      <title>Customising categories URLs in Hugo revisited</title>
+      <link>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</link>
+      <pubDate>Mon, 25 Jul 2016 13:06:07 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</guid>
+      <description>An advanced hack to customise categories URLs in Hugo</description>
+    </item>
+    
+    <item>
+      <title>From Github Pages to Firebase, then to a VPS</title>
+      <link>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</link>
+      <pubDate>Sun, 24 Jul 2016 15:07:55 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</guid>
+      <description>This website is now hosted on a VPS</description>
+    </item>
+    
+    <item>
+      <title>Ten things you need to do after installing Arch Linux</title>
+      <link>https://novelist.xyz/tech/things-to-do-after-installing-arch-linux/</link>
+      <pubDate>Wed, 25 May 2016 14:17:22 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/things-to-do-after-installing-arch-linux/</guid>
+      <description>Turning a minimal installation into something enjoyable to use</description>
+    </item>
+    
+    <item>
+      <title>How to use Data Files in Hugo: an example</title>
+      <link>https://novelist.xyz/tech/hugo-data-files/</link>
+      <pubDate>Thu, 19 May 2016 07:49:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/hugo-data-files/</guid>
+      <description>A demonstration of using Data Files in a Hugo-powered site</description>
+    </item>
+    
+    <item>
+      <title>How I deploy my Hugo site to my webserver</title>
+      <link>https://novelist.xyz/tech/hugo-site-deployment-workflow/</link>
+      <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
+      <description>This is how I deploy this website</description>
+    </item>
+    
+    <item>
+      <title>How to customise categories and tags URLs in Hugo</title>
+      <link>https://novelist.xyz/tech/custom-urls-for-category-pages-in-hugo/</link>
+      <pubDate>Fri, 13 May 2016 13:45:43 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/custom-urls-for-category-pages-in-hugo/</guid>
+      <description>Generate pages for categories or tags on any URLs with Hugo</description>
+    </item>
+    
+    <item>
+      <title>Hugo vs. Jekyll: a showdown of static site generator</title>
+      <link>https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/</link>
+      <pubDate>Wed, 11 May 2016 06:12:12 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/</guid>
+      <description>A newcomer of static site generator taking on the big brother</description>
+    </item>
+    
+    <item>
+      <title>How to create a super-fast Jekyll site</title>
+      <link>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</link>
+      <pubDate>Fri, 06 May 2016 14:23:16 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</guid>
+      <description>Supercharge a Github-hosted Jekyll site with Gulp tasks and Cloudflare</description>
+    </item>
+    
+    <item>
+      <title>Jekyll: a static site generator</title>
+      <link>https://novelist.xyz/tech/jekyll/</link>
+      <pubDate>Fri, 06 May 2016 11:27:27 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/jekyll/</guid>
+      <description>Why I moved from Wordpress to Jekyll</description>
+    </item>
+    
+    <item>
+      <title>My Linux Rig</title>
+      <link>https://novelist.xyz/tech/my-linux-rig/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-rig/</guid>
+      <description>Learn more about Linux and my Linux experience</description>
+    </item>
+    
+    <item>
+      <title>Flat-Plat-Blue: A Gnome/GTK Theme</title>
+      <link>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</guid>
+      <description>A new theme based on Flat-Plat Theme</description>
+    </item>
+    
+    <item>
+      <title>How I became a full-time Linux user</title>
+      <link>https://novelist.xyz/tech/my-linux-journey/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
+      <description>How I switch from a Windows user to a full-time Linux user with no regret</description>
+    </item>
+    
+  </channel>
+</rss>
