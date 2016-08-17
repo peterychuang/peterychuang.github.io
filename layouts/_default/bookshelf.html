@@ -10,7 +10,7 @@
           </div>
           <div class="col-sm-5">
             <h1 class="bookshelf" itemprop="name">
-              {{ .Title }}
+              {{ .Title | markdownify }}
             </h1>
             <p class="bookshelf">
               by

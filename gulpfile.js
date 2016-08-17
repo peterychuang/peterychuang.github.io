@@ -12,7 +12,7 @@ gulp.task('minify1', function() {
   ])
   .pipe(htmlmin({
     collapseWhitespace: true,
-    conservativeCollapse: true,
+    conservativeCollapse: false,
     minifyCSS: true,
     minifyJS: true,
     sortAttributes: true,
@@ -29,7 +29,7 @@ gulp.task('minify2', function() {
   ])
   .pipe(htmlmin({
     collapseWhitespace: true,
-    conservativeCollapse: true,
+    conservativeCollapse: false,
     minifyCSS: true,
     minifyJS: true,
     sortAttributes: true,
