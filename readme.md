@@ -10,32 +10,29 @@ Over time, however, I've made numerous changes to the site, and some time in 201
 
 ### Stuff used in this site
 
-* [Bootstrap Framework](https://github.com/twbs/bootstrap) to re-build the website using Less compiler for CSS (I might have been using SASS before for this particular site, but I can't really remember);
-* [FullPage.js](https://github.com/alvarotrigo/fullPage.js) allows full-screen scrolling;
-* [loadCSS](https://github.com/filamentgroup/loadCSS) is used to load CSS asynchronously;
-* [The usual suspect](https://github.com/jquery/jquery); and
-* Slightly changed version of this bit from [here](https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/gh-pages/js/scrolling-nav.js):
-```
-//jQuery to collapse the navbar on scroll
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-        } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        }
-});
-```
+* [Bootstrap](https://github.com/twbs/bootstrap);
+* [FullPage.js](https://github.com/alvarotrigo/fullPage.js);
+* [loadCSS](https://github.com/filamentgroup/loadCSS);
+* [Cookie Consent](https://github.com/silktide/cookieconsent2)
+* [Font Face Observer](https://github.com/bramstein/fontfaceobserver)
+* [Jquery](https://github.com/jquery/jquery); and
+* Slider, modified from [Unslider](https://github.com/idiot/unslider)
 
 ### Copyright and License
 
 The following directories and their contents are Copyright Peter Y. Chuang. You may not reuse anything therein without my permission:
 
-content/  
+```
+content/
+```
 
-Some images in the following directory are taken from unsplash and other sources as specified inside the relevant blog posts. Otherwise, the contents are Copyright Peter Y. Chuang.
+Unless otherwise specified (in the pages that references the images), most images in the following directory are taken from [Unsplash](https://unsplash.com/), other free CC0 sources, and taken by myself, which I release under CC0 license.
 
-static/assets/img  
 
-All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to https://novelist.xyz would be appreciated, but is not required.
+```
+static/assets/img
+```
 
-[MIT License](https://github.com/peterychuang/peterychuang.github.io/blob/master/LICENSE)
+All other directories and files are MIT Licensed. Feel free to use and modify the source codes for your own use. If you do use them, a link back to https://novelist.xyz would be appreciated, but is not required.
+
+[MIT License](https://github.com/peterychuang/peterychuang.github.io/blob/source/LICENSE)
