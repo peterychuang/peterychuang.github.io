@@ -61,12 +61,12 @@
             <style>
               {{ partial "css/css_critical-font.html" . | safeCSS }}
               {{ partial "css/css_index.html" . | safeCSS }}
-              .inner-header-section {
+              .header {
                 background-image: url(/{{ $assets }}t/{{ .image }});
                 filter: none;
                 transition: -webkit-filter 0.5s linear, filter 0.5s linear;
               }
-              .image-loaded {
+              .img.loaded {
                 transition: opacity 0.5s linear;
               }
             </style>
@@ -76,12 +76,12 @@
         <style>
           {{ partial "css/css_critical-font.html" . | safeCSS }}
           {{ partial "css/css_index.html" . | safeCSS }}
-          .inner-header-section {
+          .header {
             background-image: url(/{{ .Site.Params.Urlimg }}t/code.jpg);
             filter: none;
             transition: -webkit-filter 0.5s linear, filter 0.5s linear;
           }
-          .image-loaded {
+          .img.loaded {
             transition: opacity 0.5s linear;
           }
         </style>
@@ -89,12 +89,12 @@
         <style>
           {{ partial "css/css_critical-font.html" . | safeCSS }}
           {{ partial "css/css_index.html" . | safeCSS }}
-          .inner-header-section {
+          .header {
             background-image: url(/{{ .Site.Params.Urlimg }}t/short-stories.jpg);
             filter: none;
             transition: -webkit-filter 0.5s linear, filter 0.5s linear;
           }
-          .image-loaded {
+          .img.loaded {
             transition: opacity 0.5s linear;
           }
         </style>
@@ -106,12 +106,12 @@
         <style>
           {{ partial "css/css_critical-font.html" . | safeCSS }}
           {{ partial "css/css_index.html" . | safeCSS }}
-          .inner-header-section {
+          .header {
             background-image: url(/{{ .Site.Params.Urlimg }}t/short-stories.jpg);
             filter: none;
             transition: -webkit-filter 0.5s linear, filter 0.5s linear;
           }
-          .image-loaded {
+          .img.loaded {
             transition: opacity 0.5s linear;
           }
         </style>
@@ -120,12 +120,12 @@
           <style>
             {{ partial "css/css_critical-font.html" . | safeCSS }}
             {{ partial "css/css_pages.html" . | safeCSS }}
-            .blur-image {
+            .header {
               background-image: url(/{{ .Site.Params.Urlimg }}t/{{ .Params.header.image }});
               filter: none;
               transition: -webkit-filter 0.5s linear, filter 0.5s linear;
             }
-            .image-loaded {
+            .img.loaded {
               transition: opacity 0.5s linear;
             }
           </style>
@@ -133,12 +133,12 @@
           <style>
             {{ partial "css/css_critical-font.html" . | safeCSS }}
             {{ partial "css/css_pages.html" . | safeCSS }}
-            .inner-header-section {
+            .header {
               background-image: url(/{{ .Site.Params.Urlimg }}t/short-stories.jpg);
               filter: none;
               transition: -webkit-filter 0.5s linear, filter 0.5s linear;
             }
-            .image-loaded {
+            .img.loaded {
               transition: opacity 0.5s linear;
             }
           </style>

@@ -1,6 +1,6 @@
 {{ partial "common/head.html" . }}
 {{ partial "common/nav.html" . }}
-    <header class="bookshelf">
+    <header class="book">
       <div class="container">
         <div class="row" itemscope itemtype="http://schema.org/Book">
           <div class="col-sm-3 col-lg-offset-2">
@@ -62,7 +62,7 @@
         </div>
       </div>
     </header>
-  <section id="{{ lower .Title | urlize }}" class="content-section">
+  <section id="{{ lower .Title | urlize }}" class="content">
     <div class="container">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2">

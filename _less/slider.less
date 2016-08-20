@@ -1,0 +1,82 @@
+.slider {
+	//  Should either be relative or absolute
+	//  as long as it's not static, but we'll
+	//  set it using jQuery
+	// position: relative;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+
+	&-wrap {
+		position: relative;
+
+		&.slider-carousel > li {
+			float: left;
+		}
+	}
+
+	//  Vertical sliders don't float left
+	&-vertical {
+		> ul {
+			height: 100%;
+		}
+
+		li {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	//  Fading needs everything to appear on top of
+	//  each other
+	&-fade {
+		position: relative;
+
+		.slider-wrap li {
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			z-index: 8;
+
+			&.slider-active {
+				z-index: 10;
+			}
+		}
+	}
+
+	ul, ol, li {
+		list-style: none;
+
+		/* Reset any weird spacing */
+		margin: 0;
+		padding: 0;
+
+		border: none;
+	}
+
+	&-arrow {
+		position: absolute;
+		height: 0;
+		top: 50%;
+		left: 50px;
+		z-index: 2;
+		display: block;
+		text-indent: -999em;
+		border-style: solid;
+
+		cursor: pointer;
+
+		&.next {
+			left: auto;
+			right: 50px;
+			border-width: 38.5px 0 38.5px 34px;
+			border-color: transparent transparent transparent #333;
+		}
+
+		&.prev {
+			border-width: 38.5px 34px 38.5px 0;
+			border-color: transparent #333 transparent transparent;
+		}
+	}
+}

@@ -343,7 +343,7 @@
 //## Define the maximum width of `.container` for different screen sizes.
 
 // Small screen / tablet
-@container-tablet:             auto;
+@container-tablet:             100%;
 //** For `@screen-sm-min` and up.
 @container-sm:                 @container-tablet;
 
@@ -882,7 +882,7 @@
 //== Front Page Sections Customisation
 
 
-@header-section-bg:                       #f9f9f9;
+@top-section-bg:                       #f9f9f9;
 @about-section-bg:                        #f9f9f9;
 @novels-section-bg:                       #f9f9f9;
 @blog-section-bg:                         #f9f9f9;
@@ -891,4 +891,23 @@
 
 //== Fonter Section Customisation
 
-// @footer-section-padding:      20px 0 50px 0;
+// @fooeter-padding:      20px 0 50px 0;
+
+
+// Unslider //
+
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+
+//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
+@unslider-dot-navigation: false;
+@unslider-dot-colour: #000;
+
+//  Unslider 2 has navigation styles pre-designed. You can turn it off here.
+@unslider-transition-function: cubic-bezier(.42,0,.58,1);

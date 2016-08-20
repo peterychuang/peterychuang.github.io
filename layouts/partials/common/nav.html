@@ -1,11 +1,11 @@
 {{ if .IsHome }}
-  <nav class="navbar navbar-default navbar-index navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
           <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="/#page-top"><i class="fa fa-pencil">&nbsp;</i> Peter Y. Chuang - Novelist</a>
+        <a class="navbar-brand" href="#page-top"><i class="fa fa-pencil">&nbsp;</i> Peter Y. Chuang - Novelist</a>
       </div>
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav" id="navmenu">
@@ -40,10 +40,10 @@
     {{ if or ( eq .Layout "bookshelf" ) ( eq .Layout "music" ) }}
       <nav class="navbar navbar-default navbar-fixed-top">
     {{ else }}
-      <nav class="navbar navbar-inverse navbar-inner navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
     {{ end }}
   {{ else }}
-    <nav class="navbar navbar-inverse navbar-inner navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
   {{ end }}
     <div class="container">
       <div class="navbar-header">

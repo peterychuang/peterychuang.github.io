@@ -1,30 +1,30 @@
 {{ if .Params.header.image }}
-    <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}">
-      <div class="full-image">
-        <div class="container fp-tableCell layer">
+    <header class="header" data-src="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}">
+      <div class="img">
+        <div class="container layer">
   {{ else if eq .Title "Bookshelf" }}
-    <header class=" inner-header-section bookshelf-header-section text-center">
-      <div class="container fp-tableCell">
+    <header class="header bookshelf">
+      <div class="container">
   {{ else if eq .Title "Tech" }}
-    <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}code.jpg">
-      <div class="full-image">
-      <div class="container fp-tableCell layer">
+    <header class="header" data-src="/{{ .Site.Params.Urlimg }}code.jpg">
+      <div class="img">
+      <div class="container layer">
   {{ else if eq .Data.Singular "category" }}
     {{ $cat_name := .Title }}
     {{ $assets := .Site.Params.Urlimg }}
     {{ range $.Site.Data.cat }}
       {{ if eq $cat_name .name }}
-        <header class="inner-header-section text-center blur-image" data-src="/{{ $assets }}{{ .image }}" >
-          <div class="full-image">
-          <div class="container fp-tableCell layer">
+        <header class="header" data-src="/{{ $assets }}{{ .image }}" >
+          <div class="img">
+          <div class="container layer">
       {{ end }}
     {{ end }}
   {{ else }}
-    <header class="inner-header-section text-center blur-image" data-src="/{{ .Site.Params.Urlimg }}short-stories.jpg">
-      <div class="full-image">
-      <div class="container fp-tableCell layer">
+    <header class="header" data-src="/{{ .Site.Params.Urlimg }}short-stories.jpg">
+      <div class="img">
+      <div class="container layer">
   {{ end }}
-        <div class="col-md-8 col-md-offset-2">
+        <div class="header-text">
           {{ if eq .URL "404.html" }}
           <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
           {{ else if eq .Title "Blog" }}

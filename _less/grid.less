@@ -7,11 +7,11 @@
 //
 // Set the container width, and override it for fixed navbars in media queries.
 
-.container {
+.container, .header.container {
   .container-fixed();
 
 
-  @media (min-width: @screen-sm-min) {
+  @media (max-width: @screen-sm-max) {
     width: @container-sm;
   }
   @media (min-width: @screen-md-min) {

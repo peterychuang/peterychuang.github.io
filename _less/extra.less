@@ -1,15 +1,23 @@
 // Full Page Container vertical align
 
 
-.about-section, .blog-section, .contact-section, .header-section, .novels-section, .bookshelf-section {
-  display:table;
+.section {
+  text-align: center;
   width:100%;
   height:100vh;
+  position: relative;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
   -o-background-size:cover;
   color: @text-color-home;
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
   a.box {
     border: 2px solid @text-color;
@@ -27,11 +35,11 @@
 }
 
 @media (max-width: @grid-float-breakpoint-max) {
-  .about-section p, .blog-section p, .contact-section p, .header-section p, .novels-section p {
+  .section p {
     font-size: (@font-size-base * .8);
     margin: 0 0 (@line-height-computed / 2);
   }
-  .about-section, .blog-section, .contact-section, .header-section, .novels-section {
+  .section {
     h1 {font-size: (@font-size-h1 * .7)}
     h2 {font-size: (@font-size-h2 * .7)}
     h3 {font-size: (@font-size-h3 * .7)}
@@ -41,16 +49,11 @@
   }
 }
 
-.about-section .cell, .blog-section .cell, .contact-section .cell, .header-section .container, .novels-section .cell, .bookshelf-section .cell {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 // Front Page Container customisation
 
-.header-section {
+.top-section {
   padding:0;
-  background:@header-section-bg;
+  background: @top-section-bg;
 
   a.fa-stack {
     color: @text-color;
@@ -159,17 +162,17 @@
 }
 
 @media (max-width: @grid-float-breakpoint-max) {
-  .bookshelf-header-section {
+  .header.bookshelf {
     padding:0
   }
 }
 
 // Inner Page Container
 
-.inner-header-section, .full-image {
-  display:table;
+.header, .img {
+  position: relative;
   height:25pc;
-  text-align:center;
+  text-align: center;
   color: @body-bg;
   margin: auto;
   width: 100%;
@@ -183,12 +186,10 @@
 }
 
 .layer {
-  width: 100%;
-  height: 100%;
   background: rgba(0,0,0,0.5);
 }
 
-.image-loaded {
+.img.loaded {
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -197,15 +198,27 @@
   -o-background-size: cover;
 }
 
+.header .container {
+  width: 100%;
+  height: 100%;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
 // Bookshelf Header
 
-.bookshelf-header-section {
+.header.bookshelf {
   color: @text-color;
 }
 
 // Content
 
-.content-section {
+.content {
   padding: 40px 0 150px 0;
 
   img {
@@ -232,8 +245,8 @@ p.author-intro {
   }
 }
 
-.footer-section {
-//  padding: @footer-section-padding;
+.footer {
+//  padding: @fooeter-padding;
   font-family: @font-family-sans-serif-subset;
   position: fixed;
   bottom: 0;
@@ -261,7 +274,7 @@ p.author-intro {
   }
 }
 
-.footer-section .col-lg-8 {
+.footer .col-lg-8 {
   background: #fff;
   border-top-left-radius: @border-radius-base;
   border-top-right-radius: @border-radius-base;
@@ -271,7 +284,7 @@ p.author-intro {
 }
 
 @media (max-width: @grid-float-breakpoint-max) {
-  .footer-section .col-lg-8 {
+  .footer .col-lg-8 {
     border-radius: 0px;
     border-top: #ddd 1px solid;
     border-left: 0px;
@@ -279,7 +292,7 @@ p.author-intro {
   }
 }
 
-.footer-show {
+.footer.show {
   height: 43px;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
@@ -347,7 +360,7 @@ p.post-meta {
 }
 
 .fonts-loaded {
-  figcaption, .blog-index p.meta, p.post-meta, p.word-count, p.tag-list, .contact-section, .footer-section, .buy-button, p.bookshelf, .cc_container, .footnotes {
+  figcaption, .blog-index p.meta, p.post-meta, p.word-count, p.tag-list, .contact-section, .footer, .buy-button, p.bookshelf, .cc_container, .footnotes {
     font-family: @font-family-sans-serif;
   }
 }
@@ -422,7 +435,7 @@ p.connect-buttons {
   color: #90bfe7;
 }
 
-.footer-section {
+.footer {
   .fa:hover {
     color: @gray-light;
   }
@@ -721,7 +734,7 @@ h1.bookshelf::before {
   content: ''
 }
 
-header.bookshelf {
+header.book {
   padding-top: 50px;
 }
 
