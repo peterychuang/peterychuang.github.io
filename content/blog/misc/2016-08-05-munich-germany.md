@@ -24,7 +24,7 @@ youtube_id: null
 I had bought the flight to München long before the trip, but other than a concert in München and another one in Berlin, I had no idea what places I would most want to visit. At the time I purchased my flight, I couldn't have foreseen the trip being of any significance to me, for it was supposed to be just another normal, purposeless two-week trip that would be filled with pointless sightseeing and even more pointless souvenirs shopping. Yet weeks before departure, I received a dreadful news, which, at an instant, changed the nature of the journey from a leisurely endeavour to an escape from the sorrow of the time, like the protagonist in [Schubert's Winterreise](/music/schubert-winterreise/), except the my journey didn't happen during Germany's harsh winter; not that I could choose when to go, of course.
 
 > *Ich kann zu meiner Reisen
-> Nicht wählen mit der Zeit,P
+> Nicht wählen mit der Zeit,
 > Muß selbst den Weg mir weisen
 > In dieser Dunkelheit.*
 
