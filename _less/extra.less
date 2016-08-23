@@ -1,11 +1,14 @@
+header {
+  overflow: hidden;
+}
+
 // Full Page Container vertical align
 
-
 .section {
-  text-align: center;
-  width:100%;
   height:100vh;
   position: relative;
+  text-align: center;
+  overflow: hidden;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   background-size:cover;
@@ -138,7 +141,12 @@
 }
 
 .bookshelf-section {
-
+  img {
+    margin: 3px;
+    width: 160px;
+    height: 250px;
+    object-fit: contain;
+  }
 }
 
 .contact-section {
@@ -187,15 +195,6 @@
 
 .layer {
   background: rgba(0,0,0,0.5);
-}
-
-.img.loaded {
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 
 .header .container {
@@ -330,7 +329,7 @@ p.word-count {
 
 // Post Meta
 
-p.post-meta {
+p.meta {
   margin-top: 70px;
   padding-bottom: 26px;
   border-bottom: #ddd 1px solid;
@@ -341,41 +340,39 @@ p.post-meta {
 
 // Blog Index
 
-.blog-index h2 {
-  line-height: 1.2;
-  margin-bottom: 10px;
-  font-size: ( @font-size-base * 1.5);
-}
+.content.list {
+  h2 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-size: ( @font-size-base * 1.5);
+  }
 
-.blog-index p {
-  margin-bottom: 10px;
-}
+  p {
+    margin-bottom: 10px;
+  }
 
-.blog-index p.meta {
-  padding-bottom: 26px;
-  border-bottom: #ddd 1px solid;
-  font-size: (@font-size-small * 0.9);
-  font-family: @font-family-sans-serif-subset;
-  color: @gray-light;
-}
+  p.meta {
+    margin-top: 0;
+    color: @gray-light;
+  }
 
+  @media (max-width: @grid-float-breakpoint-max) {
+    h2 {
+  //    font-size: ( @font-size-base-small-screen * 1.2);
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+    p.meta {
+      font-size: (@font-size-small * 0.8);
+    }
+  }
+}
 .fonts-loaded {
-  figcaption, .blog-index p.meta, p.post-meta, p.word-count, p.tag-list, .contact-section, .footer, .buy-button, p.bookshelf, .cc_container, .footnotes {
+  figcaption, p.meta, p.word-count, p.tag-list, .contact-section, .footer, .buy, p.bookshelf, .cc_container, .footnotes {
     font-family: @font-family-sans-serif;
-  }
-}
-
-@media (max-width: @grid-float-breakpoint-max) {
-  .blog-index h2 {
-//    font-size: ( @font-size-base-small-screen * 1.2);
-    margin-bottom: 10px;
-  }
-
-  .blog-index p {
-    margin-bottom: 10px;
-  }
-  p.post-meta, .blog-index p.meta {
-    font-size: (@font-size-small * 0.8);
   }
 }
 
@@ -703,70 +700,75 @@ sup.footnote-ref::before {
 }
 
 // Bookshelf
+.content.book-list {
+  text-align: center;
 
-img.book-list {
-  margin: 3px;
-  width: 160px;
-  height: 250px;
-  object-fit: contain;
-}
 
-img.bookshelf {
-  display: block;
-  margin: 50px auto 0;
-  max-width:260px;
-  max-height:400px;
-  width: auto;
-  height: auto;
-
-  @media (max-width: @screen-md-max) {
-    width: 100%;
-  }
-
-  @media (max-width: @screen-xs-max) {
+  img {
+    margin: 3px;
     width: 160px;
     height: 250px;
     object-fit: contain;
-  }
-}
 
-h1.bookshelf::before {
-  content: ''
+    @media (max-width: 381px) {
+      width: 100%;
+      height:auto;
+    }
+  }
 }
 
 header.book {
-  padding-top: 50px;
+  padding-top: 100px;
+
+  img {
+    display: block;
+    max-width:260px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+
+    @media (max-width: @screen-md-max) {
+      width: 100%;
+    }
+
+    @media (max-width: @screen-xs-max) {
+      margin: 0 auto;
+      object-fit: contain;
+    }
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: (@font-size-h1 * .75);
+
+    @media (max-width: @screen-xs-max) {
+      margin-top: 50px;
+    }
+  }
+
+  p {
+    font-family: @font-family-sans-serif-subset;
+    font-size: (@font-size-base * .7);
+  }
+
+  @media (max-width: @grid-float-breakpoint-max) {
+    h1 {
+      font-size: (@font-size-h1 * .6);
+    }
+
+    p {
+      font-size: (@font-size-base * .6);
+    }
+  }
 }
 
-h1.bookshelf {
-  display: block;
-  margin: 50px 0 ( @line-height-computed / 2 ) 0;
-  font-size: (@font-size-h1 * .75);
-}
-
-p.bookshelf {
-  margin: 0 0 ( @line-height-computed ) 0;
-  font-family: @font-family-sans-serif-subset;
-  font-size: (@font-size-base * .7);
-}
-
-div.bookshelf {
-  padding-top: 40px
-}
-
-.buy-button {
+.buy {
   padding: 0 20px;
   font-family: @font-family-sans-serif-subset;
   font-size: (@font-size-base * .8);
-}
 
-@media (max-width: @grid-float-breakpoint-max) {
-  h1.bookshelf {
-    font-size: (@font-size-h1 * .6);
-  }
-
-  p.bookshelf, .buy-button {
+  @media (max-width: @grid-float-breakpoint-max)
+  {
     font-size: (@font-size-base * .6);
   }
-
 }

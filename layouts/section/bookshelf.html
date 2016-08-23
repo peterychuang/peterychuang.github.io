@@ -1,12 +1,12 @@
 {{ partial "common/head.html" . }}
 {{ partial "common/nav.html" . }}
 {{ partial "common/header.html" . }}
-  <section id="{{ lower .Title | urlize }}" class="content text-center">
+  <section id="{{ lower .Title | urlize }}" class="content book-list">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           {{ range (.Paginator 24).Pages }}
-            <a href="{{ .RelPermalink }}"><img class="book-list" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" /></a>
+            <a href="{{ .RelPermalink }}"><img src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" /></a>
           {{ end }}
 
           <ul class="pager">

@@ -29,6 +29,7 @@ cache:
   - "$HOME/gopath/src/github.com/magiconair"
   - "$HOME/gopath/src/github.com/miekg"
   - "$HOME/gopath/src/github.com/mitchellh"
+  - "$HOME/gopath/src/github.com/pelletier"
   - "$HOME/gopath/src/github.com/pkg"
   - "$HOME/gopath/src/github.com/PuerkitoBio"
   - "$HOME/gopath/src/github.com/russross"

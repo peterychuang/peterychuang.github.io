@@ -43,7 +43,10 @@ gulp.task('copy1', function() {
   return gulp.src([
     './_output/hugo-stage-1/assets/**/*',
     '!./_output/hugo-stage-1/assets/img/t/**/*',
-    '!./_output/hugo-stage-1/assets/img/t/'])
+    '!./_output/hugo-stage-1/assets/img/t/',
+    '!./_output/hugo-stage-1/assets/js/fullPage.js',
+    '!./_output/hugo-stage-1/assets/js/bootstrap-nojquery.js'
+  ])
   .pipe(gulp.dest('./public/assets'))
 });
 

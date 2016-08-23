@@ -4,16 +4,40 @@
       <div class="col-lg-8 col-lg-offset-2">
         <h1 class="section-heading">Bookshelf</h1>
         <p>Books I’ve read and loved (or not)</p>
-        <div class="slider">
+        <div class="csslider infinity">
+          <input type="radio" name="slides" id="slides_1" checked />
+          <input type="radio" name="slides" id="slides_2" />
+          <input type="radio" name="slides" id="slides_3" />
+          <input type="radio" name="slides" id="slides_4" />
+          <input type="radio" name="slides" id="slides_5" />
+          <input type="radio" name="slides" id="slides_6" />
+          <input type="radio" name="slides" id="slides_7" />
+          <input type="radio" name="slides" id="slides_8" />
+          <input type="radio" name="slides" id="slides_9" />
+          <input type="radio" name="slides" id="slides_10" />
           <ul>
             {{ range first 10 (where .Site.Pages "Section" "bookshelf")}}
               <li>
                 <a href="{{ .RelPermalink }}">
-                  <img class="book-list" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
+                  <img src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
                 </a>
               </li>
             {{ end }}
           </ul>
+          <div class="arrows">
+            <label for="slides_1"></label>
+            <label for="slides_2"></label>
+            <label for="slides_3"></label>
+            <label for="slides_4"></label>
+            <label for="slides_5"></label>
+            <label for="slides_6"></label>
+            <label for="slides_7"></label>
+            <label for="slides_8"></label>
+            <label for="slides_9"></label>
+            <label for="slides_10"></label>
+            <label for="slides_1" class="goto-first"></label>
+            <label for="slides_10" class="goto-last"></label>
+          </div>
         </div>
         <p></p>
         <p><a href="/bookshelf/" class="box">View all</a></p>

@@ -42,7 +42,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-72x72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-precomposed.png"/>
     <link rel="preload" href="/assets/css/style.css" as="style" onload="this.rel='stylesheet'">
-		<noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+    <link rel="preload" href="/assets/css/font-serif.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="/assets/css/font-sans.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="/assets/css/font-display.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="/assets/css/font-mono.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+		<noscript><link rel="stylesheet" href="/assets/css/font-serif.css"></noscript>
+    <noscript><link rel="stylesheet" href="/assets/css/font-sans.css"></noscript>
+    <noscript><link rel="stylesheet" href="/assets/css/font-display.css"></noscript>
+    <noscript><link rel="stylesheet" href="/assets/css/font-mono.css"></noscript>
 
     <script>!function(e){"use strict";var t=function(t,n,o){function r(e){return a.body?e():void setTimeout(function(){r(e)})}function i(){d.addEventListener&&d.removeEventListener("load",i),d.media=o||"all"}var l,a=e.document,d=a.createElement("link");if(n)l=n;else{var s=(a.body||a.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var f=a.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",r(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var u=function(e){for(var t=d.href,n=f.length;n--;)if(f[n].href===t)return e();setTimeout(function(){u(e)})};return d.addEventListener&&d.addEventListener("load",i),d.onloadcssdefined=u,u(i),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(t){}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var o=t[n];"preload"===o.rel&&"style"===o.getAttribute("as")&&(e.loadCSS(o.href,o),o.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){e.clearInterval(n)})}}}(this);</script>
 
@@ -59,7 +67,6 @@
         {{ range $.Site.Data.cat }}
           {{ if eq $cat_name .name }}
             <style>
-              {{ partial "css/css_critical-font.html" . | safeCSS }}
               {{ partial "css/css_index.html" . | safeCSS }}
               .header {
                 background-image: url(/{{ $assets }}t/{{ .image }});
@@ -146,4 +153,4 @@
       {{ end }}
     {{ end }}
     </head>
-    <body data-spy="scroll" data-target=".navbar-fixed-top">
+    <body>

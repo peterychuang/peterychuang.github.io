@@ -1,82 +1,350 @@
-.slider {
-	//  Should either be relative or absolute
-	//  as long as it's not static, but we'll
-	//  set it using jQuery
-	// position: relative;
-	overflow: auto;
-	margin: 0;
-	padding: 0;
+// CONFIG
 
-	&-wrap {
-		position: relative;
+// Main
+@border-size: 10px;
+@slider-inner-width: 916px - 2*@border-size;
+@slider-inner-height: 483px - 2*@border-size;
+@slider-main-color: #1f82ef;
+@slider-back-color: #333;
+@max-slides: 10;
 
-		&.slider-carousel > li {
-			float: left;
-		}
-	}
+// Dot
+@dot-outer-size: 4px;
+@dot-inner-size: 6px;
+@dot-distance: 4px;
+@dot-distance-top: 10px;
+@dot-main-color: @slider-main-color;
+@dot-back-color: @slider-back-color;
 
-	//  Vertical sliders don't float left
-	&-vertical {
-		> ul {
-			height: 100%;
-		}
+// Arrow
+@arrow-type: 'lite'; // standard | lite
+@arrow-size: 13px;
+@arrow-distance: 15px;
+@arrow-hover-shift: 0px;
+@arrow-color: @slider-back-color;
+@arrow-hover-color: @slider-main-color;
 
-		li {
-			float: none;
-			width: 100%;
-		}
-	}
+@speed: .5s;
+@easing: cubic-bezier(.4,1.3,.65,1); // ease-out
 
-	//  Fading needs everything to appear on top of
-	//  each other
-	&-fade {
-		position: relative;
+.csslider {
+    -moz-perspective: 1300px;
+    -ms-perspective: 1300px;
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+    display: inline-block;
+    position: relative;
+		width: 70%;
+    margin-bottom: @dot-distance + @dot-distance-top + 2 * @dot-outer-size;
 
-		.slider-wrap li {
-			position: absolute;
-			left: 0;
-			top: 0;
-			right: 0;
-			z-index: 8;
+    > input {
+        display: none;
 
-			&.slider-active {
-				z-index: 10;
-			}
-		}
-	}
+        .loopingClass (@index) when (@index > 0) {
+            &:nth-of-type(@{index}):checked ~ ul li:first-of-type {
+                margin-left: -100% * (@index - 1);
+            }
 
-	ul, ol, li {
-		list-style: none;
+            .loopingClass(@index - 1);
+        }
 
-		/* Reset any weird spacing */
-		margin: 0;
-		padding: 0;
+        .loopingClass(@max-slides);
+    }
 
-		border: none;
-	}
+    > ul {
+        position: relative;
+        height: 250 + 6px;
+        z-index: 1;
+        font-size: 0;
+        line-height: 0;
+//        background-color: @slider-back-color;
+//        border: @border-size solid @slider-back-color;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
 
-	&-arrow {
-		position: absolute;
-		height: 0;
-		top: 50%;
-		left: 50px;
-		z-index: 2;
-		display: block;
-		text-indent: -999em;
-		border-style: solid;
+        > li {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-size: 15px;
+            font-size: initial;
+            line-height: normal;
+            -moz-transition: all @speed @easing;
+            -o-transition: all @speed ease-out;
+            -webkit-transition: all @speed @easing;
+            transition: all @speed @easing;
+            vertical-align: top;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            white-space: normal;
 
-		cursor: pointer;
+            &.scrollable {
+                overflow-y: scroll;
+            }
+        }
+    }
 
-		&.next {
-			left: auto;
-			right: 50px;
-			border-width: 38.5px 0 38.5px 34px;
-			border-color: transparent transparent transparent #333;
-		}
+    > .navigation {
+        position: absolute;
+        bottom: -2 * @dot-outer-size;
+        left: 50%;
+        z-index: 10;
+        margin-bottom: -@dot-distance-top;
+        font-size: 0;
+        line-height: 0;
+        text-align: center;
+        .noSelect();
 
-		&.prev {
-			border-width: 38.5px 34px 38.5px 0;
-			border-color: transparent #333 transparent transparent;
-		}
-	}
+        > div {
+            margin-left: -100%;
+        }
+
+        label {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 50%;
+            margin: 0 @dot-distance;
+            padding: @dot-outer-size;
+            background: @dot-back-color;
+
+            &:hover:after {
+                opacity: 1;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -@dot-inner-size;
+                margin-top: -@dot-inner-size;
+                background: @dot-main-color;
+                border-radius: 50%;
+                padding: @dot-inner-size;
+                opacity: 0;
+            }
+        }
+    }
+
+    > .arrows {
+        .noSelect();
+
+        .goto-first,
+        .goto-last {
+
+        }
+    }
+
+    &.inside .navigation {
+        bottom: @border-size;
+        margin-bottom: @dot-distance-top;
+
+        label {
+            border: 1px solid #7e7e7e;
+        }
+    }
 }
+
+& {
+    .repeat('.csslider > input:nth-of-type(  $i  ):checked ~ .navigation label:nth-of-type(  $i  ):after,');
+    @{result}
+    {
+        opacity: 1;
+    }
+}
+
+.render-arrow();
+
+.repeat(@pattern) {
+
+    @to_repeat: ~'@{pattern}';
+    @result: ~`(function(){
+        var result = '';
+
+        for(var i=1; i < @{max-slides} + 2; i++) {
+            result += "@{to_repeat}\n"
+                      .replace(/\s*\$im1\s*/g, i - 1)
+                      .replace(/\s*\$ip1\s*/g, i + 1)
+                      .replace(/\s*\$i\s*/g, i);
+        }
+        return result.replace(/[,\s]+$/,'');
+    })()`;
+}
+
+.noSelect() {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*#region MODULES */
+
+
+.render-arrow () when (@arrow-type = 'lite') {
+    @arrow-thickness: 2px;
+    @arrow-thickness-hover: 3px;
+
+    .csslider > .arrows {
+        position: absolute;
+        left: -@arrow-size - 3px - @arrow-distance;
+        top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+        width: 100%;
+        height: 2 * @arrow-size;
+        padding: 0;
+        z-index: 0;
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+
+        label {
+            display: none;
+            position: absolute;
+            top: -50%;
+            padding: @arrow-size;
+            box-shadow: inset @arrow-thickness -@arrow-thickness 0 (@arrow-thickness - 1px) @arrow-color;
+            cursor: pointer;
+            -moz-transition: box-shadow .15s, margin .15s;
+            -o-transition: box-shadow .15s, margin .15s;
+            -webkit-transition: box-shadow .15s, margin .15s;
+            transition: box-shadow .15s, margin .15s;
+
+            &:hover {
+                box-shadow: inset @arrow-thickness-hover -@arrow-thickness-hover 0 (@arrow-thickness-hover - 1px) @arrow-hover-color;
+                margin: 0 -@arrow-hover-shift;
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: -100%;
+                left: -100%;
+                height: 300%;
+                width: 300%;
+            }
+        }
+    }
+
+    // Left conditions
+    & {
+        .repeat('.csslider > input:nth-of-type(  $i  ):checked ~ .arrows > label:nth-of-type(  $im1  ),');
+        .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+        @{result}
+        {
+            display: block;
+            left: 0;
+            right: auto;
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+    }
+
+    // Right conditions
+    & {
+        .repeat('.csslider > input:nth-of-type(  $i  ):checked ~ .arrows > label:nth-of-type(  $ip1  ),');
+        .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+        @{result}
+        {
+            display: block;
+            right: 0;
+            left: auto;
+            -moz-transform: rotate(225deg);
+            -ms-transform: rotate(225deg);
+            -o-transform: rotate(225deg);
+            -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+        }
+    }
+}
+
+.render-arrow () when (@arrow-type = 'standard') {
+
+    .csslider > .arrows {
+        position: absolute;
+        left: -@arrow-size - @arrow-distance + 2px;
+        top: 50%;
+        width: 100%;
+        height: 2 * @arrow-size;
+        padding: 0 @arrow-size + @arrow-distance - 2px;
+        z-index: 0;
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+
+        label {
+            display: none;
+            position: absolute;
+            top: -50%;
+            width: 0;
+            height: 0;
+            border-top: @arrow-size solid transparent;
+            border-bottom: @arrow-size solid transparent;
+            border-left: @arrow-size solid @arrow-color;
+            border-right: @arrow-size solid @arrow-color;
+            cursor: pointer;
+            -moz-transition: margin .15s;
+            -o-transition: margin .15s;
+            -webkit-transition: margin .15s;
+            transition: margin .15s;
+
+            &:hover {
+                border-left-color: @arrow-hover-color;
+                border-right-color: @arrow-hover-color;
+                margin: 0 -@arrow-hover-shift;
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: -@arrow-size;
+                left: -@arrow-size - @arrow-hover-shift - @arrow-distance;
+                height: @arrow-size*2;
+                width: 2 * (@arrow-size + @arrow-distance + @arrow-hover-shift);
+            }
+        }
+    }
+
+    // Left conditions
+    & {
+        .repeat('.csslider > input:nth-of-type(  $i  ):checked ~ .arrows > label:nth-of-type(  $im1  ),');
+        .csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+        @{result}
+        {
+            display: block;
+            left: 0;
+            right: auto;
+            border-left: none;
+        }
+    }
+
+    // Right conditions
+    & {
+        .repeat('.csslider > input:nth-of-type(  $i  ):checked ~ .arrows > label:nth-of-type(  $ip1  ),');
+        .csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+        @{result}
+        {
+            display: block;
+            right: 0;
+            left: auto;
+            border-right: none;
+        }
+    }
+}
+
+/*#endregion */

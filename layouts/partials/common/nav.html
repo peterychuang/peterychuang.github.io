@@ -2,23 +2,23 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
           <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand" href="#page-top"><i class="fa fa-pencil">&nbsp;</i> Peter Y. Chuang - Novelist</a>
       </div>
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav" id="navmenu">
           {{ partial "common/nav-social.html" . }}
           <li data-menuanchor="about"><a href="#about"> About </a></li>
           <li data-menuanchor="novels" class="dropdown">
-            <a href="/#novels" class="dropdown-toggle" data-toggle="dropdown" role="button"> Novels <span class="caret"></span></a>
+            <a href="/#novels" class="dropdown-toggle" role="button"> Novels <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/novels/2047/"> Twenty Forty-Seven </a></li>
               <li><a href="/novels/only-you-know-what-it-means/"> Only You Know What It Means </a></li>
             </ul>
           </li>
-          <li data-menuanchor="blog" class="dropdown"><a href="#blog" class="dropdown-toggle" data-toggle="dropdown" role="button"> Blog <span class="caret"></span></a>
+          <li data-menuanchor="blog" class="dropdown"><a href="#blog" class="dropdown-toggle" role="button"> Blog <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/short-stories/"> Short Stories </a></li>
               <li><a href="/essays/"> Essays </a></li>

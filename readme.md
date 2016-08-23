@@ -6,17 +6,16 @@ This is the Hugo source code for [Peter Y. Chuang - Novelist](https://novelist.x
 
 Originally, this was a fork of [{ Personal } Jekyll Theme by PanosSakkos](https://github.com/PanosSakkos/personal-jekyll-theme), which was a fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme), and I borrowed some elements from [Grayscale](https://github.com/jeromelachaud/grayscale-theme) and [Feeling Responsive](https://github.com/Phlow/feeling-responsive).
 
-Over time, however, I've made numerous changes to the site, and some time in 2015 a hard-disk failure made part of the source that was not synced to GitHub unrecoverable. As a result, a large part of the site, mainly the CSS, has been rebuilt and re-compiled from ground up using [Bootstrap Framework](https://github.com/twbs/bootstrap), the original framework that powered whichever site that the site I forked was based on, and it's probably not possible to see the trace of the original themes I forked to create this website.
+Over time, however, I've made numerous changes to the site, and a hard-disk failure made part of the source unrecoverable. As a result, a large part of the site, mainly the CSS, has been rebuilt from ground up using [Bootstrap Framework](https://github.com/twbs/bootstrap), the original framework that powered whichever site that the site I forked was based on, and it's probably not possible to see the trace of the original themes I forked to create this website.
 
 ### Stuff used in this site
 
-* [Bootstrap](https://github.com/twbs/bootstrap);
-* [FullPage.js](https://github.com/alvarotrigo/fullPage.js);
+* [Bootstrap without Jquery](https://github.com/tagawa/bootstrap-without-jquery);
+* [FullPage.js (pure javascript verion)](https://github.com/alvarotrigo/fullPage.js);
 * [loadCSS](https://github.com/filamentgroup/loadCSS);
 * [Cookie Consent](https://github.com/silktide/cookieconsent2)
-* [Font Face Observer](https://github.com/bramstein/fontfaceobserver)
-* [Jquery](https://github.com/jquery/jquery); and
-* Slider, modified from [Unslider](https://github.com/idiot/unslider)
+* [Font Face Observer](https://github.com/bramstein/fontfaceobserver); and
+* [CSS Slider](https://github.com/drygiel/csslider)
 
 ### Copyright and License
 

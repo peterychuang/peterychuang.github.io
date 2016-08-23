@@ -5,7 +5,7 @@
         <div class="row" itemscope itemtype="http://schema.org/Book">
           <div class="col-sm-3 col-lg-offset-2">
             <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank">
-              <img itemprop="image" class="bookshelf" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
+              <img itemprop="image" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
             </a>
           </div>
           <div class="col-sm-5">
@@ -57,7 +57,7 @@
                 </span>
               </span>
             </p>
-            <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank" class="btn btn-default"><span class="buy-button">BUY</span></a>
+            <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank" class="btn btn-default"><span class="buy">BUY</span></a>
           </div>
         </div>
       </div>
@@ -69,10 +69,10 @@
           {{ .Content }}
           <p>
             {{ if gt .WordCount 2 }}
-              <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank" class="btn btn-default"><span class="buy-button">BUY</span></a>
+              <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank" class="btn btn-default"><span class="buy">BUY</span></a>
             {{ end }}
           </p>
-          <p class="post-meta">
+          <p class="meta">
             <a href="/bookshelf/"><i class="fa fa-archive">&nbsp;</i>Bookshelf</a>
             <br />
             {{ range .Params.tag }}

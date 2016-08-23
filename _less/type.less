@@ -7,7 +7,8 @@
 // -------------------------
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+// .h1, .h2, .h3, .h4, .h5, .h6
+{
   font-family: @headings-font-family-subset;
   font-weight: @headings-font-weight;
   line-height: @headings-line-height;
@@ -23,14 +24,17 @@ h1, h2, h3, h4, h5, h6,
 
 .fonts-loaded {
   h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+//.h1, .h2, .h3, .h4, .h5, .h6
+{
     font-family: @headings-font-family;
   }
 }
 
-h1, .h1,
-h2, .h2,
-h3, .h3 {
+// h1, .h1,
+// h2, .h2,
+// h3, .h3
+h1, h2, h3
+{
   margin-top: @line-height-computed;
   margin-bottom: (@line-height-computed / 2);
 
@@ -39,9 +43,11 @@ h3, .h3 {
     font-size: 65%;
   }
 }
-h4, .h4,
-h5, .h5,
-h6, .h6 {
+// h4, .h4,
+// h5, .h5,
+// h6, .h6
+h4, h5, h6
+{
   margin-top: (@line-height-computed / 2);
   margin-bottom: (@line-height-computed / 2);
 
@@ -51,20 +57,33 @@ h6, .h6 {
   }
 }
 
-h1, .h1 { font-size: @font-size-h1; }
+/* h1, .h1 { font-size: @font-size-h1; }
 h2, .h2 { font-size: @font-size-h2; }
 h3, .h3 { font-size: @font-size-h3; }
 h4, .h4 { font-size: @font-size-h4; }
 h5, .h5 { font-size: @font-size-h5; }
-h6, .h6 { font-size: @font-size-h6; }
+h6, .h6 { font-size: @font-size-h6; } */
+
+h1 { font-size: @font-size-h1; }
+h2 { font-size: @font-size-h2; }
+h3 { font-size: @font-size-h3; }
+h4 { font-size: @font-size-h4; }
+h5 { font-size: @font-size-h5; }
+h6 { font-size: @font-size-h6; }
 
 @media (max-width: @screen-xs-max) {
-  h1, .h1 { font-size: (@font-size-h1 * 0.8); }
+/*  h1, .h1 { font-size: (@font-size-h1 * 0.8); }
   h2, .h2 { font-size: (@font-size-h2 * 0.8); }
   h3, .h3 { font-size: (@font-size-h3 * 0.8); }
   h4, .h4 { font-size: (@font-size-h4 * 0.8); }
   h5, .h5 { font-size: (@font-size-h5 * 0.8); }
-  h6, .h6 { font-size: (@font-size-h6 * 0.8); }
+  h6, .h6 { font-size: (@font-size-h6 * 0.8); } */
+  h1 { font-size: (@font-size-h1 * 0.8); }
+  h2 { font-size: (@font-size-h2 * 0.8); }
+  h3 { font-size: (@font-size-h3 * 0.8); }
+  h4 { font-size: (@font-size-h4 * 0.8); }
+  h5 { font-size: (@font-size-h5 * 0.8); }
+  h6 { font-size: (@font-size-h6 * 0.8); } 
 }
 
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before, {
