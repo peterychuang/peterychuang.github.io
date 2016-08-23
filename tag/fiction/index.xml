@@ -6,8 +6,17 @@
     <description>Recent content in Fiction on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Aug 2016 17:11:51 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/tag/fiction/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Austerlitz</title>
+      <link>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
+      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+    </item>
     
     <item>
       <title>Cologne</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</guid>
       <description>“I wish you were thinking of me during your death”</description>
-    </item>
-    
-    <item>
-      <title>How to blow up the world</title>
-      <link>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</link>
-      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</guid>
-      <description>Two disgruntled human beings took revenge on the world</description>
     </item>
     
   </channel>

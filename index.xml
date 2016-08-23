@@ -6,8 +6,17 @@
     <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 23 Aug 2016 15:15:56 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Austerlitz</title>
+      <link>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
+      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+    </item>
     
     <item>
       <title>How to use Bootstrap Navbar without jQuery</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/short-stories/rosaline/</guid>
       <description>She had always dreamt of being a painter, but she became one only after she&#39;d killed someone</description>
-    </item>
-    
-    <item>
-      <title>Peter I. Tchaikovsky: Souvenir de Florence</title>
-      <link>https://novelist.xyz/music/tchaikovsky-souvenir-de-florence/</link>
-      <pubDate>Wed, 29 Jun 2016 17:40:19 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/music/tchaikovsky-souvenir-de-florence/</guid>
-      <description>String Sextet in D minor</description>
     </item>
     
   </channel>
