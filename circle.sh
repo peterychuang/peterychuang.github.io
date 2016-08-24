@@ -2,6 +2,7 @@
 set -e
 
 echo "# This file is a template, and might need editing before it works on your project.\n# Full project: https://gitlab.com/pages/plain-html\npages:\n  stage: deploy\n  script:\n  - mkdir .public\n  - cp -r * .public\n  - mv .public public\n  artifacts:\n    paths:\n    - public\n  only:\n  - master" > ~/peterychuang.github.io/public/.gitlab-ci.yml
+echo "# [Peter Y. Chuang - Novelist](https://novelist.xyz)\n\nThis is the repository for the compiled HTML and static files of my website.\n\nFor the source of the website, please visit the [source branch](https://github.com/peterychuang/peterychuang.github.io/tree/source)." > ~/peterychuang.github.io/public/readme.md
 REV=$(git rev-parse HEAD)
 mkdir ~/tmp
 eval `ssh-agent -s`

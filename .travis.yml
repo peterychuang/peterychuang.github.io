@@ -1,5 +1,8 @@
 language: go
 
+go:
+  - 1.7
+
 env:
   global:
   - SSH_KEY="publish-key"
@@ -58,6 +61,7 @@ script:
 - echo novelist.xyz > ./public/CNAME
 - touch ./public/.nojekyll
 - echo -e "general:\n  branches:\n    ignore:\n      - master" > ./public/circle.yml
+- echo -e "# [Peter Y. Chuang - Novelist](https://novelist.xyz)\n\nThis is the repository for the compiled HTML and static files of my website.\n\nFor the source of the website, please visit the [source branch](https://github.com/peterychuang/peterychuang.github.io/tree/source)." > ./public/readme.md
 - sh ./deploy.sh
 
 notifications:

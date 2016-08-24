@@ -1,6 +1,5 @@
 ---
 aliases: null
-categories: Tech
 date: 2016-08-23T15:15:56-04:00
 description: You don't need jQuery to bring a Bootstrap Navbar to life
 header:

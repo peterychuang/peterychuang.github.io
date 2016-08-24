@@ -67,6 +67,7 @@
         {{ range $.Site.Data.cat }}
           {{ if eq $cat_name .name }}
             <style>
+              {{ partial "css/css_critical-font.html" . | safeCSS }}
               {{ partial "css/css_index.html" . | safeCSS }}
               .header {
                 background-image: url(/{{ $assets }}t/{{ .image }});

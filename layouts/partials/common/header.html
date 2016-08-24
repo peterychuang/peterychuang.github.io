@@ -27,6 +27,8 @@
         <div class="header-text">
           {{ if eq .URL "404.html" }}
           <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
+          <hr class="small">
+          <p><span class="subheading">Maybe the page was moved or deleted; or did you mistype the link?</span></p>
           {{ else if eq .Title "Blog" }}
           <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
           {{ else if eq .Data.Singular "tag" }}
