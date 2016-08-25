@@ -22,12 +22,14 @@ Inspired by [Bootstrap without jQuery](https://github.com/tagawa/bootstrap-witho
 
 {{< highlight javascript >}}
 /* Bootstrap Replacement
+
    Inspired by and modified from Bootstrap without Jquery Project
    https://github.com/tagawa/bootstrap-without-jquery
 */
 
-  var e=document.querySelector(".navbar-toggle");
-  var t=document.querySelector(".navbar-collapse");
+  var e = document.querySelector(".navbar-toggle");
+  var t = document.querySelector(".navbar-collapse");
+  var a = e.getAttribute("aria-expanded");
 
   function getMaxHeight(t) {
     // Source: http://n12v.com/css-transition-to-from-auto/
@@ -38,47 +40,51 @@ Inspired by [Bootstrap without jQuery](https://github.com/tagawa/bootstrap-witho
     t.offsetHeight; // force repaint
     return maxHeight;
   }
-  function complete(element) {
-    t.classList.remove('collapsing');
-    t.classList.add('collapse');
-    // Check whether the element is unhidden
-    if (t.style.height !== '0px') {
-      t.classList.add('in');
-      t.style.height = 'auto';
-    }
-  }
-  var a = e.getAttribute("aria-expanded");
 
-/* Open the Menu after clicking the menu button */
+/* Open the Menu after clicking the menu button
+   Only if the menu is current collapsed that is.
+*/
+
   e.onclick = function() {
-    if (a == "false") {
+    if ( a == "false" ) {
       t.classList.remove('collapse');
       t.classList.add('collapsing');
       e.classList.remove('collapsed');
       e.setAttribute('aria-expanded', true);
-      // Set element's height to its maximum height
       t.style.height = getMaxHeight(t);
     }
   }
 
 /* Collapse the menu after clicking anywhere, not just the menu button.
-   But only if the menu is already expanded, obviously. */
-  a=e.getAttribute("aria-expanded")
+   Only if the menu is already expanded, of course.
+*/
+
   document.onclick = function(){
-    if (a == "true") {
+    if ( a == "true" ) {
       t.classList.remove("collapse");
       t.classList.remove("in");
       t.classList.add("collapsing");
       e.classList.add("collapsed");
-      e.setAttribute("aria-expanded",!1);
+      e.setAttribute("aria-expanded", false);
       t.style.height = getComputedStyle(t).height;
       t.offsetHeight,t.style.height="0px"
     };
-    t.addEventListener("transitionend", function() {
-        complete(t);
-    });
-    a=e.getAttribute("aria-expanded")
   };
+
+  // Transition Handling
+  t.addEventListener("transitionend", function() {
+    t.classList.remove('collapsing');
+    t.classList.add('collapse');
+
+    // Check whether the element is unhidden
+    if (t.style.height !== '0px') {
+      t.classList.add('in');
+      t.style.height = 'auto';
+    }
+
+    // Get 'aria-expanded' state
+    a = e.getAttribute("aria-expanded");
+  });
   {{</ highlight >}}
 
 *Visit my [Github repository](https://github.com/peterychuang/peterychuang.github.io) for more information.*
