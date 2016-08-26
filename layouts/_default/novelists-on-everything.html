@@ -12,8 +12,8 @@
             {{ range .Site.Data.novelists.everything }}
               <li><a href="#{{ .name | urlize | lower }}">{{ .name | markdownify }}</a></li>
               <ul>
-                {{ range $book, $i := .sources }}
-                <li><a href="#{{ $book | urlize | lower }}">{{ $book | markdownify }}</a></li>
+                {{ range .sources }}
+                <li><a href="#{{ .title | urlize | lower }}">{{ .title | markdownify }}</a></li>
                 {{ end }}
               </ul>
             {{ end }}
@@ -23,11 +23,11 @@
             <hr />
             <h3 id="{{ .name | urlize | lower }}">{{ .name | markdownify }}</h3>
             <p>{{ .bio | markdownify }}</p>
-            {{ range $book, $i := .sources }}
-              <h4 class="book-name" id="{{ $book | urlize | lower }}">{{ $book | markdownify }}</h4>
-              {{ range $q, $j := .quotes }}
+            {{ range .sources }}
+              <h4 class="book-name" id="{{ .title | urlize | lower }}">{{ .title | markdownify }}</h4>
+              {{ range .quotes }}
                 <blockquote>
-                  <p>{{ $q | markdownify }}</p>
+                  <p>{{ .entry | markdownify }}</p>
                   {{ if .credits }}<p><small><em>{{ .credits | markdownify }}</em></small></p>{{ end }}
                 </blockquote>
                 <p>{{ if .comment }}{{ .comment | markdownify }}{{ end }}</p>
@@ -38,7 +38,7 @@
           {{ end }}
           <p class="meta"></p>
         </div>
-	{{ partial "common/author.html" . }}
+	      {{ partial "common/author.html" . }}
       </div>
     </div>
   </section>

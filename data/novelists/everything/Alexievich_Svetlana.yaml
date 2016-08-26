@@ -2,11 +2,11 @@ name: Svetlana Alexievich
 bio: "Belarusian journalist, winner of the Nobel Prize in Literature in 2015. Although not a novelist, her writing is beautiful and moving that I've included them here."
 
 sources:
-  "Second-Hand Time":
-    quotes:
-      "When it comes down to it, people end their lives for love, from fear of old age, or just out of curiosity, from a desire to come face to face with the mystery of death.":
-        comment: ""
-        credits: "p. 24 (Translation: Bela Shayevich)"
-      "People are constantly forced to choose between having freedom and having success and stability; freedom with suffering or happiness without freedom. The majority choose the latter.":
-        comment: ""
-        credits: "p. 24 (Translation: Bela Shayevich)"
+- title: "Second-Hand Time"
+  quotes:
+  - entry: "When it comes down to it, people end their lives for love, from fear of old age, or just out of curiosity, from a desire to come face to face with the mystery of death."
+    comment: ""
+    credits: "p. 24 (Translation: Bela Shayevich)"
+  - entry: "People are constantly forced to choose between having freedom and having success and stability; freedom with suffering or happiness without freedom. The majority choose the latter."
+    comment: ""
+    credits: "p. 24 (Translation: Bela Shayevich)"
