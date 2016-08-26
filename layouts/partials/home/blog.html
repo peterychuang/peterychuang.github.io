@@ -4,7 +4,12 @@
       <div class="col-lg-8 col-lg-offset-2">
         <h1>Blog</h1>
         <p>Here you can find the latest <a href="/short-stories/">short stories</a>, <a href="/poetry/">poems</a>, <a href="/essays/">essays</a>, and everything else:</p>
-        {{ range first 5 (where .Site.Pages "Section" "blog")}}<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>{{ end }}
+        {{ range ( where .Site.Pages "Section" "blog" )}}
+          {{ if and ( ne .Params.categories "Music" ) ( lt ($.Scratch.Get "$i") 5 ) }}
+            {{ $.Scratch.Add "$i" 1 }}
+            <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+          {{ end }}
+        {{ end }}
         <p><br/></p>
         <p><a href="/blog/" class="box">Read more</a></p>
         <p><br/></p>
