@@ -6,8 +6,17 @@
     <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 26 Aug 2016 11:39:25 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Franz Schubert: Grand Duo, D 812</title>
+      <link>https://novelist.xyz/blog/music/schubert-grand-duo/</link>
+      <pubDate>Fri, 26 Aug 2016 11:39:25 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/blog/music/schubert-grand-duo/</guid>
+      <description>Schubert&#39;s finest work for piano duo</description>
+    </item>
     
     <item>
       <title>Austerlitz</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/music/la-soledad/</guid>
       <description>A beautifully nostalgic Spanish-language song</description>
-    </item>
-    
-    <item>
-      <title>Rosaline</title>
-      <link>https://novelist.xyz/short-stories/rosaline/</link>
-      <pubDate>Sat, 02 Jul 2016 10:30:10 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/short-stories/rosaline/</guid>
-      <description>She had always dreamt of being a painter, but she became one only after she&#39;d killed someone</description>
     </item>
     
   </channel>
