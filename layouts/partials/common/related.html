@@ -5,7 +5,7 @@
     {{ $tags := .Params.tag }}
     {{ range .Site.Pages.ByDate.Reverse }}
       {{ $page := . }}
-      {{ $has_common_tags := intersect $tags .Params.tag | len | lt 1 }}
+      {{ $has_common_tags := intersect $tags .Params.tag | len | lt 0 }}
       {{ if and $has_common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$i") 3)}}
         {{ $.Scratch.Add "$i" 1 }}
         <li class="relatedPost">

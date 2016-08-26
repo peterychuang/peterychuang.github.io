@@ -11,7 +11,6 @@ layout: music
 seo_description: null
 tag:
 - Music
-- Tchaikovsky
 title: "Peter I. Tchaikovsky: Souvenir de Florence"
 url: /music/tchaikovsky-souvenir-de-florence/
 youtube_id: vulKECq4r60
