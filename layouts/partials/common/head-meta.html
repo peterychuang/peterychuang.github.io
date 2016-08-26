@@ -2,9 +2,9 @@
   {{ if .IsHome }}
     <meta name="description" content="{{ .Site.Params.description | markdownify }}" />
   {{ else if eq .Title "Blog" }}
-    <meta name="description" content="Latest short stories, poems, essays, and more" />
+    <meta name="description" content="{{ "Latest short stories, poems, essays, and more" | markdownify }}" />
   {{ else if eq .Title "Bookshelf" }}
-    <meta name="description" content="Books reviews and recommendations" />
+    <meta name="description" content="{{ "Books reviews and recommendations" | markdownify }}" />
   {{ else if eq .Title "Tech" }}
     <meta name="description" content="{{ "Linux stuff and other musings about tech and web development" | markdownify }}" />
   {{ else if eq .Data.Singular "tag" }}

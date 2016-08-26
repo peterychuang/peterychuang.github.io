@@ -34,28 +34,16 @@
     </div>
   </nav>
 {{ else }}
-  {{ if eq .Title "Bookshelf" }}
-  <nav class="navbar navbar-default navbar-fixed-top">
-  {{ else if .IsPage }}
-    {{ if or ( eq .Layout "bookshelf" ) ( eq .Layout "music" ) }}
-      <nav class="navbar navbar-default navbar-fixed-top">
-    {{ else }}
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-    {{ end }}
+  {{ if or ( eq .Section "bookshelf" ) ( eq ( $.Param "categories" ) "Music" ) }}
+    <nav class="navbar navbar-default navbar-fixed-top">
   {{ else }}
     <nav class="navbar navbar-inverse navbar-fixed-top">
   {{ end }}
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
-          {{ if eq .Title "Bookshelf" }}
-            <i class="fa fa-bars"></i>
-          {{ else if .IsPage }}
-            {{ if or ( eq .Layout "bookshelf" ) ( eq .Layout "music" ) }}
+          {{ if or ( eq .Section "bookshelf" ) ( eq ( $.Param "categories" ) "Music" ) }}
               <i class="fa fa-bars"></i>
-            {{ else }}
-              <i class="fa fa-bars fa-inverse"></i>
-            {{ end }}
           {{ else }}
             <i class="fa fa-bars fa-inverse"></i>
           {{ end }}

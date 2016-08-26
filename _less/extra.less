@@ -37,18 +37,10 @@ header {
   }
 }
 
-@media (max-width: @grid-float-breakpoint-max) {
+@media (max-width: @screen-xs-max) {
   .section p {
     font-size: (@font-size-base * .8);
     margin: 0 0 (@line-height-computed / 2);
-  }
-  .section {
-    h1 {font-size: (@font-size-h1 * .7)}
-    h2 {font-size: (@font-size-h2 * .7)}
-    h3 {font-size: (@font-size-h3 * .7)}
-    h4 {font-size: (@font-size-h4 * .7)}
-    h5 {font-size: (@font-size-h5 * .7)}
-    h6 {font-size: (@font-size-h6 * .7)}
   }
 }
 
@@ -169,19 +161,12 @@ header {
   color: @gray-light;
 }
 
-@media (max-width: @grid-float-breakpoint-max) {
-  .header.bookshelf {
-    padding:0
-  }
-}
-
 // Inner Page Container
 
-.header, .img {
+header, .img {
   position: relative;
-  height:25pc;
+  height:400px;
   text-align: center;
-  color: @body-bg;
   margin: auto;
   width: 100%;
   background-position: center center;
@@ -191,28 +176,32 @@ header {
   background-size: cover;
   -o-background-size: cover;
   -webkit-filter: none;
+
+  @media (max-height: @screen-xs-height) {
+    height:100vh;
+  }
 }
 
-.layer {
+header.error, header.error .img {
+  height:100vh;
+}
+
+header .layer {
+  width: 100%;
+  height: 100%;
   background: rgba(0,0,0,0.5);
 }
 
-.header .container {
-  width: 100%;
-  height: 100%;
-}
-
-.header-text {
+.heading {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
-// Bookshelf Header
 
-.header.bookshelf {
-  color: @text-color;
+.img .heading {
+  color: @body-bg;
 }
 
 // Content
@@ -247,6 +236,7 @@ p.author-intro {
 .footer {
 //  padding: @fooeter-padding;
   font-family: @font-family-sans-serif-subset;
+  text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -291,7 +281,7 @@ p.author-intro {
   }
 }
 
-.footer.show {
+.show {
   height: 43px;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
@@ -371,7 +361,7 @@ p.meta {
   }
 }
 .fonts-loaded {
-  figcaption, p.meta, p.word-count, p.tag-list, .contact-section, .footer, .buy, p.bookshelf, .cc_container, .footnotes {
+  figcaption, p.meta, p.word-count, p.tag-list, .contact-section, .footer, .buy, .cc_container, .footnotes {
     font-family: @font-family-sans-serif;
   }
 }
@@ -703,7 +693,6 @@ sup.footnote-ref::before {
 .content.book-list {
   text-align: center;
 
-
   img {
     margin: 3px;
     width: 160px;
@@ -719,6 +708,8 @@ sup.footnote-ref::before {
 
 header.book {
   padding-top: 100px;
+  height: inherit;
+  text-align: left;
 
   img {
     display: block;
@@ -752,13 +743,15 @@ header.book {
   }
 
   @media (max-width: @grid-float-breakpoint-max) {
+    font-size: (@font-size-base * .6);
+
     h1 {
       font-size: (@font-size-h1 * .6);
     }
+  }
 
-    p {
-      font-size: (@font-size-base * .6);
-    }
+  @media (max-width: @screen-xs-max) {
+    text-align: center;
   }
 }
 
@@ -766,9 +759,14 @@ header.book {
   padding: 0 20px;
   font-family: @font-family-sans-serif-subset;
   font-size: (@font-size-base * .8);
+}
 
-  @media (max-width: @grid-float-breakpoint-max)
-  {
-    font-size: (@font-size-base * .6);
+// Music
+header.video {
+  height: inherit;
+  padding-top: 100px;
+
+  h1 {
+    text-align: left;
   }
 }

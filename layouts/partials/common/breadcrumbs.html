@@ -11,11 +11,11 @@
                 <a property="item" typeof="WebPage" href="/{{ lower .Params.categories | urlize }}/">
                   <span property="name">{{ .Params.categories | markdownify }}</span>
                 </a>
-              {{ else if eq .Layout "novels"}}
+              {{ else if eq .Section "novels"}}
                 <a property="item" typeof="WebPage" href="/novels/">
                     <span property="name">Novels</span>
                 </a>
-              {{ else if eq .Layout "bookshelf"}}
+              {{ else if eq .Section "bookshelf"}}
                 <a property="item" typeof="WebPage" href="/bookshelf/">
                     <span property="name">Bookshelf</span>
                 </a>

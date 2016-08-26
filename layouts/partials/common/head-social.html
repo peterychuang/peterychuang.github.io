@@ -2,7 +2,7 @@
   {{ if .IsHome }}
     <meta name="og:type" content="website" />
   {{ else if eq .URL "404.html" }}
-    <meta name="og:type" content="article" />
+    <!-- Do Nothing -->
   {{ else if .IsNode }}
     <meta name="og:type" content="website" />
   {{ else if .IsPage }}
@@ -38,6 +38,7 @@
 
 <!-- Open Graph URL -->
   {{ if eq .URL "404.html" }}
+    <!-- Do Nothing -->
   {{ else }}
     <meta name="og:url" content="{{ replace .Permalink "/categories" "" }}" />
   {{ end }}

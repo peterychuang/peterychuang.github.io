@@ -1,36 +1,44 @@
 {{ partial "common/head.html" . }}
 {{ partial "common/nav.html" . }}
-  <section id="{{ lower .Title | urlize }}" class="content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="embed-container">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ index .Params.youtube_id }}" style="border:none;" allowfullscreen></iframe>
-          </div>
-          <h1>{{ .Title | markdownify }}</h1>
-          {{ if ge .WordCount 250 }}
-            <p class="word-count">
-              {{ .WordCount }} words · {{ .ReadingTime }} min read
-            </p>
-          {{ end }}
-          {{ .Content }}
-          <p class="meta">
-            <a href="/{{ lower .Params.categories | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Params.categories }}</a>
-            &nbsp;&nbsp;
-            <i class="fa fa-calendar-o" content="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">&nbsp;</i>{{ .Date.Format "2 Jan, 2006" }}
-            <br />
-          {{ range .Params.tag }}
-            <a href="/tag/{{ lower . | urlize }}/"><i class="fa fa-tag">&nbsp;</i>{{ . }}</a>&nbsp;&nbsp;
-          {{ end }}
-          <br />
-          Copyright &copy; Peter Y. Chuang {{ .Site.LastChange.Year }}
-          </p>
+<header class="video">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="embed-container">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ index .Params.youtube_id }}" style="border:none;" allowfullscreen></iframe>
         </div>
-        {{ partial "common/author.html" . }}
-        {{ partial "common/related.html" . }}
-        {{ partial "common/disqus.html" . }}
-        {{ partial "common/breadcrumbs.html" . }}
+        <h1>{{ .Title | markdownify }}</h1>
       </div>
     </div>
-  </section>
+  </div>
+</header>
+<section id="{{ lower .Title | urlize }}" class="content music">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        {{ if ge .WordCount 250 }}
+          <p class="word-count">
+            {{ .WordCount }} words · {{ .ReadingTime }} min read
+          </p>
+        {{ end }}
+        {{ .Content }}
+        <p class="meta">
+          <a href="/{{ lower .Params.categories | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Params.categories }}</a>
+          &nbsp;&nbsp;
+          <i class="fa fa-calendar-o" content="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">&nbsp;</i>{{ .Date.Format "2 Jan, 2006" }}
+          <br />
+        {{ range .Params.tag }}
+          <a href="/tag/{{ lower . | urlize }}/"><i class="fa fa-tag">&nbsp;</i>{{ . }}</a>&nbsp;&nbsp;
+        {{ end }}
+        <br />
+        Copyright &copy; Peter Y. Chuang {{ .Site.LastChange.Year }}
+        </p>
+      </div>
+      {{ partial "common/author.html" . }}
+      {{ partial "common/related.html" . }}
+      {{ partial "common/disqus.html" . }}
+      {{ partial "common/breadcrumbs.html" . }}
+    </div>
+  </div>
+</section>
 {{ partial "common/footer.html" . }}

@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-12">
           {{ range (.Paginator 24).Pages }}
-            <a href="{{ .RelPermalink }}"><img src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" /></a>
+            <a href="{{ .RelPermalink }}"><img src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }} - {{ .Params.writer }}" alt="{{ .Title }} - {{ .Params.writer }}" /></a>
           {{ end }}
 
           <ul class="pager">

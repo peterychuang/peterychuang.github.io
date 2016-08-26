@@ -6,19 +6,19 @@
 {{ end }}
 
 <script>
-{{ if ne .Title "Bookshelf" }}
 // Blur-up header image loading
+  var h = document.getElementsByTagName("header");
+
   document.addEventListener("DOMContentLoaded", function() {
-    var e = document.querySelector(".header");
-    if (!e) return !1;
-    var t = e.getAttribute("data-src"),
-        d = document.querySelector(".img"),
+    if (!h[0] ) return !1;
+    var t = h[0].getAttribute("data-src");
+    if (!t) return !1;
+    var d = document.querySelector(".img"),
         n = new Image;
     n.src = t, n.onload = function() {
         d.classList.add("loaded"), d.style.backgroundImage = "url(" + t + ")";
     }
   });
-{{ end }}
 
 // Make dropdown parents clickable
   var b = document.querySelectorAll(".navbar .dropdown > a");
@@ -26,31 +26,27 @@
     location.href = this.href
   };
 
+  {{ if not .IsHome }}
 // Change colour of navbar and show footer on scroll
-  var h = document.querySelector("header");
-      n = document.querySelector(".navbar");
-    {{ if not .IsHome }}
+  var n = document.querySelector(".navbar");
       f = document.querySelector(".footer");
-    {{end}}
-    top = h.getBoundingClientRect().top;
+    top = h[0].getBoundingClientRect().top;
   window.onscroll = function() {
-    var top = h.getBoundingClientRect().top;
+    var top = h[0].getBoundingClientRect().top;
     if (top <= -50) {
       n.classList.add("scrolled");
-      {{ if not .IsHome }}
         f.classList.add("show");
-      {{end}}
     } else {
       n.classList.remove("scrolled");
     }
   };
 
 // Show footer if the document height is shorter than the window
-  {{ if not .IsHome }}
+
     var b = document.body.clientHeight;
         w = window.innerHeight;
         m = document.querySelector(".footer");
-    if (b <= w) {
+    if (b < w) {
       m.classList.add("show");
     };
   {{ end }}
@@ -61,8 +57,9 @@
    https://github.com/tagawa/bootstrap-without-jquery
 */
 
-  var e=document.querySelector(".navbar-toggle");
-  var t=document.querySelector(".navbar-collapse");
+  var e = document.querySelector(".navbar-toggle");
+  var t = document.querySelector(".navbar-collapse");
+  var a = e.getAttribute("aria-expanded");
 
   function getMaxHeight(t) {
     // Source: http://n12v.com/css-transition-to-from-auto/
@@ -74,7 +71,38 @@
     return maxHeight;
   }
 
-  function complete(element) {
+/* Open the Menu after clicking the menu button
+   Only if the menu is current collapsed that is.
+*/
+
+  e.onclick = function() {
+    if ( a == "false" ) {
+      t.classList.remove('collapse');
+      t.classList.add('collapsing');
+      e.classList.remove('collapsed');
+      e.setAttribute('aria-expanded', true);
+      t.style.height = getMaxHeight(t);
+    }
+  }
+
+/* Collapse the menu after clicking anywhere, not just the menu button.
+   Only if the menu is already expanded, of course.
+*/
+
+  document.onclick = function(){
+    if ( a == "true" ) {
+      t.classList.remove("collapse");
+      t.classList.remove("in");
+      t.classList.add("collapsing");
+      e.classList.add("collapsed");
+      e.setAttribute("aria-expanded", false);
+      t.style.height = getComputedStyle(t).height;
+      t.offsetHeight,t.style.height="0px"
+    };
+  };
+
+  // Transition Handling
+  t.addEventListener("transitionend", function() {
     t.classList.remove('collapsing');
     t.classList.add('collapse');
 
@@ -83,42 +111,10 @@
       t.classList.add('in');
       t.style.height = 'auto';
     }
-  }
 
-  var a = e.getAttribute("aria-expanded");
-
-/* Open the Menu after clicking the menu button */
-  e.onclick = function() {
-    if (a == "false") {
-      t.classList.remove('collapse');
-      t.classList.add('collapsing');
-      e.classList.remove('collapsed');
-      e.setAttribute('aria-expanded', true);
-
-      // Set element's height to its maximum height
-      t.style.height = getMaxHeight(t);
-    }
-  }
-
-/* Collapse the menu after clicking anywhere, not just the menu button.
-   But only if the menu is already expanded, obviously. */
-  a=e.getAttribute("aria-expanded")
-  document.onclick = function(){
-    if (a == "true") {
-      t.classList.remove("collapse");
-      t.classList.remove("in");
-      t.classList.add("collapsing");
-      e.classList.add("collapsed");
-      e.setAttribute("aria-expanded",!1);
-      t.style.height = getComputedStyle(t).height;
-      t.offsetHeight,t.style.height="0px"
-    };
-
-    t.addEventListener("transitionend", function() {
-        complete(t);
-    });
-    a=e.getAttribute("aria-expanded")
-  };
+    // Get 'aria-expanded' state
+    a = e.getAttribute("aria-expanded");
+  });
 </script>
 
 <script async src='/assets/js/cookieconsent.min.js'></script>

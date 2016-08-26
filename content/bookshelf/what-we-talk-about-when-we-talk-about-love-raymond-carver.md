@@ -15,4 +15,3 @@ title: What We Talk About When We Talk About Love
 translator: null
 writer: Raymond Carver
 ---
-
