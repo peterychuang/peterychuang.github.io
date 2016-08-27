@@ -24,7 +24,7 @@
 <!-- Open Graph Title -->
   {{ if .IsHome }}
     <meta name="og:title" content="{{ .Site.Title | markdownify }}" />
-  {{ else if and .IsNode ( ne .Data.Singular "tag" ) }}
+  {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
     {{ $site_name := .Site.Title }}
     {{ $section := ( .Title | humanize | title ) }}
     {{ range $.Site.Data.section }}

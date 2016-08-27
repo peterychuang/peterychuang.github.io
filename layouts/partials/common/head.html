@@ -14,7 +14,6 @@
       {{ if .IsHome }}
       {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
         {{ $section := ( .Title | humanize | title ) }}
-        {{ $assets := .Site.Params.Urlimg }}
         {{ range $.Site.Data.section }}
           {{ if eq $section .name }}
             {{ .long_title }}
