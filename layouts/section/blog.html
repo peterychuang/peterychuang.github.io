@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+          {{ $paginator := .Paginate ( where ( where .Site.Pages "Type" "post" ) "Section" "!=" "tech" ) }}
           {{ range $paginator.Pages }}
             <h2>
               <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
