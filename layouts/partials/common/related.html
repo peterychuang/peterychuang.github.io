@@ -1,18 +1,11 @@
 <div class="col-lg-8 col-lg-offset-2">
   <h4 class="relatedPost">You may also like...</h4>
   <ul class="relatedPost">
-    {{ $page_link := .Permalink }}
-    {{ $tags := .Params.tag }}
-    {{ range .Site.Pages.ByDate.Reverse }}
-      {{ $page := . }}
-      {{ $has_common_tags := intersect $tags .Params.tag | len | lt 0 }}
-      {{ if and $has_common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$i") 3)}}
-        {{ $.Scratch.Add "$i" 1 }}
-        <li class="relatedPost">
-          <a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a><br />
-          {{ .Description | markdownify }}
-        </li>
-      {{ end }}
+    {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tag" "intersect" .Params.tag ) "Permalink" "!=" .Permalink ) }}
+      <li class="relatedPost">
+        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a><br />
+        {{ .Description | markdownify }}
+      </li>
     {{ end }}
   </ul>
 </div>
