@@ -44,3 +44,18 @@ Combining these, below is the code for displaying *three* related posts:
 {{< / highlight >}}
 
 Now I wonder what took me so long to find this.
+
+**Update (27 Aug 2016)**
+
+It turns out this can be done with ```{{ range }}``` loop alone, which not only greatly simplifies the codes, but also improves the site build time dramatically. Hugo is fast, so you won't feel the difference, though shaving off 100ms from 500ms build time is significant regardless.
+
+{{< highlight go >}}
+<ul>
+  {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+    <li class="relatedPost">
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a><br />
+      {{ .Description | markdownify }}
+    </li>
+  {{ end }}
+</ul>
+{{</ highlight >}}
