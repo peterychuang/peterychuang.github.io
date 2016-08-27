@@ -13,6 +13,6 @@ tag:
 - Music
 title: "Franz Schubert: Grand Duo, D 812"
 type: post
-url: null
+url: /music/schubert-grand-duo/
 youtube_id: Uml2lokoxbk
 ---
