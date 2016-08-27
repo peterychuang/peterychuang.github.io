@@ -23,7 +23,7 @@
         {{ end }}
         {{ .Content }}
         <p class="meta">
-          <a href="/{{ lower .Params.categories | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Params.categories }}</a>
+          <a href="/{{ lower .Section | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Section | humanize | title }}</a>
           &nbsp;&nbsp;
           <i class="fa fa-calendar-o" content="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">&nbsp;</i>{{ .Date.Format "2 Jan, 2006" }}
           <br />

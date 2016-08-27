@@ -10,6 +10,7 @@ tag:
 - Web Development
 - Static Site
 title: How to customise categories and tags URLs in Hugo
+type: post
 url: /tech/custom-urls-for-category-pages-in-hugo/
 ---
 

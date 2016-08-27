@@ -11,6 +11,7 @@ tag:
 - Static Site
 - Web Development
 title: 'Hugo vs. Jekyll: a showdown of static site generator'
+type: post
 seo_title: "Hugo vs. Jekyll: which static site generator should you choose?"
 url: /tech/hugo-vs-jekyll-static-site-generator/
 ---

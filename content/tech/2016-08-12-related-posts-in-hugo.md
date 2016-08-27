@@ -13,6 +13,7 @@ tag:
 - Static Site
 - Web Development
 title: How to show related posts in Hugo
+type: post
 url: /tech/related-posts-in-hugo/
 youtube_id: null
 ---

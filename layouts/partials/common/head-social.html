@@ -24,11 +24,11 @@
 <!-- Open Graph Title -->
   {{ if .IsHome }}
     <meta name="og:title" content="{{ .Site.Title | markdownify }}" />
-  {{ else if eq .Data.Singular "category" }}
-    {{ $cat_name := .Title }}
+  {{ else if and .IsNode ( ne .Data.Singular "tag" ) }}
     {{ $site_name := .Site.Title }}
-    {{ range $.Site.Data.cat }}
-      {{ if eq $cat_name .name }}
+    {{ $section := ( .Title | humanize | title ) }}
+    {{ range $.Site.Data.section }}
+      {{ if eq $section .name }}
         <meta name="og:title" content="{{ .long_title | markdownify }} | {{ $site_name | markdownify }}" />
       {{ end }}
     {{ end }}
@@ -40,23 +40,21 @@
   {{ if eq .URL "404.html" }}
     <!-- Do Nothing -->
   {{ else }}
-    <meta name="og:url" content="{{ replace .Permalink "/categories" "" }}" />
+    <meta name="og:url" content="{{ .Permalink }}" />
   {{ end }}
 
 <!-- Open Graph Image -->
   {{ if .IsHome }}
     <meta name="og:image" content="/{{ .Site.Params.Urlimg }}screenshot.jpg" />
-  {{ else if eq .Title "Tech" }}
-    <meta name="og:image" content="/{{ .Site.Params.Urlimg }}code.jpg" />
   {{ else if .Params.header.image }}
     <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}" />
   {{ else if .Params.cover }}
     <meta name="og:image" content="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" />
-  {{ else if eq .Data.Singular "category" }}
-    {{ $cat_name := .Title }}
+  {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
     {{ $assets := .Site.Params.Urlimg }}
-    {{ range $.Site.Data.cat }}
-      {{ if eq $cat_name .name }}
+    {{ $section := ( .Title | humanize | title ) }}
+    {{ range $.Site.Data.section }}
+      {{ if eq $section .name }}
         <meta name="og:image" content="/{{ $assets }}{{ .image }}" />
       {{ end }}
     {{ end }}
@@ -75,11 +73,15 @@
     <meta name="og:description" content="{{ "Linux stuff and other musings about tech and web development" | markdownify }}" />
   {{ else if eq .Data.Singular "tag" }}
     <meta name="og:description" content="All posts tagged “{{ .Title | markdownify }}”" />
-  {{ else if eq .Data.Singular "category" }}
-    {{ $cat_name := .Title }}
-    {{ range $.Site.Data.cat }}
-      {{ if eq $cat_name .name }}
-        <meta name="og:description" content="{{ .seo_description | markdownify }}" />
+  {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
+    {{ $section := ( .Title | humanize | title ) }}
+    {{ range $.Site.Data.section }}
+      {{ if eq $section .name }}
+        {{ if .seo_description }}
+          <meta name="og:description" content="{{ .seo_description | markdownify }}" />
+        {{ else }}
+          <meta name="og:description" content="{{ .description | markdownify }}" />
+        {{ end }}
       {{ end }}
     {{ end }}
   {{ else if .IsPage }}

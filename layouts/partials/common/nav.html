@@ -34,7 +34,7 @@
     </div>
   </nav>
 {{ else }}
-  {{ if or ( eq .Section "bookshelf" ) ( eq ( $.Param "categories" ) "Music" ) }}
+  {{ if or ( eq .Section "bookshelf" ) ( eq .Section "music" ) }}
     <nav class="navbar navbar-default navbar-fixed-top">
   {{ else }}
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -42,7 +42,7 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
-          {{ if or ( eq .Section "bookshelf" ) ( eq ( $.Param "categories" ) "Music" ) }}
+          {{ if or ( eq .Section "bookshelf" ) ( eq .Section "music" ) }}
               <i class="fa fa-bars"></i>
           {{ else }}
             <i class="fa fa-bars fa-inverse"></i>

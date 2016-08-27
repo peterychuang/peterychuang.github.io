@@ -7,6 +7,7 @@ tag:
 - Linux
 - Arch Linux
 title: My Linux Rig
+type: post
 url: /tech/my-linux-rig/
 ---
 

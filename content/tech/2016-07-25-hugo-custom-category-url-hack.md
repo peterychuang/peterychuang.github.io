@@ -13,6 +13,7 @@ tag:
 - Web Development
 - Static Site
 title: Customising categories URLs in Hugo revisited
+type: post
 url: /tech/advanced-custom-urls-for-category-pages-in-hugo/
 youtube_id: null
 ---

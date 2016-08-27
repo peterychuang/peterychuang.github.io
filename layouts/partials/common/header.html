@@ -2,19 +2,11 @@
   <header data-src="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}">
     <div class="img">
       <div class="container layer">
-{{ else if eq .Title "Bookshelf" }}
-  <header data-src="/{{ .Site.Params.Urlimg }}bookshelf.jpg">
-    <div class="img">
-      <div class="container layer">
-{{ else if eq .Title "Tech" }}
-  <header data-src="/{{ .Site.Params.Urlimg }}code.jpg">
-    <div class="img">
-      <div class="container layer">
-{{ else if eq .Data.Singular "category" }}
-  {{ $cat_name := .Title }}
+{{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
+  {{ $section := ( .Title | humanize | title ) }}
   {{ $assets := .Site.Params.Urlimg }}
-  {{ range $.Site.Data.cat }}
-    {{ if eq $cat_name .name }}
+  {{ range $.Site.Data.section }}
+    {{ if eq $section .name }}
       <header data-src="/{{ $assets }}{{ .image }}" >
         <div class="img">
           <div class="container layer">
@@ -30,45 +22,35 @@
       <div class="container layer">
 {{ end }}
         <div class="heading">
+        {{ if .IsNode }}
           {{ if eq .URL "404.html" }}
           <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
           <hr class="small">
           <span class="subheading">Maybe the page was moved or deleted; or did you mistype the link?</span>
-          {{ else if eq .Title "Blog" }}
-          <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
           {{ else if eq .Data.Singular "tag" }}
           <h1 class="brand-heading">All posts tagged “{{ .Title | markdownify }}”</h1>
-          {{ else if eq .Data.Singular "category" }}
-            {{ $cat_name := .Title }}
-            {{ range $.Site.Data.cat }}
-              {{ if eq $cat_name .name }}
+          {{ else }}
+            {{ $section := ( .Title | humanize | title ) }}
+            {{ range $.Site.Data.section }}
+              {{ if eq $section .name }}
                 <h1 class="brand-heading">{{ .long_title | markdownify }}</h1>
               {{ end }}
             {{ end }}
-          {{ else }}
-          <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
           {{ end }}
+        {{ else }}
+        <h1 class="brand-heading">{{ .Title | markdownify }}</h1>
+        {{ end }}
           {{ if .Description }}
             <hr class="small">
             <span class="subheading">{{ .Description | markdownify }}</span>
-          {{ else if eq .Title "Blog" }}
-            <hr class="small">
-            <span class="subheading">{{ "Latest short stories, poems, essays, and more" | markdownify }}</span>
-          {{ else if eq .Title "Bookshelf" }}
-            <hr class="small">
-            <span class="subheading">{{ "Books I've read and loved (or not)" | markdownify }}</span>
-          {{ else if eq .Data.Singular "category" }}
-            {{ $cat_name := .Title }}
-            {{ range $.Site.Data.cat }}
-              {{ if eq $cat_name .name }}
+          {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
+            {{ $section := ( .Title | humanize | title ) }}
+            {{ range $.Site.Data.section }}
+              {{ if eq $section .name }}
                 <hr class="small">
-                <span class="subheading">{{ .description }}</span>
+                <span class="subheading">{{ .description | markdownify }}</span>
               {{ end }}
             {{ end }}
-          {{ else if eq .Title "Tech" }}
-            <hr class="small">
-            <span class="subheading">{{ "Linux stuff and other musings about tech and web design" | markdownify }}</span>
-          {{ else }}
           {{ end }}
         </div>
       </div>

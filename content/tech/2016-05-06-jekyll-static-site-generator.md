@@ -11,6 +11,7 @@ tag:
 - Web Development
 - Static Site
 title: 'Jekyll: a static site generator'
+type: post
 url: /tech/jekyll/
 ---
 (***Update: this site now runs on [Hugo](/tech/hugo-vs-jekyll-static-site-generator/)***)

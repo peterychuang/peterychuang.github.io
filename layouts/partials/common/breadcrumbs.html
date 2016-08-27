@@ -7,23 +7,9 @@
               <meta property="position" content="1">
             </li>
             <li property="itemListElement" typeof="ListItem">
-              {{ if .Params.categories }}
-                <a property="item" typeof="WebPage" href="/{{ lower .Params.categories | urlize }}/">
-                  <span property="name">{{ .Params.categories | markdownify }}</span>
-                </a>
-              {{ else if eq .Section "novels"}}
-                <a property="item" typeof="WebPage" href="/novels/">
-                    <span property="name">Novels</span>
-                </a>
-              {{ else if eq .Section "bookshelf"}}
-                <a property="item" typeof="WebPage" href="/bookshelf/">
-                    <span property="name">Bookshelf</span>
-                </a>
-              {{ else if eq .Section "tech"}}
-                  <a property="item" typeof="WebPage" href="/tech/">
-                      <span property="name">Tech</span>
-                  </a>
-              {{ end }}
+              <a property="item" typeof="WebPage" href="/{{ lower .Section | urlize }}/">
+                <span property="name">{{ .Section | humanize | title | markdownify }}</span>
+              </a>
               <meta property="position" content="2">
             </li>
             <li property="itemListElement" typeof="ListItem">

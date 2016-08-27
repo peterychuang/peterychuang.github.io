@@ -5,13 +5,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          {{ range (.Paginator 10).Pages }}
+          {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+          {{ range $paginator.Pages }}
             <h2>
               <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
             </h2>
             <p>{{ .Description | markdownify }}</p>
             <p class="meta">
-              <a href="/{{ lower .Params.categories | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Params.categories }}</a>
+              <a href="/{{ lower .Section | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Section | humanize | title }}</a>
               &nbsp;&nbsp;
               <i class="fa fa-calendar-o">&nbsp;</i>{{ .Date.Format "2006-01-02" }}
             </p>

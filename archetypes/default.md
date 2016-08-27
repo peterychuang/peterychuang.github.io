@@ -1,5 +1,4 @@
 ---
-categories:
 date:
 description:
 seo_description:

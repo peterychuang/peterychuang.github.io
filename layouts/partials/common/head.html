@@ -12,13 +12,14 @@
 
     <title>
       {{ if .IsHome }}
-      {{ else if eq .Data.Singular "category" }}
-        {{ $cat_name := .Title }}
-        {{ range $.Site.Data.cat }}
-          {{ if eq $cat_name .name }}
-            {{ .long_title | markdownify }} |
+      {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
+        {{ $section := ( .Title | humanize | title ) }}
+        {{ $assets := .Site.Params.Urlimg }}
+        {{ range $.Site.Data.section }}
+          {{ if eq $section .name }}
+            {{ .long_title }}
           {{ end }}
-        {{ end }}
+        {{ end }} |
       {{ else }}
         {{ if .Params.seo_title }}
           {{ .Params.seo_title | markdownify }} |
@@ -29,7 +30,9 @@
       {{ .Site.Title | markdownify }}
     </title>
 
-    <link rel="canonical" href="{{ replace .Permalink "/categories" "" }}" />
+    {{ if ne .Title "404 Page not found" }}
+      <link rel="canonical" href="{{ .Permalink }}" />
+    {{ end }}
     <link rel="icon" sizes="32x32" href="/{{ .Site.Params.Urlimg }}favicon-32x32.png"/>
     <link rel="icon" sizes="192x192" href="/{{ .Site.Params.Urlimg }}touch-icon-192x192.png"/>
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-180x180-precomposed.png"/>
@@ -76,8 +79,8 @@
       {{ else if eq .Section "bookshelf" }}
         {{ "/* Critical CSS for Individual Book Pages */" | safeCSS }}
         {{ partial "css/css_book.html" . | safeCSS }}
-      {{ else if eq ($.Param "categories") "Music" }}
-        {{ "/* Critical CSS for Music Category */" | safeCSS }}
+      {{ else if eq .Section "music" }}
+        {{ "/* Critical CSS for Music Section */" | safeCSS }}
         {{ partial "css/css_music.html" . | safeCSS }}
       {{ else }}
         {{ "/* Critical CSS for All Other Pages */" | safeCSS }}
@@ -85,30 +88,24 @@
       {{ end }}
 
       /* The beginning of CSS block for Header Image */
-      {{ if or ( eq .Section "bookshelf" ) ( eq ( $.Param "categories" ) "Music" ) ( .IsHome ) }}
+      {{ if or ( eq .Section "bookshelf" ) ( eq .Section "music" ) ( .IsHome ) }}
         /* Do Nothing */
       {{ else }}
         {{ "header {"  | safeCSS }}
           {{ "background-image: url(" | safeCSS }}
 
-        {{ if eq .Data.Singular "category" }}
-        /* Category Header Image */
-          {{ $cat_name := .Title }}
+        {{ if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
+          {{ $section := ( .Title | humanize | title ) }}
           {{ $assets := .Site.Params.Urlimg }}
-          {{ range $.Site.Data.cat }}
-            {{ if eq $cat_name .name }}
+          {{ range $.Site.Data.section }}
+            {{ if eq $section .name }}
               /{{ $assets | safeCSS }}t/{{ .image }}
             {{ end }}
           {{ end }}
-        {{ else if eq .Title "Tech" }}
-        /* Tech Header Image */
-          /{{ .Site.Params.Urlimg | safeCSS }}t/code.jpg
-        {{ else if eq .Title "Bookshelf" }}
-        /* Bookshelf Header Image */
-          /{{ .Site.Params.Urlimg | safeCSS }}t/bookshelf.jpg
         {{ else if .Params.header.image }}
         /* Pages or Posts Header Image */
           /{{ .Site.Params.Urlimg | safeCSS }}t/{{ .Params.header.image }}
+
         {{ else }}
         /* Unspecified Pages or Posts Header Image */
           /{{ .Site.Params.Urlimg | safeCSS }}t/short-stories.jpg
