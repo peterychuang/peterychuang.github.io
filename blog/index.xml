@@ -19,12 +19,30 @@
     </item>
     
     <item>
+      <title>How to use Bootstrap Navbar without jQuery</title>
+      <link>https://novelist.xyz/tech/bootstrap-without-jquery/</link>
+      <pubDate>Tue, 23 Aug 2016 15:15:56 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/bootstrap-without-jquery/</guid>
+      <description>You don&#39;t need jQuery to bring a Bootstrap Navbar to life</description>
+    </item>
+    
+    <item>
       <title>Berlin</title>
       <link>https://novelist.xyz/misc/berlin-germany/</link>
       <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/berlin-germany/</guid>
       <description>A place where I find all I want</description>
+    </item>
+    
+    <item>
+      <title>How to show related posts in Hugo</title>
+      <link>https://novelist.xyz/tech/related-posts-in-hugo/</link>
+      <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
+      <description>This is how to show a fixed number of related posts in Hugo</description>
     </item>
     
     <item>
@@ -52,6 +70,33 @@
       
       <guid>https://novelist.xyz/short-stories/the-coffee-shop/</guid>
       <description>In a place where people come and go, he isn&#39;t sure if he wants to bump into her</description>
+    </item>
+    
+    <item>
+      <title>Progressive and blurry image loading</title>
+      <link>https://novelist.xyz/tech/progressive-background-image-loading/</link>
+      <pubDate>Tue, 26 Jul 2016 14:33:53 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/progressive-background-image-loading/</guid>
+      <description>Starting with a blurry image, which then gets clearer and clearer when loading finishes</description>
+    </item>
+    
+    <item>
+      <title>Customising categories URLs in Hugo revisited</title>
+      <link>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</link>
+      <pubDate>Mon, 25 Jul 2016 13:06:07 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</guid>
+      <description>An advanced hack to customise categories URLs in Hugo</description>
+    </item>
+    
+    <item>
+      <title>From Github Pages to Firebase, then to a VPS</title>
+      <link>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</link>
+      <pubDate>Sun, 24 Jul 2016 15:07:55 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</guid>
+      <description>This website is now hosted on a VPS</description>
     </item>
     
     <item>
@@ -97,51 +142,6 @@
       
       <guid>https://novelist.xyz/poetry/sorrow-in-the-dark/</guid>
       <description>A sonnet</description>
-    </item>
-    
-    <item>
-      <title>Gustav Mahler: Piano Quartet</title>
-      <link>https://novelist.xyz/music/mahler-piano-quartet/</link>
-      <pubDate>Sun, 05 Jun 2016 17:34:02 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/music/mahler-piano-quartet/</guid>
-      <description>The only chamber work by Gustav Mahler</description>
-    </item>
-    
-    <item>
-      <title>He who does not forget</title>
-      <link>https://novelist.xyz/short-stories/he-who-does-not-forget/</link>
-      <pubDate>Tue, 24 May 2016 13:00:43 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/short-stories/he-who-does-not-forget/</guid>
-      <description>In his quest to forget the past, he gets more burden into his mind</description>
-    </item>
-    
-    <item>
-      <title>My life did not go on</title>
-      <link>https://novelist.xyz/poetry/my-life-did-not-go-on/</link>
-      <pubDate>Thu, 19 May 2016 19:25:37 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/poetry/my-life-did-not-go-on/</guid>
-      <description>“My life without you isn&#39;t my life any more”</description>
-    </item>
-    
-    <item>
-      <title>I waited for your call</title>
-      <link>https://novelist.xyz/poetry/i-waited-for-your-call/</link>
-      <pubDate>Thu, 19 May 2016 16:05:24 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/poetry/i-waited-for-your-call/</guid>
-      <description>A sonnet</description>
-    </item>
-    
-    <item>
-      <title>On being yourself</title>
-      <link>https://novelist.xyz/essays/on-being-yourself/</link>
-      <pubDate>Wed, 18 May 2016 17:50:28 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/essays/on-being-yourself/</guid>
-      <description>We may all want to change part of ourselves, but there are something untouchable within all of us</description>
     </item>
     
   </channel>
