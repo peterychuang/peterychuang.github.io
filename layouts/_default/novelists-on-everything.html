@@ -30,7 +30,8 @@
                   <p>{{ .entry | markdownify }}</p>
                   {{ if .credits }}<p><small><em>{{ .credits | markdownify }}</em></small></p>{{ end }}
                 </blockquote>
-                <p>{{ if .comment }}{{ .comment | markdownify }}{{ end }}</p>
+                {{ if .comment }}<p>{{ .comment | markdownify }}</p>{{ end }}
+                <p><br /></p>
               {{ end }}
           {{ end }}
           <p><a href="#toc"><sup>[table of contents]</sup></a></p>
