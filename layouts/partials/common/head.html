@@ -45,7 +45,131 @@
     <link rel="preload" href="/assets/css/style.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
 
-    <script>!function(e){"use strict";var t=function(t,n,o){function r(e){return a.body?e():void setTimeout(function(){r(e)})}function i(){d.addEventListener&&d.removeEventListener("load",i),d.media=o||"all"}var l,a=e.document,d=a.createElement("link");if(n)l=n;else{var s=(a.body||a.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var f=a.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",r(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var u=function(e){for(var t=d.href,n=f.length;n--;)if(f[n].href===t)return e();setTimeout(function(){u(e)})};return d.addEventListener&&d.addEventListener("load",i),d.onloadcssdefined=u,u(i),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(t){}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var o=t[n];"preload"===o.rel&&"style"===o.getAttribute("as")&&(e.loadCSS(o.href,o),o.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){e.clearInterval(n)})}}}(this);</script>
+    <script>
+    /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
+      (function(w){
+      	"use strict";
+      	/* exported loadCSS */
+      	var loadCSS = function( href, before, media ){
+      		// Arguments explained:
+      		// `href` [REQUIRED] is the URL for your CSS file.
+      		// `before` [OPTIONAL] is the element the script should use as a reference for injecting our stylesheet <link> before
+      			// By default, loadCSS attempts to inject the link after the last stylesheet or script in the DOM. However, you might desire a more specific location in your document.
+      		// `media` [OPTIONAL] is the media type or query of the stylesheet. By default it will be 'all'
+      		var doc = w.document;
+      		var ss = doc.createElement( "link" );
+      		var ref;
+      		if( before ){
+      			ref = before;
+      		}
+      		else {
+      			var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+      			ref = refs[ refs.length - 1];
+      		}
+
+      		var sheets = doc.styleSheets;
+      		ss.rel = "stylesheet";
+      		ss.href = href;
+      		// temporarily set media to something inapplicable to ensure it'll fetch without blocking render
+      		ss.media = "only x";
+
+      		// wait until body is defined before injecting link. This ensures a non-blocking load in IE11.
+      		function ready( cb ){
+      			if( doc.body ){
+      				return cb();
+      			}
+      			setTimeout(function(){
+      				ready( cb );
+      			});
+      		}
+      		// Inject link
+      			// Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
+      			// Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+      		ready( function(){
+      			ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+      		});
+      		// A method (exposed on return object for external use) that mimics onload by polling document.styleSheets until it includes the new sheet.
+      		var onloadcssdefined = function( cb ){
+      			var resolvedHref = ss.href;
+      			var i = sheets.length;
+      			while( i-- ){
+      				if( sheets[ i ].href === resolvedHref ){
+      					return cb();
+      				}
+      			}
+      			setTimeout(function() {
+      				onloadcssdefined( cb );
+      			});
+      		};
+
+      		function loadCB(){
+      			if( ss.addEventListener ){
+      				ss.removeEventListener( "load", loadCB );
+      			}
+      			ss.media = media || "all";
+      		}
+
+      		// once loaded, set link's media back to `all` so that the stylesheet applies once it loads
+      		if( ss.addEventListener ){
+      			ss.addEventListener( "load", loadCB);
+      		}
+      		ss.onloadcssdefined = onloadcssdefined;
+      		onloadcssdefined( loadCB );
+      		return ss;
+      	};
+      	// commonjs
+      	if( typeof exports !== "undefined" ){
+      		exports.loadCSS = loadCSS;
+      	}
+      	else {
+      		w.loadCSS = loadCSS;
+      	}
+      }( typeof global !== "undefined" ? global : this ));
+
+      /*! CSS rel=preload polyfill. Depends on loadCSS function. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT  */
+      (function( w ){
+        // rel=preload support test
+        if( !w.loadCSS ){
+          return;
+        }
+        var rp = loadCSS.relpreload = {};
+        rp.support = function(){
+          try {
+            return w.document.createElement( "link" ).relList.supports( "preload" );
+          } catch (e) {
+            return false;
+          }
+        };
+
+        // loop preload links and fetch using loadCSS
+        rp.poly = function(){
+          var links = w.document.getElementsByTagName( "link" );
+          for( var i = 0; i < links.length; i++ ){
+            var link = links[ i ];
+            if( link.rel === "preload" && link.getAttribute( "as" ) === "style" ){
+              w.loadCSS( link.href, link );
+              link.rel = null;
+            }
+          }
+        };
+
+        // if link[rel=preload] is not supported, we must fetch the CSS manually using loadCSS
+        if( !rp.support() ){
+          rp.poly();
+          var run = w.setInterval( rp.poly, 300 );
+          if( w.addEventListener ){
+            w.addEventListener( "load", function(){
+              w.clearInterval( run );
+            } );
+          }
+          if( w.attachEvent ){
+            w.attachEvent( "onload", function(){
+              w.clearInterval( run );
+            } )
+          }
+        }
+      }( this ));
+    </script>
 
     <script>!function(){if(sessionStorage.fontsloaded)return void(document.documentElement.className+=" fonts-loaded");!function(){"use strict";function t(t){f.push(t),1==f.length&&l()}function e(){for(;f.length;)f[0](),f.shift()}function n(t){this.a=u,this.b=void 0,this.f=[];var e=this;try{t(function(t){a(e,t)},function(t){r(e,t)})}catch(n){r(e,n)}}function o(t){return new n(function(e,n){n(t)})}function i(t){return new n(function(e){e(t)})}function a(t,e){if(t.a==u){if(e==t)throw new TypeError;var n=!1;try{var o=e&&e.then;if(null!=e&&"object"==typeof e&&"function"==typeof o)return void o.call(e,function(e){n||a(t,e),n=!0},function(e){n||r(t,e),n=!0})}catch(i){return void(n||r(t,i))}t.a=0,t.b=e,s(t)}}function r(t,e){if(t.a==u){if(e==t)throw new TypeError;t.a=1,t.b=e,s(t)}}function s(e){t(function(){if(e.a!=u)for(;e.f.length;){var t=e.f.shift(),n=t[0],o=t[1],i=t[2],t=t[3];try{0==e.a?i("function"==typeof n?n.call(void 0,e.b):e.b):1==e.a&&("function"==typeof o?i(o.call(void 0,e.b)):t(e.b))}catch(a){t(a)}}})}function c(t){return new n(function(e,n){function o(n){return function(o){r[n]=o,a+=1,a==t.length&&e(r)}}var a=0,r=[];0==t.length&&e(r);for(var s=0;s<t.length;s+=1)i(t[s]).c(o(s),n)})}function d(t){return new n(function(e,n){for(var o=0;o<t.length;o+=1)i(t[o]).c(e,n)})}var l,f=[];l=function(){setTimeout(e)};var u=2;n.prototype.g=function(t){return this.c(void 0,t)},n.prototype.c=function(t,e){var o=this;return new n(function(n,i){o.f.push([t,e,n,i]),s(o)})},window.Promise||(window.Promise=n,window.Promise.resolve=i,window.Promise.reject=o,window.Promise.race=d,window.Promise.all=c,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype["catch"]=n.prototype.g)}(),function(){function t(t,e){document.addEventListener?t.addEventListener("scroll",e,!1):t.attachEvent("scroll",e)}function e(t){document.body?t():document.addEventListener?document.addEventListener("DOMContentLoaded",function e(){document.removeEventListener("DOMContentLoaded",e),t()}):document.attachEvent("onreadystatechange",function n(){("interactive"==document.readyState||"complete"==document.readyState)&&(document.detachEvent("onreadystatechange",n),t())})}function n(t){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(t)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(t,e){t.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+e+";"}function i(t){var e=t.a.offsetWidth,n=e+100;return t.f.style.width=n+"px",t.c.scrollLeft=n,t.b.scrollLeft=t.b.scrollWidth+100,t.g!==e?(t.g=e,!0):!1}function a(e,n){function o(){var t=a;i(t)&&null!==t.a.parentNode&&n(t.g)}var a=e;t(e.b,o),t(e.c,o),i(e)}function r(t,e){var n=e||{};this.family=t,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function s(){if(null===l){var t=document.createElement("div");try{t.style.font="condensed 100px sans-serif"}catch(e){}l=""!==t.style.font}return l}function c(t,e){return[t.style,t.weight,s()?t.stretch:"","100px",e].join(" ")}var d=null,l=null,f=null;r.prototype.load=function(t,i){var r=this,s=t||"BESbswy",l=i||3e3,u=(new Date).getTime();return new Promise(function(t,i){if(null===f&&(f=!!window.FontFace),f){var h=new Promise(function(t,e){function n(){(new Date).getTime()-u<l?document.fonts.load(c(r,r.family),s).then(function(e){1>e.length?setTimeout(n,25):t()},function(){e()}):e()}n()}),p=new Promise(function(t,e){setTimeout(e,l)});Promise.race([p,h]).then(function(){t(r)},function(){i(r)})}else e(function(){function e(){var e;(e=-1!=w&&-1!=v||-1!=w&&-1!=y||-1!=v&&-1!=y)&&((e=w!=v&&w!=y&&v!=y)||(null===d&&(e=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),d=!!e&&(536>parseInt(e[1],10)||536===parseInt(e[1],10)&&11>=parseInt(e[2],10))),e=d&&(w==b&&v==b&&y==b||w==g&&v==g&&y==g||w==x&&v==x&&y==x)),e=!e),e&&(null!==E.parentNode&&E.parentNode.removeChild(E),clearTimeout(T),t(r))}function f(){if((new Date).getTime()-u<l){var t=document.hidden;(!0===t||void 0===t)&&(w=h.a.offsetWidth,v=p.a.offsetWidth,y=m.a.offsetWidth,e()),T=setTimeout(f,50)}else null!==E.parentNode&&E.parentNode.removeChild(E),i(r)}var h=new n(s),p=new n(s),m=new n(s),w=-1,v=-1,y=-1,b=-1,g=-1,x=-1,E=document.createElement("div"),T=0;E.dir="ltr",o(h,c(r,"sans-serif")),o(p,c(r,"serif")),o(m,c(r,"monospace")),E.appendChild(h.a),E.appendChild(p.a),E.appendChild(m.a),document.body.appendChild(E),b=h.a.offsetWidth,g=p.a.offsetWidth,x=m.a.offsetWidth,f(),a(h,function(t){w=t,e()}),o(h,c(r,'"'+r.family+'",sans-serif')),a(p,function(t){v=t,e()}),o(p,c(r,'"'+r.family+'",serif')),a(m,function(t){y=t,e()}),o(m,c(r,'"'+r.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=r:(window.FontFaceObserver=r,window.FontFaceObserver.prototype.load=r.prototype.load)}();var t=new FontFaceObserver("Crimson Text"),e=new FontFaceObserver("Crimson Text",{weight:700}),n=new FontFaceObserver("Crimson Text",{style:"italic"}),o=new FontFaceObserver("Crimson Text",{style:"italic",weight:700}),i=new FontFaceObserver("Playfair Display",{weight:700}),a=new FontFaceObserver("Alegreya Sans");Promise.all([t.load(),e.load(),n.load(),o.load(),i.load(),a.load()]).then(function(){document.documentElement.className+=" fonts-loaded",sessionStorage.fontsloaded=!0})}();</script>
 
