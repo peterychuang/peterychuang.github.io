@@ -16,21 +16,19 @@ type: post
 url: /tech/hugo-data-files/
 ---
 
-In this article, I am going to demonstrate the use of Data Files in Hugo site generator.
+In this article, I am going to demonstrate how to use Data Files in Hugo site generator.
 
 #### The Problem
 
-As an effort to grow this website, I thought it might be a good idea to have a collection of [interesting quotes by great novelists](/novelists-on-everything/). Even if it doesn't help grow the website, it would still be beneficial for me as a writer.
+As an effort to grow this website, I thought it might be a good idea to have a collection of [interesting quotes by great novelists and writers](/novelists-on-everything/). Even if it doesn't help traffic, it would still be beneficial for me as a writer.
 
-An obvious way to do this is to create a regular page and list all the quotes inside that page. Such a page is easy to create, but as I expect to the page to increase in length, it may become difficult to maintain in the long run.
-
-Instead, I want to organise all the quotes by the names of the novelists, each of who have their own individual data file. Upon page compilation, Hugo should read from all the files and put the data onto one single, static HTML file, ready to be deployed.
+An easy and obvious way to achieve this is to create a regular page and list all the quotes inside that page. But as the page grows longer and longer, maintaining such a page will sooner or later become difficult. A better solution would be to organise the list by novelist, each of them would have their own individual data file. Inside the data file, the quotes are further organised by book.
 
 #### The Solution
 
 ##### *The organisation of Data Files*
 
-In Hugo, [Data Files](https://gohugo.io/extras/datafiles/) are placed inside the ```data``` folder. Inside, you can further organise the files into different levels of sub-folders. For example, I have a folder named ```novelists```, and inside ```novelists``` I have one more level of sub-folders, inside which I store my data in YAML (you can choose to use TOML and JSON).
+In Hugo, [Data Files](https://gohugo.io/extras/datafiles/) are placed inside the ```data``` folder. Inside, you can further organise the files into different levels of sub-folders. For example, I have a folder named ```novelists```, and inside ```novelists``` I have one more level of sub-folders, in which I store my data in YAML (you can choose to use TOML and JSON).
 
 {{< highlight bash >}}
 └── novelists
@@ -41,59 +39,61 @@ In Hugo, [Data Files](https://gohugo.io/extras/datafiles/) are placed inside the
         └── Tolstoy_Leo.yaml
 {{< /highlight >}}
 
-#### *Inside the data files*
+#### *The data files*
 
-Each YAML file is dedicated to one novelist. Inside each YAML file, the data are organised as following:
+Each YAML file is dedicated to one novelist. Inside each YAML file, the data are organised as follow:
 
 {{< highlight yaml >}}
 name: Leo Tolstoy
 bio: "Russian novelist, best known for his novels *War and Peace*, *Anna Karenina* and various essays."
 
 sources:
-  "Anna Karenina":
-    quotes:
-      "Quote 1":
-        comment: "Comment on Quote 1."
-      "Quote 2":
-        comment: "Comment on Quote 2."
-  "War and Peace":
-    quotes:
-      "Quote 3":
-        comment: "Comment on Quote 3."
-      "Quote 4":
-        comment: "Comment on Quote 4."
+- title: "Anna Karenina"
+  quotes:
+  - entry: "quote no. 1"
+    comment: "comment no. 1"
+    credits: "credit no. 1"
+  - entry: "quote no. 2"
+    comment: "comment no. 2"
+    credits: "credit no. 2"
 
+- title: "War and Peace"
+  quotes:
+  - entry: "quote no. 3"
+    comment: "comment no. 3"
+    credits: "credit no. 3"
 {{< /highlight >}}
 
+#### *Accessing the data*
 
-#### *Accessing the data in a page*
-
-The data stored inside ```./data/novelists/everything/*.yaml``` can be accessed via ```.Site.Data.novelists.everything```. The snippet below is a simplified version of the actual code I wrote for this website:
+The data stored inside ```./data/novelists/everything/*.yml``` can be accessed via ```.Site.Data.novelists.everything```. The snippet below is a simplified version of the actual code used in this website:
 
 {{< highlight go >}}
 {{ range .Site.Data.novelists.everything }}
   <h3>{{ .name }}</h3>
-  <p>{{ .bio | markdownify }}</p>
-  {{ range $book, $i := .sources }}
-    <h4>{{ $book }}</h4>
-    {{ range $q, $j := .quotes }}
-      <blockquote>{{ $q | markdownify }}</blockquote>
-      <p>{{ .comment | markdownify }}</p>
+  <p>{{ .bio }}</p>
+  {{ range .sources }}
+    <h4>{{ .title }}</h4>
+    {{ range .quotes }}
+      <blockquote>
+        <p>{{ .entry }}</p>
+        {{ if .credits }}<p><small><em>{{ .credits }}</em></small></p>{{ end }}
+      </blockquote>
+      {{ if .comment }}<p>{{ .comment }}</p>{{ end }}
+      <p><br /></p>
     {{ end }}
-  {{ end }}
 {{ end }}
 {{< /highlight >}}
 
 This block of codes does the following things:
 
-1. Show the name of the novelist
-2. Show the brief biography
-3. List names of books
-4. Under each book, show quotes and comments
+1. Shows the name of the novelist
+2. Shows the brief biography
+3. Lists the books
+4. Under each book, shows quotes, comments, and credits.
 
-The result of it, with actual content, can be seen in [What great novelists say about everything](/novelists-on-everything/) page.
+The result of it, with actual content, can be seen in "[What great novelists say about everything](/novelists-on-everything/)". The actual codes are on my [Github repository](https://github.com/peterychuang/peterychuang.github.io/blob/source/layouts/_default/novelists-on-everything.html).
 
-To see the actual codes, which include a table of content and links to anchors, you can visit the [corresponding file on my Github repository](https://github.com/peterychuang/peterychuang.github.io/blob/source/layouts/_default/novelists-on-everything.html).
 
-Read more:
+*Read more:*
 [Official documentation on Data Files](https://gohugo.io/extras/datafiles/)
