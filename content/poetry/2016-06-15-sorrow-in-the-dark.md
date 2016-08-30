@@ -27,7 +27,7 @@ Your caring touches me and warms my heart.
 But all your words and words cannot revive
 The sense of life that has been ripped apart.
 
-The lights of city mask the charms of stars,
+The lights of city mask the twinkling stars,
 But what would I feel if the stars were seen?
 Would they have dug in more wounds and old scars?
 Or long for you more than I've ever been?
