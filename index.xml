@@ -6,8 +6,17 @@
     <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 30 Aug 2016 14:02:39 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2016 13:34:24 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Serve static websites with Caddy web server</title>
+      <link>https://novelist.xyz/tech/caddy-webserver/</link>
+      <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
+      <description>A new and super-easy-to-configure webserver written in Go</description>
+    </item>
     
     <item>
       <title>My Sister</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/bookshelf/heart-of-darkness-joseph-conrad/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Operas and Their Absurd Stories</title>
-      <link>https://novelist.xyz/essays/on-operas-and-storytelling/</link>
-      <pubDate>Tue, 05 Jul 2016 06:46:39 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/essays/on-operas-and-storytelling/</guid>
-      <description>As a form of storytelling, operas have some of the most ridiculous stories ever told</description>
     </item>
     
   </channel>

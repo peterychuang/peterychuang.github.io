@@ -6,8 +6,17 @@
     <description>Recent content in Tech on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 23 Aug 2016 15:15:56 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2016 13:34:24 -0400</lastBuildDate>
     <atom:link href="https://novelist.xyz/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Serve static websites with Caddy web server</title>
+      <link>https://novelist.xyz/tech/caddy-webserver/</link>
+      <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
+      <description>A new and super-easy-to-configure webserver written in Go</description>
+    </item>
     
     <item>
       <title>How to use Bootstrap Navbar without jQuery</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</guid>
       <description>A new theme based on Flat-Plat Theme</description>
-    </item>
-    
-    <item>
-      <title>How I became a full-time Linux user</title>
-      <link>https://novelist.xyz/tech/my-linux-journey/</link>
-      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
-      <description>How I switch from a Windows user to a full-time Linux user with no regret</description>
     </item>
     
   </channel>
