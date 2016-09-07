@@ -168,13 +168,11 @@
   border-width: 0 0 1px;
   font-size: @font-size-small;
   font-family: @font-family-sans-serif-subset;
-  font-weight: 400;
 }
 
 .fonts-loaded {
   .navbar-fixed-top {
     font-family: @font-family-sans-serif;
-    font-weight: 400;
   }
 }
 
@@ -443,7 +441,7 @@
 
 // Default navbar
 .navbar-default {
-  // background-color: @navbar-default-bg;
+  background-color: @navbar-default-bg;
   border-color: @navbar-default-border;
   -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
   -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -734,6 +732,11 @@
   .fa:hover {
     color: @navbar-inverse-link-color;
   }
+}
+
+// Navbar home
+.navbar-home {
+  background-color: transparent;
 }
 
 // Social icons on navbars
