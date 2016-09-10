@@ -8,11 +8,11 @@ header:
   image: code.jpg
 layout: null
 seo_description: Improve user experience in loading large image by first serving a blurred image before loading of the full-sized picture is complete
-seo_title: Progressive image loading, starting with a blurred one
+seo_title: 'The "Blur-up" technique of loading background images'
 tag:
 - Web Development
 - Static Site
-title: "Progressive and blurry image loading"
+title: 'How to load images using the "blur-up" technique'
 type: post
 url: /tech/progressive-background-image-loading/
 youtube_id: null
