@@ -7,7 +7,7 @@
         <div class="col-lg-8 col-lg-offset-2">
           <p class=tag-list>
             {{ range $tags, $taxonomy := .Site.Taxonomies.tag }}
-              <a href="/tag/{{ $tags | urlize }}/"><i class="fa fa-tag">&nbsp;</i>{{ replace $tags "-" " " | title }}</a> &#40;{{ .Count }}&#41;
+              <a href="/tag/{{ $tags | urlize }}/"><i class="fa fa-tag">&nbsp;</i>{{ replace $tags "-" " " | title | markdownify }}</a> &#40;{{ .Count }}&#41;
             {{ end }}
           </p>
         </div>
