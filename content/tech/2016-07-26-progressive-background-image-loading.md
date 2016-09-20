@@ -60,20 +60,21 @@ You now need to create a tiny version of the image, and preferably encoded in Ba
 
 It is important to set `background-size` to `cover` in order to stretch the tiny image across the entire space.
 
-Finally, the following script will add class `image-loaded` and `style="background-image: ..."` to `<div class="full-image">` while the full-sized image is being loaded:
+Finally, the following will add class `image-loaded` and `style="background-image: ..."` to `<div class="full-image">` after ```DOMContentLoaded``` event:
 
 {{< highlight javascript >}}
-window.onload = function loadheader() {
-  var a = document.querySelector('.blur-image');
+var a = document.querySelector('.blur-image');
+
+document.addEventListener("DOMContentLoaded", function() {
   if (!a) return !1;
   var b = a.getAttribute("data-src"),
       c = document.querySelector('.full-image'),
+      img = new Image;
 
-  img = new Image();
   img.src = b;
   img.onload = function () {
     c.classList.add('image-loaded'),
     c.style.backgroundImage = 'url(' + b + ')';
   };
-};
+});
 {{</ highlight >}}
