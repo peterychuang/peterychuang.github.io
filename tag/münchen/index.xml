@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>München on Peter Y. Chuang - Novelist, Short Story Writer</title>
-    <link>https://novelist.xyz/tag/m%C3%BCnchen/</link>
-    <description>Recent content in München on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <title>Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/m%C3%BCnchen/index.xml</link>
+    <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Aug 2016 17:10:31 -0400</lastBuildDate>
-    <atom:link href="https://novelist.xyz/tag/m%C3%BCnchen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tag/m%C3%BCnchen/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Munich</title>

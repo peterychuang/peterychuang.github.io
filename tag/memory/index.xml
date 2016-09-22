@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Memory on Peter Y. Chuang - Novelist, Short Story Writer</title>
-    <link>https://novelist.xyz/tag/memory/</link>
-    <description>Recent content in Memory on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <title>Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/memory/index.xml</link>
+    <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 24 May 2016 13:00:43 -0400</lastBuildDate>
-    <atom:link href="https://novelist.xyz/tag/memory/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tag/memory/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>He who does not forget</title>
