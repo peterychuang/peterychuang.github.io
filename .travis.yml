@@ -29,6 +29,7 @@ cache:
   - "$HOME/gopath/src/github.com/kardianos"
   - "$HOME/gopath/src/github.com/kr"
   - "$HOME/gopath/src/github.com/kyokomi"
+  - "$HOME/gopath/src/github.com/list"
   - "$HOME/gopath/src/github.com/magiconair"
   - "$HOME/gopath/src/github.com/miekg"
   - "$HOME/gopath/src/github.com/mitchellh"
