@@ -9,6 +9,15 @@
     <atom:link href="/tag/fiction/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Man in the High Castle</title>
+      <link>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</link>
+      <pubDate>Wed, 19 Oct 2016 13:44:52 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</guid>
+      <description>An alternative history where Nazi Germany and Imperial Japan won the Second World War.</description>
+    </item>
+    
+    <item>
       <title>Austerlitz</title>
       <link>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</link>
       <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
@@ -132,15 +141,6 @@
       
       <guid>https://novelist.xyz/essays/on-musical-structure-and-storytelling/</guid>
       <description>If a novel is like a symphony, a well-crafted short story is like a piano piece by Chopin</description>
-    </item>
-    
-    <item>
-      <title>What you feel when you kill yourself</title>
-      <link>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</link>
-      <pubDate>Fri, 13 May 2016 03:36:20 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</guid>
-      <description>“I wish you were thinking of me during your death”</description>
     </item>
     
   </channel>
