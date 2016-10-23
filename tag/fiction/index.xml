@@ -9,6 +9,15 @@
     <atom:link href="/tag/fiction/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Longest Distance</title>
+      <link>https://novelist.xyz/short-stories/the-longest-distance/</link>
+      <pubDate>Sun, 23 Oct 2016 18:54:27 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-longest-distance/</guid>
+      <description>Returning to the world he&#39;d left, he discovered what he missed most</description>
+    </item>
+    
+    <item>
       <title>The Man in the High Castle</title>
       <link>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</link>
       <pubDate>Wed, 19 Oct 2016 13:44:52 -0400</pubDate>
@@ -132,15 +141,6 @@
       
       <guid>https://novelist.xyz/bookshelf/in-search-of-lost-time-i-marcel-proust/</guid>
       <description>&#34;In Search of Lost Time&#34; is a true literary wonder that, despite its length and at times impregnable prose style, has a incredible charm and attraction.</description>
-    </item>
-    
-    <item>
-      <title>On musical structure and storytelling</title>
-      <link>https://novelist.xyz/essays/on-musical-structure-and-storytelling/</link>
-      <pubDate>Mon, 16 May 2016 11:30:02 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/essays/on-musical-structure-and-storytelling/</guid>
-      <description>If a novel is like a symphony, a well-crafted short story is like a piano piece by Chopin</description>
     </item>
     
   </channel>

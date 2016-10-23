@@ -6,8 +6,17 @@
     <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Oct 2016 15:48:38 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 23 Oct 2016 18:54:27 -0400</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Longest Distance</title>
+      <link>https://novelist.xyz/short-stories/the-longest-distance/</link>
+      <pubDate>Sun, 23 Oct 2016 18:54:27 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-longest-distance/</guid>
+      <description>Returning to the world he&#39;d left, he discovered what he missed most</description>
+    </item>
     
     <item>
       <title>Five Tips For Running Arch Linux As Daily Driver</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</guid>
       <description>An advanced hack to customise categories URLs in Hugo</description>
-    </item>
-    
-    <item>
-      <title>From Github Pages to Firebase, then to a VPS</title>
-      <link>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</link>
-      <pubDate>Sun, 24 Jul 2016 15:07:55 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</guid>
-      <description>This website is now hosted on a VPS</description>
     </item>
     
   </channel>

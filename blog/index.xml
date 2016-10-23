@@ -6,8 +6,17 @@
     <description>Recent content in Blog Rss on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Oct 2016 15:48:38 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 23 Oct 2016 18:54:27 -0400</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Longest Distance</title>
+      <link>https://novelist.xyz/short-stories/the-longest-distance/</link>
+      <pubDate>Sun, 23 Oct 2016 18:54:27 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-longest-distance/</guid>
+      <description>Returning to the world he&#39;d left, he discovered what he missed most</description>
+    </item>
     
     <item>
       <title>My Sister</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/poetry/my-life-did-not-go-on/</guid>
       <description>“My life without you isn&#39;t my life any more”</description>
-    </item>
-    
-    <item>
-      <title>I waited for your call</title>
-      <link>https://novelist.xyz/poetry/i-waited-for-your-call/</link>
-      <pubDate>Thu, 19 May 2016 16:05:24 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/poetry/i-waited-for-your-call/</guid>
-      <description>A sonnet</description>
     </item>
     
   </channel>
