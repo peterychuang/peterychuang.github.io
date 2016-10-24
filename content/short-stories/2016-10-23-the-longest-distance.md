@@ -17,9 +17,9 @@ url: /short-stories/the-longest-distance/
 youtube_id: null
 ---
 
-All that remained was the date of her birthday according to the solar calendar of *Alte Welt*. Since Sophie left him for another man, Ethan had moved to *Neue Welt*, where each year was twenty days shorter and each day was twenty minutes longer. After just few *Neue Welt* days, he could no longer convert dates and times from the *Alte Welt* clock to the new one, and vice versa. It wasn’t until when he heard the video message from an old friend Jimmy, with a twenty minutes delay in transmission (anything resembling a phone call between *Alte Welt* and *Neue Welt* was impossible), that another of his good friend in *Alte Welt* died did he attempt to figure out what day it was back there, a task he failed. At that, his android made the calculation for him and then informed him that he left *Alte Welt* exactly five years ago.
+All that remained was the date of her birthday according to the solar calendar of *Alte Welt*. Since Sophie left him for another man, Ethan had moved to *Neue Welt*, where each year was twenty days shorter and each day was twenty minutes longer. After just few *Neue Welt* days, he could no longer convert dates and times from the *Alte Welt* clock to the new one, and vice versa. It wasn’t until when he heard the video message from an old friend Jimmy--with a twenty minutes delay in transmission (anything resembling a phone call between *Alte Welt* and *Neue Welt* was impossible)--that another of his good friend in *Alte Welt* died did he attempt to figure out what day it was back there, a task he failed. At that, his android made the calculation for him and then informed him that he left *Alte Welt* exactly five years ago.
 
-He booked a flight back to *Alte Welt*, hoping to attend his Adam's funeral and stay there for a week or two to visit his old friends and families, only to be reminded by his android that the flight would take him almost a year--six months from *Neue Welt* to the wormhole, five seconds through the wormhole, and another six months back to his home planet--long enough to turn his old friend’s body into a pile of rotten meat buried under the ground, and the return trip would take another year, which meant his colleagues at his job would have to wait two years and two weeks in *Alte Welt* time before he would show up again, so long a time that they would probably have given up waiting and passed his job to someone else. And that calculation had not even taken in the account the positions and orbits of the planets, which, at times, made the distance of the trip too long that he might have to wait for up to a year for the planets to align correctly.
+He booked a flight back to *Alte Welt*, hoping to attend his Adam's funeral and stay there for a week or two to visit his old friends and families, only to be reminded by his android that the flight would take him almost a year--six months from *Neue Welt* to the wormhole, five seconds through the wormhole, and another six months back to his home planet--long enough to turn his old friend’s body into a pile of rotten meat buried under the ground, and the return trip would take another year, which meant his colleagues at his job would have to wait two years and two weeks in *Alte Welt* time before he would show up again, so long a time that they would probably have given up waiting and passed his job to someone else. And that calculation had not even taken into account the positions and orbits of the planets, which, at times, made the distance between the two planets too long that he might have to wait for anywhere between half a year to a full year for the planets to align correctly.
 
 When he left the *Alte Welt*, he abandoned everything in order to escape the agony Sophie caused: he was mad at Sophie leaving him; he was consumed by guilt and paralysed by his inability to fix his life; and he wished to start over in places where no one knew who he was, what he had done, and how much he despised himself. He wish he had never been born and he could be reborn. Now, on his way to the spaceport fifty miles from the city, alone in his cramped driverless car, he realised that undertaking this lengthy round-trip meant he had to give up *Neue Welt* and restart his former self. That thought gave him a start, and he would keep on wondering why he had made such careless decision, even though he did want to go back. Or did he? He didn't know even as he was strapped into his seat in the spacecraft.
 
@@ -85,11 +85,11 @@ Ethan had never attended other people's wedding since Sophie left him despite en
 
 *Wedding was just a performance. A performance of a ritual. A ritual.*
 
-When he arrived at the reception, Jimmy held his arm and took him to Rachel and her new husband and introduced him to them, and he finally saw her up close in her most beautiful moment, with a joy that permeated from within to her skin, her smile, and her poise. She greeted him warmly and told him how surprised she was to see him, and her husband likewise greeted him warmly. Embarrassed at first, Ethan collected himself and congratulated the couple.
+When he arrived at the reception, Jimmy held his arm and took him to Rachel and her new husband and introduced him to them, and he finally saw her up close in her most beautiful and joyous moment. She greeted him warmly and told him how surprised she was to see him, and her husband likewise greeted him warmly. Embarrassed at first, Ethan collected himself and congratulated the couple.
 
 "You are the first one I know who has been to the *Neue Welt* and then come back," she said.
 
-Her new husband and everyone eavesdropping around them were delighted, for none of them knew much about the *Neue Welt* other than a few photographs they had seen on the news once in a while. None of them had been there, and none of them came from there. Before long, they gathered around Ethan, asked him everything about the *Neue Welt*, and listened to his stories intently. He spoke of the wonder of the new planet, the incomprehensible distance between the two planets, and the technological miracle of maintaining the wormhole that cut short the journey.
+Her new husband and everyone around them were delighted, for none of them knew much about the *Neue Welt* other than a few photographs they had seen on the news once in a while. None of them had been there, and none of them came from there. Before long, they gathered around Ethan, asked him everything about the *Neue Welt*, and listened to his stories intently. He spoke of the wonder of the new planet, the incomprehensible distance between the two planets, and the technological miracle of maintaining the wormhole that cut short the journey.
 
 "Without the wormhole, it would take a thousand years for light to get there."
 
@@ -101,9 +101,9 @@ By night fall, Ethan had become the celebrity. Everyone smiled at him, everyone 
 
 "Well, it's complicated."
 
-"To escape from something?"
+"To look for something new?"
 
-"You can put it that way."
+"That's a very positive way of putting it."
 
 "It's very brave of you."
 
@@ -111,7 +111,7 @@ By night fall, Ethan had become the celebrity. Everyone smiled at him, everyone 
 
 "To give up everything, friends, families, career. There has to be something worth chasing after in the New Planet."
 
-"To me, no, not really. I am not a scientist, an explorer, a prospector, or an adventurer. I don't even know why I left when I put it that way."
+"To me, no, not really. I am not a scientist, an explorer, a prospector, or an adventurer. It was an escape."
 
 The android band now played a slow and mellow dance music. Ethan and Ruth began dancing to the melody of tender love while drawing each other closer together. In his ear, she whispered:
 
