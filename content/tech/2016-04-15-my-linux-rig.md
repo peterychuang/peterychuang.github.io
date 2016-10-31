@@ -46,7 +46,7 @@ On my XPS 13, I switch between mainline and stock kernels.
 
 ### Theme
 
-I use Gnome Desktop with [Flat-Plat-Blue theme](/linux/flat-plat-blue-gnome-gtk-theme-release), which I forked from Flat-Plat. The source code for the theme is available on my [Github Repository](//github.com/peterychuang/Flat-Plat-Blue).
+I use GNOME Desktop with [Flat-Plat-Blue theme](/linux/flat-plat-blue-gnome-gtk-theme-release), which I forked from Flat-Plat. The source code for the theme is available on my [Github Repository](//github.com/peterychuang/Flat-Plat-Blue).
 
 
 ### Applications I use to write

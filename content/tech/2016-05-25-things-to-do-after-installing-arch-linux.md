@@ -52,9 +52,9 @@ After fixing font-rendering, we need some pretty fonts.
 
 On my own machines, I've installed [Google fonts](https://aur.archlinux.org/packages/ttf-google-fonts-git/) and [Microsoft fonts](https://aur.archlinux.org/packages/ttf-ms-fonts/). If you need to deal with texts in non-Latin characters, you may need to install [some other fonts](https://wiki.archlinux.org/index.php/fonts).
 
-#### Install Gnome Tweak Tool
+#### Install GNOME Tweak Tool
 
-For Gnome Desktop user, Gnome Tweak Tool is a must.
+For GNOME Desktop user, GNOME Tweak Tool is a must.
 
 #### Install icon theme
 
@@ -64,7 +64,7 @@ To use Numix circle icon theme, install ```numix-circle-icon-theme-git``` and ``
 
 #### Install your favourite theme and wallpaper
 
-There are hundreds of themes available online and on AUR for you to choose from, including [the one I created](/tech/flat-plat-blue-gnome-gtk-theme-release/) for Gnome.
+There are hundreds of themes available online and on AUR for you to choose from, including [the one I created](/tech/flat-plat-blue-gnome-gtk-theme-release/) for GNOME.
 
 #### ~~Install Lighttable~~
 

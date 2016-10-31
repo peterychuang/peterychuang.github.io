@@ -5,17 +5,17 @@ header:
   image: Screenshot1.jpg
 tag:
 - Linux
-- Gnome-shell
-title: 'Flat-Plat-Blue: A Gnome/GTK Theme'
+- GNOME-shell
+title: 'Flat-Plat-Blue: A GNOME/GTK Theme'
 type: post
 url: /tech/flat-plat-blue-gnome-gtk-theme-release/
 ---
 
-*Update 22 October 2016: Flat-Plat-Blue for Gnome 3.22 is out*
+*Update 22 October 2016: Flat-Plat-Blue for GNOME 3.22 is out*
 
 ## Flat-Plat-Blue Theme
 
-Flat-Plat-Blue Theme is a Gnome Shell/GTK Theme forked from [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat) with the following refinements:
+Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat) with the following refinements:
 
 * All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience;
 * The top bar is now transparent;
@@ -29,12 +29,12 @@ I forked and modified the [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat)
 
 ### Download
 
-[Flat-Plat-Blue for Gnome 3.22](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.22/Flat-Plat-Blue-20161022.tar.gz)
-[Flat-Plat-Blue for Gnome 3.20](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.20/Flat-Plat-Blue-20160411.tar.gz)
+[Flat-Plat-Blue for GNOME 3.22](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.22/Flat-Plat-Blue-20161022.tar.gz)
+[Flat-Plat-Blue for GNOME 3.20](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.20/Flat-Plat-Blue-20160411.tar.gz)
 
 
 ### Installation
-- Download the file for your version of Gnome Desktop
+- Download the file for your version of GNOME Desktop
 - Extract the files from the archive
 - Copy the Flat-Plat-Blue Folder to /usr/share/themes/ using the following command:
 
@@ -42,7 +42,7 @@ I forked and modified the [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat)
 sudo cp -r path/to/Flat-Plat-Blue /usr/share/themes
 {{< /highlight >}}
 
-- Use Gnome Tweak Tool to enable both the GTK+ Theme and the Shell Theme
+- Use GNOME Tweak Tool to enable both the GTK+ Theme and the Shell Theme
 - Profit!
 
 
