@@ -13,7 +13,7 @@ tag:
 - Arch Linux
 title: Five Tips For Running Arch Linux As Daily Driver
 type: post
-url: null
+url: /tech/arch-linux-tips/
 youtube_id: null
 ---
 
