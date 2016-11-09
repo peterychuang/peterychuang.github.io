@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dystopia on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/dystopia/index.xml</link>
+    <description>Recent content in Dystopia on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/dystopia/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Gang Leader</title>
+      <link>https://novelist.xyz/short-stories/the-gang-leader/</link>
+      <pubDate>Mon, 25 Apr 2016 17:14:35 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-gang-leader/</guid>
+      <description>Also: the richest man</description>
+    </item>
+    
+    <item>
+      <title>The Last Living Soul</title>
+      <link>https://novelist.xyz/short-stories/the-last-living-soul/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-last-living-soul/</guid>
+      <description>You are the last hope for humanity</description>
+    </item>
+    
+  </channel>
+</rss>

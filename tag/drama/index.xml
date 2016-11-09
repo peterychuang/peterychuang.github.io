@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drama on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/drama/index.xml</link>
+    <description>Recent content in Drama on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/drama/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>On happy endings</title>
+      <link>https://novelist.xyz/essays/on-happy-endings/</link>
+      <pubDate>Wed, 11 May 2016 03:28:59 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/essays/on-happy-endings/</guid>
+      <description>Real lives are boring and ambiguous</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Germany on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/germany/index.xml</link>
+    <description>Recent content in Germany on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/germany/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Austerlitz</title>
+      <link>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
+      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+    </item>
+    
+    <item>
+      <title>Berlin</title>
+      <link>https://novelist.xyz/misc/berlin-germany/</link>
+      <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/berlin-germany/</guid>
+      <description>A place where I find all I want</description>
+    </item>
+    
+    <item>
+      <title>Cologne</title>
+      <link>https://novelist.xyz/misc/cologne-germany/</link>
+      <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/cologne-germany/</guid>
+      <description>A city defined by its Cathedral</description>
+    </item>
+    
+    <item>
+      <title>Munich</title>
+      <link>https://novelist.xyz/misc/munich-germany/</link>
+      <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/munich-germany/</guid>
+      <description>A journey that wasn&#39;t meant to be</description>
+    </item>
+    
+  </channel>
+</rss>

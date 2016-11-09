@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/index.xml</link>
+    <description>Recent content on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 23 Oct 2016 18:54:27 -0400</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Longest Distance</title>
+      <link>https://novelist.xyz/short-stories/the-longest-distance/</link>
+      <pubDate>Sun, 23 Oct 2016 18:54:27 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-longest-distance/</guid>
+      <description>Returning to the world he&#39;d left, he discovered what he missed most</description>
+    </item>
+    
+    <item>
+      <title>Five Tips For Running Arch Linux As Daily Driver</title>
+      <link>https://novelist.xyz/tech/arch-linux-tips/</link>
+      <pubDate>Thu, 20 Oct 2016 15:48:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/arch-linux-tips/</guid>
+      <description>How to achieve maximum stability in Arch Linux</description>
+    </item>
+    
+    <item>
+      <title>The Man in the High Castle</title>
+      <link>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</link>
+      <pubDate>Wed, 19 Oct 2016 13:44:52 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</guid>
+      <description>An alternative history where Nazi Germany and Imperial Japan won the Second World War.</description>
+    </item>
+    
+    <item>
+      <title>Serve static websites with Caddy web server</title>
+      <link>https://novelist.xyz/tech/caddy-webserver/</link>
+      <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
+      <description>A new and super-easy-to-configure webserver written in Go</description>
+    </item>
+    
+    <item>
+      <title>My Sister</title>
+      <link>https://novelist.xyz/short-stories/my-sister/</link>
+      <pubDate>Tue, 30 Aug 2016 14:02:39 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/my-sister/</guid>
+      <description>A forbidden love</description>
+    </item>
+    
+    <item>
+      <title>Franz Schubert: Grand Duo, D 812</title>
+      <link>https://novelist.xyz/music/schubert-grand-duo/</link>
+      <pubDate>Fri, 26 Aug 2016 11:39:25 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/music/schubert-grand-duo/</guid>
+      <description>Schubert&#39;s finest work for piano duo</description>
+    </item>
+    
+    <item>
+      <title>Austerlitz</title>
+      <link>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
+      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+    </item>
+    
+    <item>
+      <title>How to use Bootstrap Navbar without jQuery</title>
+      <link>https://novelist.xyz/tech/bootstrap-without-jquery/</link>
+      <pubDate>Tue, 23 Aug 2016 15:15:56 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/bootstrap-without-jquery/</guid>
+      <description>You don&#39;t need jQuery to bring a Bootstrap Navbar to life</description>
+    </item>
+    
+    <item>
+      <title>Berlin</title>
+      <link>https://novelist.xyz/misc/berlin-germany/</link>
+      <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/berlin-germany/</guid>
+      <description>A place where I find all I want</description>
+    </item>
+    
+    <item>
+      <title>How to show related posts in Hugo</title>
+      <link>https://novelist.xyz/tech/related-posts-in-hugo/</link>
+      <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
+      <description>This is how to show a fixed number of related posts in Hugo</description>
+    </item>
+    
+    <item>
+      <title>Cologne</title>
+      <link>https://novelist.xyz/misc/cologne-germany/</link>
+      <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/cologne-germany/</guid>
+      <description>A city defined by its Cathedral</description>
+    </item>
+    
+    <item>
+      <title>Munich</title>
+      <link>https://novelist.xyz/misc/munich-germany/</link>
+      <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/munich-germany/</guid>
+      <description>A journey that wasn&#39;t meant to be</description>
+    </item>
+    
+    <item>
+      <title>The Coffee Shop</title>
+      <link>https://novelist.xyz/short-stories/the-coffee-shop/</link>
+      <pubDate>Wed, 27 Jul 2016 17:34:49 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-coffee-shop/</guid>
+      <description>In a place where people come and go, he isn&#39;t sure if he wants to bump into her</description>
+    </item>
+    
+    <item>
+      <title>How to load images using the &#34;blur-up&#34; technique</title>
+      <link>https://novelist.xyz/tech/progressive-background-image-loading/</link>
+      <pubDate>Tue, 26 Jul 2016 14:33:53 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/progressive-background-image-loading/</guid>
+      <description>Starting with a blurry image, which then gets clearer and clearer when loading finishes</description>
+    </item>
+    
+    <item>
+      <title>Customising categories URLs in Hugo revisited</title>
+      <link>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</link>
+      <pubDate>Mon, 25 Jul 2016 13:06:07 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</guid>
+      <description>An advanced hack to customise categories URLs in Hugo</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crime on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/crime/index.xml</link>
+    <description>Recent content in Crime on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/crime/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to blow up the world</title>
+      <link>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</guid>
+      <description>Two disgruntled human beings took revenge on the world</description>
+    </item>
+    
+    <item>
+      <title>The Gang Leader</title>
+      <link>https://novelist.xyz/short-stories/the-gang-leader/</link>
+      <pubDate>Mon, 25 Apr 2016 17:14:35 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/the-gang-leader/</guid>
+      <description>Also: the richest man</description>
+    </item>
+    
+  </channel>
+</rss>

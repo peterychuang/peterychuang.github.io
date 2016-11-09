@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marcel Proust on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/marcel-proust/index.xml</link>
+    <description>Recent content in Marcel Proust on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/marcel-proust/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cologne</title>
+      <link>https://novelist.xyz/misc/cologne-germany/</link>
+      <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/cologne-germany/</guid>
+      <description>A city defined by its Cathedral</description>
+    </item>
+    
+    <item>
+      <title>On reading Marcel Proust: Part 1</title>
+      <link>https://novelist.xyz/essays/random-thoughts-on-marcel-proust-1/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/essays/random-thoughts-on-marcel-proust-1/</guid>
+      <description>Why you should read &#39;In Search of Lost Time&#39; and stop using Facebook</description>
+    </item>
+    
+  </channel>
+</rss>

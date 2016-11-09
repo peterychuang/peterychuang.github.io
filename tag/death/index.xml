@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Death on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/death/index.xml</link>
+    <description>Recent content in Death on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/death/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Sister</title>
+      <link>https://novelist.xyz/short-stories/my-sister/</link>
+      <pubDate>Tue, 30 Aug 2016 14:02:39 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/my-sister/</guid>
+      <description>A forbidden love</description>
+    </item>
+    
+    <item>
+      <title>He who does not forget</title>
+      <link>https://novelist.xyz/short-stories/he-who-does-not-forget/</link>
+      <pubDate>Tue, 24 May 2016 13:00:43 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/he-who-does-not-forget/</guid>
+      <description>In his quest to forget the past, he gets more burden into his mind</description>
+    </item>
+    
+    <item>
+      <title>What you feel when you kill yourself</title>
+      <link>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</link>
+      <pubDate>Fri, 13 May 2016 03:36:20 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</guid>
+      <description>“I wish you were thinking of me during your death”</description>
+    </item>
+    
+    <item>
+      <title>My Dead Neighbour</title>
+      <link>https://novelist.xyz/misc/my-dead-neighbour/</link>
+      <pubDate>Wed, 04 May 2016 16:17:07 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/misc/my-dead-neighbour/</guid>
+      <description>In the memory of the neighbour I barely knew</description>
+    </item>
+    
+  </channel>
+</rss>

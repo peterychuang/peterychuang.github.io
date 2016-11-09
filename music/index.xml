@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/music/index.xml</link>
+    <description>Recent content in Music on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 26 Aug 2016 11:39:25 -0400</lastBuildDate>
+    <atom:link href="/music/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Franz Schubert: Grand Duo, D 812</title>
+      <link>https://novelist.xyz/music/schubert-grand-duo/</link>
+      <pubDate>Fri, 26 Aug 2016 11:39:25 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/music/schubert-grand-duo/</guid>
+      <description>Schubert&#39;s finest work for piano duo</description>
+    </item>
+    
+    <item>
+      <title>La Soledad</title>
+      <link>https://novelist.xyz/music/la-soledad/</link>
+      <pubDate>Sat, 02 Jul 2016 17:49:58 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/music/la-soledad/</guid>
+      <description>A beautifully nostalgic Spanish-language song</description>
+    </item>
+    
+    <item>
+      <title>Peter I. Tchaikovsky: Souvenir de Florence</title>
+      <link>https://novelist.xyz/music/tchaikovsky-souvenir-de-florence/</link>
+      <pubDate>Wed, 29 Jun 2016 17:40:19 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/music/tchaikovsky-souvenir-de-florence/</guid>
+      <description>String Sextet in D minor</description>
+    </item>
+    
+    <item>
+      <title>Gustav Mahler: Piano Quartet</title>
+      <link>https://novelist.xyz/music/mahler-piano-quartet/</link>
+      <pubDate>Sun, 05 Jun 2016 17:34:02 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/music/mahler-piano-quartet/</guid>
+      <description>The only chamber work by Gustav Mahler</description>
+    </item>
+    
+    <item>
+      <title>Franz Schubert: Winterreise</title>
+      <link>https://novelist.xyz/music/schubert-winterreise/</link>
+      <pubDate>Wed, 16 Dec 2015 17:18:07 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/music/schubert-winterreise/</guid>
+      <description>A moving song-cycle about unrequited love</description>
+    </item>
+    
+  </channel>
+</rss>

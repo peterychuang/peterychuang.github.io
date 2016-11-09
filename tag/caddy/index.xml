@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caddy on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/caddy/index.xml</link>
+    <description>Recent content in Caddy on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="/tag/caddy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Serve static websites with Caddy web server</title>
+      <link>https://novelist.xyz/tech/caddy-webserver/</link>
+      <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
+      <description>A new and super-easy-to-configure webserver written in Go</description>
+    </item>
+    
+    <item>
+      <title>How I deploy my Hugo site to my webserver</title>
+      <link>https://novelist.xyz/tech/hugo-site-deployment-workflow/</link>
+      <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
+      <description>This is how I deploy this website</description>
+    </item>
+    
+  </channel>
+</rss>
