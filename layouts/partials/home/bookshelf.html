@@ -19,7 +19,7 @@
             {{ range first 10 (where .Site.Pages "Section" "bookshelf")}}
               <li>
                 <a href="{{ .RelPermalink }}">
-                  <img src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
+                  <img src="/assets/img/{{ .Params.cover }}" title="{{ .Title }}" alt="{{ .Title }}" />
                 </a>
               </li>
             {{ end }}

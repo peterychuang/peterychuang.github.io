@@ -32,16 +32,16 @@
     {{ if ne .Title "404 Page not found" }}
       <link rel="canonical" href="{{ .Permalink }}" />
     {{ end }}
-    <link rel="icon" sizes="32x32" href="/{{ .Site.Params.Urlimg }}favicon-32x32.png"/>
-    <link rel="icon" sizes="192x192" href="/{{ .Site.Params.Urlimg }}touch-icon-192x192.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-180x180-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-152x152-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-144x144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-120x120-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-114x114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-76x76-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-72x72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="/{{ .Site.Params.Urlimg }}apple-touch-icon-precomposed.png"/>
+    <link rel="icon" sizes="32x32" href="/assets/img/favicon-32x32.png"/>
+    <link rel="icon" sizes="192x192" href="/assets/img/touch-icon-192x192.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/img/apple-touch-icon-180x180-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/apple-touch-icon-152x152-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple-touch-icon-144x144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/apple-touch-icon-120x120-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple-touch-icon-114x114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/apple-touch-icon-76x76-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple-touch-icon-72x72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-precomposed.png"/>
     <link rel="preload" href="/assets/css/style.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
 
@@ -209,22 +209,21 @@
         {{ "header {"  | safeCSS }}
           {{ "background-image: url(" | safeCSS }}
 
-        {{ if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
-          {{ $section := ( .Title | humanize | title ) }}
-          {{ $assets := .Site.Params.Urlimg }}
-          {{ range $.Site.Data.section }}
-            {{ if eq $section .name }}
-              /{{ $assets | safeCSS }}t/{{ .image }}
+          {{ if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
+            {{ $section := ( .Title | humanize | title ) }}
+            {{ range $.Site.Data.section }}
+              {{ if eq $section .name }}
+                /assets/img/t/{{ .image }}
+              {{ end }}
             {{ end }}
-          {{ end }}
-        {{ else if .Params.header.image }}
-        /* Pages or Posts Header Image */
-          /{{ .Site.Params.Urlimg | safeCSS }}t/{{ .Params.header.image }}
+          {{ else if .Params.header.image }}
+          /* Pages or Posts Header Image */
+            /assets/img/t/{{ .Params.header.image }}
 
-        {{ else }}
-        /* Unspecified Pages or Posts Header Image */
-          /{{ .Site.Params.Urlimg | safeCSS }}t/short-stories.jpg
-        {{ end }}
+          {{ else }}
+          /* Unspecified Pages or Posts Header Image */
+            /assets/img/t/short-stories.jpg
+          {{ end }}
 
         /*The rest of the CSS */
           {{ ");" | safeCSS }}

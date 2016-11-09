@@ -1,23 +1,22 @@
 {{ if .Params.header.image }}
-  <header data-src="/{{ .Site.Params.Urlimg }}{{ .Params.header.image }}">
+  <header data-src="/assets/img/{{ .Params.header.image }}">
     <div class="img">
       <div class="container layer">
 {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
   {{ $section := ( .Title | humanize | title ) }}
-  {{ $assets := .Site.Params.Urlimg }}
   {{ range $.Site.Data.section }}
     {{ if eq $section .name }}
-      <header data-src="/{{ $assets }}{{ .image }}" >
+      <header data-src="/assets/img/{{ .image }}" >
         <div class="img">
           <div class="container layer">
     {{ end }}
   {{ end }}
 {{ else if eq .URL "/404/" }}
-  <header class="error" data-src="/{{ .Site.Params.Urlimg }}short-stories.jpg">
+  <header class="error" data-src="/assets/img/short-stories.jpg">
     <div class="img">
       <div class="container layer">
 {{ else }}
-  <header data-src="/{{ .Site.Params.Urlimg }}short-stories.jpg">
+  <header data-src="/assets/img/short-stories.jpg">
     <div class="img">
       <div class="container layer">
 {{ end }}
