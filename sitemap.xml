@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://novelist.xyz/</loc>
-    <lastmod>2016-10-23T18:54:27-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://novelist.xyz/short-stories/the-longest-distance/</loc>
     <lastmod>2016-10-23T18:54:27-04:00</lastmod>
   </url>
@@ -347,7 +342,245 @@
   </url>
   
   <url>
+    <loc>https://novelist.xyz/tag/adultery/</loc>
+    <lastmod>2016-05-13T03:36:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/arch-linux/</loc>
+    <lastmod>2016-10-20T15:48:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/art/</loc>
+    <lastmod>2016-07-02T10:30:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/berlin/</loc>
+    <lastmod>2016-08-14T16:50:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/bookshelf/</loc>
+    <lastmod>2016-10-19T13:44:52-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/caddy/</loc>
+    <lastmod>2016-08-31T13:34:24-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/city/</loc>
+    <lastmod>2016-08-14T16:50:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/cologne/</loc>
+    <lastmod>2016-08-05T17:11:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/colonial/</loc>
+    <lastmod>2016-07-09T16:16:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/cookie/</loc>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/crime/</loc>
+    <lastmod>2016-05-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/death/</loc>
+    <lastmod>2016-08-30T14:02:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/democracy/</loc>
+    <lastmod>2015-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/drama/</loc>
+    <lastmod>2016-05-11T03:28:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/dystopia/</loc>
+    <lastmod>2016-04-25T17:14:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/essays/</loc>
+    <lastmod>2016-07-05T06:46:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/fantasy/</loc>
+    <lastmod>2016-05-01T17:28:24-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/fiction/</loc>
+    <lastmod>2016-10-23T18:54:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/germany/</loc>
+    <lastmod>2016-08-23T17:54:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/github/</loc>
+    <lastmod>2016-07-24T15:07:55-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/gnome-shell/</loc>
+    <lastmod>2016-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/history/</loc>
+    <lastmod>2016-08-23T17:54:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/hong-kong/</loc>
+    <lastmod>2016-05-04T16:17:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/hugo/</loc>
+    <lastmod>2016-08-12T15:29:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/jekyll/</loc>
+    <lastmod>2016-05-11T06:12:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/journalism/</loc>
+    <lastmod>2016-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/linux/</loc>
+    <lastmod>2016-10-20T15:48:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/loss/</loc>
+    <lastmod>2016-08-30T14:02:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/love/</loc>
+    <lastmod>2016-08-30T14:02:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/marcel-proust/</loc>
+    <lastmod>2016-08-05T17:11:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/memory/</loc>
+    <lastmod>2016-05-24T13:00:43-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/misc/</loc>
+    <lastmod>2016-08-14T16:50:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/munich/</loc>
+    <lastmod>2016-08-05T17:10:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/music/</loc>
+    <lastmod>2016-08-26T11:39:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/music/</loc>
+    <lastmod>2016-08-26T11:39:25-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/m%C3%BCnchen/</loc>
+    <lastmod>2016-08-05T17:10:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/non-fiction/</loc>
+    <lastmod>2016-06-15T04:03:04+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/novel/</loc>
+    <lastmod>2016-08-23T17:54:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/novels/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/on-writing/</loc>
+    <lastmod>2015-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -355,7 +588,108 @@
   </url>
   
   <url>
+    <loc>https://novelist.xyz/tag/opera/</loc>
+    <lastmod>2016-07-05T06:46:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/personality/</loc>
+    <lastmod>2016-05-18T17:50:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/</loc>
+    <lastmod>2016-10-23T18:54:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/poem/</loc>
+    <lastmod>2016-06-15T05:48:23-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/poetry/</loc>
+    <lastmod>2016-06-15T05:48:23-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/politics/</loc>
+    <lastmod>2016-04-25T17:14:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/psychology/</loc>
+    <lastmod>2016-05-18T17:50:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/science-fiction/</loc>
+    <lastmod>2016-10-23T18:54:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/screenwriting/</loc>
+    <lastmod>2016-05-11T03:28:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/short-stories/</loc>
+    <lastmod>2016-07-27T17:34:49-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/short-stories/</loc>
+    <lastmod>2016-10-23T18:54:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/social-media/</loc>
+    <lastmod>2016-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/sonnet/</loc>
+    <lastmod>2016-06-15T05:48:23-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/static-site/</loc>
+    <lastmod>2016-08-12T15:29:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/tag/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/</loc>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tech/</loc>
+    <lastmod>2016-10-20T15:48:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/travel/</loc>
+    <lastmod>2016-08-14T16:50:38-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -363,7 +697,19 @@
   </url>
   
   <url>
+    <loc>https://novelist.xyz/tag/web-development/</loc>
+    <lastmod>2016-08-31T13:34:24-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/novelists-on-everything/</loc>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/tag/writing/</loc>
+    <lastmod>2015-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
