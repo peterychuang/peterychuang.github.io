@@ -5,7 +5,7 @@
     <div class="row" itemscope itemtype="http://schema.org/Book">
       <div class="col-sm-3 col-lg-offset-2">
         <a href="http://www.bookdepository.com/book/{{ .Params.isbn }}/?a_aid=peterychuang" target="_blank">
-          <img itemprop="image" src="/assets/img/{{ .Params.cover }}" title="{{ .Title }} - {{ .Params.writer }}" alt="{{ .Title }} - {{ .Params.writer }}" />
+          <img itemprop="image" src="/{{ .Site.Params.Urlimg }}{{ .Params.cover }}" title="{{ .Title }} - {{ .Params.writer }}" alt="{{ .Title }} - {{ .Params.writer }}" />
         </a>
       </div>
       <div class="col-sm-5">

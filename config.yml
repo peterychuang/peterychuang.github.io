@@ -10,6 +10,7 @@ footnoteReturnLinkContents: "^"
 params:
   description: "Novelist, Writer, Dreamer. Short Stories, Essays, Blog. Hong Kong, London, Berlin."
   author: Peter Y. Chuang
+  Urlimg: "assets/img/"
 taxonomies:
   tag: "tag"
   category: "categories"

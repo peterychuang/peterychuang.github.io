@@ -1,5 +1,5 @@
 ---
-date:
+date: ""
 description:
 seo_description:
 header:

@@ -45,11 +45,11 @@
 
 <!-- Open Graph Image -->
   {{ if .IsHome }}
-    <meta name="og:image" content="{{ .Site.BaseURL }}assets/img/screenshot.jpg" />
+    <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Urlimg }}screenshot.jpg" />
   {{ else if .Params.header.image }}
-    <meta name="og:image" content="{{ .Site.BaseURL }}assets/img/{{ .Params.header.image }}" />
+    <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Urlimg }}{{ .Params.header.image }}" />
   {{ else if .Params.cover }}
-    <meta name="og:image" content="{{ .Site.BaseURL }}assets/img/{{ .Params.cover }}" />
+    <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Urlimg }}{{ .Params.cover }}" />
   {{ else if and .IsNode ( ne .Data.Singular "tag" ) ( ne .Title "404 Page not found" ) }}
     {{ $assets := .Site.Params.Urlimg }}
     {{ $baseurl := .Site.BaseURL }}
@@ -60,7 +60,7 @@
       {{ end }}
     {{ end }}
   {{ else }}
-    <meta name="og:image" content="{{ .Site.BaseURL }}assets/img/short-stories.jpg" />
+    <meta name="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Urlimg }}short-stories.jpg" />
   {{ end }}
 
 <!-- Open Graph Description -->
