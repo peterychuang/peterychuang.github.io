@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Novel on Peter Y. Chuang - Novelist, Short Story Writer</title>
-    <link>https://novelist.xyz/tag/novel/index.xml</link>
+    <link>https://novelist.xyz/tag/novel/</link>
     <description>Recent content in Novel on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="/tag/novel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
+    <atom:link href="/tag/novel/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Austerlitz</title>

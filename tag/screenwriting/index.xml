@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Screenwriting on Peter Y. Chuang - Novelist, Short Story Writer</title>
-    <link>https://novelist.xyz/tag/screenwriting/index.xml</link>
+    <link>https://novelist.xyz/tag/screenwriting/</link>
     <description>Recent content in Screenwriting on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="/tag/screenwriting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2016 03:28:59 +0000</lastBuildDate>
+    <atom:link href="/tag/screenwriting/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>On happy endings</title>

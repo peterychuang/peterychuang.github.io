@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dystopia on Peter Y. Chuang - Novelist, Short Story Writer</title>
-    <link>https://novelist.xyz/tag/dystopia/index.xml</link>
+    <link>https://novelist.xyz/tag/dystopia/</link>
     <description>Recent content in Dystopia on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="/tag/dystopia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2016 17:14:35 +0000</lastBuildDate>
+    <atom:link href="/tag/dystopia/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Gang Leader</title>
