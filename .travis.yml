@@ -18,14 +18,32 @@ branches:
 
 cache:
   directories:
+  - "$HOME/gopath/src/github.com/bep"
+  - "$HOME/gopath/src/github.com/BurntSushi"
+  - "$HOME/gopath/src/github.com/chaseadamsio"
+  - "$HOME/gopath/src/github.com/cpuguy83"
+  - "$HOME/gopath/src/github.com/dchest"
+  - "$HOME/gopath/src/github.com/eknkc"
+  - "$HOME/gopath/src/github.com/fsnotify"
+  - "$HOME/gopath/src/github.com/gorilla"
+  - "$HOME/gopath/src/github.com/hashicorp"
+  - "$HOME/gopath/src/github.com/kardianos"
+  - "$HOME/gopath/src/github.com/kyokomi"
+  - "$HOME/gopath/src/github.com/magiconair"
+  - "$HOME/gopath/src/github.com/miekg"
+  - "$HOME/gopath/src/github.com/mitchellh"
+  - "$HOME/gopath/src/github.com/nicksnyder"
+  - "$HOME/gopath/src/github.com/pelletier"
+  - "$HOME/gopath/src/github.com/PuerkitoBio"
+  - "$HOME/gopath/src/github.com/russross"
+  - "$HOME/gopath/src/github.com/shurcooL"
+  - "$HOME/gopath/src/github.com/spf13"
+  - "$HOME/gopath/src/github.com/yosssi"
+  - "$HOME/gopath/src/golang.org"
+  - "$HOME/gopath/src/gopkg.in"
+  - "$HOME/gopath/pkg/"
   - "$HOME/gopath/bin/"
-install:
-  - wget https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1_Linux-64bit.tar.gz
-  - tar -xvzf hugo_0.18.1_Linux-64bit.tar.gz
-  - cd hugo_0.18.1_linux_amd64
-  - mv hugo_0.18.1_linux_amd64 hugo
-  - mv hugo $HOME/gopath/bin/
-  - cd ..
+install: go get -v github.com/spf13/hugo
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_6419d2ebf1a7_key -iv $encrypted_6419d2ebf1a7_iv
