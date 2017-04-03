@@ -203,7 +203,7 @@
       {{ end }}
 
       /* The beginning of CSS block for Header Image */
-      {{ if or ( eq .Section "bookshelf" ) ( eq .Section "music" ) ( .IsHome ) }}
+      {{ if or ( .IsHome ) ( and ( or ( eq .Section "bookshelf" ) ( eq .Section "music" )) ( .IsPage )) }}
         /* Do Nothing */
       {{ else }}
         {{ "header {"  | safeCSS }}
