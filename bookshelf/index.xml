@@ -6,8 +6,26 @@
     <description>Recent content in Bookshelf on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 19 Oct 2016 13:44:52 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 03 Apr 2017 02:59:35 -0400</lastBuildDate>
     <atom:link href="/bookshelf/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Dark Forest</title>
+      <link>https://novelist.xyz/bookshelf/the-dark-forest-cixin-liu/</link>
+      <pubDate>Mon, 03 Apr 2017 02:59:35 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/the-dark-forest-cixin-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Three-Body Problem</title>
+      <link>https://novelist.xyz/bookshelf/the-three-body-problem-cixin-liu/</link>
+      <pubDate>Mon, 03 Apr 2017 02:59:28 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/the-three-body-problem-cixin-liu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Man in the High Castle</title>
@@ -124,15 +142,6 @@
       
       <guid>https://novelist.xyz/bookshelf/war-and-peace-leo-tolstoy/</guid>
       <description>A novelistic account of Napoleon&#39;s invasion of Russia, its impact on the Russian society and our beloved characters, and Tolstoy&#39;s commentary on how history should be written.</description>
-    </item>
-    
-    <item>
-      <title>Anna Karenina</title>
-      <link>https://novelist.xyz/bookshelf/anna-karenina-leo-tolstoy/</link>
-      <pubDate>Tue, 26 May 2015 02:39:58 +0800</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/anna-karenina-leo-tolstoy/</guid>
-      <description>A classic story of love, adultery, family, and everything else.</description>
     </item>
     
   </channel>
