@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novelist.xyz/tech/arch-linux-installation-guide/</loc>
+    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/bookshelf/the-dark-forest-cixin-liu/</loc>
     <lastmod>2017-04-03T02:59:35-04:00</lastmod>
   </url>
@@ -352,6 +357,12 @@
   </url>
   
   <url>
+    <loc>https://novelist.xyz/tag/</loc>
+    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/tag/adultery/</loc>
     <lastmod>2016-05-13T03:36:20-04:00</lastmod>
     <priority>0</priority>
@@ -616,7 +627,7 @@
   
   <url>
     <loc>https://novelist.xyz/</loc>
-    <lastmod>2017-04-03T02:59:35-04:00</lastmod>
+    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -688,7 +699,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/</loc>
-    <lastmod>2016-05-13T03:36:20-04:00</lastmod>
+    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -698,7 +709,7 @@
   
   <url>
     <loc>https://novelist.xyz/tech/</loc>
-    <lastmod>2016-10-20T15:48:38-04:00</lastmod>
+    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
     <priority>0</priority>
   </url>
   
