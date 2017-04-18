@@ -17,52 +17,42 @@ url: /tech/arch-linux-tips/
 youtube_id: null
 ---
 
-Arch Linux has been my main (and only) operating system for the last six or seven months. Since I have a fairly new device (the late 2015 edition of XPS 13), I need the latest kernels and software packages in order to have a satisfactory experience on the device, and Arch Linux fulfils this requirement nicely.
+Arch Linux has a reputation for being close to bleeding edge, and thus less stable than other distributions. Neither of those points are entirely true, however, as there are other distributions that ship new packages even quicker than Arch, and most updates don't produce catastrophic results. Though because Arch Linux is such that it encourages users to tinker with it, hiccups do occur more frequently in Arch Linux than others, which isn't so much a fault of the distribution itself.
 
-But the main attraction of Arch Linux--being more up-to-date than other distros--is also its biggest liability. The newest software packages may break your desktop theme, make the screen flickers, render the system un-bootable, etc. To be sure, most updates don't break anything, and some updates break things even in other supposedly "stable" Linux distributions, though hiccups do occur more frequently in Arch Linux than others if you don't know what you are doing.
-
-The truth is that Arch Linux is as stable as you want it to be. To achieve stability, you need more care and caution. Below are some tips for how to avoid problems.
+The truth is that Arch Linux can be as stable as you want it to be. To achieve stability, you need more care and caution. Below are some tips for how to avoid problems.
 
 ### Avoid software packages from testing and other unstable repositories
 
 The testing repository contains packages being tested, and hence less stable.
 
-Extra caution is also advisable when installing packages from the AUR.
+Extra caution is also advisable when installing packages from the AUR. If possible, take a look at the ```PKGBUILD``` file for the package before installing it.
 
-### Don't update software packages whenever an update is available
+### Don't update packages whenever there's an update available
 
-When a software update break something, it takes time to fix.
-
-That's why you may want to resist the temptation to update everything whenever an update becomes available, especially when you are working on an important project due in three days. In that case, consider updating over the weekend when you have more time in your hands.
+Because being close to bleeding edge is one of the attractions of Arch Linux, users tend to want updates sooner rather than later. If an update breaks something, however, it takes time to fix, which is why you have to resist the temptation to update everything whenever an update becomes available, especially when you are in the middle of some important project. Consider postponing the update to the coming weekend.
 
 ### Read Arch Linux News before updating
 
-[Arch Linux News](https://www.archlinux.org/news/) sometimes contains important advisory on software update. Make sure you take a look of the page before updating.
+[Arch Linux News](https://www.archlinux.org/news/) sometimes contains important advisory on software updates. Make sure you take a look of the page before updating.
 
-### Don't clear the Pacman cache unless you know what you are doing
+### DO NOT clear the Pacman cache, ever
 
-Pacman, the package manager, stores a cache of packages, including older and not-in-use packages, in ```/var/cache/pacman/pkg```. Unless you tell Pacman to remove unused packages, those packages stay on your hard drive, occupying ever bigger portion of your storage space as time goes by.
+Pacman, the package manager, stores all the packages you've installed, including older and not-in-use packages, in ```/var/cache/pacman/pkg```. Unless you tell Pacman to remove unused packages, those packages stay on your hard drive, occupying ever bigger portion of your storage space as time goes by.
 
-Clearing the Pacman cache is simple. To remove packages not currently in use, you can simply use the following command:
-
-{{< highlight bash >}}
-pacman -Sc
-{{< / highlight>}}
-
-But clearing the cache is *not* a good idea unless you know with absolute certainty that you don't need them ever again. When one of the packages happens to not work, you may want to downgrade the package, and that's when pacman cache comes to your rescue. For example, if you've just upgraded your kernel, and soon realised it doesn't work. The simplest solution is to temporarily downgrade the kernel back to the previous version. Inside ```/var/cache/pacman/pkg```, you will find the tarball for your old kernel (e.g.: ```linux-4.7.6-1-x86_64.pkg.tar.xz```). To downgrade the kernel, simply use the following command:
+But clearing the cache is *not* a good idea unless you know with absolute certainty that you don't need them ever again. When one of the packages breaks something after an update, you may want to rollback the update, and that's when pacman cache comes to your rescue. For example, if you've just upgraded your kernel, and you soon realise it doesn't work, the simplest solution is to downgrade the kernel back to the previous version. Inside ```/var/cache/pacman/pkg```, you will find the tarball for your old kernel (e.g.: ```linux-4.7.6-1-x86_64.pkg.tar.xz```). To downgrade the kernel, simply use the following command:
 
 {{< highlight bash >}}
 sudo pacman -U /var/cache/pacman/pkg/linux-4.7.6-1-x86_64.pkg.tar.xz
 {{< / highlight>}}
 
-You may also want to use the ```paccache``` command to control over how many packages to keep. For example, ```paccache -rk 3``` keeps 3 most recent versions in the cache, while ```paccache -ruk 0``` removes all uninstalled packages.
+Instead of keeping everything or deleting everything from the cache, consider running ```paccache -rk 3``` to keep three most recent versions of all the packages, and ```paccache -ruk 0``` to remove uninstalled packages from the cache.
 
 ### Keep your Arch Linux USB drive handy
 
 Software updates rarely make your machine un-bootable. But when that happens, you need the live USB of Arch Linux to save yourself.
 
-After you booting to the live USB, mount your hard drive, change root to the root directory of the hard drive using ```arch-chroot```, then fix the problems. For instance, you can boot the machine with the live USB and reverse software updates.
+After booting to the live USB, mount your hard drive, ```arch-chroot``` into the root partition of your installation, then fix the problems. For instance, you can boot the machine with the live USB and reverse software updates.
 
 ### Conclusion
 
-Arch Linux is undoubtedly more challenging to use than other more beginner-friendly distros. But with these simple rules, you will find Arch Linux no more unstable than other distros.
+Arch Linux is undoubtedly more challenging to use than other more beginner-friendly distros. But with these simple rules, and with the skills you've learned from [installing Arch Linux on the command lines](/tech/arch-linux-installation-guide/), you will find Arch Linux no more unstable than other distros.
