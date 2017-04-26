@@ -6,8 +6,17 @@
     <description>Recent content in Linux on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 20 Oct 2016 15:48:38 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 16 Apr 2017 23:03:58 +0200</lastBuildDate>
     <atom:link href="/tag/linux/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to install Arch Linux</title>
+      <link>https://novelist.xyz/tech/arch-linux-installation-guide/</link>
+      <pubDate>Sun, 16 Apr 2017 23:03:58 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tech/arch-linux-installation-guide/</guid>
+      <description>An Arch Linux setup with LVM, LUKS, systemd-boot, and GNOME</description>
+    </item>
     
     <item>
       <title>Five Tips For Running Arch Linux As Daily Driver</title>
