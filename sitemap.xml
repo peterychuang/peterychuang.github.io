@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</loc>
+    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/tech/arch-linux-installation-guide/</loc>
     <lastmod>2017-04-16T23:03:58+02:00</lastmod>
   </url>
@@ -364,7 +369,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/arch-linux/</loc>
-    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
+    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -522,7 +527,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/linux/</loc>
-    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
+    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -621,7 +626,7 @@
   
   <url>
     <loc>https://novelist.xyz/</loc>
-    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
+    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -703,7 +708,7 @@
   
   <url>
     <loc>https://novelist.xyz/tech/</loc>
-    <lastmod>2017-04-16T23:03:58+02:00</lastmod>
+    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
     <priority>0</priority>
   </url>
   

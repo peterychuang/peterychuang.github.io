@@ -6,8 +6,17 @@
     <description>Recent content in Arch Linux on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 16 Apr 2017 23:03:58 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Apr 2017 00:40:45 +0200</lastBuildDate>
     <atom:link href="/tag/arch-linux/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to make fonts look good on Arch Linux</title>
+      <link>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</link>
+      <pubDate>Wed, 26 Apr 2017 00:40:45 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</guid>
+      <description>Texts can still look beautiful without Infinality patches</description>
+    </item>
     
     <item>
       <title>How to install Arch Linux</title>

@@ -6,8 +6,17 @@
     <description>Recent content in Tech on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 16 Apr 2017 23:03:58 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Apr 2017 00:40:45 +0200</lastBuildDate>
     <atom:link href="/tech/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to make fonts look good on Arch Linux</title>
+      <link>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</link>
+      <pubDate>Wed, 26 Apr 2017 00:40:45 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</guid>
+      <description>Texts can still look beautiful without Infinality patches</description>
+    </item>
     
     <item>
       <title>How to install Arch Linux</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</guid>
       <description>Supercharge a Github-hosted Jekyll site with Gulp tasks and Cloudflare</description>
-    </item>
-    
-    <item>
-      <title>Jekyll: a static site generator</title>
-      <link>https://novelist.xyz/tech/jekyll/</link>
-      <pubDate>Fri, 06 May 2016 11:27:27 +0000</pubDate>
-      
-      <guid>https://novelist.xyz/tech/jekyll/</guid>
-      <description>Why I moved from Wordpress to Jekyll</description>
     </item>
     
   </channel>
