@@ -10,13 +10,14 @@ header:
 layout: null
 seo_description: null
 tag:
-- null
+- Linux
+- Arch Linux
 title: How to install Arch Linux
 type: post
 url: /tech/arch-linux-installation-guide/
 youtube_id: null
 ---
-Arch Linux is known for, among many other things ~~such as being at the bleeding edge to a point of unstable~~ (*ask anyone trying to get GNOME 3.24 on time*), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, **Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles**, which is why I keep returning to Arch Linux despite its annoyances.
+Arch Linux is known for, among many other things~~, such as being at the bleeding edge to a point of unstable~~ (*~~ask anyone trying to get GNOME 3.24 on time~~*), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, **Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles**, which is why I keep returning to Arch Linux despite its various annoyances.
 
 The following setup guide is written primarily for myself, because even someone who has installed Arch Linux multiple times can't remember every step perfectly. Most of these steps, however, should be applicable to other setups. After the process, you should get a basic installation with GNOME on an encrypted logical volume.
 

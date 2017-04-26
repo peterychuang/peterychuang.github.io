@@ -38,7 +38,7 @@ Although Pacman and Yaourt are convenient, there are moments when you may want a
 
 To install Pamac, enter ```yaourt -S pamac-aur``` and follow the instructions.
 
-#### Install Infinality for beautiful font-rendering
+#### ~~Install Infinality for beautiful font-rendering~~~
 
 ~~Unlike Ubuntu-based distributions, font-rendering on Arch Linux is awful on default setting; so awful that it hurts to look at the screen.~~
 
@@ -46,9 +46,15 @@ To install Pamac, enter ```yaourt -S pamac-aur``` and follow the instructions.
 
 ~~To use Infinality, install ```fontconfig-infinality``` and ```freetype2-infinality``` from AUR.~~
 
-*Update 31 March 2017*
+~~*Update 31 March 2017*~~
 
-Infinality is dead. Fortunately, the default font-rendering is now much better than it was a year ago; unfortunately, the patched ```freetype2``` and ```fontconfig``` still do a better job than the unpatched ```freetype2``` and ```fontconfig```.
+~~Infinality is dead. Fortunately, the default font-rendering is now much better than it was a year ago; unfortunately, the patched ```freetype2``` and ```fontconfig``` still do a better job than the unpatched ```freetype2``` and ```fontconfig```.~~
+
+
+#### Tweak font-rendering
+*Update 26 April 2017*
+
+Font-rendering looks terrible on default. But with [a few tweaks](/tech/improve-font-rendering-arch-linux-no-infinality/), texts will look great.
 
 #### Install Fonts
 
