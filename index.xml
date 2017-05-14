@@ -6,8 +6,17 @@
     <description>Recent content in Peter Y. Chuang Novelist, Short Story Writer on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 26 Apr 2017 00:40:45 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 May 2017 21:02:16 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Death&#39;s End</title>
+      <link>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</link>
+      <pubDate>Sun, 14 May 2017 21:02:16 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How to make fonts look good on Arch Linux</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
       <description>This is how to show a fixed number of related posts in Hugo</description>
-    </item>
-    
-    <item>
-      <title>Cologne</title>
-      <link>https://novelist.xyz/misc/cologne-germany/</link>
-      <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/misc/cologne-germany/</guid>
-      <description>A city defined by its Cathedral</description>
     </item>
     
   </channel>

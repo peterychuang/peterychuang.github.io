@@ -6,8 +6,17 @@
     <description>Recent content in Bookshelf on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 03 Apr 2017 02:59:35 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 May 2017 21:02:16 +0200</lastBuildDate>
     <atom:link href="/bookshelf/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Death&#39;s End</title>
+      <link>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</link>
+      <pubDate>Sun, 14 May 2017 21:02:16 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Dark Forest</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/bookshelf/the-hobbit-the-lord-of-the-rings-j-r-r-tolkien/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>War and Peace</title>
-      <link>https://novelist.xyz/bookshelf/war-and-peace-leo-tolstoy/</link>
-      <pubDate>Tue, 26 May 2015 02:40:50 +0800</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/war-and-peace-leo-tolstoy/</guid>
-      <description>A novelistic account of Napoleon&#39;s invasion of Russia, its impact on the Russian society and our beloved characters, and Tolstoy&#39;s commentary on how history should be written.</description>
     </item>
     
   </channel>

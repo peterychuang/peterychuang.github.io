@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</loc>
+    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</loc>
     <lastmod>2017-04-26T00:40:45+02:00</lastmod>
   </url>
@@ -392,7 +397,7 @@
   
   <url>
     <loc>https://novelist.xyz/bookshelf/</loc>
-    <lastmod>2017-04-03T02:59:35-04:00</lastmod>
+    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -473,7 +478,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/fiction/</loc>
-    <lastmod>2017-04-03T02:59:35-04:00</lastmod>
+    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -626,7 +631,7 @@
   
   <url>
     <loc>https://novelist.xyz/</loc>
-    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
+    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -656,7 +661,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/science-fiction/</loc>
-    <lastmod>2017-04-03T02:59:35-04:00</lastmod>
+    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
