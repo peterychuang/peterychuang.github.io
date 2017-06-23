@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/apple/</link>
+    <description>Recent content in Apple on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 23 Jun 2017 15:47:22 -0400</lastBuildDate>
+    <atom:link href="/tag/apple/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Linux user&#39;s thoughts on MacBook Pro and macOS</title>
+      <link>https://novelist.xyz/tech/linux-user-on-macbook-macos/</link>
+      <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/linux-user-on-macbook-macos/</guid>
+      <description>MacBook Pro isn&#39;t a professional machine, and macOS isn&#39;t impressive</description>
+    </item>
+    
+  </channel>
+</rss>

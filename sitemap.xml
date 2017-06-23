@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novelist.xyz/tech/linux-user-on-macbook-macos/</loc>
+    <lastmod>2017-06-23T15:47:22-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</loc>
     <lastmod>2017-05-14T21:02:16+02:00</lastmod>
   </url>
@@ -373,6 +378,12 @@
   </url>
   
   <url>
+    <loc>https://novelist.xyz/tag/apple/</loc>
+    <lastmod>2017-06-23T15:47:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/tag/arch-linux/</loc>
     <lastmod>2017-04-26T00:40:45+02:00</lastmod>
     <priority>0</priority>
@@ -532,7 +543,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/linux/</loc>
-    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
+    <lastmod>2017-06-23T15:47:22-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -573,13 +584,13 @@
   </url>
   
   <url>
-    <loc>https://novelist.xyz/tag/music/</loc>
+    <loc>https://novelist.xyz/music/</loc>
     <lastmod>2016-08-26T11:39:25-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://novelist.xyz/music/</loc>
+    <loc>https://novelist.xyz/tag/music/</loc>
     <lastmod>2016-08-26T11:39:25-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -631,7 +642,7 @@
   
   <url>
     <loc>https://novelist.xyz/</loc>
-    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
+    <lastmod>2017-06-23T15:47:22-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -713,7 +724,7 @@
   
   <url>
     <loc>https://novelist.xyz/tech/</loc>
-    <lastmod>2017-04-26T00:40:45+02:00</lastmod>
+    <lastmod>2017-06-23T15:47:22-04:00</lastmod>
     <priority>0</priority>
   </url>
   
