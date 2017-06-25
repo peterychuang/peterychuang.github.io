@@ -132,7 +132,7 @@ arch-chroot /mnt
 Now we set the timezone by creating symbolic link to the correct timezone file:
 
 {{< highlight bash >}}
-ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 hwclock --systohc --utc
 {{< / highlight >}}
 
@@ -150,6 +150,18 @@ nano /etc/locale.gen
 locale-gen
 {{< / highlight >}}
 
+Finally, to set the hostname, run the following command:
+
+{{< highlight bash >}}
+echo  *your-host-name* > /etc/hostname
+{{< / highlight >}}
+
+Then edit ```/etc/hosts``` to look like this:
+{{< highlight bash >}}
+127.0.0.1   localhost.localdomain	        localhost
+::1         localhost.localdomain	        localhost
+127.0.1.1   *your-host-name*.localdomain  *your-host-name*
+{{< / highlight >}}
 
 ### 9. Create user account
 
