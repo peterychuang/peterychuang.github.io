@@ -52,10 +52,16 @@ The possibility of customising macOS, needless to say, is much more limited than
 
 {{< img src="/assets/img/gnome-keyboard.jpg" alt="Setting custom keyboard shortcuts in GNOME" caption="Setting custom keyboard shortcuts in GNOME" >}}
 
+This is but a little example of the closedness of macOS, and one can count many more. I mentioned above that it is quite easy to make Linux look beautiful and polished. Now I should point out that it is easy to make Linux desktops look like macOS. But to change how macOS looks is nearly impossible beyond changing wallpaper.
+
+That speaks to the very different "cultures" of Linux and Mac users. In Linux, we are used to be able to customise everything from the wallpaper to the most minute part of the kernel; in macOS, users are handed a system that they have to accept, so long as they are using their products. In Linux, we are held responsible for taking care of our computers, and, for the most parts, experienced Linux users are capable of maintaining their machines, and are not afraid of having to dig deep into their systems to figure out problems; in macOS, since users are handed whatever Apple has handed to them and are unable to make many changes, and since Apple Stores are everywhere, users expect problems to be solved by Apple, not by them. It is perhaps unthinkable for Mac and, for that matter, Windows users, to be debugging the software they use and sending traces to the developers, but this is what seasoned Linux users do. We use the software, and when problems appear, we engage with developers and try to make the software better, not just for us personally, but what the whole community that use the software.
+
+Once one accepts that open-source development is a better model, and that the openness of the Linux world gives one complete freedom in one's computing experience, the freedom become uncompromisable. Using macOS hurts that freedom.
+
 ### The Verdict
 
-Long story short: I'm not impressed, and there's no way I can use macOS in the long run.
+Long story short: I'm not impressed, and there's no way I can use macOS in the long run. In fact, as I am writing this, I am preparing the installation image for Arch Linux.
 
-I don't think MacBook Pro is a bad machine, though the "Pro" label is clearly a lie, and unless you are living in a place where HP Spectre is more expensive than MacBook Pro, you may as well just get an HP Spectre. macOS isn't a particularly terrible operating system either, though it fails to impress me in terms of its capabilities, while minor annoyances here and there are getting in the way of my workflows.
+All my annoyances aside, I don't think MacBook Pro is a bad machine, though the "Pro" label is clearly a lie, and unless you are living in a place where HP Spectre is more expensive than MacBook Pro, you may as well just get an HP Spectre. Also, macOS isn't a particularly terrible operating system, though it fails to impress me in terms of its capabilities, while minor annoyances here and there are getting in the way of my workflows.
 
 The superiority of Linux over macOS is a testament to the power of free and open-source software development. "The Year of Linux Desktop" is already upon us, even if the world fails to take notice.
