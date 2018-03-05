@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <div class="embed-container">
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ index .Params.youtube_id }}" style="border:none;" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube_id }}" style="border:none;" allowfullscreen></iframe>
         </div>
         <h1>{{ .Title | markdownify }}</h1>
       </div>

@@ -1,0 +1,41 @@
+{{ partial "common/head.html" . }}
+{{ partial "common/nav.html" . }}
+{{ partial "common/header.html" . }}
+  <section id="{{ lower .Title | urlize }}" class="content list">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          {{ $paginator := .Paginate ( where ( where .Site.Pages "Type" "post" ) "Section" "=" "music" ) }}
+          {{ range $paginator.Pages }}
+            <h2>
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </h2>
+            <p>{{ .Description | markdownify }}</p>
+            <p class="meta">
+              <a href="/{{ lower .Section | urlize }}/"><i class="fa fa-archive">&nbsp;</i>{{ .Section | humanize | title }}</a>
+              &nbsp;&nbsp;
+              <i class="fa fa-calendar-o">&nbsp;</i>{{ .Date.Format "2006-01-02" }}
+            </p>
+          {{ end }}
+
+          <ul class="pager">
+            {{ if .Paginator.HasNext }}
+            <li class="next">
+              <span>
+                <a href="{{ .Paginator.Next.URL }}">Older Posts</a>
+              </span>
+            </li>
+            {{ end }}
+            {{ if .Paginator.HasPrev }}
+            <li class="previous">
+              <span>
+                <a href="{{ .Paginator.Prev.URL }}">Newer Posts</a>
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ partial "common/footer.html" . }}
