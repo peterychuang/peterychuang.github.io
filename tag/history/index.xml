@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
-    <atom:link href="/tag/history/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/history/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Austerlitz</title>
@@ -15,7 +17,7 @@
       <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
-      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+      <description>In the run up to the Second World War, Britain took on about ten thousands of Jewish children in a rescue effort now known as Kindertransport. These children came from areas already or soon-to-be occupied by Nazi Germany, and they were brought up in Great Britain by foster parents. Jacques Austerlitz, who arrived in England at an age so young that he couldn&amp;rsquo;t have remembered much about his former life, and whose Welsh foster parents concealed his true identity for long enough to erase any last memory of his prior existence, put off attempting to find his root until he had become an old man.</description>
     </item>
     
     <item>
@@ -24,7 +26,8 @@
       <pubDate>Wed, 15 Jun 2016 04:03:04 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/second-hand-time-svetlana-alexievich/</guid>
-      <description>A moving, powerful, and at times disturbing oral history of the little people of the Soviet Union</description>
+      <description>It would have been a strange situation to find yourself in, that the ideas you&amp;rsquo;d grown up with turned out to be out-of-fashion, and that what you&amp;rsquo;d been working for your whole life turned out to be worthless. It happens every so often to some people, but rarely at the scale of a whole country.
+In her latest work, Svetlana Alexievich, the winner of Nobel Prize in 2015, tackles exactly this strange phenomenon during the collapse and the aftermath of the collapse of the Soviet Union.</description>
     </item>
     
     <item>
@@ -33,7 +36,7 @@
       <pubDate>Sat, 04 Jun 2016 16:34:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/voices-from-chernobyl-svetlana-alexievich/</guid>
-      <description>The Chernobyl nuclear disaster from the perspective of the little people who lost their homes, families, and countries</description>
+      <description>Some years ago, I went through a phase of watching every documentary film I could get my hands on. One of the films I stumbled upon was a film about the Chernobyl disaster. I couldn&amp;rsquo;t remember when I first watched it, and it might not have anything to do with the Fukushima disaster. As with so many of the things I find interesting, there wasn&amp;rsquo;t any inherent reason why I found the Chernobyl disaster fascinating.</description>
     </item>
     
     <item>
@@ -42,7 +45,7 @@
       <pubDate>Tue, 26 May 2015 02:40:50 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/war-and-peace-leo-tolstoy/</guid>
-      <description>A novelistic account of Napoleon&#39;s invasion of Russia, its impact on the Russian society and our beloved characters, and Tolstoy&#39;s commentary on how history should be written.</description>
+      <description>It is difficult to pin down what &amp;ldquo;War and Peace&amp;rdquo; exactly is. In large part, it tells the stories of several Russian aristocratic families&amp;mdash;the Rostovs, Bolkonskys, the Bezhukovs, and others&amp;mdash;with great realism, against the backdrop of the Napoleonic Wars, starting roughly from the time of the Battle of Austerlitz to the defeat of Napoleon by the Russians. Just as his later novel, &amp;ldquo;Anna Karenina, &amp;ldquo;War and Peace&amp;rdquo; embraces everything possible.</description>
     </item>
     
   </channel>

@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 23 Jun 2017 15:47:22 -0400</lastBuildDate>
-    <atom:link href="/tag/linux/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/linux/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Linux user&#39;s thoughts on MacBook Pro and macOS</title>
@@ -15,7 +17,8 @@
       <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/linux-user-on-macbook-macos/</guid>
-      <description>MacBook Pro isn&#39;t a professional machine, and macOS isn&#39;t impressive</description>
+      <description>As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.
+Then my Dell XPS 13 died, and I discovered that Dell had terrible service in my part of the world, so I couldn&amp;rsquo;t get it repaired.</description>
     </item>
     
     <item>
@@ -24,7 +27,8 @@
       <pubDate>Wed, 26 Apr 2017 00:40:45 +0200</pubDate>
       
       <guid>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</guid>
-      <description>Texts can still look beautiful without Infinality patches</description>
+      <description>Let&amp;rsquo;s face it: the plain vanilla font rendering on Linux was horrible. For a long time, I had relied on Infinality patches for freetype2 and fontconfig to improve how texts looked on Arch Linux, and the result was impressive.
+But then, the upstream of Infinality died. For some months now, I had been holding onto the patched freetype2 and fontconfig as I was unable to find an acceptable alternative, though it was obvious that I had to make do with the plain vanilla freetype and fontconfig at some point.</description>
     </item>
     
     <item>
@@ -33,7 +37,7 @@
       <pubDate>Sun, 16 Apr 2017 23:03:58 +0200</pubDate>
       
       <guid>https://novelist.xyz/tech/arch-linux-installation-guide/</guid>
-      <description>An Arch Linux setup with LVM, LUKS, systemd-boot, and GNOME</description>
+      <description>Arch Linux is known for, among many other things, such as being at the bleeding edge to a point of unstable (ask anyone trying to get GNOME 3.24 on time), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles, which is why I keep returning to Arch Linux despite its various annoyances.</description>
     </item>
     
     <item>
@@ -42,7 +46,7 @@
       <pubDate>Thu, 20 Oct 2016 15:48:38 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/arch-linux-tips/</guid>
-      <description>How to achieve maximum stability in Arch Linux</description>
+      <description>Arch Linux has a reputation for being close to bleeding edge, and thus less stable than other distributions. Neither of those points are entirely true, however, as there are other distributions that ship new packages even quicker than Arch, and most updates don&amp;rsquo;t produce catastrophic results. Though because Arch Linux is such that it encourages users to tinker with it, hiccups do occur more frequently in Arch Linux than others, which isn&amp;rsquo;t so much a fault of the distribution itself.</description>
     </item>
     
     <item>
@@ -51,7 +55,8 @@
       <pubDate>Wed, 25 May 2016 14:17:22 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/things-to-do-after-installing-arch-linux/</guid>
-      <description>Turning a minimal installation into something enjoyable to use</description>
+      <description>Arch Linux is famous for its seemingly intimidating installation process that, by default, only gets you to a base system where almost nothing is in it. From that point, you will have the opportunity to build a system that consists only of what you need, such as the display manager and desktop environment of your choosing.
+But even after installing and booting into your favourite desktop environment, the road to building daily driver is far from finished.</description>
     </item>
     
     <item>
@@ -60,7 +65,10 @@
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/tech/my-linux-rig/</guid>
-      <description>Learn more about Linux and my Linux setup</description>
+      <description>Sometime in 2011 or 2012, I began to use Linux exclusively as my primary operating system, and I&amp;rsquo;ve never returned to the Windows-land.
+My Linux Machine I use Dell XPS 13 (9350) mainly to write and develop this website, among many other things. For more demanding tasks such as photo-editing, I use a desktop machine with a quad-core processor and hyperthreading.
+Specification (XPS 13)  Intel Core i5-6200
+ Full-HD Screen</description>
     </item>
     
     <item>
@@ -69,7 +77,10 @@
       <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</guid>
-      <description>A new theme based on Flat-Plat Theme</description>
+      <description>Update 17 September 2017: the latest version is out with preliminary support of GNOME 3.26
+Flat-Plat-Blue Theme Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from Flat-Plat Theme with the following refinements:
+ All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience;
+ The top bar is transparent when no window is maximised (starting from GNOME Shell 3.</description>
     </item>
     
     <item>
@@ -78,7 +89,7 @@
       <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
-      <description>How I switch from a Windows user to a full-time Linux user with no regret</description>
+      <description>From Windows to Linux: My Linux Journey I think it was 2009 when I tried GNU/Linux for the first time. It was on a ThinkPad, and the distribution (or distro) I tried was Ubuntu. I didn’t know anything about GNU/Linux back then, and I might or might not have been wondering where C:\ was, but I was amazed by the amount of customisations I could do with the operating system.</description>
     </item>
     
   </channel>

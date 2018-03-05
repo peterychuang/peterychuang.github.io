@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 23 Jun 2017 15:47:22 -0400</lastBuildDate>
-    <atom:link href="/tech/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tech/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Linux user&#39;s thoughts on MacBook Pro and macOS</title>
@@ -15,7 +17,8 @@
       <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/linux-user-on-macbook-macos/</guid>
-      <description>MacBook Pro isn&#39;t a professional machine, and macOS isn&#39;t impressive</description>
+      <description>As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.
+Then my Dell XPS 13 died, and I discovered that Dell had terrible service in my part of the world, so I couldn&amp;rsquo;t get it repaired.</description>
     </item>
     
     <item>
@@ -24,7 +27,8 @@
       <pubDate>Wed, 26 Apr 2017 00:40:45 +0200</pubDate>
       
       <guid>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</guid>
-      <description>Texts can still look beautiful without Infinality patches</description>
+      <description>Let&amp;rsquo;s face it: the plain vanilla font rendering on Linux was horrible. For a long time, I had relied on Infinality patches for freetype2 and fontconfig to improve how texts looked on Arch Linux, and the result was impressive.
+But then, the upstream of Infinality died. For some months now, I had been holding onto the patched freetype2 and fontconfig as I was unable to find an acceptable alternative, though it was obvious that I had to make do with the plain vanilla freetype and fontconfig at some point.</description>
     </item>
     
     <item>
@@ -33,7 +37,7 @@
       <pubDate>Sun, 16 Apr 2017 23:03:58 +0200</pubDate>
       
       <guid>https://novelist.xyz/tech/arch-linux-installation-guide/</guid>
-      <description>An Arch Linux setup with LVM, LUKS, systemd-boot, and GNOME</description>
+      <description>Arch Linux is known for, among many other things, such as being at the bleeding edge to a point of unstable (ask anyone trying to get GNOME 3.24 on time), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles, which is why I keep returning to Arch Linux despite its various annoyances.</description>
     </item>
     
     <item>
@@ -42,7 +46,7 @@
       <pubDate>Thu, 20 Oct 2016 15:48:38 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/arch-linux-tips/</guid>
-      <description>How to achieve maximum stability in Arch Linux</description>
+      <description>Arch Linux has a reputation for being close to bleeding edge, and thus less stable than other distributions. Neither of those points are entirely true, however, as there are other distributions that ship new packages even quicker than Arch, and most updates don&amp;rsquo;t produce catastrophic results. Though because Arch Linux is such that it encourages users to tinker with it, hiccups do occur more frequently in Arch Linux than others, which isn&amp;rsquo;t so much a fault of the distribution itself.</description>
     </item>
     
     <item>
@@ -51,7 +55,9 @@
       <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
-      <description>A new and super-easy-to-configure webserver written in Go</description>
+      <description>First, a little bit of history.
+I have been running websites&amp;mdash;personal or otherwise&amp;mdash;on-and-off for long enough to remember Geocities. Although I wouldn&amp;rsquo;t claim to be an expert, I&amp;rsquo;ve seen and done quite a bit over the years, from hand-coding HTML files and uploading files via FTP to running Wordpress on LAMP and LEMP stacks and experimenting with Varnish Cache.
+I stopped making websites for a while before building this website with static site generators (first with Jekyll, then with Hugo).</description>
     </item>
     
     <item>
@@ -60,7 +66,7 @@
       <pubDate>Tue, 23 Aug 2016 15:15:56 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/bootstrap-without-jquery/</guid>
-      <description>You don&#39;t need jQuery to bring a Bootstrap Navbar to life</description>
+      <description>This website uses Bootstrap framework, which is very useful for creating responsive websites. But most of its javascript components aren&amp;rsquo;t use in my case. It also requires jQuery to run, which is 86KB in size before gzipping. For the only two functions I need&amp;mdash;expanding and collapsing the Navbar menu&amp;mdash;depending on jQuery seems unnecessary. And it is indeed unnecessary, because those functions can be achieved by some plain vanilla javascript 1% the size of jQuery.</description>
     </item>
     
     <item>
@@ -69,7 +75,8 @@
       <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
-      <description>This is how to show a fixed number of related posts in Hugo</description>
+      <description>The ability to show related posts is not yet a feature in Hugo. At present, one way to achieve this is by showing posts that have common tags or categories with the intersect function, as described in Hugo&amp;rsquo;s documentation.
+This, however, will list all the posts with at least one common tag for any given post, which isn&amp;rsquo;t what most people want. For a while, I have been using CSS to hide the list of related posts and only show the first three, a workaround suggested by Justin Dunham, a workaround that I don&amp;rsquo;t particularly like.</description>
     </item>
     
     <item>
@@ -78,7 +85,8 @@
       <pubDate>Tue, 26 Jul 2016 14:33:53 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/progressive-background-image-loading/</guid>
-      <description>Starting with a blurry image, which then gets clearer and clearer when loading finishes</description>
+      <description>Loading large images by first showing the blurred versions is becoming quite common, and it is easy to see why. Instead of showing a empty space of solid colour while loading, visitor can see a blurred image before the full image fades in.
+In this post, I will describe how it is achieved in this website. The general idea is to create a tiny version of the image, which is small enough to load very quickly, and stretch it to the original size so that it appears blurry.</description>
     </item>
     
     <item>
@@ -87,7 +95,8 @@
       <pubDate>Mon, 25 Jul 2016 13:06:07 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</guid>
-      <description>An advanced hack to customise categories URLs in Hugo</description>
+      <description>A while ago, I wrote a simple workaround for customising URLs of categories pages in Hugo. The purpose was to remove the word &amp;ldquo;categories&amp;rdquo; from the URLs of categories pages, a feature (still) missing in Hugo.
+That workaround is simple, and it replicates the behaviour in my old Jekyll site, though it isn&amp;rsquo;t perfect: it can only generate one single page for each category without pagination, while the &amp;ldquo;original&amp;rdquo; categories pages supports pagination out of the box.</description>
     </item>
     
     <item>
@@ -96,7 +105,9 @@
       <pubDate>Sun, 24 Jul 2016 15:07:55 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</guid>
-      <description>This website is now hosted on a VPS</description>
+      <description>Ever since I went static, I have been using Github Pages, an almost perfect solution for small static sites.
+The only real shortcoming of Github Pages is the lack of control over the webserver, and hence the lack of control over caching and server-side redirect. While using Cloudflare does give you back some control, redirect capability remains lacking.
+A few weeks ago, I moved the site to Firebase, which was a step up from Github Pages in terms of its flexibility, though I remained somewhat dissatisfied for various minor annoyances.</description>
     </item>
     
     <item>
@@ -105,7 +116,8 @@
       <pubDate>Wed, 25 May 2016 14:17:22 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/things-to-do-after-installing-arch-linux/</guid>
-      <description>Turning a minimal installation into something enjoyable to use</description>
+      <description>Arch Linux is famous for its seemingly intimidating installation process that, by default, only gets you to a base system where almost nothing is in it. From that point, you will have the opportunity to build a system that consists only of what you need, such as the display manager and desktop environment of your choosing.
+But even after installing and booting into your favourite desktop environment, the road to building daily driver is far from finished.</description>
     </item>
     
     <item>
@@ -114,7 +126,9 @@
       <pubDate>Thu, 19 May 2016 07:49:12 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-data-files/</guid>
-      <description>A demonstration of using Data Files in a Hugo-powered site</description>
+      <description>In this article, I am going to demonstrate how to use Data Files in Hugo site generator.
+The Problem As an effort to grow this website, I thought it might be a good idea to have a collection of interesting quotes by great novelists and writers. Even if it doesn&amp;rsquo;t help traffic, it would still be beneficial for me as a writer.
+An easy and obvious way to achieve this is to create a regular page and list all the quotes inside that page.</description>
     </item>
     
     <item>
@@ -123,7 +137,9 @@
       <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
-      <description>This is how I deploy this website</description>
+      <description>This post has been updated to reflect my new deployment process after migrating to Firebase
+This post has been updated to reflect further important changes
+Static site generators are great&amp;mdash;Jekyll is great, and Hugo is even greater&amp;mdash;except when it comes to updating the website. In the old days of my using wordpress, updating a post was a matter of logging in to the Wordpress Admin, making changes to the post, and hitting the &amp;ldquo;save&amp;rdquo; button.</description>
     </item>
     
     <item>
@@ -132,7 +148,9 @@
       <pubDate>Fri, 13 May 2016 13:45:43 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/custom-urls-for-category-pages-in-hugo/</guid>
-      <description>Generate pages for categories or tags on any URLs with Hugo</description>
+      <description>Update: Here is a new advanced hack for customising categories URLs
+Hugo is a great static site generator. Fast page build time and built-in live reload make Hugo a joy to use. But it isn&amp;rsquo;t without its limitation.
+One of the limitations I touched upon is the lack of completely customisable taxonomies URLs. By default, categories are located in /categories/something, and tags are located in /tags/something. If you want to change the word &amp;ldquo;categories&amp;rdquo; or &amp;ldquo;tags&amp;rdquo; in the URLs into some other words, there is a simple solution, as I explained on Github:</description>
     </item>
     
     <item>
@@ -141,7 +159,63 @@
       <pubDate>Wed, 11 May 2016 06:12:12 +0000</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/</guid>
-      <description>A newcomer of static site generator taking on the big brother</description>
+      <description>Last week, I mentioned that this site is built using Jekyll, a static site generator that, once you get used to it, is much faster to load and more convenient than dynamic content management system such as Wordpress.
+(Update: this site now runs on Hugo)
+Jekyll is way too slow Jekyll is a good alternative to things like Wordpress, but it isn&amp;rsquo;t without its own problem: the loading speed of the compiled static pages may be very fast because they are static, but those pages take a long time to build.</description>
+    </item>
+    
+    <item>
+      <title>How to create a super-fast Jekyll site</title>
+      <link>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</link>
+      <pubDate>Fri, 06 May 2016 14:23:16 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</guid>
+      <description>(Update: this site now runs on Hugo)
+Earlier, I wrote a brief note explaining why I use Jekyll, which came down to two major factors: cost and performance. Hosting a Jekyll site on Github is free, eliminating all the costs (save the domain name) associated with running a self-hosted Wordpress site; and Github Pages is very fast.
+But there are still some room for improvments. The steps outlined below are what I&amp;rsquo;ve done to optimise my website, partly inspired by David Ensinger&amp;rsquo;s post on the same topic.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll: a static site generator</title>
+      <link>https://novelist.xyz/tech/jekyll/</link>
+      <pubDate>Fri, 06 May 2016 11:27:27 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/jekyll/</guid>
+      <description>(Update: this site now runs on Hugo)
+For a long time, Wordpress was my go-to software to create website. It is free, has a huge community, massive collection of plugins, is not too difficult to set up for basic use, and is capable of running big and complex website. I used Wordpress to run a fairly large and complicated site for quite a while, and it did the job.</description>
+    </item>
+    
+    <item>
+      <title>My Linux Rig</title>
+      <link>https://novelist.xyz/tech/my-linux-rig/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-rig/</guid>
+      <description>Sometime in 2011 or 2012, I began to use Linux exclusively as my primary operating system, and I&amp;rsquo;ve never returned to the Windows-land.
+My Linux Machine I use Dell XPS 13 (9350) mainly to write and develop this website, among many other things. For more demanding tasks such as photo-editing, I use a desktop machine with a quad-core processor and hyperthreading.
+Specification (XPS 13)  Intel Core i5-6200
+ Full-HD Screen</description>
+    </item>
+    
+    <item>
+      <title>Flat-Plat-Blue: A GNOME/GTK Theme</title>
+      <link>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</guid>
+      <description>Update 17 September 2017: the latest version is out with preliminary support of GNOME 3.26
+Flat-Plat-Blue Theme Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from Flat-Plat Theme with the following refinements:
+ All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience;
+ The top bar is transparent when no window is maximised (starting from GNOME Shell 3.</description>
+    </item>
+    
+    <item>
+      <title>How I became a full-time Linux user</title>
+      <link>https://novelist.xyz/tech/my-linux-journey/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
+      <description>From Windows to Linux: My Linux Journey I think it was 2009 when I tried GNU/Linux for the first time. It was on a ThinkPad, and the distribution (or distro) I tried was Ubuntu. I didn’t know anything about GNU/Linux back then, and I might or might not have been wondering where C:\ was, but I was amazed by the amount of customisations I could do with the operating system.</description>
     </item>
     
   </channel>

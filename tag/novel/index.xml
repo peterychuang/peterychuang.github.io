@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
-    <atom:link href="/tag/novel/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/novel/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Austerlitz</title>
@@ -15,7 +17,7 @@
       <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
-      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+      <description>In the run up to the Second World War, Britain took on about ten thousands of Jewish children in a rescue effort now known as Kindertransport. These children came from areas already or soon-to-be occupied by Nazi Germany, and they were brought up in Great Britain by foster parents. Jacques Austerlitz, who arrived in England at an age so young that he couldn&amp;rsquo;t have remembered much about his former life, and whose Welsh foster parents concealed his true identity for long enough to erase any last memory of his prior existence, put off attempting to find his root until he had become an old man.</description>
     </item>
     
     <item>
@@ -24,7 +26,7 @@
       <pubDate>Fri, 15 Jul 2016 03:58:45 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/love-in-the-time-of-cholera-gabriel-garcia-marquez/</guid>
-      <description>Florentino Ariza waited for fifty-one years, nine months, and four days for Fermina Daza to reciprocate his love</description>
+      <description>Without one single wasted word, Gabriel García Márquez told a story about love in its many guises, from the youthful, passionate love, lust, to the love in old people.</description>
     </item>
     
     <item>
@@ -42,7 +44,8 @@
       <pubDate>Wed, 29 Jun 2016 17:20:43 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/la-dame-aus-camelias-alexandre-dumas-fils/</guid>
-      <description>One of the greatest love stories of all time, and the basis for one of the best known operas</description>
+      <description>La Dame aux Camélias is the basis for one of the best known operas in the entire operatic repertoire: Giuseppe Verdi&amp;rsquo;s La Traviata.
+Having known the opera and watched the Opéra de Paris&amp;rsquo; production of it at Opéra Bastille, I knew the story roughly before I read the novel, so I didn&amp;rsquo;t expect any surprise, nor did I anticipate being moved by it. After all, most stories in operas are quite quite weak, and the magic of operas are held more by the charm of singers, the spectacles, and the music.</description>
     </item>
     
     <item>
@@ -51,7 +54,7 @@
       <pubDate>Sat, 21 May 2016 05:57:38 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/in-search-of-lost-time-iii-marcel-proust/</guid>
-      <description>&#34;In Search of Lost Time&#34; is a true literary wonder that, despite its length and at times impregnable prose style, has a incredible charm and attraction.</description>
+      <description></description>
     </item>
     
     <item>
@@ -60,7 +63,7 @@
       <pubDate>Sat, 21 May 2016 05:57:37 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/in-search-of-lost-time-ii-marcel-proust/</guid>
-      <description>&#34;In Search of Lost Time&#34; is a true literary wonder that, despite its length and at times impregnable prose style, has a incredible charm and attraction.</description>
+      <description></description>
     </item>
     
     <item>
@@ -69,7 +72,8 @@
       <pubDate>Sat, 21 May 2016 05:57:36 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/in-search-of-lost-time-i-marcel-proust/</guid>
-      <description>&#34;In Search of Lost Time&#34; is a true literary wonder that, despite its length and at times impregnable prose style, has a incredible charm and attraction.</description>
+      <description>&amp;ldquo;In Search of Lost Time&amp;rdquo; is famous for, first of all, its length. With seven volumes (or six, as in this translation), it is among the longest novels ever written. &amp;ldquo;In Search of Lost Time&amp;rdquo; is also famous for its use of very long sentences. Consider the opening sentence of chapter 2 of part 1 of the first volume:
+ Combray, from far away, for ten leagues around, seen from the railroad when we arrived there the last week before Easter, was no more than a church summing up the town, representing it, speaking of it and for it into the distance, and, when one approached, holding close around its high dark cloak, in the middle of a field, against the wind, like a shepherdess her sheep, the woolly grey backs of the gathered houses, which a vestige of medieval ramparts girdled here and there with a line as perfectly circular as a small town in a primitive painting.</description>
     </item>
     
     <item>
@@ -78,7 +82,8 @@
       <pubDate>Sun, 01 May 2016 17:28:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/the-hobbit-the-lord-of-the-rings-j-r-r-tolkien/</guid>
-      <description></description>
+      <description>Let me begin by confessing that I am no big fan of J. R. R. Tolkien&amp;rsquo;s The Lord of the Rings cycle, and that makes me open to attacks from passionate fans of the cycle.
+One of the problems I have with The Lord of the Rings is its similarities with another Ring cycle: Der Ring des Nibelungen by Richard Wagner. One reason for the similarities between two Ring cycles is that both Wagner and Tolkien appeared to have consult the same sources in Norse Mythology&amp;mdash;Völsunga saga and Nibelungenlied&amp;mdash;but it is hard to believe that Tolkien was entirely not influenced by Wagner&amp;rsquo;s Ring, even though he refused to admit it.</description>
     </item>
     
     <item>
@@ -87,7 +92,7 @@
       <pubDate>Tue, 26 May 2015 02:40:50 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/war-and-peace-leo-tolstoy/</guid>
-      <description>A novelistic account of Napoleon&#39;s invasion of Russia, its impact on the Russian society and our beloved characters, and Tolstoy&#39;s commentary on how history should be written.</description>
+      <description>It is difficult to pin down what &amp;ldquo;War and Peace&amp;rdquo; exactly is. In large part, it tells the stories of several Russian aristocratic families&amp;mdash;the Rostovs, Bolkonskys, the Bezhukovs, and others&amp;mdash;with great realism, against the backdrop of the Napoleonic Wars, starting roughly from the time of the Battle of Austerlitz to the defeat of Napoleon by the Russians. Just as his later novel, &amp;ldquo;Anna Karenina, &amp;ldquo;War and Peace&amp;rdquo; embraces everything possible.</description>
     </item>
     
     <item>
@@ -96,7 +101,10 @@
       <pubDate>Tue, 26 May 2015 02:39:58 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/anna-karenina-leo-tolstoy/</guid>
-      <description>A classic story of love, adultery, family, and everything else.</description>
+      <description>&amp;ldquo;Anna Karenina&amp;rdquo; opens with one of the most iconic sentences in the whole of literature:
+ All happy families are alike; each unhappy family is unhappy in its own way.
+ The validity of this claim is even more questionable than the opening line of Jane Austen&amp;rsquo;s &amp;ldquo;Pride and Prejudice&amp;rdquo;:
+ It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.</description>
     </item>
     
   </channel>

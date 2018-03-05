@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 30 Aug 2016 14:02:39 -0400</lastBuildDate>
-    <atom:link href="/tag/death/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/death/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>My Sister</title>
@@ -15,7 +17,7 @@
       <pubDate>Tue, 30 Aug 2016 14:02:39 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/my-sister/</guid>
-      <description>A forbidden love</description>
+      <description>I last saw my sister, Kate, about five years ago. Since that day, neither me, our parents, nor our friends had heard anything from her or about her. Back when her disappearance was still fresh on everyone&amp;rsquo;s mind, everyone I knew offering help, both tangible and emotional, to me and to my parents; but soon, the memories of her faded from people&amp;rsquo;s mind like words on an old piece of paper, and they move on.</description>
     </item>
     
     <item>
@@ -24,7 +26,8 @@
       <pubDate>Tue, 24 May 2016 13:00:43 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/he-who-does-not-forget/</guid>
-      <description>In his quest to forget the past, he gets more burden into his mind</description>
+      <description>An old photo is hung on the wall. It is his first wife, Anita, staring at him from the wall since he divorced his second wife. Other than some slight yellowish discolourations, Anita looks exactly as he still remembers: long dark hair, bright eyes, and a smile that showed the dental braces.
+Andrew didn&amp;rsquo;t understand why he wanted to fetch that picture, along with other things, from a storage space he rented just outside of the downtown, though it certainly wasn&amp;rsquo;t to remind him of her face, because he couldn&amp;rsquo;t, and still can&amp;rsquo;t, forget anything.</description>
     </item>
     
     <item>
@@ -33,7 +36,8 @@
       <pubDate>Fri, 13 May 2016 03:36:20 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</guid>
-      <description>“I wish you were thinking of me during your death”</description>
+      <description>I always wonder what you felt when you were in the process of killing yourself.
+I sometimes picture myself jumping off a high building, stabbing myself in the heart, or taking a crazy amount of painkillers and strong alcohol together. When earth&amp;rsquo;s gravity pulls me down at 10ms-2, what will I feel when the wind came rushing towards my face? What will I feel when I hit the ground? How painful will that be?</description>
     </item>
     
     <item>
@@ -42,7 +46,7 @@
       <pubDate>Wed, 04 May 2016 16:17:07 +0000</pubDate>
       
       <guid>https://novelist.xyz/misc/my-dead-neighbour/</guid>
-      <description>In the memory of the neighbour I barely knew</description>
+      <description>Living in a big city sometimes means you don&amp;rsquo;t get to know your neighbours and your community as good as you would in a small town, which may or may not be a bad thing. I once lived in a place on the 40th floor of a forty-something-storey building where there were 8 flats on each floor. Having a soul-sucking office job at the time that required long hours, I was at home for so little that I had never met my neighbours even once.</description>
     </item>
     
   </channel>

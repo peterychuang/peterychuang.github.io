@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>On Writing on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <title>On-writing on Peter Y. Chuang - Novelist, Short Story Writer</title>
     <link>https://novelist.xyz/on-writing/</link>
-    <description>Recent content in On Writing on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <description>Recent content in On-writing on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 23 Aug 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/on-writing/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/on-writing/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to write novels</title>
@@ -15,7 +17,8 @@
       <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/on-writing/how-to-write-novels/</guid>
-      <description>There is no single way to write a long narrative work. This is how I go about writing them.</description>
+      <description>At some point, every writer searches for guides and rules for writing, and there are hundreds, if not thousands, of those rules already written by various novelists. While some of them are definitely good advice, one will, at some point, find rules that are contradictory, and there are rules vehemently believed by one author while loathed by another.
+After reading many of these so-called rules, one has to admit that there are actually no rules.</description>
     </item>
     
   </channel>

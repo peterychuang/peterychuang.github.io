@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 12 Aug 2016 15:29:12 -0400</lastBuildDate>
-    <atom:link href="/tag/hugo/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to show related posts in Hugo</title>
@@ -15,7 +17,8 @@
       <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/related-posts-in-hugo/</guid>
-      <description>This is how to show a fixed number of related posts in Hugo</description>
+      <description>The ability to show related posts is not yet a feature in Hugo. At present, one way to achieve this is by showing posts that have common tags or categories with the intersect function, as described in Hugo&amp;rsquo;s documentation.
+This, however, will list all the posts with at least one common tag for any given post, which isn&amp;rsquo;t what most people want. For a while, I have been using CSS to hide the list of related posts and only show the first three, a workaround suggested by Justin Dunham, a workaround that I don&amp;rsquo;t particularly like.</description>
     </item>
     
     <item>
@@ -24,7 +27,8 @@
       <pubDate>Mon, 25 Jul 2016 13:06:07 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/advanced-custom-urls-for-category-pages-in-hugo/</guid>
-      <description>An advanced hack to customise categories URLs in Hugo</description>
+      <description>A while ago, I wrote a simple workaround for customising URLs of categories pages in Hugo. The purpose was to remove the word &amp;ldquo;categories&amp;rdquo; from the URLs of categories pages, a feature (still) missing in Hugo.
+That workaround is simple, and it replicates the behaviour in my old Jekyll site, though it isn&amp;rsquo;t perfect: it can only generate one single page for each category without pagination, while the &amp;ldquo;original&amp;rdquo; categories pages supports pagination out of the box.</description>
     </item>
     
     <item>
@@ -33,7 +37,9 @@
       <pubDate>Sun, 24 Jul 2016 15:07:55 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</guid>
-      <description>This website is now hosted on a VPS</description>
+      <description>Ever since I went static, I have been using Github Pages, an almost perfect solution for small static sites.
+The only real shortcoming of Github Pages is the lack of control over the webserver, and hence the lack of control over caching and server-side redirect. While using Cloudflare does give you back some control, redirect capability remains lacking.
+A few weeks ago, I moved the site to Firebase, which was a step up from Github Pages in terms of its flexibility, though I remained somewhat dissatisfied for various minor annoyances.</description>
     </item>
     
     <item>
@@ -42,7 +48,9 @@
       <pubDate>Thu, 19 May 2016 07:49:12 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-data-files/</guid>
-      <description>A demonstration of using Data Files in a Hugo-powered site</description>
+      <description>In this article, I am going to demonstrate how to use Data Files in Hugo site generator.
+The Problem As an effort to grow this website, I thought it might be a good idea to have a collection of interesting quotes by great novelists and writers. Even if it doesn&amp;rsquo;t help traffic, it would still be beneficial for me as a writer.
+An easy and obvious way to achieve this is to create a regular page and list all the quotes inside that page.</description>
     </item>
     
     <item>
@@ -51,7 +59,9 @@
       <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
-      <description>This is how I deploy this website</description>
+      <description>This post has been updated to reflect my new deployment process after migrating to Firebase
+This post has been updated to reflect further important changes
+Static site generators are great&amp;mdash;Jekyll is great, and Hugo is even greater&amp;mdash;except when it comes to updating the website. In the old days of my using wordpress, updating a post was a matter of logging in to the Wordpress Admin, making changes to the post, and hitting the &amp;ldquo;save&amp;rdquo; button.</description>
     </item>
     
     <item>
@@ -60,7 +70,9 @@
       <pubDate>Fri, 13 May 2016 13:45:43 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/custom-urls-for-category-pages-in-hugo/</guid>
-      <description>Generate pages for categories or tags on any URLs with Hugo</description>
+      <description>Update: Here is a new advanced hack for customising categories URLs
+Hugo is a great static site generator. Fast page build time and built-in live reload make Hugo a joy to use. But it isn&amp;rsquo;t without its limitation.
+One of the limitations I touched upon is the lack of completely customisable taxonomies URLs. By default, categories are located in /categories/something, and tags are located in /tags/something. If you want to change the word &amp;ldquo;categories&amp;rdquo; or &amp;ldquo;tags&amp;rdquo; in the URLs into some other words, there is a simple solution, as I explained on Github:</description>
     </item>
     
     <item>
@@ -69,7 +81,9 @@
       <pubDate>Wed, 11 May 2016 06:12:12 +0000</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/</guid>
-      <description>A newcomer of static site generator taking on the big brother</description>
+      <description>Last week, I mentioned that this site is built using Jekyll, a static site generator that, once you get used to it, is much faster to load and more convenient than dynamic content management system such as Wordpress.
+(Update: this site now runs on Hugo)
+Jekyll is way too slow Jekyll is a good alternative to things like Wordpress, but it isn&amp;rsquo;t without its own problem: the loading speed of the compiled static pages may be very fast because they are static, but those pages take a long time to build.</description>
     </item>
     
   </channel>

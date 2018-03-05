@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 05 Aug 2016 17:10:31 -0400</lastBuildDate>
-    <atom:link href="/tag/m%C3%BCnchen/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/m%C3%BCnchen/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Munich</title>
@@ -15,7 +17,7 @@
       <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/munich-germany/</guid>
-      <description>A journey that wasn&#39;t meant to be</description>
+      <description>I had bought the flight to München long before the trip, but other than a concert in München and another one in Berlin, I had no idea what places I would most want to visit. At the time I purchased my flight, I couldn&amp;rsquo;t have foreseen the trip being of any significance to me, for it was supposed to be just another normal, purposeless two-week trip that would be filled with pointless sightseeing and even more pointless souvenirs shopping.</description>
     </item>
     
   </channel>

@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 27 Jul 2016 17:34:49 -0400</lastBuildDate>
-    <atom:link href="/tag/short-stories/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/short-stories/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Coffee Shop</title>
@@ -15,7 +17,7 @@
       <pubDate>Wed, 27 Jul 2016 17:34:49 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/the-coffee-shop/</guid>
-      <description>In a place where people come and go, he isn&#39;t sure if he wants to bump into her</description>
+      <description>A bustling crowd gathered in a coffee shop. On weekdays, customers came to this busy spot in the busiest street of the city centre to get their drinks and left in a hurry, but on this slow, summer, Saturday afternoon, many stayed with their company, enjoying their iced beverages and snacks. Simon, who wore a light blue shirt and grey suit jacket despite the day&amp;rsquo;s being a day-off, was the only customer without any of his friends around.</description>
     </item>
     
     <item>
@@ -24,7 +26,9 @@
       <pubDate>Sat, 02 Jul 2016 10:30:10 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/rosaline/</guid>
-      <description>She had always dreamt of being a painter, but she became one only after she&#39;d killed someone</description>
+      <description>Her father named her Rosaline, a beautiful name. But he hated her, because she killed her mother.
+&amp;ldquo;Little Frank wasn&amp;rsquo;t like that,&amp;rdquo; her grandmother would tell her much later. &amp;ldquo;After your mother died while giving birth to you, my little Frank began drinking. He drank away his fortune, his everything&amp;hellip;&amp;rdquo;
+When he was drunk, he would beat her for no real reasons. Once she used a few crayons she got from her art lessons to draw something on a wall in the living room while he was not at home.</description>
     </item>
     
     <item>
@@ -33,7 +37,7 @@
       <pubDate>Thu, 26 May 2016 01:11:29 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/what-we-talk-about-when-we-talk-about-love-raymond-carver/</guid>
-      <description>&#34;What We Talk About When We Talk About Love&#34; is a superb collection of short stories by Raymond Carver</description>
+      <description></description>
     </item>
     
     <item>
@@ -42,7 +46,8 @@
       <pubDate>Tue, 24 May 2016 13:00:43 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/he-who-does-not-forget/</guid>
-      <description>In his quest to forget the past, he gets more burden into his mind</description>
+      <description>An old photo is hung on the wall. It is his first wife, Anita, staring at him from the wall since he divorced his second wife. Other than some slight yellowish discolourations, Anita looks exactly as he still remembers: long dark hair, bright eyes, and a smile that showed the dental braces.
+Andrew didn&amp;rsquo;t understand why he wanted to fetch that picture, along with other things, from a storage space he rented just outside of the downtown, though it certainly wasn&amp;rsquo;t to remind him of her face, because he couldn&amp;rsquo;t, and still can&amp;rsquo;t, forget anything.</description>
     </item>
     
     <item>
@@ -51,7 +56,8 @@
       <pubDate>Fri, 13 May 2016 03:36:20 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</guid>
-      <description>“I wish you were thinking of me during your death”</description>
+      <description>I always wonder what you felt when you were in the process of killing yourself.
+I sometimes picture myself jumping off a high building, stabbing myself in the heart, or taking a crazy amount of painkillers and strong alcohol together. When earth&amp;rsquo;s gravity pulls me down at 10ms-2, what will I feel when the wind came rushing towards my face? What will I feel when I hit the ground? How painful will that be?</description>
     </item>
     
     <item>
@@ -60,7 +66,8 @@
       <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</guid>
-      <description>Two disgruntled human beings took revenge on the world</description>
+      <description>Florian sat at his place in the open-planned office, staring at the grey screen, with colourful codes standing out against the dark screen. He was asked to fix a stupid bug in the operating system his employer sold to millions. Fixing bugs had ben his only job for a few years now.
+This is so fucking boring. This job is just a glorified fire-fighter. In fact, even fire-fighter&amp;rsquo;s job is more glorious than mine.</description>
     </item>
     
     <item>
@@ -69,7 +76,7 @@
       <pubDate>Wed, 04 May 2016 09:44:07 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/wrong-affair/</guid>
-      <description>Falling in love with the wrong person in the wrong city and at the wrong time</description>
+      <description>The temperature was well above 34 degree centigrade under the summer sun. With tall buildings trapping the air, hundreds of people jamming into narrow pavements, and cars blowing out hot and toxic exhaust gasses, the streets at the heart of Hong Kong was a bamboo steamer in dim sum restaurants. Elizabeth Leung was wearing a white, short-sleeve top, but she regretted not wearing a skirt, which would allow some occasional breezes for her legs; not there those breezes would be cool.</description>
     </item>
     
     <item>
@@ -78,7 +85,8 @@
       <pubDate>Mon, 25 Apr 2016 17:14:35 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/the-gang-leader/</guid>
-      <description>Also: the richest man</description>
+      <description>“By some account, he was the richest person in the country.” The line came from the obituary of Super Man (Man was his last name), the gang leader who once terrorised the populace of the Republic of Slofland, and who later ripped money off the same populace. Towards the end of his life, he became wealthy and, as a result of his wealth, respectable.
+When his mother read that line, she smiled with pride, as if the mere fact that her son was rich were more than enough to compensate for the fact that her son was dead before she became a corpse herself: he was only thirty.</description>
     </item>
     
     <item>
@@ -87,7 +95,7 @@
       <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/the-last-living-soul/</guid>
-      <description>You are the last hope for humanity</description>
+      <description>I knew. For a long time, I knew I was in part a creation of someone called the scientist. Since the scientist was responsible for the existence of me and others of my own type, a few of us regarded the scientist with a god-like reverence, while others held him/her in utter contempt. No one knew him/her: there was no photograph, painted portrait, nor busts of the scientist, and we had no idea regarding his/her name, and whether this person was a man or woman.</description>
     </item>
     
     <item>
@@ -96,7 +104,7 @@
       <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/forgotten-music/</guid>
-      <description>An tune that signifies the past</description>
+      <description>A few months ago, when I was tidying up my study, I flipped open the score of Chopin’s Mazurkas, and I discovered that the pages for one of the Mazurkas was filled with pencil markings, a clear indication that I had learned that piece at one point, yet I couldn’t remember having learned it at all. I took it to the piano, and as I played it for the first time in decades, my fingers seemed to run on the keyboard on their own to the right directions and hit the right keys, an indisputable proof that I had learned the piece at some point.</description>
     </item>
     
     <item>
@@ -105,7 +113,9 @@
       <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/memory-eraser/</guid>
-      <description>Do you want to erase your memory?</description>
+      <description>It was the year twenty-two hundred.
+You wished to forget everything that happened to you in the past five years, so you went to a hospital and demanded the mixture of drugs — advertised somewhere — that could erase your memory.
+When you saw the doctor, he was reluctant to erase your memory straight away. He asked you tonnes of questions that annoyed you, and in the end, he said: “You will regret that, I know you will.</description>
     </item>
     
     <item>
@@ -114,7 +124,7 @@
       <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/face-without-glasses/</guid>
-      <description>Glasses as a body part</description>
+      <description>I have been wearing glasses since I was a kid, so I have always remembered myself having a pair of glasses on my face: my only memory of my face. The only times I can see myself not wearing glasses are those occasions when I look into the mirror while washing my face or something. But since my short-sightedness is serious, I can only see the image in the mirror clearly when I get very close to the mirror, which means I can only see a very small portion of my face in the mirror when I am not wearing my glasses.</description>
     </item>
     
     <item>
@@ -123,7 +133,8 @@
       <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/a-swimmer-from-the-desert/</guid>
-      <description>Can he swim?</description>
+      <description>For the sake of simplicity, we have always called him A, for we do not know what his actual name is (Akxhhhgg-something-something-something-something).
+Neither do we know exactly where he came from, except the fact that his homeland was in the middle of a desert. When we met him for the first time in our town, thousands of miles away from his home, he could not speak our tongue at all, and for the first few days of our acquaintance with him, we could only point to things.</description>
     </item>
     
   </channel>

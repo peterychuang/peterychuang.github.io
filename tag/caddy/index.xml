@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 31 Aug 2016 13:34:24 -0400</lastBuildDate>
-    <atom:link href="/tag/caddy/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/caddy/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Serve static websites with Caddy web server</title>
@@ -15,7 +17,9 @@
       <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
-      <description>A new and super-easy-to-configure webserver written in Go</description>
+      <description>First, a little bit of history.
+I have been running websites&amp;mdash;personal or otherwise&amp;mdash;on-and-off for long enough to remember Geocities. Although I wouldn&amp;rsquo;t claim to be an expert, I&amp;rsquo;ve seen and done quite a bit over the years, from hand-coding HTML files and uploading files via FTP to running Wordpress on LAMP and LEMP stacks and experimenting with Varnish Cache.
+I stopped making websites for a while before building this website with static site generators (first with Jekyll, then with Hugo).</description>
     </item>
     
     <item>
@@ -24,7 +28,9 @@
       <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
-      <description>This is how I deploy this website</description>
+      <description>This post has been updated to reflect my new deployment process after migrating to Firebase
+This post has been updated to reflect further important changes
+Static site generators are great&amp;mdash;Jekyll is great, and Hugo is even greater&amp;mdash;except when it comes to updating the website. In the old days of my using wordpress, updating a post was a matter of logging in to the Wordpress Admin, making changes to the post, and hitting the &amp;ldquo;save&amp;rdquo; button.</description>
     </item>
     
   </channel>

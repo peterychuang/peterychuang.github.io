@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 24 May 2016 13:00:43 -0400</lastBuildDate>
-    <atom:link href="/tag/memory/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/memory/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>He who does not forget</title>
@@ -15,7 +17,8 @@
       <pubDate>Tue, 24 May 2016 13:00:43 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/he-who-does-not-forget/</guid>
-      <description>In his quest to forget the past, he gets more burden into his mind</description>
+      <description>An old photo is hung on the wall. It is his first wife, Anita, staring at him from the wall since he divorced his second wife. Other than some slight yellowish discolourations, Anita looks exactly as he still remembers: long dark hair, bright eyes, and a smile that showed the dental braces.
+Andrew didn&amp;rsquo;t understand why he wanted to fetch that picture, along with other things, from a storage space he rented just outside of the downtown, though it certainly wasn&amp;rsquo;t to remind him of her face, because he couldn&amp;rsquo;t, and still can&amp;rsquo;t, forget anything.</description>
     </item>
     
     <item>
@@ -24,7 +27,9 @@
       <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/memory-eraser/</guid>
-      <description>Do you want to erase your memory?</description>
+      <description>It was the year twenty-two hundred.
+You wished to forget everything that happened to you in the past five years, so you went to a hospital and demanded the mixture of drugs — advertised somewhere — that could erase your memory.
+When you saw the doctor, he was reluctant to erase your memory straight away. He asked you tonnes of questions that annoyed you, and in the end, he said: “You will regret that, I know you will.</description>
     </item>
     
     <item>
@@ -33,7 +38,7 @@
       <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/face-without-glasses/</guid>
-      <description>Glasses as a body part</description>
+      <description>I have been wearing glasses since I was a kid, so I have always remembered myself having a pair of glasses on my face: my only memory of my face. The only times I can see myself not wearing glasses are those occasions when I look into the mirror while washing my face or something. But since my short-sightedness is serious, I can only see the image in the mirror clearly when I get very close to the mirror, which means I can only see a very small portion of my face in the mirror when I am not wearing my glasses.</description>
     </item>
     
   </channel>

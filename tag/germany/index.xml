@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 23 Aug 2016 17:54:17 -0400</lastBuildDate>
-    <atom:link href="/tag/germany/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/germany/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Austerlitz</title>
@@ -15,7 +17,7 @@
       <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
-      <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
+      <description>In the run up to the Second World War, Britain took on about ten thousands of Jewish children in a rescue effort now known as Kindertransport. These children came from areas already or soon-to-be occupied by Nazi Germany, and they were brought up in Great Britain by foster parents. Jacques Austerlitz, who arrived in England at an age so young that he couldn&amp;rsquo;t have remembered much about his former life, and whose Welsh foster parents concealed his true identity for long enough to erase any last memory of his prior existence, put off attempting to find his root until he had become an old man.</description>
     </item>
     
     <item>
@@ -24,7 +26,7 @@
       <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/berlin-germany/</guid>
-      <description>A place where I find all I want</description>
+      <description>My earliest memory about Berlin wasn&amp;rsquo;t Berlin itself, but a Laser Disc of Herbert von Karajan conducting the Berliner Philharmoniker, performing Beethoven 6th symphony. The way Karajan made music film was peculiar: all the musicians were lined up perfectly, all the bows and violins were aligned, all the flutes were tilted at the same angle, and so on. When they played, the body movements, other than the movements necessary to make some sound on their instruments, were minimal; in fact, they looked so rigid that it was as if Karajan were directing a team of robots.</description>
     </item>
     
     <item>
@@ -33,7 +35,8 @@
       <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/cologne-germany/</guid>
-      <description>A city defined by its Cathedral</description>
+      <description>Cologne, or Köln, always makes me think of what Marcel Proust wrote about Combray in The Way by Swann’s:
+ Combray, from far away, for ten leagues around, seen from the railroad when we arrived there the last week before Easter, was no more than a church summing up the town, representing it, speaking of it and for it into the distance, and, when one approached, holding close around its high dark cloak, in the middle of a field, against the wing, like a shepherdess her sheep, the woolly grey backs of the gathered houses, which a vestige of medieval ramparts girdled here and there with a line as perfectly circular as a small town in a primitive painting.</description>
     </item>
     
     <item>
@@ -42,7 +45,7 @@
       <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/munich-germany/</guid>
-      <description>A journey that wasn&#39;t meant to be</description>
+      <description>I had bought the flight to München long before the trip, but other than a concert in München and another one in Berlin, I had no idea what places I would most want to visit. At the time I purchased my flight, I couldn&amp;rsquo;t have foreseen the trip being of any significance to me, for it was supposed to be just another normal, purposeless two-week trip that would be filled with pointless sightseeing and even more pointless souvenirs shopping.</description>
     </item>
     
   </channel>

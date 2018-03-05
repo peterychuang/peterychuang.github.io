@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 05 Aug 2016 17:11:51 -0400</lastBuildDate>
-    <atom:link href="/tag/marcel-proust/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/marcel-proust/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cologne</title>
@@ -15,7 +17,8 @@
       <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
       
       <guid>https://novelist.xyz/misc/cologne-germany/</guid>
-      <description>A city defined by its Cathedral</description>
+      <description>Cologne, or Köln, always makes me think of what Marcel Proust wrote about Combray in The Way by Swann’s:
+ Combray, from far away, for ten leagues around, seen from the railroad when we arrived there the last week before Easter, was no more than a church summing up the town, representing it, speaking of it and for it into the distance, and, when one approached, holding close around its high dark cloak, in the middle of a field, against the wing, like a shepherdess her sheep, the woolly grey backs of the gathered houses, which a vestige of medieval ramparts girdled here and there with a line as perfectly circular as a small town in a primitive painting.</description>
     </item>
     
     <item>
@@ -24,7 +27,8 @@
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/essays/random-thoughts-on-marcel-proust-1/</guid>
-      <description>Why you should read &#39;In Search of Lost Time&#39; and stop using Facebook</description>
+      <description>The fault I find with our journalism is that it forces us to take an interest in some fresh triviality or other every day, whereas only three or four books in a lifetime give us anything that is of real importance.
+ One of the writers who influences me a great deal is Marcel Proust. His never-ending In Search of Lost Time is such a monstrosity that there are places when even a great admirer like myself would wonder why did you write this?</description>
     </item>
     
   </channel>

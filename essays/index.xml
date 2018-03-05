@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 05 Jul 2016 06:46:39 -0400</lastBuildDate>
-    <atom:link href="/essays/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/essays/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Operas and Their Absurd Stories</title>
@@ -15,7 +17,8 @@
       <pubDate>Tue, 05 Jul 2016 06:46:39 -0400</pubDate>
       
       <guid>https://novelist.xyz/essays/on-operas-and-storytelling/</guid>
-      <description>As a form of storytelling, operas have some of the most ridiculous stories ever told</description>
+      <description>Natalie Dessay, a French soprano, once said that text of many operas are silly. She wasn&amp;rsquo;t the first to say it, and she won&amp;rsquo;t be the last.
+Mozart&amp;rsquo;s Die Zauberflöte, the libretto of which was written by Emmanuel Schikaneder, is a great first-time opera: it has tuneful melodies, humours, and relatively easy story. But when you strip away the Masonic theme, Die Zauberflöte is a love story that makes no sense: Tamino falls in love with Pamina because he sees her picture, and Pamina falls in love with Tamino because she hears that Tamino falls in love with her after seeing her picture.</description>
     </item>
     
     <item>
@@ -24,7 +27,10 @@
       <pubDate>Wed, 18 May 2016 17:50:28 -0400</pubDate>
       
       <guid>https://novelist.xyz/essays/on-being-yourself/</guid>
-      <description>We may all want to change part of ourselves, but there are something untouchable within all of us</description>
+      <description>And yet in our world everybody thinks of changing humanity, and nobody thinks of changing himself.
+&amp;mdash; Leo Tolstoy, Three Methods Of Reform
+ This is one of the most quotable quotes by Russian novelist Leo Tolstoy. I don&amp;rsquo;t know the exact context of that quote, but since nobody cares, so I will leave it aside for now.
+I&amp;rsquo;m not entirely sure, though, how many of us do intend to change the world.</description>
     </item>
     
     <item>
@@ -33,7 +39,8 @@
       <pubDate>Mon, 16 May 2016 11:30:02 -0400</pubDate>
       
       <guid>https://novelist.xyz/essays/on-musical-structure-and-storytelling/</guid>
-      <description>If a novel is like a symphony, a well-crafted short story is like a piano piece by Chopin</description>
+      <description>I&amp;rsquo;ve spent much of my early life trying to be a classical musician&amp;mdash;a pianist, or a conductor, perhaps&amp;mdash;before spending a lot of time thinking of becoming a writer and actually doing something about it. So it may sound strange to you, but I often think of fiction in musical terms. A novel is a symphony, while a short story is a short piano piece by Chopin.
+As someone who loves orchestral music more than piano music, let me say from the outset that I&amp;rsquo;m not fond of Chopin&amp;rsquo;s music.</description>
     </item>
     
     <item>
@@ -42,7 +49,7 @@
       <pubDate>Wed, 11 May 2016 03:28:59 +0000</pubDate>
       
       <guid>https://novelist.xyz/essays/on-happy-endings/</guid>
-      <description>Real lives are boring and ambiguous</description>
+      <description>Christian Thielemann, one of the best, if not the best, conductors of the works of Wagner alive, once noted that none of the Wagner operas end in minor keys. Indeed, not even the apocalyptic ending of Götterdämmerung, the fourth and the final installment of the epic cycle Der Ring des Nibelungen, where the world ends with Brünnhilde jumping into the fire and the gods dies, ends in a minor key: Der Ring des Nibelungen starts with Das Rheingold in E-flat major and ends with Götterdämmerung in D-flat major.</description>
     </item>
     
     <item>
@@ -51,7 +58,8 @@
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/essays/random-thoughts-on-marcel-proust-1/</guid>
-      <description>Why you should read &#39;In Search of Lost Time&#39; and stop using Facebook</description>
+      <description>The fault I find with our journalism is that it forces us to take an interest in some fresh triviality or other every day, whereas only three or four books in a lifetime give us anything that is of real importance.
+ One of the writers who influences me a great deal is Marcel Proust. His never-ending In Search of Lost Time is such a monstrosity that there are places when even a great admirer like myself would wonder why did you write this?</description>
     </item>
     
     <item>
@@ -60,7 +68,8 @@
       <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/essays/under-the-umbrella/</guid>
-      <description>A reflection on the Umbrella Revolution (2014) on its first anniversary</description>
+      <description>I. Memory and cognition  “The struggle of man against power is the struggle of memory against forgetting”—Milan Kundera
+ I will always admit that I have a memory far better than I like, in a sense that I remember things so well that sometimes it hurts. But no matter how well someone or something was once etched onto the slate, time made those markings fade, either because something new was etched on it, or the markings became shallower after years and years of exposed in the elements, and some of them will eventually become invisible.</description>
     </item>
     
   </channel>

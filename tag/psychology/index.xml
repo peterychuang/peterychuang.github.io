@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 18 May 2016 17:50:28 -0400</lastBuildDate>
-    <atom:link href="/tag/psychology/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/psychology/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>On being yourself</title>
@@ -15,7 +17,10 @@
       <pubDate>Wed, 18 May 2016 17:50:28 -0400</pubDate>
       
       <guid>https://novelist.xyz/essays/on-being-yourself/</guid>
-      <description>We may all want to change part of ourselves, but there are something untouchable within all of us</description>
+      <description>And yet in our world everybody thinks of changing humanity, and nobody thinks of changing himself.
+&amp;mdash; Leo Tolstoy, Three Methods Of Reform
+ This is one of the most quotable quotes by Russian novelist Leo Tolstoy. I don&amp;rsquo;t know the exact context of that quote, but since nobody cares, so I will leave it aside for now.
+I&amp;rsquo;m not entirely sure, though, how many of us do intend to change the world.</description>
     </item>
     
   </channel>

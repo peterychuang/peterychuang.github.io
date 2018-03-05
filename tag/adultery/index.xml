@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 13 May 2016 03:36:20 -0400</lastBuildDate>
-    <atom:link href="/tag/adultery/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/adultery/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>What you feel when you kill yourself</title>
@@ -15,7 +17,8 @@
       <pubDate>Fri, 13 May 2016 03:36:20 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/what-you-feel-when-you-kill-yourself/</guid>
-      <description>“I wish you were thinking of me during your death”</description>
+      <description>I always wonder what you felt when you were in the process of killing yourself.
+I sometimes picture myself jumping off a high building, stabbing myself in the heart, or taking a crazy amount of painkillers and strong alcohol together. When earth&amp;rsquo;s gravity pulls me down at 10ms-2, what will I feel when the wind came rushing towards my face? What will I feel when I hit the ground? How painful will that be?</description>
     </item>
     
     <item>
@@ -24,7 +27,7 @@
       <pubDate>Wed, 04 May 2016 09:44:07 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/wrong-affair/</guid>
-      <description>Falling in love with the wrong person in the wrong city and at the wrong time</description>
+      <description>The temperature was well above 34 degree centigrade under the summer sun. With tall buildings trapping the air, hundreds of people jamming into narrow pavements, and cars blowing out hot and toxic exhaust gasses, the streets at the heart of Hong Kong was a bamboo steamer in dim sum restaurants. Elizabeth Leung was wearing a white, short-sleeve top, but she regretted not wearing a skirt, which would allow some occasional breezes for her legs; not there those breezes would be cool.</description>
     </item>
     
   </channel>

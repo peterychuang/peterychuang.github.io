@@ -6,7 +6,9 @@
     <description>Recent content in Novels on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <atom:link href="/novels/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/novels/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Only You Know What It Means</title>
@@ -14,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/novels/only-you-know-what-it-means/</guid>
-      <description>A dying, reknown orchestral conductor tells the secret that he has been unable to tell...</description>
+      <description>When a sudden illness interrupts his busy concert schedule, Ian Atkinson only has one face in her mind, but that face belongs to two different women who have never known each other&amp;rsquo;s existence.
+(This novel is undergoing a complete re-work)</description>
     </item>
     
     <item>
@@ -23,7 +26,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/novels/2047/</guid>
-      <description>When the reality no longer matches her memory of the reality, she puts her own life at risk to uncover the big secret...</description>
+      <description>As Catherine goes about doing what her government told her to, she realises something is wrong: the reality no longer matches her recollection of the reality. To uncover the truth, she must betray her country, and she discovers the dark side of her country that she has never known before.
+(Currently seeking agent representation for this novel.)</description>
     </item>
     
   </channel>

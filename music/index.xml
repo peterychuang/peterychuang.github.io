@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 26 Aug 2016 11:39:25 -0400</lastBuildDate>
-    <atom:link href="/music/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/music/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Franz Schubert: Grand Duo, D 812</title>
@@ -15,7 +17,7 @@
       <pubDate>Fri, 26 Aug 2016 11:39:25 -0400</pubDate>
       
       <guid>https://novelist.xyz/music/schubert-grand-duo/</guid>
-      <description>Schubert&#39;s finest work for piano duo</description>
+      <description></description>
     </item>
     
     <item>
@@ -24,7 +26,14 @@
       <pubDate>Sat, 02 Jul 2016 17:49:58 -0400</pubDate>
       
       <guid>https://novelist.xyz/music/la-soledad/</guid>
-      <description>A beautifully nostalgic Spanish-language song</description>
+      <description>You came to me as poetry comes in song
+and you showed me a new world of passion.
+You loved me without conditions or reason
+while I ignorant of the meaning of love protected my heart.
+The sun has gone and now I sing of you
+this solitude consumes me.
+Forgive me if I was stolen away by fear.
+You came to me I did not know how to love</description>
     </item>
     
     <item>
@@ -33,7 +42,7 @@
       <pubDate>Wed, 29 Jun 2016 17:40:19 -0400</pubDate>
       
       <guid>https://novelist.xyz/music/tchaikovsky-souvenir-de-florence/</guid>
-      <description>String Sextet in D minor</description>
+      <description></description>
     </item>
     
     <item>
@@ -42,7 +51,7 @@
       <pubDate>Sun, 05 Jun 2016 17:34:02 -0400</pubDate>
       
       <guid>https://novelist.xyz/music/mahler-piano-quartet/</guid>
-      <description>The only chamber work by Gustav Mahler</description>
+      <description>With the second movement completed by Alfred Schnittke.</description>
     </item>
     
     <item>
@@ -51,7 +60,7 @@
       <pubDate>Wed, 16 Dec 2015 17:18:07 -0400</pubDate>
       
       <guid>https://novelist.xyz/music/schubert-winterreise/</guid>
-      <description>A moving song-cycle about unrequited love</description>
+      <description></description>
     </item>
     
   </channel>

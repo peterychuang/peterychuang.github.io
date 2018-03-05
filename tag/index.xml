@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 13 May 2016 03:36:20 -0400</lastBuildDate>
-    <atom:link href="/tag/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Adultery</title>
@@ -141,6 +143,303 @@
       <pubDate>Sun, 01 May 2016 17:28:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/tag/fantasy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiction</title>
+      <link>https://novelist.xyz/tag/fiction/</link>
+      <pubDate>Sun, 14 May 2017 21:02:16 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tag/fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Germany</title>
+      <link>https://novelist.xyz/tag/germany/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/germany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://novelist.xyz/tag/github/</link>
+      <pubDate>Sun, 24 Jul 2016 15:07:55 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnome Shell</title>
+      <link>https://novelist.xyz/tag/gnome-shell/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/gnome-shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://novelist.xyz/tag/history/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hong Kong</title>
+      <link>https://novelist.xyz/tag/hong-kong/</link>
+      <pubDate>Wed, 04 May 2016 16:17:07 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/hong-kong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://novelist.xyz/tag/hugo/</link>
+      <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>https://novelist.xyz/tag/jekyll/</link>
+      <pubDate>Wed, 11 May 2016 06:12:12 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journalism</title>
+      <link>https://novelist.xyz/tag/journalism/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/journalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://novelist.xyz/tag/linux/</link>
+      <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loss</title>
+      <link>https://novelist.xyz/tag/loss/</link>
+      <pubDate>Tue, 30 Aug 2016 14:02:39 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Love</title>
+      <link>https://novelist.xyz/tag/love/</link>
+      <pubDate>Tue, 30 Aug 2016 14:02:39 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/love/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcel Proust</title>
+      <link>https://novelist.xyz/tag/marcel-proust/</link>
+      <pubDate>Fri, 05 Aug 2016 17:11:51 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/marcel-proust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory</title>
+      <link>https://novelist.xyz/tag/memory/</link>
+      <pubDate>Tue, 24 May 2016 13:00:43 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Munich</title>
+      <link>https://novelist.xyz/tag/munich/</link>
+      <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/munich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>https://novelist.xyz/tag/music/</link>
+      <pubDate>Fri, 26 Aug 2016 11:39:25 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>München</title>
+      <link>https://novelist.xyz/tag/m%C3%BCnchen/</link>
+      <pubDate>Fri, 05 Aug 2016 17:10:31 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/m%C3%BCnchen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non Fiction</title>
+      <link>https://novelist.xyz/tag/non-fiction/</link>
+      <pubDate>Wed, 15 Jun 2016 04:03:04 +0800</pubDate>
+      
+      <guid>https://novelist.xyz/tag/non-fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel</title>
+      <link>https://novelist.xyz/tag/novel/</link>
+      <pubDate>Tue, 23 Aug 2016 17:54:17 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/novel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opera</title>
+      <link>https://novelist.xyz/tag/opera/</link>
+      <pubDate>Tue, 05 Jul 2016 06:46:39 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/opera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personality</title>
+      <link>https://novelist.xyz/tag/personality/</link>
+      <pubDate>Wed, 18 May 2016 17:50:28 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/personality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poem</title>
+      <link>https://novelist.xyz/tag/poem/</link>
+      <pubDate>Wed, 15 Jun 2016 05:48:23 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/poem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Politics</title>
+      <link>https://novelist.xyz/tag/politics/</link>
+      <pubDate>Mon, 25 Apr 2016 17:14:35 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>https://novelist.xyz/tag/psychology/</link>
+      <pubDate>Wed, 18 May 2016 17:50:28 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science Fiction</title>
+      <link>https://novelist.xyz/tag/science-fiction/</link>
+      <pubDate>Sun, 14 May 2017 21:02:16 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tag/science-fiction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Screenwriting</title>
+      <link>https://novelist.xyz/tag/screenwriting/</link>
+      <pubDate>Wed, 11 May 2016 03:28:59 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/screenwriting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short Stories</title>
+      <link>https://novelist.xyz/tag/short-stories/</link>
+      <pubDate>Wed, 27 Jul 2016 17:34:49 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/short-stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>https://novelist.xyz/tag/social-media/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sonnet</title>
+      <link>https://novelist.xyz/tag/sonnet/</link>
+      <pubDate>Wed, 15 Jun 2016 05:48:23 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/sonnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Site</title>
+      <link>https://novelist.xyz/tag/static-site/</link>
+      <pubDate>Fri, 12 Aug 2016 15:29:12 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/static-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://novelist.xyz/tag/travel/</link>
+      <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Development</title>
+      <link>https://novelist.xyz/tag/web-development/</link>
+      <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tag/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://novelist.xyz/tag/writing/</link>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/writing/</guid>
       <description></description>
     </item>
     

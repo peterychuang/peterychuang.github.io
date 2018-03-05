@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tag/social-media/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/social-media/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>On reading Marcel Proust: Part 1</title>
@@ -15,7 +17,8 @@
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/essays/random-thoughts-on-marcel-proust-1/</guid>
-      <description>Why you should read &#39;In Search of Lost Time&#39; and stop using Facebook</description>
+      <description>The fault I find with our journalism is that it forces us to take an interest in some fresh triviality or other every day, whereas only three or four books in a lifetime give us anything that is of real importance.
+ One of the writers who influences me a great deal is Marcel Proust. His never-ending In Search of Lost Time is such a monstrosity that there are places when even a great admirer like myself would wonder why did you write this?</description>
     </item>
     
   </channel>

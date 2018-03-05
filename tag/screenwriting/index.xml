@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 11 May 2016 03:28:59 +0000</lastBuildDate>
-    <atom:link href="/tag/screenwriting/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/screenwriting/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>On happy endings</title>
@@ -15,7 +17,7 @@
       <pubDate>Wed, 11 May 2016 03:28:59 +0000</pubDate>
       
       <guid>https://novelist.xyz/essays/on-happy-endings/</guid>
-      <description>Real lives are boring and ambiguous</description>
+      <description>Christian Thielemann, one of the best, if not the best, conductors of the works of Wagner alive, once noted that none of the Wagner operas end in minor keys. Indeed, not even the apocalyptic ending of Götterdämmerung, the fourth and the final installment of the epic cycle Der Ring des Nibelungen, where the world ends with Brünnhilde jumping into the fire and the gods dies, ends in a minor key: Der Ring des Nibelungen starts with Das Rheingold in E-flat major and ends with Götterdämmerung in D-flat major.</description>
     </item>
     
   </channel>

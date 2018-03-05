@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 14 May 2017 21:02:16 +0200</lastBuildDate>
-    <atom:link href="/tag/science-fiction/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/science-fiction/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Death&#39;s End</title>
@@ -24,7 +26,8 @@
       <pubDate>Mon, 03 Apr 2017 02:59:35 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/the-dark-forest-cixin-liu/</guid>
-      <description></description>
+      <description>Following the events of The Three-Body Problem and facing the impending arrival of the Trisolaran&amp;rsquo;s invasion fleet in four centuries, humanity has plunged into some kind of chaos. As in all alien invasions in fiction, the extraterrestrial beings have a fatal flaw ready to be exploited by human beings, and it is the job of the four Wallfacers, appointed by the United Nation, to plot against the Trisolarans.
+In a story that spans more than two centuries, with the Trisolarans having travelled some two lightyears, battles taking place at the edge of our solar system, and humanity living through anxiety, despair, hope, apathy, and victory (or is it?</description>
     </item>
     
     <item>
@@ -33,7 +36,8 @@
       <pubDate>Mon, 03 Apr 2017 02:59:28 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/the-three-body-problem-cixin-liu/</guid>
-      <description></description>
+      <description>A science fiction masterpiece, The Three-Body Problem is an imaginative story dealing with human&amp;rsquo;s communication with and the potential destruction by a hypothetical alien race from our nearest star system, Alpha Centauri, which is a three-star system (hence the name of the book).
+With a scope even greater than Star Wars, The Three-Body Problem is a spectacle in itself, but it is also a setup for the next book in the series, The Dark Forest, which takes the scope of the narrative to the next level and asks some serious questions for readers to ponder.</description>
     </item>
     
     <item>
@@ -42,7 +46,7 @@
       <pubDate>Sun, 23 Oct 2016 18:54:27 -0400</pubDate>
       
       <guid>https://novelist.xyz/short-stories/the-longest-distance/</guid>
-      <description>Returning to the world he&#39;d left, he discovered what he missed most</description>
+      <description>All that remained was the date of her birthday according to the solar calendar of Alte Welt. Since Sophie left him for another man, Ethan had moved to Neue Welt, where each year was twenty days shorter and each day was twenty minutes longer. After just few Neue Welt days, he could no longer convert dates and times from the Alte Welt clock to the new one, and vice versa. It wasn’t until when he heard the video message from an old friend Jimmy&amp;ndash;with a twenty minutes delay in transmission (anything resembling a phone call between Alte Welt and Neue Welt was impossible)&amp;ndash;that another of his good friend in Alte Welt died did he attempt to figure out what day it was back there, a task he failed.</description>
     </item>
     
     <item>
@@ -51,7 +55,7 @@
       <pubDate>Wed, 19 Oct 2016 13:44:52 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</guid>
-      <description>An alternative history where Nazi Germany and Imperial Japan won the Second World War.</description>
+      <description>Nazi Germany and Imperial Japan had won the Second World War, and the United States was partitioned by Germany and Japan. White people were no longer the privileged ones (not in Japan-occupied zone), Jews had all but vanished from New York, and Herbert von Karajan became the Chief Conductor of the New York Philharmonic. In that alternative world, a book about an alternative history where the Allies won the war captured the imagination of the oppressed, while the oppressor sought to murder the person who wrote that book.</description>
     </item>
     
     <item>
@@ -60,7 +64,8 @@
       <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/how-to-take-revenge-on-the-world/</guid>
-      <description>Two disgruntled human beings took revenge on the world</description>
+      <description>Florian sat at his place in the open-planned office, staring at the grey screen, with colourful codes standing out against the dark screen. He was asked to fix a stupid bug in the operating system his employer sold to millions. Fixing bugs had ben his only job for a few years now.
+This is so fucking boring. This job is just a glorified fire-fighter. In fact, even fire-fighter&amp;rsquo;s job is more glorious than mine.</description>
     </item>
     
     <item>
@@ -69,7 +74,7 @@
       <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/the-last-living-soul/</guid>
-      <description>You are the last hope for humanity</description>
+      <description>I knew. For a long time, I knew I was in part a creation of someone called the scientist. Since the scientist was responsible for the existence of me and others of my own type, a few of us regarded the scientist with a god-like reverence, while others held him/her in utter contempt. No one knew him/her: there was no photograph, painted portrait, nor busts of the scientist, and we had no idea regarding his/her name, and whether this person was a man or woman.</description>
     </item>
     
   </channel>

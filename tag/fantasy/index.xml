@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 01 May 2016 17:28:24 -0400</lastBuildDate>
-    <atom:link href="/tag/fantasy/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/fantasy/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Hobbit &amp; The Lord of the Rings</title>
@@ -15,7 +17,8 @@
       <pubDate>Sun, 01 May 2016 17:28:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/the-hobbit-the-lord-of-the-rings-j-r-r-tolkien/</guid>
-      <description></description>
+      <description>Let me begin by confessing that I am no big fan of J. R. R. Tolkien&amp;rsquo;s The Lord of the Rings cycle, and that makes me open to attacks from passionate fans of the cycle.
+One of the problems I have with The Lord of the Rings is its similarities with another Ring cycle: Der Ring des Nibelungen by Richard Wagner. One reason for the similarities between two Ring cycles is that both Wagner and Tolkien appeared to have consult the same sources in Norse Mythology&amp;mdash;Völsunga saga and Nibelungenlied&amp;mdash;but it is hard to believe that Tolkien was entirely not influenced by Wagner&amp;rsquo;s Ring, even though he refused to admit it.</description>
     </item>
     
     <item>
@@ -24,7 +27,8 @@
       <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/short-stories/a-swimmer-from-the-desert/</guid>
-      <description>Can he swim?</description>
+      <description>For the sake of simplicity, we have always called him A, for we do not know what his actual name is (Akxhhhgg-something-something-something-something).
+Neither do we know exactly where he came from, except the fact that his homeland was in the middle of a desert. When we met him for the first time in our town, thousands of miles away from his home, he could not speak our tongue at all, and for the first few days of our acquaintance with him, we could only point to things.</description>
     </item>
     
   </channel>

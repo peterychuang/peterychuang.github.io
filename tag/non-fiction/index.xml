@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 15 Jun 2016 04:03:04 +0800</lastBuildDate>
-    <atom:link href="/tag/non-fiction/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://novelist.xyz/tag/non-fiction/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Second-Hand Time</title>
@@ -15,7 +17,8 @@
       <pubDate>Wed, 15 Jun 2016 04:03:04 +0800</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/second-hand-time-svetlana-alexievich/</guid>
-      <description>A moving, powerful, and at times disturbing oral history of the little people of the Soviet Union</description>
+      <description>It would have been a strange situation to find yourself in, that the ideas you&amp;rsquo;d grown up with turned out to be out-of-fashion, and that what you&amp;rsquo;d been working for your whole life turned out to be worthless. It happens every so often to some people, but rarely at the scale of a whole country.
+In her latest work, Svetlana Alexievich, the winner of Nobel Prize in 2015, tackles exactly this strange phenomenon during the collapse and the aftermath of the collapse of the Soviet Union.</description>
     </item>
     
     <item>
@@ -24,7 +27,7 @@
       <pubDate>Sat, 04 Jun 2016 16:34:24 -0400</pubDate>
       
       <guid>https://novelist.xyz/bookshelf/voices-from-chernobyl-svetlana-alexievich/</guid>
-      <description>The Chernobyl nuclear disaster from the perspective of the little people who lost their homes, families, and countries</description>
+      <description>Some years ago, I went through a phase of watching every documentary film I could get my hands on. One of the films I stumbled upon was a film about the Chernobyl disaster. I couldn&amp;rsquo;t remember when I first watched it, and it might not have anything to do with the Fukushima disaster. As with so many of the things I find interesting, there wasn&amp;rsquo;t any inherent reason why I found the Chernobyl disaster fascinating.</description>
     </item>
     
   </channel>
