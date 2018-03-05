@@ -43,7 +43,7 @@ cache:
   - "$HOME/gopath/src/gopkg.in"
   - "$HOME/gopath/pkg/"
   - "$HOME/gopath/bin/"
-install: go get -v github.com/spf13/hugo
+install: go get -v github.com/gohugoio/hugo
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_6419d2ebf1a7_key -iv $encrypted_6419d2ebf1a7_iv
