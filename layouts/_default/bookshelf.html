@@ -38,6 +38,7 @@
           {{ if .Params.stars }}
             <br />
             <br />
+            {{ $star := .Params.stars}}
             {{ range $star, seq .Params.stars }}
               <i style="color:gold;" class="fa fa-star"></i>
             {{ end }}
