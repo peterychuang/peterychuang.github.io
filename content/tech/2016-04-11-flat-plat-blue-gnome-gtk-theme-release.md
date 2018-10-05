@@ -41,15 +41,24 @@ I forked and modified the [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat)
 
 ## Download
 
-* [Flat-Plat-Blue for GNOME 3.26 / 3.24 / 3.22 / 3.20 / 3.18](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.26.1.tar.gz)
+* [Flat-Plat-Blue for GNOME 3.30/3.28/ 3.26 / 3.24 / 3.22](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.30.0.tar.gz)
 * ~~[Flat-Plat-Blue for GNOME 3.22](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.22/Flat-Plat-Blue-20161022.tar.gz)~~
 * ~~[Flat-Plat-Blue for GNOME 3.20](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.20/Flat-Plat-Blue-20160411.tar.gz)~~
 
 ## Requirements
-* GNOME/GTK+ 3.18 or above
-* The `gnome-themes-standard` package for GTK2
-* The pixmap (or pixbuf) engine for GTK2
-* ```murrine``` engine
+- GTK+ `>=3.18`
+- `gnome-themes-extra` (or `gnome-themes-standard`)
+- Murrine engine — The package name depends on the distro.
+  - `gtk-engine-murrine` on Arch Linux
+  - `gtk-murrine-engine` on Fedora
+  - `gtk2-engine-murrine` on openSUSE
+  - `gtk2-engines-murrine` on Debian, Ubuntu, etc.
+- `glib-compile-resources` - The package name depends on the distro.
+  - `glib2` on Arch Linux
+  - `glib2-devel` on Fedora, openSUSE, etc.
+  - `libglib2.0-dev` on Debian, Ubuntu, etc.
+
+For Ubuntu, you'll also need the `libxml2-utils` package.
 
 ## Installation
 
@@ -60,13 +69,13 @@ Arch Linux users can install Flat-Plat-Blue theme by installing [```flatplat-blu
 ### Manual Installation
 
 #### GNOME Shell/GTK Theme install
-- Download [Flat-Plat-Blue for GNOME 3.26 / 3.24 / 3.22 / 3.20 / 3.18](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.26.0-2.tar.gz)
+- Download [Flat-Plat-Blue for GNOME 3.28/3.26/ 3.24 / 3.22 / 3.20 / 3.18](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.28.1.tar.gz)
 - Extract the files from the archive
 - In your terminal, enter the directory of the extracted theme, then issue the following command:
 
-{{< highlight bash >}}
+```
 sudo sh install.sh
-{{< /highlight >}}
+```
 
 - Use GNOME Tweak Tool to enable both the GTK+ Theme and the GNOME Shell Theme
 
@@ -74,9 +83,9 @@ sudo sh install.sh
 - Backup ```/usr/share/gnome-shell/gnome-shell-theme.gresource```
 - In your terminal, move into ```/usr/share/themes/Flat-Plat-Blue-{your-preferred-variant}/gnome-shell``` directory, then issue the following command
 
-{{< highlight bash >}}
-sudo cp gnome-shell-theme.gresource /usr/share/gnome-shell
-{{< /highlight >}}
+```
+sudo glib-compile-resources --target=/usr/share/gnome-shell/gnome-shell-theme.gresource gnome-shell-theme.gresource.xml
+```
 
 - Restart your GNOME session. On X.Org, press ```Alt``` + ```F2```, then type ```r``` and ```Enter```. On Wayland, you may need to logout and log back in to see the change take effect.
 
