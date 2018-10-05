@@ -6,8 +6,17 @@
     <description>Recent content in Blog on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 23 Jun 2017 15:47:22 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Oct 2018 16:13:52 -0400</lastBuildDate>
     <atom:link href="/blog/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Case Against Audiophile</title>
+      <link>https://novelist.xyz/essays/the-case-against-audiophile/</link>
+      <pubDate>Fri, 05 Oct 2018 16:13:52 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/essays/the-case-against-audiophile/</guid>
+      <description>The pursuit of the perfect sound comes at the expense of music itself</description>
+    </item>
     
     <item>
       <title>The Longest Distance</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/short-stories/he-who-does-not-forget/</guid>
       <description>In his quest to forget the past, he gets more burden into his mind</description>
-    </item>
-    
-    <item>
-      <title>My life did not go on</title>
-      <link>https://novelist.xyz/poetry/my-life-did-not-go-on/</link>
-      <pubDate>Thu, 19 May 2016 19:25:37 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/poetry/my-life-did-not-go-on/</guid>
-      <description>“My life without you isn&#39;t my life any more”</description>
     </item>
     
   </channel>
