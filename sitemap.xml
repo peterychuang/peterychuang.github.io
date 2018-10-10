@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novelist.xyz/bookshelf/the-holy-roman-empire-peter-h-wilson/</loc>
+    <lastmod>2018-10-10T05:15:44-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/essays/the-case-against-audiophile/</loc>
     <lastmod>2018-10-05T16:13:52-04:00</lastmod>
   </url>
@@ -419,7 +424,7 @@
   
   <url>
     <loc>https://novelist.xyz/bookshelf/</loc>
-    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
+    <lastmod>2018-10-10T05:15:44-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -524,7 +529,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/history/</loc>
-    <lastmod>2016-08-23T17:54:17-04:00</lastmod>
+    <lastmod>2018-10-10T05:15:44-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -653,7 +658,7 @@
   
   <url>
     <loc>https://novelist.xyz/</loc>
-    <lastmod>2018-10-05T16:13:52-04:00</lastmod>
+    <lastmod>2018-10-10T05:15:44-04:00</lastmod>
     <priority>0</priority>
   </url>
   

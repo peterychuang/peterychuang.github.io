@@ -6,8 +6,17 @@
     <description>Recent content in Peter Y. Chuang Novelist, Short Story Writer on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Oct 2018 16:13:52 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 10 Oct 2018 05:15:44 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Holy Roman Empire : A Thousand Years of Europe&#39;s History</title>
+      <link>https://novelist.xyz/bookshelf/the-holy-roman-empire-peter-h-wilson/</link>
+      <pubDate>Wed, 10 Oct 2018 05:15:44 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/bookshelf/the-holy-roman-empire-peter-h-wilson/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Case Against Audiophile</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/bookshelf/austerlitz-wg-sebald/</guid>
       <description>In search of the past by a man saved from Nazi Germany by Kindertransport</description>
-    </item>
-    
-    <item>
-      <title>How to use Bootstrap Navbar without jQuery</title>
-      <link>https://novelist.xyz/tech/bootstrap-without-jquery/</link>
-      <pubDate>Tue, 23 Aug 2016 15:15:56 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/tech/bootstrap-without-jquery/</guid>
-      <description>You don&#39;t need jQuery to bring a Bootstrap Navbar to life</description>
     </item>
     
   </channel>
