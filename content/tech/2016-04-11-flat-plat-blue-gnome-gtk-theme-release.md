@@ -11,11 +11,11 @@ type: post
 url: /tech/flat-plat-blue-gnome-gtk-theme-release/
 ---
 
-*Update 17 September 2017: the latest version is out with preliminary support of GNOME 3.26*
+*Update 13 October 2017: the latest version is out with preliminary support of GNOME 3.30*
 
 ## Flat-Plat-Blue Theme
 
-Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat) with the following refinements:
+Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from [Materia Theme (formerly Flat-Plat)](https://github.com/nana-4/materia-theme/) with the following refinements:
 
 * All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience;
 * The top bar is transparent when no window is maximised (starting from GNOME Shell 3.26);
@@ -34,16 +34,14 @@ Each variant comes with **normal** and **compact** themes for different screen s
 
 *(Scroll down for screenshots)*
 
-## The Origin Story
+### The Origin Story
 
 I forked and modified the [Flat-Plat Theme](https://github.com/nana-4/Flat-Plat) for personal use, but I reckoned there were people out there who wanted a [colour scheme that was more comfortable to look at](https://github.com/nana-4/Flat-Plat/issues/19), so I put together the theme and release it. You are welcomed to fork it and make further modifications yourself.
 
 
 ## Download
 
-* [Flat-Plat-Blue for GNOME 3.30/3.28/ 3.26 / 3.24 / 3.22](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.30.0.tar.gz)
-* ~~[Flat-Plat-Blue for GNOME 3.22](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.22/Flat-Plat-Blue-20161022.tar.gz)~~
-* ~~[Flat-Plat-Blue for GNOME 3.20](https://github.com/peterychuang/Flat-Plat-Blue/releases/download/3.20/Flat-Plat-Blue-20160411.tar.gz)~~
+* [Flat-Plat-Blue for GNOME 3.30 / 3.28/ 3.26 / 3.24 / 3.22](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.30.1.tar.gz)
 
 ## Requirements
 - GTK+ `>=3.18`
@@ -69,7 +67,7 @@ Arch Linux users can install Flat-Plat-Blue theme by installing [```flatplat-blu
 ### Manual Installation
 
 #### GNOME Shell/GTK Theme install
-- Download [Flat-Plat-Blue for GNOME 3.28/3.26/ 3.24 / 3.22 / 3.20 / 3.18](https://github.com/peterychuang/Flat-Plat-Blue/archive/3.28.1.tar.gz)
+- Download the archive of the theme
 - Extract the files from the archive
 - In your terminal, enter the directory of the extracted theme, then issue the following command:
 
@@ -81,10 +79,10 @@ sudo sh install.sh
 
 #### GDM (Lock/Login Screen)
 - Backup ```/usr/share/gnome-shell/gnome-shell-theme.gresource```
-- In your terminal, move into ```/usr/share/themes/Flat-Plat-Blue-{your-preferred-variant}/gnome-shell``` directory, then issue the following command
+- In your terminal, enter the directory of the extracted theme, then issue the following command:
 
 ```
-sudo glib-compile-resources --target=/usr/share/gnome-shell/gnome-shell-theme.gresource gnome-shell-theme.gresource.xml
+sudo sh install.sh --gdm
 ```
 
 - Restart your GNOME session. On X.Org, press ```Alt``` + ```F2```, then type ```r``` and ```Enter```. On Wayland, you may need to logout and log back in to see the change take effect.
@@ -105,7 +103,7 @@ sudo glib-compile-resources --target=/usr/share/gnome-shell/gnome-shell-theme.gr
 <a href="https://novelist.xyz/assets/img/Screenshot3.jpg"><img src="https://novelist.xyz/assets/img/Screenshot3.jpg" style="width:100%"></a>
 
 
-#### Other Info
+## Other Info
 * License: GPLv2
 * Forked by [Peter Y. Chuang - Novelist](https://novelist.xyz)
 * [Source Code on Github](https://github.com/peterychuang/Flat-Plat-Blue)
