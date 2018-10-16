@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novelist.xyz/bookshelf/my-struggle-2-karl-ove-knausgaard/</loc>
+    <lastmod>2018-10-16T04:07:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://novelist.xyz/bookshelf/my-struggle-1-karl-ove-knausgaard/</loc>
+    <lastmod>2018-10-16T04:07:09-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novelist.xyz/bookshelf/the-holy-roman-empire-peter-h-wilson/</loc>
     <lastmod>2018-10-10T05:15:44-04:00</lastmod>
   </url>
@@ -424,7 +434,7 @@
   
   <url>
     <loc>https://novelist.xyz/bookshelf/</loc>
-    <lastmod>2018-10-10T05:15:44-04:00</lastmod>
+    <lastmod>2018-10-16T04:07:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -505,7 +515,7 @@
   
   <url>
     <loc>https://novelist.xyz/tag/fiction/</loc>
-    <lastmod>2017-05-14T21:02:16+02:00</lastmod>
+    <lastmod>2018-10-16T04:07:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -619,13 +629,13 @@
   
   <url>
     <loc>https://novelist.xyz/tag/non-fiction/</loc>
-    <lastmod>2016-06-15T04:03:04+08:00</lastmod>
+    <lastmod>2018-10-16T04:07:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://novelist.xyz/tag/novel/</loc>
-    <lastmod>2016-08-23T17:54:17-04:00</lastmod>
+    <lastmod>2018-10-16T04:07:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -658,7 +668,7 @@
   
   <url>
     <loc>https://novelist.xyz/</loc>
-    <lastmod>2018-10-10T05:15:44-04:00</lastmod>
+    <lastmod>2018-10-16T04:07:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
