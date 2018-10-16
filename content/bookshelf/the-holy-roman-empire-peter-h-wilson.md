@@ -4,7 +4,7 @@ draft:
 aliases: null
 author: Peter Y. Chuang
 date: 2018-10-10T05:15:44-04:00
-description:
+description: "An ambitious narrative about the Holy Roman Empire, which occupies a central place in the history of Europe"
 cover: the-holy-roman-empire.jpg
 tag:
 - History
