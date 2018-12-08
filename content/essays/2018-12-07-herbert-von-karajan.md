@@ -31,7 +31,7 @@ His aesthetic outlook in sound seemed identical to the visual one. [Sir Simon Ra
 
 > While he was always deeply respected as a conductor, some critics found his music-making increasingly slick and overrefined in his last decades.
 
-In his review of a documentary film about Karajan, [Tom Service wrote on the Guardian]:(https://www.theguardian.com/music/tomserviceblog/2014/dec/04/herbert-von-karajan-film-john-bridcut-controversy-continues):
+In his review of a documentary film about Karajan, [Tom Service wrote on the Guardian](https://www.theguardian.com/music/tomserviceblog/2014/dec/04/herbert-von-karajan-film-john-bridcut-controversy-continues):
 
 > Karajan’s approach, they say, represents an ideology in which the superficial gloss, finish and perfection of orchestral sonority is an end in itself...
 
