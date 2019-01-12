@@ -37,12 +37,11 @@ gulp.task('copy2', function() {
   return gulp.src([
     './_output/hugo-stage-1/**/*.xml',
     './_output/hugo-stage-1/**/*.txt',
-    './_output/hugo-stage-1/readme.md'
   ])
   .pipe(gulp.dest('./public/'))
 });
 
-gulp.task('base64', ['minify'], function () {
+gulp.task('base64', function () {
   return gulp.src([
     './_output/hugo-stage-2/**/*.html'
   ])
@@ -54,4 +53,4 @@ gulp.task('base64', ['minify'], function () {
   .pipe(gulp.dest('./public/'));
 });
 
-gulp.task('deploy', ['minify', 'copy1', 'copy2', 'base64']);
+gulp.task('deploy', gulp.series('minify', 'copy1', 'copy2', 'base64'));
