@@ -13,7 +13,7 @@ https://novelist.xyz/*/index.html https://novelist.xyz/:splat 301!
 /novels /#novels
 /about /#about
 /novelist /novelists-on-everything
-/contact/ /#contact
+/contact /#contact
 /tech/2016-10-20-arch-linux-tips /tech/arch-linux-tips
 
 /essays/herbert-von-karajan-musicianship https://kritiker.xyz/essays/herbert-von-karajan-musicianship/
