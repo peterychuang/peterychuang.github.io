@@ -3,30 +3,17 @@ https://novelistxyz.netlify.com/* https://novelist.xyz/:splat 301!
 
 https://novelist.xyz/*/index.html https://novelist.xyz/:splat 301!
 
-/linux/flat-plat-blue-gnome-gtk-theme-release/ /tech/flat-plat-blue-gnome-gtk-theme-release/
-/linux/my-linux-journey/ /tech/my-linux-journey/
-/linux/my-linux-rig/ /tech/my-linux-rig/
-/linux/ /tag/linux/
-/others/under-the-umbrella/ /essays/under-the-umbrella/
-/others/random-thoughts-on-marcel-proust-1/ /essays/random-thoughts-on-marcel-proust-1/
-/music/schubert-die-winterreise/ /music/schubert-winterreise/
-/novels/ /#novels
-/about/ /#about
-/novelist/ /novelists-on-everything/
-/contact /#contact
-/tech/2016-10-20-arch-linux-tips/ /tech/arch-linux-tips/
-
-/linux/flat-plat-blue-gnome-gtk-theme-release /tech/flat-plat-blue-gnome-gtk-theme-release/
-/linux/my-linux-journey /tech/my-linux-journey/
-/linux/my-linux-rig /tech/my-linux-rig/
-/linux /tag/linux/
-/others/under-the-umbrella /essays/under-the-umbrella/
-/others/random-thoughts-on-marcel-proust-1 /essays/random-thoughts-on-marcel-proust-1/
-/music/schubert-die-winterreise /music/schubert-winterreise/
+/linux/flat-plat-blue-gnome-gtk-theme-release /tech/flat-plat-blue-gnome-gtk-theme-release
+/linux/my-linux-journey /tech/my-linux-journey
+/linux/my-linux-rig /tech/my-linux-rig
+/linux /tag/linux
+/others/under-the-umbrella /essays/under-the-umbrella
+/others/random-thoughts-on-marcel-proust-1 /essays/random-thoughts-on-marcel-proust-1
+/music/schubert-die-winterreise /music/schubert-winterreise
 /novels /#novels
 /about /#about
-/novelist /novelists-on-everything/
+/novelist /novelists-on-everything
 /contact/ /#contact
-/tech/2016-10-20-arch-linux-tips /tech/arch-linux-tips/
+/tech/2016-10-20-arch-linux-tips /tech/arch-linux-tips
 
-/essays/herbert-von-karajan-musicianship/ https://kritiker.xyz/essays/herbert-von-karajan-musicianship/
+/essays/herbert-von-karajan-musicianship https://kritiker.xyz/essays/herbert-von-karajan-musicianship/
