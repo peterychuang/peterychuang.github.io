@@ -37,6 +37,7 @@ gulp.task('copy2', function() {
   return gulp.src([
     './_output/hugo-stage-1/**/*.xml',
     './_output/hugo-stage-1/**/*.txt',
+    './_output/hugo-stage-1/_redirects',
   ])
   .pipe(gulp.dest('./public/'))
 });
