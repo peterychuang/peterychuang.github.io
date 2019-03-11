@@ -1,5 +1,5 @@
 ---
-date: ""
+date: {{ .Date }}
 description:
 seo_description:
 header:
