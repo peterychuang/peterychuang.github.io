@@ -237,9 +237,18 @@
     </item>
     
     <item>
+      <title>Laptop</title>
+      <link>https://novelist.xyz/tag/laptop/</link>
+      <pubDate>Mon, 11 Mar 2019 11:41:49 +0100</pubDate>
+      
+      <guid>https://novelist.xyz/tag/laptop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://novelist.xyz/tag/linux/</link>
-      <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
+      <pubDate>Mon, 11 Mar 2019 11:41:49 +0100</pubDate>
       
       <guid>https://novelist.xyz/tag/linux/</guid>
       <description></description>
@@ -368,6 +377,15 @@
       <pubDate>Wed, 18 May 2016 17:50:28 -0400</pubDate>
       
       <guid>https://novelist.xyz/tag/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>https://novelist.xyz/tag/review/</link>
+      <pubDate>Mon, 11 Mar 2019 11:41:49 +0100</pubDate>
+      
+      <guid>https://novelist.xyz/tag/review/</guid>
       <description></description>
     </item>
     

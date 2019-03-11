@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/review/</link>
+    <description>Recent content in Review on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 11 Mar 2019 11:41:49 +0100</lastBuildDate>
+    
+	<atom:link href="https://novelist.xyz/tag/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XPS 13 9380 (2019) Review</title>
+      <link>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</link>
+      <pubDate>Mon, 11 Mar 2019 11:41:49 +0100</pubDate>
+      
+      <guid>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</guid>
+      <description>As a Linux user, using a recent model of MacBook Pro was nothing but a misadventure, especially given that the laptop I had prior to that was Dell XPS 13 9350, which had a Developer Edition with Linux pre-loaded, which meant it could run Linux without too much trouble. The problems with MacBook Pro were not limited to the difficulties in using Linux or the serious locking-down of macOS, but also the quality control, and their Idiot Genius Bar&amp;rsquo;s treating me like an idiot with a wallet that leaks money.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,8 +6,17 @@
     <description>Recent content in Peter Y. Chuang Novelist, Short Story Writer on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 07 Dec 2018 13:37:22 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 11:41:49 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>XPS 13 9380 (2019) Review</title>
+      <link>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</link>
+      <pubDate>Mon, 11 Mar 2019 11:41:49 +0100</pubDate>
+      
+      <guid>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</guid>
+      <description>For Linux users, this is almost perfect, except for one really annoying problem</description>
+    </item>
     
     <item>
       <title>On Herbert von Karajan</title>
@@ -133,15 +142,6 @@
       
       <guid>https://novelist.xyz/bookshelf/the-man-in-the-high-castle-philip-k-dick/</guid>
       <description>An alternative history where Nazi Germany and Imperial Japan won the Second World War.</description>
-    </item>
-    
-    <item>
-      <title>Serve static websites with Caddy web server</title>
-      <link>https://novelist.xyz/tech/caddy-webserver/</link>
-      <pubDate>Wed, 31 Aug 2016 13:34:24 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/tech/caddy-webserver/</guid>
-      <description>A new and super-easy-to-configure webserver written in Go</description>
     </item>
     
   </channel>
