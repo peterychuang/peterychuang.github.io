@@ -38,12 +38,11 @@
           {{ if .Params.stars }}
             <br />
             <br />
-            {{ $star := .Params.stars}}
-            {{ range $star, seq .Params.stars }}
+            {{ range seq .Params.stars }}
               <i style="color:gold;" class="fa fa-star"></i>
             {{ end }}
             {{ $greystar := sub 5 .Params.stars }}
-            {{ range $star, seq $greystar }}
+            {{ range seq $greystar }}
               <i style="color:grey;" class="fa fa-star"></i>
             {{ end }}
           {{ end }}
