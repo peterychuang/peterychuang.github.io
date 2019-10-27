@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch Linux on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/Arch-Linux/</link>
+    <description>Recent content in Arch Linux on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 26 Apr 2017 00:40:45 +0200</lastBuildDate>
+    
+	<atom:link href="https://novelist.xyz/tag/Arch-Linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to make fonts look good on Arch Linux</title>
+      <link>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</link>
+      <pubDate>Wed, 26 Apr 2017 00:40:45 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</guid>
+      <description>Let&amp;rsquo;s face it: the plain vanilla font rendering on Linux was horrible. For a long time, I had relied on Infinality patches for freetype2 and fontconfig to improve how texts looked on Arch Linux, and the result was impressive.
+But then, the upstream of Infinality died. For some months now, I had been holding onto the patched freetype2 and fontconfig as I was unable to find an acceptable alternative, though it was obvious that I had to make do with the plain vanilla freetype and fontconfig at some point.</description>
+    </item>
+    
+    <item>
+      <title>How to install Arch Linux</title>
+      <link>https://novelist.xyz/tech/arch-linux-installation-guide/</link>
+      <pubDate>Sun, 16 Apr 2017 23:03:58 +0200</pubDate>
+      
+      <guid>https://novelist.xyz/tech/arch-linux-installation-guide/</guid>
+      <description>Arch Linux is known for, among many other things, such as being at the bleeding edge to a point of unstable (ask anyone trying to get GNOME 3.24 on time), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles, which is why I keep returning to Arch Linux despite its various annoyances.</description>
+    </item>
+    
+    <item>
+      <title>Five Tips For Running Arch Linux As Daily Driver</title>
+      <link>https://novelist.xyz/tech/arch-linux-tips/</link>
+      <pubDate>Thu, 20 Oct 2016 15:48:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/arch-linux-tips/</guid>
+      <description>Arch Linux has a reputation for being close to bleeding edge, and thus less stable than other distributions. Neither of those points are entirely true, however, as there are other distributions that ship new packages even quicker than Arch, and most updates don&amp;rsquo;t produce catastrophic results. Though because Arch Linux is such that it encourages users to tinker with it, hiccups do occur more frequently in Arch Linux than others, which isn&amp;rsquo;t so much a fault of the distribution itself.</description>
+    </item>
+    
+    <item>
+      <title>Ten things you need to do after installing Arch Linux</title>
+      <link>https://novelist.xyz/tech/things-to-do-after-installing-arch-linux/</link>
+      <pubDate>Wed, 25 May 2016 14:17:22 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/things-to-do-after-installing-arch-linux/</guid>
+      <description>Arch Linux is famous for its seemingly intimidating installation process that, by default, only gets you to a base system where almost nothing is in it. From that point, you will have the opportunity to build a system that consists only of what you need, such as the display manager and desktop environment of your choosing.
+But even after installing and booting into your favourite desktop environment, the road to building daily driver is far from finished.</description>
+    </item>
+    
+    <item>
+      <title>My Linux Rig</title>
+      <link>https://novelist.xyz/tech/my-linux-rig/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-rig/</guid>
+      <description>Sometime in 2011 or 2012, I began to use Linux exclusively as my primary operating system, and I&amp;rsquo;ve never returned to the Windows-land.
+My Linux Machine I use Dell XPS 13 (9350) mainly to write and develop this website, among many other things. For more demanding tasks such as photo-editing, I use a desktop machine with a quad-core processor and hyperthreading.
+Specification (XPS 13)  Intel Core i5-6200
+ Full-HD Screen</description>
+    </item>
+    
+    <item>
+      <title>How I became a full-time Linux user</title>
+      <link>https://novelist.xyz/tech/my-linux-journey/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
+      <description>From Windows to Linux: My Linux Journey I think it was 2009 when I tried GNU/Linux for the first time. It was on a ThinkPad, and the distribution (or distro) I tried was Ubuntu. I didn’t know anything about GNU/Linux back then, and I might or might not have been wondering where C:\ was, but I was amazed by the amount of customisations I could do with the operating system.</description>
+    </item>
+    
+  </channel>
+</rss>

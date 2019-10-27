@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/Apple/</link>
+    <description>Recent content in Apple on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 23 Jun 2017 15:47:22 -0400</lastBuildDate>
+    
+	<atom:link href="https://novelist.xyz/tag/Apple/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Linux user&#39;s thoughts on MacBook Pro and macOS</title>
+      <link>https://novelist.xyz/tech/linux-user-on-macbook-macos/</link>
+      <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/tech/linux-user-on-macbook-macos/</guid>
+      <description>As a full-time Linux user, I have never cared much about Apple products. All of my previous computers were PCs that came with Microsoft Windows, which I invariably removed before putting Linux on it. Apple products are overpriced, and installing Linux on MacBooks is, in general, trickier than on an average PC, so I have looked away from MacBooks for years.
+Then my Dell XPS 13 died, and I discovered that Dell had terrible service in my part of the world, so I couldn&amp;rsquo;t get it repaired.</description>
+    </item>
+    
+  </channel>
+</rss>

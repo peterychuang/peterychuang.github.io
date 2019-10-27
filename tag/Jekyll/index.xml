@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on Peter Y. Chuang - Novelist, Short Story Writer</title>
+    <link>https://novelist.xyz/tag/Jekyll/</link>
+    <description>Recent content in Jekyll on Peter Y. Chuang - Novelist, Short Story Writer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 11 May 2016 06:12:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://novelist.xyz/tag/Jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo vs. Jekyll: a showdown of static site generator</title>
+      <link>https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/</link>
+      <pubDate>Wed, 11 May 2016 06:12:12 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/hugo-vs-jekyll-static-site-generator/</guid>
+      <description>Last week, I mentioned that this site is built using Jekyll, a static site generator that, once you get used to it, is much faster to load and more convenient than dynamic content management system such as Wordpress.
+(Update: this site now runs on Hugo)
+Jekyll is way too slow Jekyll is a good alternative to things like Wordpress, but it isn&amp;rsquo;t without its own problem: the loading speed of the compiled static pages may be very fast because they are static, but those pages take a long time to build.</description>
+    </item>
+    
+    <item>
+      <title>How to create a super-fast Jekyll site</title>
+      <link>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</link>
+      <pubDate>Fri, 06 May 2016 14:23:16 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/performant-jekyll-site-with-gulp-cloudflare/</guid>
+      <description>(Update: this site now runs on Hugo)
+Earlier, I wrote a brief note explaining why I use Jekyll, which came down to two major factors: cost and performance. Hosting a Jekyll site on Github is free, eliminating all the costs (save the domain name) associated with running a self-hosted Wordpress site; and Github Pages is very fast.
+But there are still some room for improvments. The steps outlined below are what I&amp;rsquo;ve done to optimise my website, partly inspired by David Ensinger&amp;rsquo;s post on the same topic.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll: a static site generator</title>
+      <link>https://novelist.xyz/tech/jekyll/</link>
+      <pubDate>Fri, 06 May 2016 11:27:27 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tech/jekyll/</guid>
+      <description>(Update: this site now runs on Hugo)
+For a long time, Wordpress was my go-to software to create website. It is free, has a huge community, massive collection of plugins, is not too difficult to set up for basic use, and is capable of running big and complex website. I used Wordpress to run a fairly large and complicated site for quite a while, and it did the job.</description>
+    </item>
+    
+  </channel>
+</rss>

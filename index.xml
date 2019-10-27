@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Peter Y. Chuang Novelist, Short Story Writer on Peter Y. Chuang - Novelist, Short Story Writer</title>
@@ -10,138 +9,120 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Alone in Berlin (Jeder stirbt für sich allein)</title>
-      <link>https://novelist.xyz/bookshelf/alone-in-berlin-jeder-stirbt-fuer-sich-allein-hans-fallada/</link>
+      <title>Bookshelf</title>
+      <link>https://novelist.xyz/bookshelf/</link>
       <pubDate>Thu, 18 Apr 2019 10:02:00 +0200</pubDate>
       
-      <guid>https://novelist.xyz/bookshelf/alone-in-berlin-jeder-stirbt-fuer-sich-allein-hans-fallada/</guid>
+      <guid>https://novelist.xyz/bookshelf/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>XPS 13 9380 (2019) Review</title>
-      <link>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</link>
+      <title>Tech</title>
+      <link>https://novelist.xyz/tech/</link>
       <pubDate>Mon, 11 Mar 2019 11:41:49 +0100</pubDate>
       
-      <guid>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</guid>
-      <description>For Linux users, this is almost perfect, except for one really annoying problem</description>
+      <guid>https://novelist.xyz/tech/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>On Herbert von Karajan</title>
-      <link>https://novelist.xyz/essays/herbert-von-karajan-musicianship/</link>
+      <title>Essays</title>
+      <link>https://novelist.xyz/essays/</link>
       <pubDate>Fri, 07 Dec 2018 13:37:22 -0400</pubDate>
       
-      <guid>https://novelist.xyz/essays/herbert-von-karajan-musicianship/</guid>
-      <description>Like him or not, he remains one of the great conductors</description>
-    </item>
-    
-    <item>
-      <title>A Man in Love - My Struggle 2</title>
-      <link>https://novelist.xyz/bookshelf/my-struggle-2-karl-ove-knausgaard/</link>
-      <pubDate>Tue, 16 Oct 2018 04:07:10 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/my-struggle-2-karl-ove-knausgaard/</guid>
+      <guid>https://novelist.xyz/essays/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A Death in the Family</title>
-      <link>https://novelist.xyz/bookshelf/my-struggle-1-karl-ove-knausgaard/</link>
-      <pubDate>Tue, 16 Oct 2018 04:07:09 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/my-struggle-1-karl-ove-knausgaard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Holy Roman Empire : A Thousand Years of Europe&#39;s History</title>
-      <link>https://novelist.xyz/bookshelf/the-holy-roman-empire-peter-h-wilson/</link>
-      <pubDate>Wed, 10 Oct 2018 05:15:44 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/the-holy-roman-empire-peter-h-wilson/</guid>
-      <description>An ambitious narrative about the Holy Roman Empire, which occupies a central place in the history of Europe</description>
-    </item>
-    
-    <item>
-      <title>The Case Against Audiophile</title>
-      <link>https://novelist.xyz/essays/the-case-against-audiophile/</link>
-      <pubDate>Fri, 05 Oct 2018 16:13:52 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/essays/the-case-against-audiophile/</guid>
-      <description>The pursuit of the perfect sound comes at the expense of music itself</description>
-    </item>
-    
-    <item>
-      <title>A Linux user&#39;s thoughts on MacBook Pro and macOS</title>
-      <link>https://novelist.xyz/tech/linux-user-on-macbook-macos/</link>
-      <pubDate>Fri, 23 Jun 2017 15:47:22 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/tech/linux-user-on-macbook-macos/</guid>
-      <description>MacBook Pro isn&#39;t a professional machine, and macOS isn&#39;t impressive</description>
-    </item>
-    
-    <item>
-      <title>Death&#39;s End</title>
-      <link>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</link>
-      <pubDate>Sun, 14 May 2017 21:02:16 +0200</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/deaths-end-cixin-liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How to make fonts look good on Arch Linux</title>
-      <link>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</link>
-      <pubDate>Wed, 26 Apr 2017 00:40:45 +0200</pubDate>
-      
-      <guid>https://novelist.xyz/tech/improve-font-rendering-arch-linux-no-infinality/</guid>
-      <description>Texts can still look beautiful without Infinality patches</description>
-    </item>
-    
-    <item>
-      <title>How to install Arch Linux</title>
-      <link>https://novelist.xyz/tech/arch-linux-installation-guide/</link>
-      <pubDate>Sun, 16 Apr 2017 23:03:58 +0200</pubDate>
-      
-      <guid>https://novelist.xyz/tech/arch-linux-installation-guide/</guid>
-      <description>An Arch Linux setup with LVM, LUKS, systemd-boot, and GNOME</description>
-    </item>
-    
-    <item>
-      <title>The Dark Forest</title>
-      <link>https://novelist.xyz/bookshelf/the-dark-forest-cixin-liu/</link>
-      <pubDate>Mon, 03 Apr 2017 02:59:35 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/the-dark-forest-cixin-liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Three-Body Problem</title>
-      <link>https://novelist.xyz/bookshelf/the-three-body-problem-cixin-liu/</link>
-      <pubDate>Mon, 03 Apr 2017 02:59:28 -0400</pubDate>
-      
-      <guid>https://novelist.xyz/bookshelf/the-three-body-problem-cixin-liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Longest Distance</title>
-      <link>https://novelist.xyz/short-stories/the-longest-distance/</link>
+      <title>Short-stories</title>
+      <link>https://novelist.xyz/short-stories/</link>
       <pubDate>Sun, 23 Oct 2016 18:54:27 -0400</pubDate>
       
-      <guid>https://novelist.xyz/short-stories/the-longest-distance/</guid>
-      <description>Returning to the world he&#39;d left, he discovered what he missed most</description>
+      <guid>https://novelist.xyz/short-stories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Five Tips For Running Arch Linux As Daily Driver</title>
-      <link>https://novelist.xyz/tech/arch-linux-tips/</link>
-      <pubDate>Thu, 20 Oct 2016 15:48:38 -0400</pubDate>
+      <title>Music</title>
+      <link>https://novelist.xyz/music/</link>
+      <pubDate>Fri, 26 Aug 2016 11:39:25 -0400</pubDate>
       
-      <guid>https://novelist.xyz/tech/arch-linux-tips/</guid>
-      <description>How to achieve maximum stability in Arch Linux</description>
+      <guid>https://novelist.xyz/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://novelist.xyz/misc/</link>
+      <pubDate>Sun, 14 Aug 2016 16:50:38 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poetry</title>
+      <link>https://novelist.xyz/poetry/</link>
+      <pubDate>Wed, 15 Jun 2016 05:48:23 -0400</pubDate>
+      
+      <guid>https://novelist.xyz/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-writing</title>
+      <link>https://novelist.xyz/on-writing/</link>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/on-writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://novelist.xyz/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cookie Policy</title>
+      <link>https://novelist.xyz/cookie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/cookie/</guid>
+      <description>How this site uses cookie</description>
+    </item>
+    
+    <item>
+      <title>Novels</title>
+      <link>https://novelist.xyz/novels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/novels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://novelist.xyz/tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/tag/</guid>
+      <description>A list of all tags</description>
+    </item>
+    
+    <item>
+      <title>What great novelists say about everything</title>
+      <link>https://novelist.xyz/novelists-on-everything/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novelist.xyz/novelists-on-everything/</guid>
+      <description>A collection of great quotes from great novelists and writers</description>
     </item>
     
   </channel>
