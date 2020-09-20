@@ -37,7 +37,7 @@
   {{ end }}
 
 <!-- Open Graph URL -->
-  {{ if eq .Permalink "404.html" }}
+  {{ if eq .RelPermalink "404.html" }}
     <!-- Do Nothing -->
   {{ else }}
     <meta name="og:url" content="{{ .Permalink }}" />
