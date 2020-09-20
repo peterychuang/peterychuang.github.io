@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="msapplication-TileImage" content="/{{ .Site.Params.Urlimg }}msapplication_tileimage.png"/>
     <meta name="msapplication-TileColor" content="#313131"/>
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
     {{ partial "common/head-meta.html" . }}
     {{ partial "common/head-social.html" . }}
 
@@ -182,7 +182,7 @@
       {{ if .IsHome }}
         {{ "/* Critical CSS for Home Page */" | safeCSS }}
         {{ partial "css/css_home.html" | safeCSS }}
-      {{ else if eq .URL "/404/" }}
+      {{ else if eq .Permalink "/404/" }}
         {{ "/* Critical CSS for Error Page */" | safeCSS }}
         {{ partial "css/css_error.html" . | safeCSS }}
       {{ else if and .IsNode ( eq .Title "Bookshelf" ) }}

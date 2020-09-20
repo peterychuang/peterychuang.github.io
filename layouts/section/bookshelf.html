@@ -13,14 +13,14 @@
             {{ if .Paginator.HasNext }}
             <li class="next">
               <span>
-                <a href="{{ .Paginator.Next.URL }}">Older Posts</a>
+                <a href="{{ .Paginator.Next }}">Older Posts</a>
               </span>
             </li>
             {{ end }}
             {{ if .Paginator.HasPrev }}
             <li class="previous">
               <span>
-                <a href="{{ .Paginator.Prev.URL }}">Newer Posts</a>
+                <a href="{{ .Paginator.Prev }}">Newer Posts</a>
               </span>
             </li>
             {{ end }}

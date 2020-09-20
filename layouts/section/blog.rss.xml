@@ -9,7 +9,7 @@
     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Site.LastChange.IsZero }}
     <lastBuildDate>{{ .Site.LastChange.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    <atom:link href="{{ .URL }}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ .RelPermalink }}" rel="self" type="application/rss+xml" />
     {{ range first 15 ( where ( where .Site.Pages "Type" "post" ) "Section" "!=" "tech" ) }}
     <item>
       <title>{{ .Title }}</title>
