@@ -5,11 +5,7 @@
     <link>https://novelist.xyz/novels/</link>
     <description>Recent content in Novels on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="https://novelist.xyz/novels/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="https://novelist.xyz/novels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Only You Know What It Means</title>
       <link>https://novelist.xyz/novels/only-you-know-what-it-means/</link>

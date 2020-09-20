@@ -6,11 +6,7 @@
     <description>Recent content in Hugo on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 12 Aug 2016 15:29:12 -0400</lastBuildDate>
-    
-	<atom:link href="https://novelist.xyz/tag/Hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 12 Aug 2016 15:29:12 -0400</lastBuildDate><atom:link href="https://novelist.xyz/tag/Hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to show related posts in Hugo</title>
       <link>https://novelist.xyz/tech/related-posts-in-hugo/</link>
@@ -59,8 +55,7 @@ An easy and obvious way to achieve this is to create a regular page and list all
       <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
-      <description>This post has been updated to reflect my new deployment process after migrating to Firebase
-This post has been updated to reflect further important changes
+      <description>This post has been updated to reflect my new deployment process after migrating to Firebase This post has been updated to reflect further important changes
 Static site generators are great&amp;mdash;Jekyll is great, and Hugo is even greater&amp;mdash;except when it comes to updating the website. In the old days of my using wordpress, updating a post was a matter of logging in to the Wordpress Admin, making changes to the post, and hitting the &amp;ldquo;save&amp;rdquo; button.</description>
     </item>
     

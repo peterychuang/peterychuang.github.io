@@ -6,11 +6,7 @@
     <description>Recent content in Tech on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 11 Mar 2019 11:41:49 +0100</lastBuildDate>
-    
-	<atom:link href="https://novelist.xyz/tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 11 Mar 2019 11:41:49 +0100</lastBuildDate><atom:link href="https://novelist.xyz/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XPS 13 9380 (2019) Review</title>
       <link>https://novelist.xyz/tech/2019-93-11-dell-xps-13-9380-problems-coil-whine/</link>
@@ -46,7 +42,7 @@ But then, the upstream of Infinality died. For some months now, I had been holdi
       <pubDate>Sun, 16 Apr 2017 23:03:58 +0200</pubDate>
       
       <guid>https://novelist.xyz/tech/arch-linux-installation-guide/</guid>
-      <description>Arch Linux is known for, among many other things, such as being at the bleeding edge to a point of unstable (ask anyone trying to get GNOME 3.24 on time), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles, which is why I keep returning to Arch Linux despite its various annoyances.</description>
+      <description>Arch Linux is known for, among many other things~~, such as being at the bleeding edge to a point of unstable~~ (*~~ask anyone trying to get GNOME 3.24 on time~~*), having no graphical installer, thus demanding command line knowledge, which is perhaps intimidating for some. However, **Arch Linux allows me to setup a system into my desired state in the shortest amount of time with the least hassles**, which is why I keep returning to Arch Linux despite its various annoyances.</description>
     </item>
     
     <item>
@@ -146,8 +142,7 @@ An easy and obvious way to achieve this is to create a regular page and list all
       <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
-      <description>This post has been updated to reflect my new deployment process after migrating to Firebase
-This post has been updated to reflect further important changes
+      <description>This post has been updated to reflect my new deployment process after migrating to Firebase This post has been updated to reflect further important changes
 Static site generators are great&amp;mdash;Jekyll is great, and Hugo is even greater&amp;mdash;except when it comes to updating the website. In the old days of my using wordpress, updating a post was a matter of logging in to the Wordpress Admin, making changes to the post, and hitting the &amp;ldquo;save&amp;rdquo; button.</description>
     </item>
     
@@ -191,7 +186,8 @@ But there are still some room for improvments. The steps outlined below are what
       
       <guid>https://novelist.xyz/tech/jekyll/</guid>
       <description>(Update: this site now runs on Hugo)
-For a long time, Wordpress was my go-to software to create website. It is free, has a huge community, massive collection of plugins, is not too difficult to set up for basic use, and is capable of running big and complex website. I used Wordpress to run a fairly large and complicated site for quite a while, and it did the job.</description>
+For a long time, Wordpress was my go-to software to create website. It is free, has a huge community, massive collection of plugins, is not too difficult to set up for basic use, and is capable of running big and complex website. I used Wordpress to run a fairly large and complicated site for quite a while, and it did the job.
+But when it came to this particular website, I had one problem.</description>
     </item>
     
     <item>
@@ -202,8 +198,7 @@ For a long time, Wordpress was my go-to software to create website. It is free, 
       <guid>https://novelist.xyz/tech/my-linux-rig/</guid>
       <description>Sometime in 2011 or 2012, I began to use Linux exclusively as my primary operating system, and I&amp;rsquo;ve never returned to the Windows-land.
 My Linux Machine I use Dell XPS 13 (9350) mainly to write and develop this website, among many other things. For more demanding tasks such as photo-editing, I use a desktop machine with a quad-core processor and hyperthreading.
-Specification (XPS 13)  Intel Core i5-6200
- Full-HD Screen</description>
+Specification (XPS 13)  Intel Core i5-6200 Full-HD Screen 8GB RAM 128 GB SSD  Linux Distro of Choice I use Arch Linux on all my Linux machines.</description>
     </item>
     
     <item>
@@ -214,8 +209,7 @@ Specification (XPS 13)  Intel Core i5-6200
       <guid>https://novelist.xyz/tech/flat-plat-blue-gnome-gtk-theme-release/</guid>
       <description>Update 13 October 2017: the latest version is out with preliminary support of GNOME 3.30
 Flat-Plat-Blue Theme Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from Materia Theme (formerly Flat-Plat) with the following refinements:
- All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience;
- The top bar is transparent when no window is maximised (starting from GNOME Shell 3.</description>
+ All coloured elements (e.g. check boxes, sliders, switches, etc) are changed into blue to provide a more consistent and comfortable visual experience; The top bar is transparent when no window is maximised (starting from GNOME Shell 3.</description>
     </item>
     
     <item>
@@ -224,7 +218,7 @@ Flat-Plat-Blue Theme Flat-Plat-Blue Theme is a GNOME Shell/GTK Theme forked from
       <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://novelist.xyz/tech/my-linux-journey/</guid>
-      <description>From Windows to Linux: My Linux Journey I think it was 2009 when I tried GNU/Linux for the first time. It was on a ThinkPad, and the distribution (or distro) I tried was Ubuntu. I didn’t know anything about GNU/Linux back then, and I might or might not have been wondering where C:\ was, but I was amazed by the amount of customisations I could do with the operating system.</description>
+      <description>From Windows to Linux: My Linux Journey I think it was 2009 when I tried GNU/Linux for the first time. It was on a ThinkPad, and the distribution (or distro) I tried was Ubuntu. I didn’t know anything about GNU/Linux back then, and I might or might not have been wondering where C:\ was, but I was amazed by the amount of customisations I could do with the operating system. Coming from Windows XP, something as pointless but amazing as Compiz blew my mind, and the existence of Workspaces was a revelation.</description>
     </item>
     
   </channel>

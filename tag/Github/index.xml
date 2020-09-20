@@ -6,11 +6,7 @@
     <description>Recent content in Github on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 24 Jul 2016 15:07:55 -0400</lastBuildDate>
-    
-	<atom:link href="https://novelist.xyz/tag/Github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 24 Jul 2016 15:07:55 -0400</lastBuildDate><atom:link href="https://novelist.xyz/tag/Github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Github Pages to Firebase, then to a VPS</title>
       <link>https://novelist.xyz/tech/switching-from-github-pages-to-firebase/</link>
@@ -28,8 +24,7 @@ A few weeks ago, I moved the site to Firebase, which was a step up from Github P
       <pubDate>Mon, 16 May 2016 16:42:30 -0400</pubDate>
       
       <guid>https://novelist.xyz/tech/hugo-site-deployment-workflow/</guid>
-      <description>This post has been updated to reflect my new deployment process after migrating to Firebase
-This post has been updated to reflect further important changes
+      <description>This post has been updated to reflect my new deployment process after migrating to Firebase This post has been updated to reflect further important changes
 Static site generators are great&amp;mdash;Jekyll is great, and Hugo is even greater&amp;mdash;except when it comes to updating the website. In the old days of my using wordpress, updating a post was a matter of logging in to the Wordpress Admin, making changes to the post, and hitting the &amp;ldquo;save&amp;rdquo; button.</description>
     </item>
     
@@ -51,7 +46,8 @@ But there are still some room for improvments. The steps outlined below are what
       
       <guid>https://novelist.xyz/tech/jekyll/</guid>
       <description>(Update: this site now runs on Hugo)
-For a long time, Wordpress was my go-to software to create website. It is free, has a huge community, massive collection of plugins, is not too difficult to set up for basic use, and is capable of running big and complex website. I used Wordpress to run a fairly large and complicated site for quite a while, and it did the job.</description>
+For a long time, Wordpress was my go-to software to create website. It is free, has a huge community, massive collection of plugins, is not too difficult to set up for basic use, and is capable of running big and complex website. I used Wordpress to run a fairly large and complicated site for quite a while, and it did the job.
+But when it came to this particular website, I had one problem.</description>
     </item>
     
   </channel>

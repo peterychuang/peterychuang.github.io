@@ -5,10 +5,6 @@
     <link>https://novelist.xyz/categories/</link>
     <description>Recent content in Categories on Peter Y. Chuang - Novelist, Short Story Writer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    
-	<atom:link href="https://novelist.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-gb</language><atom:link href="https://novelist.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
